@@ -1,0 +1,25 @@
+{
+  "manifest_version": 3,
+  "name": "IELTS 写作批改桥",
+  "version": "1.0.0",
+  "description": "把本机IELTS翻译练习的5题或10题批改任务发送到已登录的ChatGPT页面。",
+  "permissions": ["tabs"],
+  "host_permissions": [
+    "http://127.0.0.1:8765/*",
+    "https://chatgpt.com/*",
+    "https://chat.openai.com/*"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://chatgpt.com/*", "https://chat.openai.com/*"],
+      "js": ["chatgpt-content.js"],
+      "run_at": "document_idle"
+    }
+  ],
+  "action": {
+    "default_title": "IELTS写作批改桥：保持本标签页打开即可自动领取任务"
+  }
+}

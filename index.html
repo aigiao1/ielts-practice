@@ -1,0 +1,678 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#fff8ed">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  <meta name="apple-mobile-web-app-title" content="雅思练习">
+  <link rel="manifest" href="manifest.json">
+  <link rel="icon" type="image/svg+xml" href="icon.svg">
+  <link rel="apple-touch-icon" href="icon-192.png">
+  <title>雅思核心单词听写 · IELTS 练习中心</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main class="shell">
+    <header class="topbar">
+      <div>
+        <p id="pageEyebrow" class="eyebrow">IELTS LISTENING · WORD DICTATION</p>
+        <h1 id="pageTitle">雅思核心单词听写</h1>
+      </div>
+      <button id="settingsButton" class="icon-button" type="button" aria-label="设置">⚙</button>
+    </header>
+
+    <nav class="hub-nav card-panel" aria-label="练习大类">
+      <button type="button" class="hub-tab active" data-hub-module="listening" aria-selected="true">核心单词听写</button>
+      <button type="button" class="hub-tab" data-hub-module="numberdate" aria-selected="false">数字/日期无限练</button>
+      <button type="button" class="hub-tab" data-hub-module="paraphrase" aria-selected="false">同义替换速练</button>
+      <button type="button" class="hub-tab" data-hub-module="optionscan" aria-selected="false">30秒选项速读</button>
+      <button type="button" class="hub-tab" data-hub-module="map" aria-selected="false">地图题专项</button>
+      <button type="button" class="hub-tab" data-hub-module="writing" aria-selected="false">Task 1 核心表达</button>
+      <button type="button" class="hub-tab" data-hub-module="mistakes" aria-selected="false">我的难点收藏</button>
+    </nav>
+
+    <!-- 听写单词模块 -->
+    <section id="listeningModule" data-hub-panel="listening">
+      <section class="summary" aria-label="学习概况">
+        <div><strong id="todayCount">0</strong><span>今日完成</span></div>
+        <div><strong id="accuracy">—</strong><span>今日正确率</span></div>
+        <div><strong id="unknownCount">0</strong><span>生词本</span></div>
+        <div><strong id="knownCount">0</strong><span>已掌握</span></div>
+      </section>
+
+      <section class="controls card-panel">
+        <label>抽词方式
+          <select id="modeSelect">
+            <option value="all">全库随机：305词无序听写</option>
+            <option value="new">学习新词：只出未标记单词</option>
+            <option value="unknown">重背生词：只出生词本单词</option>
+          </select>
+        </label>
+        <label>单词分组
+          <select id="chapterSelect"><option value="all">全部单词 (305词)</option></select>
+        </label>
+        <button id="startButton" class="primary compact" type="button">按当前设置出题</button>
+      </section>
+
+      <section id="emptyState" class="empty-state card-panel" hidden>
+        <h2>当前筛选条件下没有待练习单词</h2>
+        <p>可以切换抽词方式（如全库随机），或者选择其他单词组。</p>
+      </section>
+
+      <section id="practiceCard" class="practice-card">
+        <div class="card-meta">
+          <span id="progressText">第 1 题</span>
+          <span id="chapterBadge" class="badge">Group 1</span>
+        </div>
+
+        <button id="playWordButton" class="listen-button" type="button">
+          <span class="listen-icon">🔊</span>
+          <span><strong>播放单词发音</strong><small>先听，按 F2 可随时重听发音</small></span>
+        </button>
+
+        <div class="hint-container">
+          <button id="hintButton" class="text-button" type="button">显示中文释义提示</button>
+          <div id="chineseHint" class="chinese-hint" hidden></div>
+        </div>
+
+        <form id="answerForm" autocomplete="off">
+          <label class="answer-label" for="answerInput">输入听到的单词拼写</label>
+          <div class="answer-row">
+            <input id="answerInput" type="text" inputmode="text" autocapitalize="off" autocomplete="off" spellcheck="false" aria-describedby="feedback" autofocus>
+            <button class="primary" type="submit">提交（Enter）</button>
+          </div>
+        </form>
+
+        <div id="feedback" class="feedback" aria-live="polite"></div>
+
+        <form id="spellingForm" class="spelling-practice" autocomplete="off" hidden>
+          <label for="spellingInput">看正确拼写后，再亲手敲一遍巩固</label>
+          <div class="answer-row">
+            <input id="spellingInput" type="text" inputmode="text" autocapitalize="off" autocomplete="off" spellcheck="false" aria-describedby="spellingFeedback">
+            <button class="secondary" type="submit">确认（Enter）</button>
+          </div>
+          <div id="spellingFeedback" class="spelling-feedback" aria-live="polite"></div>
+        </form>
+
+        <div id="ratingArea" class="rating-area" hidden>
+          <p>标记本词掌握程度（或直接按 Enter 推进下一词）：</p>
+          <div class="rating-buttons">
+            <button type="button" data-status="unknown" class="rating unknown"><b>1</b><span>不认识<br><small>放进生词本</small></span></button>
+            <button type="button" data-status="known" class="rating known"><b>2</b><span>已掌握<br><small>移出生词本</small></span></button>
+          </div>
+        </div>
+
+        <div class="secondary-actions">
+          <button id="slowButton" class="text-button" type="button">0.75× 慢速重听</button>
+          <button id="revealButton" class="text-button" type="button">不会，显示拼写</button>
+        </div>
+      </section>
+
+      <section class="keyboard-help card-panel">
+        <strong>键盘快捷键：</strong>未提交时 <kbd>1</kbd> 交白卷看答案、<kbd>2</kbd> 标为已掌握跳过；答案出来后 <kbd>1</kbd> 生词、<kbd>2</kbd> 掌握；<kbd>Enter</kbd> 提交/推进，<kbd>F2</kbd> 重听发音。
+      </section>
+    </section>
+
+    <!-- 数字/日期/时间/货币无限生成器模块 -->
+    <section id="numberDateModule" data-hub-panel="numberdate" hidden>
+      <section class="summary" aria-label="数字日期练习概况">
+        <div><strong id="numDateTodayCount">0</strong><span>已完成练习</span></div>
+        <div><strong id="numDateAccuracy">—</strong><span>正确率</span></div>
+        <div><strong>无限</strong><span>题库容量</span></div>
+        <div><strong>TTS</strong><span>真人口音</span></div>
+      </section>
+
+      <!-- 分类筛选药丸 -->
+      <div class="card-panel" style="padding:14px 18px;margin-bottom:14px;">
+        <div style="font-size:12px;font-weight:800;color:var(--muted);margin-bottom:8px;">🎯 训练专项：</div>
+        <div id="numDateCategoryPills" style="display:flex;flex-wrap:wrap;gap:8px;">
+          <button type="button" class="hub-tab active" data-num-category="all" style="padding:6px 14px;font-size:12px;">🌟 全能综合随机</button>
+          <button type="button" class="hub-tab" data-num-category="teen_ty" style="padding:6px 14px;font-size:12px;">⚡ -teen vs -ty 辨析</button>
+          <button type="button" data-num-category="date" class="hub-tab" style="padding:6px 14px;font-size:12px;">📅 日期与年份</button>
+          <button type="button" data-num-category="time" class="hub-tab" style="padding:6px 14px;font-size:12px;">⏰ 时间表达</button>
+          <button type="button" data-num-category="money" class="hub-tab" style="padding:6px 14px;font-size:12px;">💷 货币与价格</button>
+          <button type="button" data-num-category="phone_code" class="hub-tab" style="padding:6px 14px;font-size:12px;">📞 电话与邮编</button>
+          <button type="button" data-num-category="large_number" class="hub-tab" style="padding:6px 14px;font-size:12px;">🔢 百万级大数</button>
+        </div>
+      </div>
+
+      <!-- 练习卡片 -->
+      <section class="practice-card">
+        <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:16px;">
+          <span class="badge">雅思 Section 1 必考听写专项</span>
+          <div style="display:flex;align-items:center;gap:8px;">
+            <label style="font-size:12px;font-weight:700;display:flex;align-items:center;gap:4px;">语速:
+              <select id="numDateSpeedSelect" style="padding:4px 8px;width:auto;border-radius:8px;">
+                <option value="0.8">0.8× 慢速</option>
+                <option value="0.9" selected>0.9× 标准</option>
+                <option value="1.0">1.0× 考场</option>
+                <option value="1.1">1.1× 冲刺</option>
+              </select>
+            </label>
+          </div>
+        </div>
+
+        <button id="numDatePlayBtn" class="listen-button" type="button">
+          <span class="listen-icon">🔊</span>
+          <span><strong>播放英文发音</strong><small>按 F2 随时重听发音</small></span>
+        </button>
+
+        <form id="numDateForm" autocomplete="off" style="margin-top:16px;">
+          <label class="answer-label" for="numDateInput">输入听到的数字 / 日期 / 编码</label>
+          <div class="answer-row">
+            <input id="numDateInput" type="text" inputmode="text" autocapitalize="off" autocomplete="off" spellcheck="false" placeholder="例如: 14 July / £15.50 / 07700900123 / 7:45" autofocus>
+            <button class="primary" type="submit">提交 (Enter)</button>
+          </div>
+        </form>
+
+        <div id="numDateFeedback" class="feedback" aria-live="polite" hidden style="margin-top:14px;"></div>
+        <div id="numDateTipBox" hidden style="margin-top:12px;"></div>
+
+        <div style="display:flex;justify-content:flex-end;margin-top:16px;">
+          <button type="button" id="numDateNextBtn" class="primary" hidden>下一题 (Enter)</button>
+        </div>
+      </section>
+
+      <section class="keyboard-help card-panel" style="margin-top:14px;">
+        <strong>键盘指引：</strong>输入答案后按 <kbd>Enter</kbd> 快速判定；判定后再次按 <kbd>Enter</kbd> 直接进入下一题；随时按 <kbd>F2</kbd> 重听英文发音。
+      </section>
+    </section>
+
+    <!-- 同义替换随机速练模块 -->
+    <section id="paraphraseModule" data-hub-panel="paraphrase" hidden>
+      <section class="summary" aria-label="同义替换练习概况">
+        <div><strong id="paraTodayCount">0</strong><span>已完成练习</span></div>
+        <div><strong id="paraAccuracy">—</strong><span>正确率</span></div>
+        <div><strong>30+</strong><span>核心考点</span></div>
+        <div><strong>4 选 1</strong><span>秒认反应</span></div>
+      </section>
+
+      <!-- 题目卡片 -->
+      <section class="practice-card">
+        <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:12px;">
+          <span class="badge">雅思 Section 2 & 3 高频同义替换匹配</span>
+          <button type="button" id="paraSpeakBtn" class="text-button" style="font-size:13px;">🔊 朗读原文表达 (F2)</button>
+        </div>
+
+        <div style="background:#fffcf8;border:1.5px solid #ecdcc9;border-radius:14px;padding:20px;margin-bottom:16px;text-align:center;">
+          <div style="font-size:12px;font-weight:800;color:#9b4b1d;letter-spacing:.08em;margin-bottom:6px;">听力录音中出现的口语表达：</div>
+          <h2 id="paraSourceSpoken" style="margin:0;font-size:clamp(18px, 3.5vw, 24px);color:var(--ink);line-height:1.4;">
+            brings you back down to the starting point
+          </h2>
+        </div>
+
+        <div style="font-size:13px;font-weight:800;color:var(--muted);margin-bottom:8px;">
+          卷面上对应的同义替换选项是？（按键盘 1 / 2 / 3 / 4 或直接点击）
+        </div>
+
+        <div id="paraOptionsGrid" class="para-options-grid">
+          <!-- 由 JS 渲染 4 个动态打乱选项卡片 -->
+        </div>
+
+        <div id="paraFeedbackBox" class="feedback" hidden style="margin-top:14px;"></div>
+        <div id="paraTeachingCard" hidden></div>
+
+        <div style="display:flex;justify-content:flex-end;margin-top:16px;">
+          <button type="button" id="paraNextBtn" class="primary" hidden>下一题 (Enter / Space)</button>
+        </div>
+      </section>
+
+      <section class="keyboard-help card-panel" style="margin-top:14px;">
+        <strong>快捷键：</strong>按数字键 <kbd>1</kbd>、<kbd>2</kbd>、<kbd>3</kbd>、<kbd>4</kbd> 极速作答；答案展示后按 <kbd>Enter</kbd> 或 <kbd>Space</kbd> 立即推进；按 <kbd>F2</kbd> 重听原文。
+      </section>
+    </section>
+
+    <!-- 30 秒长选项速读扫描冲刺模块 -->
+    <section id="optionScanModule" data-hub-panel="optionscan" hidden>
+      <div class="card-panel" style="padding:16px 20px;margin-bottom:14px;display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:12px;">
+        <div>
+          <h2 style="font-size:16px;margin:0 0 4px;color:var(--ink);">⏱️ 30 秒长选项速读预读冲刺 (Section 3 Matching)</h2>
+          <p style="font-size:12px;color:var(--muted);margin:0;">考场审题时间极度紧张！30 秒内扫完 8 个选项并提炼 1~2 个核心词，训练考场不慌张、快速定位的能力。</p>
+        </div>
+        <div style="display:flex;align-items:center;gap:12px;">
+          <div id="scanTimerDisplay" style="font-size:28px;font-weight:900;color:var(--orange);min-width:60px;text-align:right;">30s</div>
+          <button type="button" id="scanStartBtn" class="primary compact">🔄 换一组开始 (30s)</button>
+        </div>
+      </div>
+
+      <div id="scanOptionsList" style="margin-bottom:14px;">
+        <!-- 由 JS 渲染 8 个随机选项卡 -->
+      </div>
+
+      <div class="card-panel" style="display:flex;align-items:center;justify-content:space-between;padding:12px 18px;">
+        <button type="button" id="scanRevealBtn" class="secondary" style="font-weight:800;">👀 我已扫读完毕，提前对暗号</button>
+        <button type="button" id="scanNextBtn" class="primary" hidden>🔄 再练下一组 8 选项</button>
+      </div>
+    </section>
+
+    <!-- Task 1 必记核心表达翻译默写模块 -->
+    <section id="writingModule" data-hub-panel="writing" hidden>
+      <nav id="moduleNav" class="writing-subnav module-nav-scroll" aria-label="Task 1 模块导航">
+        <!-- 7 个大模块标签由 JS 动态渲染 -->
+      </nav>
+
+      <section class="summary writing-summary" aria-label="练习进度">
+        <div><strong id="writingCompletedQuestions">0</strong><span>已掌握表达</span></div>
+        <div><strong id="writingCompletedGroups">0</strong><span>已完成题组</span></div>
+        <div><strong id="writingTotalQuestions">154</strong><span>必记核心表达</span></div>
+        <div><strong id="writingResumeAt">1</strong><span>下次继续题号</span></div>
+      </section>
+
+      <!-- 模块标题横幅卡片 -->
+      <header class="writing-module-banner card-panel">
+        <div class="module-banner-main">
+          <span class="badge module-badge">当前训练模块</span>
+          <h2 id="activeModuleTitle" class="module-heading">模块一：数字、单位与比较不出错</h2>
+        </div>
+        <span id="activeModuleRange" class="module-range-pill">第 1–20 题</span>
+      </header>
+
+      <section class="writing-controls card-panel">
+        <label>选择必记表达题组
+          <select id="writingGroupSelect"></select>
+        </label>
+        <div class="writing-controls-actions">
+          <button id="writingToggleAllBtn" class="secondary compact" type="button">全部展开英文</button>
+          <button id="writingContinueButton" class="primary compact" type="button">继续上次进度</button>
+        </div>
+      </section>
+
+      <form id="writingBatchForm" class="writing-session" autocomplete="off">
+        <div id="writingGroups"></div>
+        <div id="writingFormMessage" class="writing-form-message" aria-live="polite"></div>
+        <div class="writing-submit-bar card-panel">
+          <div>
+            <strong id="writingBatchLabel">本次表达练习</strong>
+            <span>点击问题旁边的模糊条随时显现或遮住英文；输入框支持敲 Enter 快速切题。</span>
+          </div>
+          <div class="submit-bar-actions">
+            <button id="writingSubmitButton" class="primary" type="submit">提交并查看答案</button>
+            <button id="writingNextButton" class="secondary" type="button" hidden>下一题组 (Enter)</button>
+          </div>
+        </div>
+      </form>
+    </section>
+
+    <!-- 听力地图题专项模块 -->
+    <section id="mapModule" data-hub-panel="map" hidden>
+      <nav id="mapSubNav" class="map-subnav module-nav-scroll" aria-label="地图题小模块导航">
+        <button type="button" class="writing-tab active" data-map-submodule="shapes">1. 常见图形图典</button>
+        <button type="button" class="writing-tab" data-map-submodule="directions">2. 方位表达训练</button>
+        <button type="button" class="writing-tab" data-map-submodule="transitions">3. 空间参照与过渡</button>
+        <button type="button" class="writing-tab" data-map-submodule="routes">4. 路线跟随 (迷宫)</button>
+        <button type="button" class="writing-tab" data-map-submodule="hotspots">5. 高发位置秒杀</button>
+        <button type="button" class="writing-tab" data-map-submodule="vocab">6. 重点地标词典</button>
+      </nav>
+
+      <div class="card-panel map-mode-bar" aria-label="训练模式与随机控制">
+        <div class="mode-selector-group">
+          <span class="mode-label">模式：</span>
+          <button type="button" class="mode-tab-btn" data-map-mode="learning">📖 学习模式 (显文本)</button>
+          <button type="button" class="mode-tab-btn active" data-map-mode="practice">🎧 练习模式 (听音遮字)</button>
+          <button type="button" class="mode-tab-btn" data-map-mode="exam">⏱️ 考试模式 (盲听实测)</button>
+        </div>
+        <button type="button" id="mapResetSessionBtn" class="secondary compact" title="重置随机种子并清空防记忆窗口">🔄 换一批新题 / 重新洗牌</button>
+      </div>
+
+      <section class="summary map-summary" aria-label="地图练习进度">
+        <div><strong id="mapTodayCount">0</strong><span>今日练习</span></div>
+        <div><strong id="mapAccuracy">—</strong><span>正确率</span></div>
+        <div><strong id="mapMasteredCount">0</strong><span>已掌握表达</span></div>
+        <div><strong id="mapReviewCount">0</strong><span>需复习表达</span></div>
+      </section>
+
+      <!-- 子模块 1: 常见地图图形图典 -->
+      <section id="submoduleShapes" class="map-submodule-panel">
+        <div class="card-panel map-panel-heading">
+          <div>
+            <h2>模块一：常见地图图形 (Visual Dictionary)</h2>
+            <p>空间图形 ↔ 英文发音 ↔ 雅思高频真题搭配，建立条件反射。</p>
+          </div>
+        </div>
+        <div id="visualShapesGrid" class="visual-shapes-grid">
+          <!-- 由 JS 渲染 SVG 图形卡片 -->
+        </div>
+      </section>
+
+      <!-- 子模块 2: 方位词互动训练 -->
+      <section id="submoduleDirections" class="map-submodule-panel" hidden>
+        <div class="card-panel map-panel-heading">
+          <div>
+            <h2>模块二：方位表达互动训练 (Directions)</h2>
+            <p>面对中央地标与指北针，听音/读题秒选 A–E 点位。</p>
+          </div>
+        </div>
+        <div class="card-panel map-stage-card">
+          <div class="map-prompt-bar">
+            <button type="button" id="dirAudioPlayBtn" class="listen-button compact-listen">🔊 播放方位表达 (F2)</button>
+            <div id="dirPromptText" class="dir-prompt-text"></div>
+          </div>
+          <div id="dirSvgContainer" class="svg-stage-wrap">
+            <!-- 动态注入罗盘、中央地标与 A-E 候选点 -->
+          </div>
+          <div id="dirFeedback" class="map-feedback" hidden></div>
+          <div class="map-stage-actions">
+            <button type="button" id="dirNextBtn" class="primary">下一题 (Enter)</button>
+          </div>
+        </div>
+      </section>
+
+      <!-- 子模块 3: 空间过渡与参照物关系 -->
+      <section id="submoduleTransitions" class="map-submodule-panel" hidden>
+        <div class="card-panel map-panel-heading">
+          <div>
+            <h2>模块三：空间参照与过渡 (Beyond, Through, Past)</h2>
+            <p>专攻穿过、越过与空间递进，告别“走慢半拍”。</p>
+          </div>
+        </div>
+        <div class="card-panel map-stage-card">
+          <div class="map-prompt-bar">
+            <button type="button" id="transAudioPlayBtn" class="listen-button compact-listen">🔊 播放过渡描述</button>
+            <div id="transPromptText" class="dir-prompt-text"></div>
+          </div>
+          <div id="transSvgContainer" class="svg-stage-wrap">
+            <!-- SVG 房间过渡地图与动态移动光点 -->
+          </div>
+          <div id="transFeedback" class="map-feedback" hidden></div>
+          <div class="map-stage-actions">
+            <button type="button" id="transAnimateBtn" class="secondary">演示移动轨迹</button>
+            <button type="button" id="transNextBtn" class="primary">下一场景 (Enter)</button>
+          </div>
+        </div>
+      </section>
+
+      <!-- 子模块 4: 路线跟随训练 (Route Following: 走迷宫) -->
+      <section id="submoduleRoutes" class="map-submodule-panel" hidden>
+        <div class="card-panel map-panel-heading">
+          <div class="route-heading-wrap">
+            <h2 id="routeMapTitle">模块四：路线跟随训练 (Route Following)</h2>
+            <p id="routeMapContext">跟随 Speaker 的讲解在地图上一步步移动，最终点击锁定目标建筑位置。</p>
+          </div>
+          <div class="route-header-controls">
+            <select id="routeScenarioSelect"></select>
+            <div class="route-speed-group">
+              <button type="button" class="speed-btn active" data-speed="1.0">1.0×</button>
+              <button type="button" class="speed-btn" data-speed="0.75">0.75×</button>
+            </div>
+          </div>
+        </div>
+        <div class="card-panel map-stage-card">
+          <div class="route-step-controller">
+            <div class="step-progress-row">
+              <span id="routeStepBadge" class="badge">第 1 / 6 步</span>
+              <p id="routeStepText" class="route-step-sentence"></p>
+            </div>
+            <div class="step-buttons-row">
+              <button type="button" id="routePrevStepBtn" class="secondary compact">◀ 上一步</button>
+              <button type="button" id="routeReplayStepBtn" class="secondary compact">🔊 重播本句</button>
+              <button type="button" id="routeNextStepBtn" class="secondary compact">下一步 ▶</button>
+            </div>
+          </div>
+
+          <div id="routeSvgContainer" class="svg-stage-wrap route-map-wrap">
+            <!-- 雅思小地图 SVG 矢量画卷 -->
+          </div>
+
+          <div class="route-question-strip">
+            <strong id="routeQuestionText">目标：请点击地图上的候选字母 A–E</strong>
+            <span id="routeSelectedNotice" class="badge">未选择</span>
+          </div>
+
+          <div id="routeFeedback" class="map-feedback" hidden></div>
+
+          <div class="map-stage-actions">
+            <button type="button" id="routeSubmitBtn" class="primary">提交核对并展开真实路线</button>
+            <button type="button" id="routeNextScenarioBtn" class="secondary" hidden>下一个场景</button>
+          </div>
+        </div>
+      </section>
+
+      <!-- 子模块 5: 答案高发位置秒杀 -->
+      <section id="submoduleHotspots" class="map-submodule-panel" hidden>
+        <div class="card-panel map-panel-heading">
+          <div>
+            <h2>模块五：答案高发位置秒杀 (High-Frequency Hotspots)</h2>
+            <p>弯道处、道路尽头、十字路口后、转角第一座，极速条件反射训练。</p>
+          </div>
+        </div>
+        <div class="card-panel map-stage-card">
+          <div class="map-prompt-bar">
+            <button type="button" id="hotspotAudioBtn" class="listen-button compact-listen">🔊 播报位置要求</button>
+            <div id="hotspotPromptText" class="dir-prompt-text"></div>
+          </div>
+          <div id="hotspotSvgContainer" class="svg-stage-wrap">
+            <!-- 高发点微型地图 -->
+          </div>
+          <div id="hotspotFeedback" class="map-feedback" hidden></div>
+          <div class="map-stage-actions">
+            <button type="button" id="hotspotNextBtn" class="primary">下一题 (Enter)</button>
+          </div>
+        </div>
+      </section>
+
+      <!-- 子模块 6: 重点地标词典 -->
+      <section id="submoduleVocab" class="map-submodule-panel" hidden>
+        <div class="card-panel map-panel-heading">
+          <div>
+            <h2>模块六：重点地标词典 (Landmark Vocabulary)</h2>
+            <p>掌握听力地图题常考的 30+ 建筑物、进出口、交通设施与自然地形。</p>
+          </div>
+        </div>
+        <div id="landmarkGrid" class="landmark-grid">
+          <!-- 由 JS 渲染地标卡片 -->
+        </div>
+      </section>
+    </section>
+
+    <!-- 我的真题错题模块 -->
+    <section id="mistakesModule" data-hub-panel="mistakes" hidden>
+      <div id="mistakesSummaryBar" class="card-panel" style="margin-bottom:14px;">
+        <!-- 由 JS 渲染错题与 Attempt 统计 -->
+      </div>
+
+      <div class="card-panel" style="display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:10px;margin-bottom:14px;padding:14px 18px;">
+        <div>
+          <button type="button" id="toggleMistakeFormBtn" class="primary">➕ 收藏一道难点 / 错句</button>
+        </div>
+        <div style="display:flex;gap:8px;align-items:center;flex-wrap:wrap;">
+          <button type="button" id="exportMistakesBtn" class="secondary compact">📤 导出完整备份 (JSON)</button>
+          <label class="secondary compact file-button" style="cursor:pointer;margin:0;">
+            📥 恢复备份
+            <input type="file" id="importMistakesInput" accept="application/json" style="display:none;">
+          </label>
+        </div>
+      </div>
+
+      <!-- 折叠录入表单容器 -->
+      <div id="mistakeFormContainer" class="card-panel" hidden style="margin-bottom:16px;padding:20px;">
+        <div style="margin-bottom:12px;">
+          <h2 style="font-size:16px;margin:0 0 4px;color:var(--ink);">⚡ 难点极速收藏 (10~15秒快速保存)</h2>
+          <p style="font-size:12px;color:var(--muted);margin:0;">系统负责大量随机出题，此处仅用于收纳你偶尔遇到的“神仙原句”或“恶心错题”，无需繁琐建档。</p>
+        </div>
+        <form id="mistakeForm">
+          <!-- 核心字段 1: 原句 / 原题 -->
+          <div style="margin-bottom:12px;">
+            <label style="font-size:13px;font-weight:700;display:block;margin-bottom:4px;">1. 原句 / 原题文本（直接粘贴）
+              <textarea id="mistakeQuestionText" rows="3" placeholder="例如: The route continues along the hills and brings you back down to the starting point."></textarea>
+            </label>
+          </div>
+
+          <!-- 核心字段 2: 正确答案 / 核心意思 -->
+          <div style="margin-bottom:12px;">
+            <label style="font-size:13px;font-weight:700;display:block;margin-bottom:4px;">2. 正确答案 / 核心考点概括
+              <input type="text" id="mistakeCorrectAnswer" placeholder="例如: circular walk / 答案或核心解释">
+            </label>
+          </div>
+
+          <!-- 核心字段 3: 9 大错因标签 -->
+          <div style="margin-bottom:14px;">
+            <div style="font-size:13px;font-weight:800;color:var(--ink);margin-bottom:6px;">3. 我为什么错？(多选标签，点击即可选择)</div>
+            <div id="errorReasonsPills" style="display:flex;flex-wrap:wrap;gap:6px;">
+              <!-- 由 JS 渲染 9 种药丸 -->
+            </div>
+          </div>
+
+          <!-- 核心保存操作按钮 -->
+          <div style="display:flex;justify-content:flex-start;align-items:center;gap:12px;margin-bottom:14px;">
+            <button type="submit" class="primary" style="padding:10px 24px;font-size:14px;font-weight:800;">⚡ 快速保存难点 (15秒完成)</button>
+            <span style="font-size:12px;color:var(--muted);">支持直接保存，无需展开高级项</span>
+          </div>
+
+          <!-- 高级折叠选项：非必填，仅需要深度归档时展开 -->
+          <details id="mistakeAdvancedDetails" style="background:#fbf8f3;border:1px solid #ebdccb;border-radius:10px;padding:12px 14px;margin-top:10px;">
+            <summary style="cursor:pointer;font-size:12px;font-weight:800;color:#9b4b1d;user-select:none;">⚙️ 高级选项：详细出处、定位句与原声音频 (选填，点击展开) ▼</summary>
+            
+            <div style="display:grid;grid-template-columns:repeat(auto-fit, minmax(120px, 1fr));gap:10px;margin:12px 0;">
+              <label style="font-size:12px;font-weight:700;">剑雅书本
+                <input type="text" id="mistakeBook" value="" placeholder="选填: Cambridge 18">
+              </label>
+              <label style="font-size:12px;font-weight:700;">Test
+                <input type="text" id="mistakeTest" value="" placeholder="选填: Test 3">
+              </label>
+              <label style="font-size:12px;font-weight:700;">Part
+                <select id="mistakePart">
+                  <option value="">(未指定)</option>
+                  <option value="Part 1">Part 1</option>
+                  <option value="Part 2">Part 2</option>
+                  <option value="Part 3">Part 3</option>
+                  <option value="Part 4">Part 4</option>
+                </select>
+              </label>
+              <label style="font-size:12px;font-weight:700;">题号
+                <input type="text" id="mistakeQNum" value="" placeholder="选填: Q14">
+              </label>
+              <label style="font-size:12px;font-weight:700;">题型
+                <select id="mistakeType">
+                  <option value="note">随笔难点 (Quick Note)</option>
+                  <option value="single_choice">单选题 (Multiple Choice)</option>
+                  <option value="multiple_choice">多选题</option>
+                  <option value="matching">匹配题 (Matching)</option>
+                  <option value="map">地图题 (Map)</option>
+                  <option value="completion">填空题 (Completion)</option>
+                </select>
+              </label>
+            </div>
+
+            <div style="display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-bottom:12px;">
+              <label style="font-size:12px;font-weight:700;">我的错误选项/答案
+                <input type="text" id="mistakeUserAnswer" placeholder="选填: 例如 B" style="color:#b23b3b;font-weight:700;">
+              </label>
+              <label style="font-size:12px;font-weight:700;">定位关键句 (Key Sentence)
+                <input type="text" id="mistakeKeySentence" placeholder="选填: 定位关键原句">
+              </label>
+            </div>
+
+            <div style="display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-bottom:12px;">
+              <label style="font-size:12px;font-weight:700;">原文同义表达 (Source)
+                <input type="text" id="mistakeParaSource" placeholder="选填: 原文表达">
+              </label>
+              <label style="font-size:12px;font-weight:700;">选项概括 (Target)
+                <input type="text" id="mistakeParaTarget" placeholder="选填: 选项表达">
+              </label>
+            </div>
+
+            <div style="margin-bottom:12px;">
+              <label style="font-size:12px;font-weight:700;display:block;margin-bottom:4px;">选项内容 (如有)
+                <textarea id="mistakeOptions" rows="2" placeholder="选填: 粘贴 ABCD 选项..."></textarea>
+              </label>
+            </div>
+
+            <div style="margin-bottom:12px;">
+              <label style="font-size:12px;font-weight:700;display:block;margin-bottom:4px;">录音原文上下文 (Transcript)
+                <textarea id="mistakeTranscript" rows="2" placeholder="选填: 粘贴录音原文上下文..."></textarea>
+              </label>
+            </div>
+
+            <!-- 本地原声音频关联 -->
+            <div style="background:#f2ede4;border:1px dashed #d5c8b8;padding:10px 12px;border-radius:8px;">
+              <div style="font-size:12px;font-weight:800;color:var(--ink);margin-bottom:4px;">🎵 本地真题原声音频 (选填，存入本地 IndexedDB)</div>
+              <div style="display:flex;align-items:center;gap:10px;flex-wrap:wrap;margin-bottom:6px;">
+                <input type="file" id="mistakeAudioFile" accept="audio/*">
+                <span id="mistakeAudioFileName" style="font-size:12px;color:var(--muted);font-weight:600;"></span>
+              </div>
+              <div style="display:flex;align-items:center;gap:8px;flex-wrap:wrap;">
+                <label style="font-size:11px;font-weight:700;">起始秒数
+                  <input type="text" id="mistakeAudioStart" placeholder="例: 137.3" style="width:100px;">
+                </label>
+                <label style="font-size:11px;font-weight:700;">结束秒数
+                  <input type="text" id="mistakeAudioEnd" placeholder="例: 143.8" style="width:100px;">
+                </label>
+                <button type="button" id="mistakeAudioPreviewBtn" class="secondary compact" style="margin-top:12px;">▶ 试听选定时段</button>
+              </div>
+            </div>
+          </details>
+        </form>
+      </div>
+
+      <!-- 错题卡片列表 -->
+      <div id="mistakesListContainer">
+        <!-- 由 JS 渲染历史错题 -->
+      </div>
+    </section>
+  </main>
+
+  <!-- 设置弹窗 -->
+  <dialog id="settingsDialog">
+    <form method="dialog" class="settings-form">
+      <div class="dialog-heading"><h2>练习设置</h2><button value="cancel" class="icon-button" aria-label="关闭">×</button></div>
+      <label>英语发音声音
+        <select id="voiceSelect"><option value="">系统默认英语语音</option></select>
+      </label>
+      <label>正常发音速度
+        <input id="rateInput" type="range" min="0.65" max="1.15" step="0.05" value="0.9">
+        <output id="rateOutput">0.90×</output>
+      </label>
+      <label class="toggle-row">
+        <input id="autoPlayInput" type="checkbox" checked>
+        <span>进入下一题时自动朗读单词</span>
+      </label>
+      <div class="data-actions">
+        <button id="exportButton" type="button">导出学习进度</button>
+        <label class="file-button">导入学习进度<input id="importInput" type="file" accept="application/json"></label>
+        <button id="resetButton" class="danger" type="button">清空所有进度</button>
+      </div>
+      <p id="dataSummary" class="data-summary"></p>
+      <button class="primary" value="default">保存设置</button>
+    </form>
+  </dialog>
+
+  <script src="db.js"></script>
+  <script src="words-dictation-data.js"></script>
+  <script src="task1-rapid-data.js"></script>
+  <script src="map-training-data.js"></script>
+  <script src="map-data/landmarks.js"></script>
+  <script src="map-data/direction-templates.js"></script>
+  <script src="map-data/spatial-templates.js"></script>
+  <script src="map-data/route-scenarios.js"></script>
+  <script src="map-data/hotspot-templates.js"></script>
+  <script src="map-engine.js"></script>
+  <script src="factory/user-model.js"></script>
+  <script src="factory/data/paraphrase-concepts.js"></script>
+  <script src="factory/paraphrase-factory.js"></script>
+  <script src="factory/trap-factory.js"></script>
+  <script src="factory/number-factory.js"></script>
+  <script src="factory/question-factory.js"></script>
+  <script src="number-date-engine.js"></script>
+  <script src="number-date-ui.js"></script>
+  <script src="paraphrase-data.js"></script>
+  <script src="paraphrase-engine.js"></script>
+  <script src="paraphrase-ui.js"></script>
+  <script src="option-scan.js"></script>
+  <script src="app.js"></script>
+  <script src="writing-practice.js"></script>
+  <script src="map-training.js"></script>
+  <script src="mistakes.js"></script>
+  <script src="hub.js"></script>
+  <script>
+    if ("serviceWorker" in navigator) {
+      window.addEventListener("load", () => {
+        navigator.serviceWorker.register("./sw.js").catch((err) => {
+          console.warn("ServiceWorker registration failed:", err);
+        });
+      });
+    }
+  </script>
+</body>
+</html>

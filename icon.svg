@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f2743f" />
+      <stop offset="100%" stop-color="#c94c20" />
+    </linearGradient>
+    <filter id="dropShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#000" flood-opacity="0.25" />
+    </filter>
+  </defs>
+  <!-- Background with smooth rounded corner -->
+  <rect width="512" height="512" rx="115" fill="url(#bgGrad)" />
+  
+  <!-- Headphone and Sound motif -->
+  <g filter="url(#dropShadow)" fill="none" stroke="#ffffff" stroke-width="28" stroke-linecap="round" stroke-linejoin="round">
+    <!-- Headband -->
+    <path d="M 140 270 A 116 116 0 0 1 372 270" />
+    <!-- Ear cups -->
+    <rect x="110" y="250" width="46" height="84" rx="23" fill="#ffffff" stroke="none" />
+    <rect x="356" y="250" width="46" height="84" rx="23" fill="#ffffff" stroke="none" />
+  </g>
+
+  <!-- IELTS text label -->
+  <text x="256" y="380" text-anchor="middle" fill="#ffffff" font-family="-apple-system, system-ui, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="900" font-size="52" letter-spacing="4">IELTS</text>
+  <text x="256" y="420" text-anchor="middle" fill="#ffe0cc" font-family="-apple-system, system-ui, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="700" font-size="22" letter-spacing="2">TRAINING</text>
+</svg>

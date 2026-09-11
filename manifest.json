@@ -1,0 +1,31 @@
+{
+  "name": "雅思听力特训 · IELTS Practice Hub",
+  "short_name": "雅思练习",
+  "description": "个人专属雅思听力与小作文特训引擎，包含核心单词听写、数字日期无限练、地图题专项、同义替换速练与难点收藏。",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#fff8ed",
+  "theme_color": "#fff8ed",
+  "icons": [
+    {
+      "src": "icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}
