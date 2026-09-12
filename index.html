@@ -662,6 +662,16 @@
   </dialog>
 
   <script src="db.js"></script>
+  <!-- 核心内容架构 (Content Architecture Layer) -->
+  <script src="content/schemas.js"></script>
+  <script src="content/manifest.js"></script>
+  <script src="content/registry.js"></script>
+  <script src="content/listening/words/wanglu-core-v1.js"></script>
+  <script src="content/listening/paraphrase/paraphrase-concepts-v1.js"></script>
+  <script src="content/writing/task1/task1-workbook-v1.js"></script>
+  <script src="content/writing/task1/task1-rapid-legacy-v1.js"></script>
+
+  <!-- 既有数据与兜底数据源 (严格保留) -->
   <script src="words-dictation-data.js"></script>
   <script src="task1-rapid-data.js"></script>
   <script src="map-training-data.js"></script>
@@ -671,13 +681,15 @@
   <script src="map-data/route-scenarios.js"></script>
   <script src="map-data/hotspot-templates.js"></script>
   <script src="map-engine.js"></script>
+
+  <!-- 先加载数字底层引擎，消除 QuestionFactory 依赖未定义 Bug (依约束#9) -->
+  <script src="number-date-engine.js"></script>
   <script src="factory/user-model.js"></script>
   <script src="factory/data/paraphrase-concepts.js"></script>
   <script src="factory/paraphrase-factory.js"></script>
   <script src="factory/trap-factory.js"></script>
   <script src="factory/number-factory.js"></script>
   <script src="factory/question-factory.js"></script>
-  <script src="number-date-engine.js"></script>
   <script src="number-date-ui.js"></script>
   <script src="paraphrase-data.js"></script>
   <script src="paraphrase-engine.js"></script>

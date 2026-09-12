@@ -2,7 +2,7 @@
   "use strict";
 
   const STORAGE_KEY = "ielts-word-dictation-v1";
-  const words = window.WORDS_DICTATION_DATA || [];
+  let words = window.WORDS_DICTATION_DATA || [];
 
   const $ = (id) => document.getElementById(id);
   const ui = {
@@ -99,16 +99,38 @@
 
     const groups = new Map();
     words.forEach((w) => {
-      const g = w.group || 1;
-      if (!groups.has(g)) groups.set(g, []);
-      groups.get(g).push(w);
+      // 依约束#4：安全处理 number | string | null，绝不把 null 错误塞进 Group 1
+      const g = (w.groupId !== undefined && w.groupId !== null) ? w.groupId : (w.group !== undefined ? w.group : null);
+      const key = g === null ? "__ungrouped__" : String(g);
+      if (!groups.has(key)) groups.set(key, { rawGroup: g, list: [] });
+      groups.get(key).list.push(w);
     });
 
-    [...groups.keys()].sort((a, b) => a - b).forEach((g) => {
-      const list = groups.get(g);
-      const first = list[0].id.replace("wd-", "#");
-      const last = list.at(-1).id.replace("wd-", "#");
-      ui.chapter.add(new Option(`第 ${g} 组 (${list.length} 词 · ${first}–${last})`, String(g)));
+    // 排序：数字分组 1..11 优先，自定义标签分组排后，未分组排最后
+    const sortedKeys = [...groups.keys()].sort((a, b) => {
+      if (a === "__ungrouped__") return 1;
+      if (b === "__ungrouped__") return -1;
+      const numA = Number(a);
+      const numB = Number(b);
+      if (!isNaN(numA) && !isNaN(numB)) return numA - numB;
+      if (!isNaN(numA)) return -1;
+      if (!isNaN(numB)) return 1;
+      return a.localeCompare(b);
+    });
+
+    sortedKeys.forEach((key) => {
+      const { rawGroup, list } = groups.get(key);
+      let label = "";
+      if (rawGroup === null) {
+        label = `未分组 (${list.length} 词)`;
+      } else if (typeof rawGroup === "number") {
+        const first = list[0]?.id?.replace("wd-", "#") || list[0]?.id || "";
+        const last = list.at(-1)?.id?.replace("wd-", "#") || list.at(-1)?.id || "";
+        label = `第 ${rawGroup} 组 (${list.length} 词 · ${first}–${last})`;
+      } else {
+        label = `${rawGroup} (${list.length} 词)`;
+      }
+      ui.chapter.add(new Option(label, key));
     });
   }
 
@@ -174,7 +196,12 @@
     const selectedGroup = ui.chapter.value;
     const mode = ui.mode.value;
 
-    let pool = words.filter((w) => selectedGroup === "all" || String(w.group) === selectedGroup);
+    let pool = words.filter((w) => {
+      if (selectedGroup === "all") return true;
+      const g = (w.groupId !== undefined && w.groupId !== null) ? w.groupId : (w.group !== undefined ? w.group : null);
+      const key = g === null ? "__ungrouped__" : String(g);
+      return key === selectedGroup;
+    });
 
     if (mode === "new") {
       pool = pool.filter((w) => !state.progress[w.id]?.status);
@@ -213,7 +240,14 @@
     latestAttempt = null;
 
     ui.progress.textContent = `第 ${cardIndex + 1} / ${session.length} 词`;
-    ui.chapterBadge.textContent = `Group ${current.group || 1}`;
+    const g = (current.groupId !== undefined && current.groupId !== null) ? current.groupId : (current.group !== undefined ? current.group : null);
+    if (g === null) {
+      ui.chapterBadge.textContent = "未分组";
+    } else if (typeof g === "number") {
+      ui.chapterBadge.textContent = `Group ${g}`;
+    } else {
+      ui.chapterBadge.textContent = String(g);
+    }
 
     ui.hint.hidden = true;
     ui.hint.innerHTML = `<strong>中文释义：</strong>${current.chinese}`;
@@ -592,8 +626,37 @@
     speechSynthesis.onvoiceschanged = populateVoices;
   }
 
-  populateFilters();
-  populateVoices();
-  updateSummary();
-  startSession();
+  // 依约束#2：异步等待 ContentRegistry 就绪，无缝聚合 Bundled Packs 与 IndexedDB user_content
+  async function bootstrapWordApp() {
+    if (window.ContentRegistry) {
+      try {
+        await window.ContentRegistry.init();
+        const registryWords = window.ContentRegistry.getItems("listening", "word");
+        if (registryWords && registryWords.length) {
+          words = registryWords;
+        }
+      } catch (err) {
+        console.warn("[WordApp] ContentRegistry 初始化异常，平滑降级使用静态词库", err);
+      }
+    }
+
+    populateFilters();
+    populateVoices();
+    updateSummary();
+    startSession();
+  }
+
+  // 监听后续动态内容注入事件 (如用户在真题中收藏新词并同步入库)
+  window.addEventListener("ielts-content-ready", () => {
+    if (window.ContentRegistry) {
+      const loaded = window.ContentRegistry.getItems("listening", "word");
+      if (loaded && loaded.length) {
+        words = loaded;
+        populateFilters();
+        updateSummary();
+      }
+    }
+  });
+
+  bootstrapWordApp();
 })();

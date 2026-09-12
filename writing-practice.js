@@ -2,7 +2,23 @@
   "use strict";
 
   const STORAGE_KEY = "ielts-task1-rapid-v1";
-  const data = window.TASK1_RAPID_DATA || { modules: [], groups: [] };
+
+  // 映射表：将旧 154 版中的题组 ID 平滑映射到新标准 140 版题组 ID (依约束#6)
+  const LEGACY_TO_CANONICAL_GROUP_MAP = {
+    "m1-g1": "task1-group-01", "m1-g2": "task1-group-02", "m1-g3": "task1-group-03", "m1-g4": "task1-group-04",
+    "m2-g1": "task1-group-05", "m2-g2": "task1-group-06", "m2-g3": "task1-group-07", "m2-g4": "task1-group-08",
+    "m3-g1": "task1-group-09", "m3-g2": "task1-group-09", "m3-g3": "task1-group-10", "m3-g4": "task1-group-11",
+    "m3-g5": "task1-group-11", "m3-g6": "task1-group-12", "m3-g7": "task1-group-12", "m4-g1": "task1-group-13",
+    "m4-g2": "task1-group-14", "m4-g3": "task1-group-15", "m4-g4": "task1-group-16", "m5-g1": "task1-group-17",
+    "m5-g2": "task1-group-18", "m5-g3": "task1-group-19", "m5-g4": "task1-group-20", "m6-g1": "task1-group-21",
+    "m6-g2": "task1-group-22", "m6-g3": "task1-group-23", "m6-g4": "task1-group-24", "m7-g1": "task1-group-25",
+    "m7-g2": "task1-group-26", "m7-g3": "task1-group-27", "m7-g4": "task1-group-28"
+  };
+
+  // 优先加载 ContentRegistry 中的 Canonical Task 1 Pack (标准 140 题)，平滑回退至全局变量
+  const canonicalPack = (typeof window !== "undefined" && window.ContentRegistry?.getCanonicalPack("writing", "task1")) ||
+                        (typeof window !== "undefined" ? window.TASK1_WORKBOOK_PACK_V1 : null);
+  const data = canonicalPack || (typeof window !== "undefined" ? window.TASK1_RAPID_DATA : null) || { modules: [], groups: [] };
 
   // 确保 groups 拍平且附带 moduleId 和 moduleName
   if (!data.groups || !data.groups.length) {
@@ -43,7 +59,27 @@
   function loadState() {
     try {
       const saved = JSON.parse(localStorage.getItem(STORAGE_KEY));
-      return { ...defaultState, ...(saved || {}) };
+      if (!saved) return structuredClone(defaultState);
+
+      // 依约束#6：自动将历史 completedGroups 中的旧 ID 平滑映射到新版题组 ID，无法映射的保留在 _legacyCompletedGroups
+      const rawGroups = saved.completedGroups || [];
+      const canonicalGroupIds = new Set((data.groups || []).map((g) => g.id));
+      const migrated = new Set();
+
+      for (const id of rawGroups) {
+        if (LEGACY_TO_CANONICAL_GROUP_MAP[id]) {
+          migrated.add(LEGACY_TO_CANONICAL_GROUP_MAP[id]);
+        } else if (canonicalGroupIds.has(id)) {
+          migrated.add(id);
+        }
+      }
+
+      return {
+        ...defaultState,
+        ...saved,
+        completedGroups: Array.from(migrated),
+        _legacyCompletedGroups: rawGroups // 保留旧数据，不破坏
+      };
     } catch {
       return structuredClone(defaultState);
     }

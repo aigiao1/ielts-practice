@@ -3,7 +3,7 @@
   "use strict";
 
   const DB_NAME = "ielts_engine_v1";
-  const DB_VERSION = 1;
+  const DB_VERSION = 2;
 
   class EngineDatabase {
     constructor() {
@@ -12,13 +12,16 @@
     }
 
     init() {
-      if (!("indexedDB" in window)) {
+      if (typeof window !== "undefined" && !("indexedDB" in window)) {
         console.warn("IndexedDB is not supported in this browser. Fallback memory mode active.");
         return Promise.resolve(null);
       }
 
+      const idb = typeof indexedDB !== "undefined" ? indexedDB : (typeof window !== "undefined" ? window.indexedDB : null);
+      if (!idb) return Promise.resolve(null);
+
       return new Promise((resolve, reject) => {
-        const req = indexedDB.open(DB_NAME, DB_VERSION);
+        const req = idb.open(DB_NAME, DB_VERSION);
 
         req.onupgradeneeded = (e) => {
           const db = e.target.result;
@@ -51,6 +54,15 @@
             const store = db.createObjectStore("review_items", { keyPath: "id" });
             store.createIndex("nextReviewAt", "nextReviewAt", { unique: false });
             store.createIndex("mistakeId", "mistakeId", { unique: false });
+          }
+
+          // 5. user_content 仓库 (v2 新增：存放用户自增的生词、笔记、错题)
+          if (!db.objectStoreNames.contains("user_content")) {
+            const store = db.createObjectStore("user_content", { keyPath: "id" });
+            store.createIndex("domain", "domain", { unique: false });
+            store.createIndex("contentType", "contentType", { unique: false });
+            store.createIndex("status", "status", { unique: false });
+            store.createIndex("createdAt", "createdAt", { unique: false });
           }
         };
 
@@ -239,20 +251,71 @@
       return this.runTx("audio_assets", "readonly", (store) => store.get(id));
     }
 
-    // 4. JSON 导出与恢复
+    // 4. user_content 用户自增生词、笔记与自定义内容 (v2 新增)
+    async saveUserContent(item) {
+      if (!item.id) {
+        item.id = "uc-" + Date.now() + "-" + Math.random().toString(36).slice(2, 7);
+      }
+      if (!item.createdAt) {
+        item.createdAt = Date.now();
+      }
+      item.updatedAt = Date.now();
+      return this.runTx("user_content", "readwrite", (store) => store.put(item));
+    }
+
+    async getAllUserContent(filter = null) {
+      const db = await this.getDb();
+      if (!db) return [];
+      return new Promise((resolve, reject) => {
+        const tx = db.transaction("user_content", "readonly");
+        const store = tx.objectStore("user_content");
+        const req = store.openCursor();
+        const results = [];
+
+        req.onsuccess = (e) => {
+          const cursor = e.target.result;
+          if (cursor) {
+            const val = cursor.value;
+            let match = true;
+            if (filter) {
+              if (filter.domain && val.domain !== filter.domain) match = false;
+              if (filter.contentType && val.contentType !== filter.contentType) match = false;
+              if (filter.status && val.status !== filter.status) match = false;
+            }
+            if (match) results.push(val);
+            cursor.continue();
+          } else {
+            resolve(results);
+          }
+        };
+        req.onerror = () => reject(tx.error);
+      });
+    }
+
+    async getUserContent(id) {
+      return this.runTx("user_content", "readonly", (store) => store.get(id));
+    }
+
+    async deleteUserContent(id) {
+      return this.runTx("user_content", "readwrite", (store) => store.delete(id));
+    }
+
+    // 5. JSON 导出与恢复 (升级支持 user_content，兼容 v1/v2)
     async exportAllData() {
       const db = await this.getDb();
       if (!db) return null;
 
       const attempts = await this.getRecentAttempts(5000);
       const mistakes = await this.getAllMistakes();
+      const user_content = await this.getAllUserContent();
 
-      // 音频资产元数据（暂不导出体积过大的 Blob 二进制，保留元信息）
       return {
-        version: "1.0.0",
+        schemaVersion: 2,
+        version: "2.0.0",
         exportedAt: new Date().toISOString(),
         attempts,
-        mistakes
+        mistakes,
+        user_content
       };
     }
 
@@ -263,6 +326,7 @@
 
       let importedAttempts = 0;
       let importedMistakes = 0;
+      let importedUserContent = 0;
 
       if (Array.isArray(jsonData.attempts)) {
         for (const a of jsonData.attempts) {
@@ -278,9 +342,22 @@
         }
       }
 
-      return { importedAttempts, importedMistakes };
+      // v2 增量导入 user_content
+      if (Array.isArray(jsonData.user_content)) {
+        for (const uc of jsonData.user_content) {
+          await this.saveUserContent(uc);
+          importedUserContent++;
+        }
+      }
+
+      return { importedAttempts, importedMistakes, importedUserContent };
     }
   }
 
-  window.IELTS_DB = new EngineDatabase();
+  if (typeof window !== "undefined") {
+    window.IELTS_DB = new EngineDatabase();
+  }
+  if (typeof module !== "undefined" && module.exports) {
+    module.exports = { EngineDatabase, DB_NAME, DB_VERSION };
+  }
 })();
