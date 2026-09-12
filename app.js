@@ -210,6 +210,7 @@
     answered = false;
     answerWasCorrect = false;
     cardStartTime = performance.now();
+    latestAttempt = null;
 
     ui.progress.textContent = `第 ${cardIndex + 1} / ${session.length} 词`;
     ui.chapterBadge.textContent = `Group ${current.group || 1}`;
@@ -386,20 +387,18 @@
   }
 
   function bindWordErrorPillsEvents() {
-    setTimeout(() => {
-      const bar = document.getElementById("wordErrorReasonsBar");
-      if (!bar) return;
-      bar.querySelectorAll("[data-word-reason]").forEach((btn) => {
-        btn.addEventListener("click", () => {
-          btn.classList.toggle("active");
-          if (latestAttempt && window.IELTS_DB) {
-            const activeReasons = [...bar.querySelectorAll(".reason-chip.active")].map((b) => b.dataset.wordReason);
-            latestAttempt.errorReasons = activeReasons;
-            window.IELTS_DB.saveAttempt(latestAttempt).catch((e) => console.warn(e));
-          }
-        });
+    const bar = document.getElementById("wordErrorReasonsBar");
+    if (!bar) return;
+    bar.querySelectorAll("[data-word-reason]").forEach((btn) => {
+      btn.addEventListener("click", () => {
+        btn.classList.toggle("active");
+        if (latestAttempt && window.IELTS_DB) {
+          const activeReasons = [...bar.querySelectorAll(".reason-chip.active")].map((b) => b.dataset.wordReason);
+          latestAttempt.errorReasons = activeReasons;
+          window.IELTS_DB.saveAttempt(latestAttempt).catch((e) => console.warn(e));
+        }
       });
-    }, 50);
+    });
   }
 
   function recordAttempt(correct, userInput = "") {

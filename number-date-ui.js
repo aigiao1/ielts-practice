@@ -132,7 +132,7 @@
           spoken: currentQuestion.spoken
         }
       };
-      await window.IELTS_DB.saveAttempt(latestNdAttempt).catch((e) => console.warn(e));
+      window.IELTS_DB.saveAttempt(latestNdAttempt).catch((e) => console.warn(e));
     }
 
     // 渲染判卷反馈
@@ -152,9 +152,9 @@
           参考标准：<span style="color:#2a7a42;font-weight:800;font-size:15px;">${currentQuestion.displayAnswer}</span>
           <div class="inline-error-reasons" id="numDateErrorPills">
             <span style="font-size:12px;font-weight:700;color:var(--muted);margin-right:4px;">错因记录:</span>
-            <button type="button" class="reason-chip active" data-nd-reason="number_date">🔢 读音/位数混淆</button>
-            <button type="button" class="reason-chip" data-nd-reason="spelling">✍️ 拼写/格式手滑</button>
-            <button type="button" class="reason-chip" data-nd-reason="attention">😵 语速过快没跟上</button>
+            <button type="button" class="reason-chip${(currentQuestion.trapType || 'number_date') === 'number_date' ? ' active' : ''}" data-nd-reason="number_date">🔢 读音/位数混淆</button>
+            <button type="button" class="reason-chip${(currentQuestion.trapType || 'number_date') === 'spelling' ? ' active' : ''}" data-nd-reason="spelling">✍️ 拼写/格式手滑</button>
+            <button type="button" class="reason-chip${(currentQuestion.trapType || 'number_date') === 'attention' ? ' active' : ''}" data-nd-reason="attention">😵 语速过快没跟上</button>
           </div>
         `;
         const pillsWrap = document.getElementById("numDateErrorPills");

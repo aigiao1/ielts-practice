@@ -560,6 +560,25 @@
     $("nextReviewBtn")?.addEventListener("click", () => {
       startReviewSession();
     });
+
+    // 键盘快捷键：Enter 下一题/揭晓答案，Escape 关闭
+    const reviewKeyHandler = (e) => {
+      if (!ui.reviewContainer || ui.reviewContainer.hidden) return;
+      if (e.key === "Enter") {
+        e.preventDefault();
+        const nextBtn = $("nextReviewBtn");
+        const revealBtn = $("revealReviewAnswerBtn");
+        if (nextBtn) {
+          startReviewSession();
+        } else if (revealBtn) {
+          renderReviewCard(activeReviewMistake, true);
+        }
+      } else if (e.key === "Escape") {
+        ui.reviewContainer?.setAttribute("hidden", "true");
+      }
+    };
+    document.removeEventListener("keydown", reviewKeyHandler);
+    document.addEventListener("keydown", reviewKeyHandler);
   }
 
   function init() {

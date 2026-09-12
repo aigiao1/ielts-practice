@@ -158,6 +158,30 @@
       return stats;
     }
 
+    async getAttemptsByTimeRange(startTimestamp, endTimestamp) {
+      const db = await this.getDb();
+      if (!db) return [];
+      return new Promise((resolve, reject) => {
+        const tx = db.transaction("attempts", "readonly");
+        const store = tx.objectStore("attempts");
+        const index = store.index("timestamp");
+        const range = IDBKeyRange.bound(startTimestamp, endTimestamp);
+        const req = index.openCursor(range);
+        const results = [];
+
+        req.onsuccess = (e) => {
+          const cursor = e.target.result;
+          if (cursor) {
+            results.push(cursor.value);
+            cursor.continue();
+          } else {
+            resolve(results);
+          }
+        };
+        req.onerror = () => reject(tx.error);
+      });
+    }
+
     // 2. RealQuestionMistake 错题操作
     async saveMistake(mistake) {
       if (!mistake.id) {

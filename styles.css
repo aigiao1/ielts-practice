@@ -611,12 +611,21 @@ dialog::backdrop { background: rgba(25,20,15,.45); backdrop-filter: blur(3px); }
   .submit-bar-actions { width: 100%; }
   .submit-bar-actions > button { flex: 1; }
   .expressions-grid { grid-template-columns: 1fr; max-height: 280px; }
+  .daily-coach-card { flex-direction: column; align-items: stretch; gap: 10px; }
+  .daily-coach-card button { width: 100%; text-align: center; }
 }
 
 @media (max-width: 430px) {
-  .hub-nav { grid-template-columns: 1fr; }
+  .hub-nav {
+    grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+    max-height: 80px;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
   .rating-buttons { grid-template-columns: 1fr; }
   .answer-row { grid-template-columns: 1fr; }
   .answer-row .primary { width: 100%; }
   .questions-list { padding: 0 14px; }
+  .daily-coach-pills { flex-wrap: wrap; }
+  .daily-badge { font-size: 11px; padding: 3px 8px; }
 }

@@ -160,6 +160,10 @@
 
     // 展开教学解析
     if (ui.teachingCard) {
+      const conceptName = currentQ.conceptZh || currentQ.meaningZh || "";
+      const sentenceText = currentQ.contextSentence || currentQ.sourceSpoken || "";
+      const targetText = currentQ.correctOptionText || currentQ.correctTarget || "";
+
       ui.teachingCard.hidden = false;
       ui.teachingCard.innerHTML = `
         <div class="card-panel teaching-card" style="margin-top:14px;padding:16px;background:#fffcf8;border:1px solid #ebdccb;border-radius:10px;">
@@ -168,22 +172,22 @@
               ${isCorrect ? '🎉 反应迅速！' : '❌ 未认出同义概括'}
             </strong>
             <span class="badge" style="background:#e8f4ec;color:#2a7a42;font-size:12px;">
-              🎯 核心考点：${currentQ.conceptZh}
+              🎯 核心考点：${conceptName}
             </span>
           </div>
 
           <div style="font-size:14px;line-height:1.6;color:#2c2825;margin-bottom:10px;">
-            <strong>听力原文：</strong>"${currentQ.contextSentence}"
+            <strong>听力原文：</strong>"${sentenceText}"
           </div>
 
           <div style="display:flex;align-items:center;gap:8px;background:#f7f0e6;padding:8px 12px;border-radius:8px;font-size:13px;margin-bottom:10px;">
-            <span>口语表达：<em>"${currentQ.sourceSpoken}"</em></span>
+            <span>口语表达：<em>"${currentQ.sourceSpoken || ""}"</em></span>
             <span style="color:var(--orange);font-weight:900;">↔</span>
-            <span>卷面选项：<strong>"${currentQ.correctOptionText}"</strong></span>
+            <span>卷面选项：<strong>"${targetText}"</strong></span>
           </div>
 
           <div style="font-size:12px;color:var(--muted);line-height:1.5;">
-            ${currentQ.explanation}
+            ${currentQ.explanation || ""}
           </div>
         </div>
       `;
