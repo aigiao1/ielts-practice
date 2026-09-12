@@ -483,6 +483,123 @@ dialog::backdrop { background: rgba(25,20,15,.45); backdrop-filter: blur(3px); }
   transition: all .3s ease;
 }
 
+/* 今日训练引导条 */
+.daily-coach-card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 14px;
+  background: linear-gradient(135deg, #fffbf4 0%, #fff4e5 100%);
+  border: 1.5px solid #ebd7c2;
+  border-radius: 18px;
+  padding: 14px 20px;
+  margin-top: 16px;
+  box-shadow: 0 4px 16px rgba(155, 75, 29, 0.05);
+}
+.daily-coach-content {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  flex: 1;
+}
+.daily-coach-icon {
+  font-size: 28px;
+  flex-shrink: 0;
+}
+.daily-coach-title {
+  font-size: 14px;
+  font-weight: 800;
+  color: var(--ink);
+  margin-bottom: 2px;
+}
+.daily-coach-desc {
+  font-size: 12px;
+  color: var(--muted);
+  line-height: 1.4;
+}
+.daily-coach-pills {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 6px;
+}
+.daily-badge {
+  font-size: 11px;
+  font-weight: 800;
+  padding: 3px 8px;
+  border-radius: 6px;
+  background: #f4eae0;
+  color: #8c5324;
+}
+.daily-badge.done {
+  background: #e1f5eb;
+  color: #237b51;
+}
+
+/* 错因快速归因药丸 (做题直接点击) */
+.inline-error-reasons {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 6px;
+  margin-top: 12px;
+  padding-top: 10px;
+  border-top: 1px dashed #e8ded2;
+}
+.reason-chip {
+  border: 1px solid #d9ccbd;
+  background: white;
+  color: #635b52;
+  border-radius: 999px;
+  padding: 4px 11px;
+  font-size: 12px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all .15s ease;
+  user-select: none;
+}
+.reason-chip:hover {
+  border-color: var(--orange);
+  background: #fff8f1;
+}
+.reason-chip.active {
+  border-color: #c94c20;
+  background: #ffede2;
+  color: #a83d12;
+  box-shadow: 0 2px 6px rgba(201, 76, 32, 0.12);
+}
+
+/* 难点收藏随机抽测卡片 */
+.mistake-review-card {
+  background: #fffcf8;
+  border: 2px solid #dfcfbc;
+  border-radius: 18px;
+  padding: 24px;
+  margin-bottom: 18px;
+  box-shadow: 0 8px 24px rgba(70, 48, 26, 0.06);
+}
+.mistake-review-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 14px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #f0e6dc;
+}
+.mistake-prompt-box {
+  background: white;
+  border: 1px solid #ebdccb;
+  border-radius: 12px;
+  padding: 16px 20px;
+  margin: 14px 0;
+  font-size: 16px;
+  line-height: 1.6;
+  color: var(--ink);
+}
+
 /* 响应式适配 */
 @media (max-width: 700px) {
   .shell { width: min(100% - 18px, 620px); padding-top: 18px; }

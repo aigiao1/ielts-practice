@@ -23,6 +23,25 @@
       <button id="settingsButton" class="icon-button" type="button" aria-label="设置">⚙</button>
     </header>
 
+    <!-- 今日训练教练引导卡片 -->
+    <div id="dailyCoachCard" class="daily-coach-card" aria-label="今日训练指导">
+      <div class="daily-coach-content">
+        <div class="daily-coach-icon" id="coachIcon">🎯</div>
+        <div>
+          <div class="daily-coach-title" id="coachTitle">今日训练目标</div>
+          <div class="daily-coach-desc" id="coachDesc">正在统计今日练习进度...</div>
+          <div class="daily-coach-pills">
+            <span id="coachWordBadge" class="daily-badge">单词听写: 0 / 30</span>
+            <span id="coachNumBadge" class="daily-badge">数字日期: 0 / 10</span>
+            <span id="coachReviewBadge" class="daily-badge">难点收藏: 0 条</span>
+          </div>
+        </div>
+      </div>
+      <button type="button" id="coachActionBtn" class="primary compact" style="font-size:13px;padding:8px 16px;">
+        👉 开始今日练习
+      </button>
+    </div>
+
     <nav class="hub-nav card-panel" aria-label="练习大类">
       <button type="button" class="hub-tab active" data-hub-module="listening" aria-selected="true">核心单词听写</button>
       <button type="button" class="hub-tab" data-hub-module="numberdate" aria-selected="false">数字/日期无限练</button>
@@ -473,8 +492,9 @@
       </div>
 
       <div class="card-panel" style="display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:10px;margin-bottom:14px;padding:14px 18px;">
-        <div>
-          <button type="button" id="toggleMistakeFormBtn" class="primary">➕ 收藏一道难点 / 错句</button>
+        <div style="display:flex;gap:10px;align-items:center;flex-wrap:wrap;">
+          <button type="button" id="startMistakeReviewBtn" class="primary" style="background:#2c8b67;">🎧 随机抽测一条难点</button>
+          <button type="button" id="toggleMistakeFormBtn" class="secondary">➕ 收藏一道难点 / 错句</button>
         </div>
         <div style="display:flex;gap:8px;align-items:center;flex-wrap:wrap;">
           <button type="button" id="exportMistakesBtn" class="secondary compact">📤 导出完整备份 (JSON)</button>
@@ -484,6 +504,9 @@
           </label>
         </div>
       </div>
+
+      <!-- 交互式难点抽测复习卡片 -->
+      <div id="mistakeReviewContainer" class="mistake-review-card" hidden></div>
 
       <!-- 折叠录入表单容器 -->
       <div id="mistakeFormContainer" class="card-panel" hidden style="margin-bottom:16px;padding:20px;">

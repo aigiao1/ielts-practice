@@ -57,6 +57,8 @@
     statsSummary: $("mistakesSummaryBar"),
     exportBtn: $("exportMistakesBtn"),
     importInput: $("importMistakesInput"),
+    startReviewBtn: $("startMistakeReviewBtn"),
+    reviewContainer: $("mistakeReviewContainer"),
   };
 
   // 初始化错因选择药丸
@@ -423,10 +425,149 @@
     });
   }
 
+  // 难点随机主动召回复习模式
+  let activeReviewMistake = null;
+
+  async function startReviewSession() {
+    const mistakes = await window.IELTS_DB.getAllMistakes();
+    if (!mistakes || !mistakes.length) {
+      alert("你的难点收藏库目前还是空的！请先在做题或复盘时收藏 1~2 道难点句。");
+      return;
+    }
+    const picked = mistakes[Math.floor(Math.random() * mistakes.length)];
+    activeReviewMistake = picked;
+    renderReviewCard(picked, false);
+    ui.reviewContainer?.removeAttribute("hidden");
+    ui.reviewContainer?.scrollIntoView({ behavior: "smooth", block: "nearest" });
+  }
+
+  function playReviewAudio(mistake) {
+    if (mistake.audioClip && mistake.audioClip.audioAssetId) {
+      window.IELTS_DB.getAudioAsset(mistake.audioClip.audioAssetId).then((asset) => {
+        if (asset && asset.blob) {
+          playAudioRange(asset.blob, mistake.audioClip.startTime, mistake.audioClip.endTime);
+        } else if (mistake.questionText && "speechSynthesis" in window) {
+          speakReviewText(mistake.questionText);
+        }
+      });
+    } else if (mistake.questionText && "speechSynthesis" in window) {
+      speakReviewText(mistake.questionText);
+    }
+  }
+
+  function speakReviewText(text) {
+    speechSynthesis.cancel();
+    const utter = new SpeechSynthesisUtterance(text);
+    utter.lang = "en-GB";
+    utter.rate = 0.9;
+    speechSynthesis.speak(utter);
+  }
+
+  function renderReviewCard(mistake, isRevealed = false) {
+    if (!ui.reviewContainer) return;
+    const sourceParts = [mistake.book, mistake.test, mistake.part, mistake.questionNumber].filter(Boolean);
+    const sourceHeader = sourceParts.length > 0 ? sourceParts.join(" · ") : "难点抽测";
+
+    const reasonsHtml = (mistake.errorReasons || []).map((rid) => {
+      const r = ERROR_REASONS.find((item) => item.id === rid);
+      return `<span class="teaching-keyword-pill" style="margin-right:4px;">${r ? r.label : rid}</span>`;
+    }).join("");
+
+    if (!isRevealed) {
+      ui.reviewContainer.innerHTML = `
+        <div class="mistake-review-header">
+          <div style="display:flex;align-items:center;gap:8px;">
+            <span class="badge" style="background:#2c8b67;color:white;font-weight:800;">🎧 难点主动召回复习</span>
+            <strong style="color:var(--ink);">${sourceHeader}</strong>
+          </div>
+          <button type="button" id="closeReviewCardBtn" class="text-button" style="color:var(--muted);font-size:12px;">✖ 关闭抽测</button>
+        </div>
+
+        <div style="display:flex;align-items:center;gap:12px;margin:12px 0;">
+          <button type="button" id="playReviewAudioBtn" class="primary compact" style="display:flex;align-items:center;gap:6px;">
+            <span>🔊 播放听力原句发音</span>
+          </button>
+          <span style="font-size:12px;color:var(--muted);">仔细听，回忆本句核心意思、答案或对应同义替换</span>
+        </div>
+
+        <div class="mistake-prompt-box">
+          <div style="font-size:12px;font-weight:800;color:#9b4b1d;margin-bottom:6px;">题型与考点方向：</div>
+          <p style="margin:0;font-size:15px;color:var(--ink);"><strong>${mistake.questionType || "听力难点"}</strong> — 录音原句已就绪，准备好后点击下方揭晓。</p>
+        </div>
+
+        <div style="display:flex;justify-content:space-between;align-items:center;margin-top:16px;">
+          <button type="button" id="revealReviewAnswerBtn" class="primary">👀 揭晓原句与正确答案</button>
+          <button type="button" id="skipReviewNextBtn" class="secondary compact">换下一条 ❯</button>
+        </div>
+      `;
+      setTimeout(() => playReviewAudio(mistake), 250);
+    } else {
+      ui.reviewContainer.innerHTML = `
+        <div class="mistake-review-header">
+          <div style="display:flex;align-items:center;gap:8px;">
+            <span class="badge ok-badge">✔ 抽测结果与复盘</span>
+            <strong style="color:var(--ink);">${sourceHeader}</strong>
+          </div>
+          <button type="button" id="closeReviewCardBtn" class="text-button" style="color:var(--muted);font-size:12px;">✖ 关闭抽测</button>
+        </div>
+
+        <div style="display:flex;align-items:center;gap:10px;margin-bottom:12px;">
+          <button type="button" id="playReviewAudioBtn" class="secondary compact">🔊 重听发音</button>
+        </div>
+
+        <div style="background:#f4faf6;border:1.5px solid #bce6cf;border-radius:12px;padding:16px 20px;margin-bottom:12px;">
+          <div style="font-size:12px;font-weight:800;color:var(--green);margin-bottom:4px;">🎯 正确答案 / 核心考点：</div>
+          <div style="font-size:18px;font-weight:800;color:var(--ink);">${mistake.correctAnswer || "（未记录答案）"}</div>
+        </div>
+
+        <div style="background:white;border:1px solid #ebdccb;border-radius:12px;padding:14px 18px;margin-bottom:12px;">
+          <div style="font-size:12px;font-weight:800;color:var(--muted);margin-bottom:4px;">📝 录音原句：</div>
+          <blockquote style="margin:0;font-size:15px;font-weight:600;color:var(--ink);line-height:1.5;">${mistake.questionText || "（未录入原句）"}</blockquote>
+        </div>
+
+        ${mistake.paraphrase ? `
+          <div style="background:#fff9f0;border:1px solid #f2dfc7;border-radius:10px;padding:10px 14px;margin-bottom:12px;font-size:13px;">
+            <strong>🔄 同义替换映射：</strong>
+            <span style="color:#8a4d1b;">${mistake.paraphrase.source || ""}</span> ➔ <strong>${mistake.paraphrase.target || ""}</strong>
+          </div>
+        ` : ""}
+
+        ${reasonsHtml ? `
+          <div style="margin-bottom:14px;">
+            <span style="font-size:12px;color:var(--muted);font-weight:700;margin-right:6px;">当时错因：</span>
+            ${reasonsHtml}
+          </div>
+        ` : ""}
+
+        <div style="display:flex;justify-content:flex-end;align-items:center;gap:10px;margin-top:14px;">
+          <button type="button" id="nextReviewBtn" class="primary">🔄 再抽测下一道难点 (Enter)</button>
+        </div>
+      `;
+    }
+
+    $("closeReviewCardBtn")?.addEventListener("click", () => {
+      ui.reviewContainer?.setAttribute("hidden", "true");
+    });
+    $("playReviewAudioBtn")?.addEventListener("click", () => {
+      playReviewAudio(mistake);
+    });
+    $("revealReviewAnswerBtn")?.addEventListener("click", () => {
+      renderReviewCard(mistake, true);
+    });
+    $("skipReviewNextBtn")?.addEventListener("click", () => {
+      startReviewSession();
+    });
+    $("nextReviewBtn")?.addEventListener("click", () => {
+      startReviewSession();
+    });
+  }
+
   function init() {
     initReasonPills();
     initAudioControls();
     initExportImport();
+
+    ui.startReviewBtn?.addEventListener("click", startReviewSession);
 
     ui.toggleFormBtn?.addEventListener("click", () => {
       const isHidden = ui.formContainer?.hasAttribute("hidden");
@@ -435,7 +576,7 @@
         ui.toggleFormBtn.textContent = "✖ 折叠录入表单";
       } else {
         ui.formContainer?.setAttribute("hidden", "true");
-        ui.toggleFormBtn.textContent = "➕ 录入真题错题";
+        ui.toggleFormBtn.textContent = "➕ 收藏一道难点 / 错句";
       }
     });
 

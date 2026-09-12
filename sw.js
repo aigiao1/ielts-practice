@@ -1,5 +1,5 @@
 // 雅思特训 PWA 离线服务工作线程 (Service Worker)
-const CACHE_NAME = "ielts-practice-v1";
+const CACHE_NAME = "ielts-practice-v2";
 
 const STATIC_ASSETS = [
   "./",

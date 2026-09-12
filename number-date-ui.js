@@ -113,9 +113,9 @@
 
     updateStatsDisplay();
 
-    // 构造 Attempt 并存库
+    let latestNdAttempt = null;
     if (window.IELTS_DB) {
-      const attempt = {
+      latestNdAttempt = {
         id: "att-nd-" + Date.now() + "-" + Math.random().toString(36).slice(2, 6),
         sessionId: "session-" + (sessionStorage.getItem("ielts_session_id") || "default"),
         moduleType: "number_date",
@@ -132,7 +132,7 @@
           spoken: currentQuestion.spoken
         }
       };
-      await window.IELTS_DB.saveAttempt(attempt).catch((e) => console.warn(e));
+      await window.IELTS_DB.saveAttempt(latestNdAttempt).catch((e) => console.warn(e));
     }
 
     // 渲染判卷反馈
@@ -150,7 +150,26 @@
           <strong>❌ 稍有偏差</strong><br>
           你的输入：<span style="text-decoration:line-through;margin-right:12px;">${userInput}</span>
           参考标准：<span style="color:#2a7a42;font-weight:800;font-size:15px;">${currentQuestion.displayAnswer}</span>
+          <div class="inline-error-reasons" id="numDateErrorPills">
+            <span style="font-size:12px;font-weight:700;color:var(--muted);margin-right:4px;">错因记录:</span>
+            <button type="button" class="reason-chip active" data-nd-reason="number_date">🔢 读音/位数混淆</button>
+            <button type="button" class="reason-chip" data-nd-reason="spelling">✍️ 拼写/格式手滑</button>
+            <button type="button" class="reason-chip" data-nd-reason="attention">😵 语速过快没跟上</button>
+          </div>
         `;
+        const pillsWrap = document.getElementById("numDateErrorPills");
+        if (pillsWrap) {
+          pillsWrap.querySelectorAll("[data-nd-reason]").forEach((btn) => {
+            btn.addEventListener("click", () => {
+              btn.classList.toggle("active");
+              if (latestNdAttempt && window.IELTS_DB) {
+                const reasons = [...pillsWrap.querySelectorAll(".reason-chip.active")].map((b) => b.dataset.ndReason);
+                latestNdAttempt.errorReasons = reasons;
+                window.IELTS_DB.saveAttempt(latestNdAttempt).catch((e) => console.warn(e));
+              }
+            });
+          });
+        }
       }
     }
 

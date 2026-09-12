@@ -295,8 +295,10 @@
             <span class="phonetic">${current.phonetic || ""}</span>
             <span class="word-meaning">${current.chinese}</span>
           </div>
+          ${renderWordErrorPills()}
         </div>
       `;
+      bindWordErrorPillsEvents();
 
       // 激活二次拼写巩固
       ui.spellingForm.hidden = false;
@@ -332,8 +334,10 @@
           <span class="phonetic">${current.phonetic || ""}</span>
           <span class="word-meaning">${current.chinese}</span>
         </div>
+        ${renderWordErrorPills()}
       </div>
     `;
+    bindWordErrorPillsEvents();
 
     ui.spellingForm.hidden = false;
     ui.ratingArea.hidden = false;
@@ -367,6 +371,37 @@
     }
   }
 
+  let latestAttempt = null;
+
+  function renderWordErrorPills() {
+    return `
+      <div class="inline-error-reasons" id="wordErrorReasonsBar">
+        <span style="font-size:12px;font-weight:700;color:var(--muted);margin-right:4px;">错因记录:</span>
+        <button type="button" class="reason-chip active" data-word-reason="sound_recognition">🔊 声音没认出</button>
+        <button type="button" class="reason-chip" data-word-reason="meaning_processing">🧠 懂词没懂意</button>
+        <button type="button" class="reason-chip" data-word-reason="spelling">✍️ 拼写错误</button>
+        <button type="button" class="reason-chip" data-word-reason="trap">⚠️ 连读弱读干扰</button>
+      </div>
+    `;
+  }
+
+  function bindWordErrorPillsEvents() {
+    setTimeout(() => {
+      const bar = document.getElementById("wordErrorReasonsBar");
+      if (!bar) return;
+      bar.querySelectorAll("[data-word-reason]").forEach((btn) => {
+        btn.addEventListener("click", () => {
+          btn.classList.toggle("active");
+          if (latestAttempt && window.IELTS_DB) {
+            const activeReasons = [...bar.querySelectorAll(".reason-chip.active")].map((b) => b.dataset.wordReason);
+            latestAttempt.errorReasons = activeReasons;
+            window.IELTS_DB.saveAttempt(latestAttempt).catch((e) => console.warn(e));
+          }
+        });
+      });
+    }, 50);
+  }
+
   function recordAttempt(correct, userInput = "") {
     const today = state.daily[dayKey()] || { total: 0, correct: 0 };
     today.total += 1;
@@ -377,7 +412,7 @@
 
     // 写入统一底座 IndexedDB
     if (window.IELTS_DB && current) {
-      window.IELTS_DB.saveAttempt({
+      latestAttempt = {
         id: "att-" + Date.now() + "-" + Math.random().toString(36).slice(2, 7),
         sessionId: wordSessionId,
         moduleType: "word",
@@ -394,7 +429,8 @@
           chinese: current.chinese,
           group: current.group
         }
-      }).catch((err) => console.warn("Failed to save attempt to IndexedDB:", err));
+      };
+      window.IELTS_DB.saveAttempt(latestAttempt).catch((err) => console.warn("Failed to save attempt to IndexedDB:", err));
     }
 
     // 默认评级：答对默认标为已认识，答错默认标为生词
