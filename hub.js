@@ -18,7 +18,7 @@
     mistakes: { title: "我的难点收藏", eyebrow: "IELTS PRACTICE · QUICK NOTES & MISTAKES" },
   };
 
-  function activate(moduleName) {
+  function activate(moduleName, updateHash = true) {
     const name = moduleCopy[moduleName] ? moduleName : "listening";
     tabs.forEach((tab) => {
       const active = tab.dataset.hubModule === name;
@@ -32,6 +32,9 @@
     if (name !== "listening" && "speechSynthesis" in window) speechSynthesis.cancel();
     document.title = `${moduleCopy[name].title} · IELTS 练习中心`;
     localStorage.setItem(STORAGE_KEY, JSON.stringify({ module: name }));
+    if (updateHash && window.location.hash.replace(/^#/, "") !== name) {
+      history.replaceState(null, "", `#${name}`);
+    }
     if (name === "numberdate") window.dispatchEvent(new CustomEvent("numberdate-module-visible"));
     if (name === "paraphrase") window.dispatchEvent(new CustomEvent("paraphrase-module-visible"));
     if (name === "optionscan") window.dispatchEvent(new CustomEvent("optionscan-module-visible"));
@@ -115,12 +118,29 @@
 
   tabs.forEach((tab) => tab.addEventListener("click", () => activate(tab.dataset.hubModule)));
 
-  let savedModule = "listening";
-  try {
-    savedModule = JSON.parse(localStorage.getItem(STORAGE_KEY))?.module || "listening";
-  } catch {
-    savedModule = "listening";
+  const coachWritingQuickBtn = document.getElementById("coachWritingQuickBtn");
+  if (coachWritingQuickBtn) {
+    coachWritingQuickBtn.addEventListener("click", () => activate("writing"));
   }
-  activate(savedModule);
+
+  function getTargetModule() {
+    const hash = window.location.hash.replace(/^#/, "").toLowerCase().trim();
+    if (hash && moduleCopy[hash]) return hash;
+    try {
+      const saved = JSON.parse(localStorage.getItem(STORAGE_KEY))?.module;
+      if (saved && moduleCopy[saved]) return saved;
+    } catch {}
+    return "listening";
+  }
+
+  window.addEventListener("hashchange", () => {
+    const hash = window.location.hash.replace(/^#/, "").toLowerCase().trim();
+    if (hash && moduleCopy[hash]) {
+      activate(hash, false);
+    }
+  });
+
+  const initialModule = getTargetModule();
+  activate(initialModule);
   setTimeout(updateDailyCoach, 200);
 })();
