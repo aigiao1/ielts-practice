@@ -1,0 +1,33509 @@
+// 王陆真题横向测试长词块标准包 (wanglu-advanced-chunks-v1)
+// 包含王陆雅思听力语料库第 11 章（11.1–11.4）全量 1418 条综合强化与长词块
+(() => {
+  "use strict";
+
+  const WANGLU_ADVANCED_CHUNKS_PACK_V1 = {
+  "packId": "wanglu-advanced-chunks-v1",
+  "version": "1.0.0",
+  "domain": "listening",
+  "contentType": "chunk",
+  "canonical": false,
+  "expectedCount": 1418,
+  "metadata": {
+    "sourceType": "wanglu",
+    "sourceRef": "王陆雅思听力语料库 · 第11章横向真题测试 (11.1–11.4)",
+    "origin": "bundled",
+    "reviewStatus": "imported",
+    "status": "active",
+    "tags": [
+      "advanced_chunks",
+      "real_exam",
+      "cross_test",
+      "wanglu_ch11"
+    ]
+  },
+  "items": [
+    {
+      "id": "chunk-11-0001",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0001",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "caravan",
+      "components": [
+        "caravan"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.1",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "transport"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0002",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0002",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "canoe",
+      "components": [
+        "canoe"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.2",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0003",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0003",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "rangers",
+      "components": [
+        "rangers"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.3",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0004",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0004",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "code",
+      "components": [
+        "code"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0005",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0005",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "navigation",
+      "components": [
+        "navigation"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.1",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0006",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0006",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "donation",
+      "components": [
+        "donation"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.2",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0007",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0007",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "measurement",
+      "components": [
+        "measurement"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.3",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0008",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0008",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "maximum",
+      "components": [
+        "maximum"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0009",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0009",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "demonstration",
+      "components": [
+        "demonstration"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.1",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0010",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0010",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "labels",
+      "components": [
+        "labels"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.2",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0011",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0011",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "voluntary",
+      "components": [
+        "voluntary"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.3",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0012",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0012",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "coconut",
+      "components": [
+        "coconut"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0013",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0013",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "candles",
+      "components": [
+        "candles"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.1",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0014",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0014",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "luxury",
+      "components": [
+        "luxury"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.2",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0015",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0015",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "darkroom",
+      "components": [
+        "darkroom"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.3",
+      "trainingRole": [
+        "listening_recognition"
+      ],
+      "productiveSuitability": "recognition_only",
+      "tags": [
+        "accommodation"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0016",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0016",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "mould",
+      "components": [
+        "mould"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition"
+      ],
+      "productiveSuitability": "recognition_only",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0017",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0017",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "canteen",
+      "components": [
+        "canteen"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.1",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0018",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0018",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "lock-up",
+      "components": [
+        "lock-up"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.2",
+      "trainingRole": [
+        "listening_recognition"
+      ],
+      "productiveSuitability": "recognition_only",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0019",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0019",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "reflective",
+      "components": [
+        "reflective"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.3",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0020",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0020",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "machinery",
+      "components": [
+        "machinery"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0021",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0021",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "intermediate",
+      "components": [
+        "intermediate"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.1",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0022",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0022",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "warehouse",
+      "components": [
+        "warehouse"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.2",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "accommodation"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0023",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0023",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "portfolio",
+      "components": [
+        "portfolio"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.3",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0024",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0024",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "elastic",
+      "components": [
+        "elastic"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0025",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0025",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "vegetarian",
+      "components": [
+        "vegetarian"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.1",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0026",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0026",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "ferries",
+      "components": [
+        "ferries"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.2",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0027",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0027",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "fireplaces",
+      "components": [
+        "fireplaces"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.3",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0028",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0028",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "vertical",
+      "components": [
+        "vertical"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0029",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0029",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "campsite",
+      "components": [
+        "campsite"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.1",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "accommodation"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0030",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0030",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "comfortable",
+      "components": [
+        "comfortable"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.2",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0031",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0031",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "priority",
+      "components": [
+        "priority"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.3",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0032",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0032",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "accountable",
+      "components": [
+        "accountable"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0033",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0033",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "helicopter",
+      "components": [
+        "helicopter"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.1",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0034",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0034",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "preservation",
+      "components": [
+        "preservation"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.2",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0035",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0035",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "verbalisation",
+      "components": [
+        "verbalisation"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.3",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0036",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0036",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "decisions",
+      "components": [
+        "decisions"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0037",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0037",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "donations",
+      "components": [
+        "donations"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.1",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0038",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0038",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "authority",
+      "components": [
+        "authority"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.2",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0039",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0039",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "nest",
+      "components": [
+        "nest"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.3",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0040",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0040",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "seasonal",
+      "components": [
+        "seasonal"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0041",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0041",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "moonlight",
+      "components": [
+        "moonlight"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.1",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0042",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0042",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "flamingo",
+      "components": [
+        "flamingo"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.2",
+      "trainingRole": [
+        "listening_recognition"
+      ],
+      "productiveSuitability": "recognition_only",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0043",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0043",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "evaporation",
+      "components": [
+        "evaporation"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.3",
+      "trainingRole": [
+        "listening_recognition"
+      ],
+      "productiveSuitability": "recognition_only",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0044",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0044",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "herds",
+      "components": [
+        "herds"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition"
+      ],
+      "productiveSuitability": "recognition_only",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0045",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0045",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "mid-range",
+      "components": [
+        "mid-range"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.1",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0046",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0046",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "trails",
+      "components": [
+        "trails"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.2",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0047",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0047",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "hive",
+      "components": [
+        "hive"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.3",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0048",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0048",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "clay",
+      "components": [
+        "clay"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0049",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0049",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "warehouse",
+      "components": [
+        "warehouse"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.1",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "accommodation"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0050",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0050",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "poster",
+      "components": [
+        "poster"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.2",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0051",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0051",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "conservation",
+      "components": [
+        "conservation"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.3",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0052",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0052",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "eco-cement",
+      "components": [
+        "eco-cement"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0053",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0053",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "double-grill",
+      "components": [
+        "double-grill"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.1",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0054",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0054",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "altitude",
+      "components": [
+        "altitude"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.2",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0055",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0055",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "networkers",
+      "components": [
+        "networkers"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.3",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "work"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0056",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0056",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "nuts",
+      "components": [
+        "nuts"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0057",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0057",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "researcher",
+      "components": [
+        "researcher"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.1",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0058",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0058",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "vegetation",
+      "components": [
+        "vegetation"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.2",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0059",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0059",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "ecosystem",
+      "components": [
+        "ecosystem"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.3",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0060",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0060",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "arrows",
+      "components": [
+        "arrows"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0061",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0061",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "website",
+      "components": [
+        "website"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.1",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0062",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0062",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "calligraphy",
+      "components": [
+        "calligraphy"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.2",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0063",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0063",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "flexibility",
+      "components": [
+        "flexibility"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.3",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0064",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0064",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "spears",
+      "components": [
+        "spears"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0065",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0065",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "charge",
+      "components": [
+        "charge"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.1",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0066",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0066",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "caravan",
+      "components": [
+        "caravan"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.2",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "transport"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0067",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0067",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "forestry",
+      "components": [
+        "forestry"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.3",
+      "trainingRole": [
+        "listening_recognition"
+      ],
+      "productiveSuitability": "recognition_only",
+      "tags": [
+        "environment"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0068",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0068",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "concentrated",
+      "components": [
+        "concentrated"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0069",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0069",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "access",
+      "components": [
+        "access"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.1",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0070",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0070",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "layout",
+      "components": [
+        "layout"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.2",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0071",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0071",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "literature",
+      "components": [
+        "literature"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.3",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0072",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0072",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "shipping",
+      "components": [
+        "shipping"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0073",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0073",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "bills",
+      "components": [
+        "bills"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.1",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "money"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0074",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0074",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "format",
+      "components": [
+        "format"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.2",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0075",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0075",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "regulator",
+      "components": [
+        "regulator"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.3",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0076",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0076",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "segments",
+      "components": [
+        "segments"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0077",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0077",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "waitress",
+      "components": [
+        "waitress"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.1",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0078",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0078",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "flooding",
+      "components": [
+        "flooding"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.2",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0079",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0079",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "hammer",
+      "components": [
+        "hammer"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.3",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0080",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0080",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "germs",
+      "components": [
+        "germs"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0081",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0081",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "excursion",
+      "components": [
+        "excursion"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.1",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0082",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0082",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "rural",
+      "components": [
+        "rural"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.2",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0083",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0083",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "incubator",
+      "components": [
+        "incubator"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.3",
+      "trainingRole": [
+        "listening_recognition"
+      ],
+      "productiveSuitability": "recognition_only",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0084",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0084",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "corn",
+      "components": [
+        "corn"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0085",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0085",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "duration",
+      "components": [
+        "duration"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.1",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0086",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0086",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "hard-working",
+      "components": [
+        "hard-working"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.2",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "work"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0087",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0087",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "workforce",
+      "components": [
+        "workforce"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.3",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "work"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0088",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0088",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "insects",
+      "components": [
+        "insects"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0089",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0089",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "elevator",
+      "components": [
+        "elevator"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.1",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0090",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0090",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "torch",
+      "components": [
+        "torch"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.2",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0091",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0091",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "attachment",
+      "components": [
+        "attachment"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.3",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0092",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0092",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "coastline",
+      "components": [
+        "coastline"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0093",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0093",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "postage",
+      "components": [
+        "postage"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.1",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0094",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0094",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "sack",
+      "components": [
+        "sack"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.2",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0095",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0095",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "stable",
+      "components": [
+        "stable"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.3",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0096",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0096",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "critical",
+      "components": [
+        "critical"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0097",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0097",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "signature",
+      "components": [
+        "signature"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.1",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "environment"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0098",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0098",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "souvenirs",
+      "components": [
+        "souvenirs"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.2",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0099",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0099",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "journal",
+      "components": [
+        "journal"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.3",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0100",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0100",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "cognition",
+      "components": [
+        "cognition"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0101",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0101",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "liberty",
+      "components": [
+        "liberty"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.1",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0102",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0102",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "funnel",
+      "components": [
+        "funnel"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.2",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0103",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0103",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "confidence",
+      "components": [
+        "confidence"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.3",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0104",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0104",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "emotion",
+      "components": [
+        "emotion"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0105",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0105",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "adventure",
+      "components": [
+        "adventure"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.1",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0106",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0106",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "rendezvous",
+      "components": [
+        "rendezvous"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.2",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0107",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0107",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "craftwork",
+      "components": [
+        "craftwork"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.3",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "work"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0108",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0108",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "intelligence",
+      "components": [
+        "intelligence"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0109",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0109",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "automatic",
+      "components": [
+        "automatic"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.1",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0110",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0110",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "vetting",
+      "components": [
+        "vetting"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.2",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0111",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0111",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "internship",
+      "components": [
+        "internship"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.3",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0112",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0112",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "connected",
+      "components": [
+        "connected"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0113",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0113",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "painkillers",
+      "components": [
+        "painkillers"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.1",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0114",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0114",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "acknowledgement",
+      "components": [
+        "acknowledgement"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.2",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0115",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0115",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "workload",
+      "components": [
+        "workload"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.3",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "work"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0116",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0116",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "self-centred",
+      "components": [
+        "self-centred"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0117",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0117",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "sailing",
+      "components": [
+        "sailing"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.1",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0118",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0118",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "wildlife",
+      "components": [
+        "wildlife"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.2",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0119",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0119",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "appendices",
+      "components": [
+        "appendices"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.3",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0120",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0120",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "passive",
+      "components": [
+        "passive"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0121",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0121",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "keyboard",
+      "components": [
+        "keyboard"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.1",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0122",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0122",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "hostel",
+      "components": [
+        "hostel"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.2",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0123",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0123",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "parliament",
+      "components": [
+        "parliament"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.3",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0124",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0124",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "stimulation",
+      "components": [
+        "stimulation"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0125",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0125",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "transit",
+      "components": [
+        "transit"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.1",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0126",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0126",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "water-ride",
+      "components": [
+        "water-ride"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.2",
+      "trainingRole": [
+        "listening_recognition"
+      ],
+      "productiveSuitability": "recognition_only",
+      "tags": [
+        "environment"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0127",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0127",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "recreational",
+      "components": [
+        "recreational"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.3",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0128",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0128",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "lid",
+      "components": [
+        "lid"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0129",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0129",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "enjoyable",
+      "components": [
+        "enjoyable"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.1",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0130",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0130",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "waterproof",
+      "components": [
+        "waterproof"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.2",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "environment"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0131",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0131",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "windmill",
+      "components": [
+        "windmill"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.3",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0132",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0132",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "gravity",
+      "components": [
+        "gravity"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0133",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0133",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "snowboarding",
+      "components": [
+        "snowboarding"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.1",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0134",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0134",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "rollercoaster",
+      "components": [
+        "rollercoaster"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.2",
+      "trainingRole": [
+        "listening_recognition"
+      ],
+      "productiveSuitability": "recognition_only",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0135",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0135",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "mating",
+      "components": [
+        "mating"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.3",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0136",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0136",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "stems",
+      "components": [
+        "stems"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0137",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0137",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "landscape",
+      "components": [
+        "landscape"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.1",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0138",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0138",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "resort",
+      "components": [
+        "resort"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.2",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0139",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0139",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "fabric",
+      "components": [
+        "fabric"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.3",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0140",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0140",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "obstacles",
+      "components": [
+        "obstacles"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0141",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0141",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "helmet",
+      "components": [
+        "helmet"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.1",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0142",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0142",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "anniversary",
+      "components": [
+        "anniversary"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.2",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0143",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0143",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "cardiovascular",
+      "components": [
+        "cardiovascular"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.3",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "transport"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0144",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0144",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "mechanism",
+      "components": [
+        "mechanism"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0145",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0145",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "mask",
+      "components": [
+        "mask"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.1",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0146",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0146",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "committee",
+      "components": [
+        "committee"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.2",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0147",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0147",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "feasibility",
+      "components": [
+        "feasibility"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.3",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0148",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0148",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "seminar",
+      "components": [
+        "seminar"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0149",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0149",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "moderate",
+      "components": [
+        "moderate"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.1",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0150",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0150",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "off-peak",
+      "components": [
+        "off-peak"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.2",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0151",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0151",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "evaluation",
+      "components": [
+        "evaluation"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.3",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0152",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0152",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "drought",
+      "components": [
+        "drought"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0153",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0153",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "ladder",
+      "components": [
+        "ladder"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.1",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0154",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0154",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "towel",
+      "components": [
+        "towel"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.2",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0155",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0155",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "collaborative",
+      "components": [
+        "collaborative"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.3",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0156",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0156",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "erosion",
+      "components": [
+        "erosion"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0157",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0157",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "concentration",
+      "components": [
+        "concentration"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.1",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0158",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0158",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "all-in",
+      "components": [
+        "all-in"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.2",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0159",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0159",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "simulation",
+      "components": [
+        "simulation"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.3",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0160",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0160",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "digestion",
+      "components": [
+        "digestion"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0161",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0161",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "categories",
+      "components": [
+        "categories"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.1",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0162",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0162",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "hovercraft",
+      "components": [
+        "hovercraft"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.2",
+      "trainingRole": [
+        "listening_recognition"
+      ],
+      "productiveSuitability": "recognition_only",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0163",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0163",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "coverage=lettering",
+      "components": [
+        "coverage",
+        "lettering"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.3",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0164",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0164",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "furniture",
+      "components": [
+        "furniture"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "accommodation"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0165",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0165",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "variable",
+      "components": [
+        "variable"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.1",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0166",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0166",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "roadworthy",
+      "components": [
+        "roadworthy"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.2",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "transport"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0167",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0167",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "precision",
+      "components": [
+        "precision"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.3",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0168",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0168",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "retail",
+      "components": [
+        "retail"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0169",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0169",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "sauna",
+      "components": [
+        "sauna"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.1",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0170",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0170",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "overfill",
+      "components": [
+        "overfill"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.2",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0171",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0171",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "originality",
+      "components": [
+        "originality"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.3",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0172",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0172",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "maturity",
+      "components": [
+        "maturity"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0173",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0173",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "child-minding",
+      "components": [
+        "child-minding"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.1",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0174",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0174",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "archaeology",
+      "components": [
+        "archaeology"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.2",
+      "trainingRole": [
+        "listening_recognition"
+      ],
+      "productiveSuitability": "recognition_only",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0175",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0175",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "objective",
+      "components": [
+        "objective"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.3",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0176",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0176",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "postal",
+      "components": [
+        "postal"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0177",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0177",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "racket",
+      "components": [
+        "racket"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.1",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0178",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0178",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "classification",
+      "components": [
+        "classification"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.2",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0179",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0179",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "nutrition",
+      "components": [
+        "nutrition"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.3",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0180",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0180",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "self-evaluation",
+      "components": [
+        "self-evaluation"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0181",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0181",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "coach",
+      "components": [
+        "coach"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.1",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0182",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0182",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "coursework",
+      "components": [
+        "coursework"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.2",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "education",
+        "work"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0183",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0183",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "pesticide",
+      "components": [
+        "pesticide"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.3",
+      "trainingRole": [
+        "listening_recognition"
+      ],
+      "productiveSuitability": "recognition_only",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0184",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0184",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "random",
+      "components": [
+        "random"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0185",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0185",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "handles",
+      "components": [
+        "handles"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.1",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0186",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0186",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "cranberry",
+      "components": [
+        "cranberry"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.2",
+      "trainingRole": [
+        "listening_recognition"
+      ],
+      "productiveSuitability": "recognition_only",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0187",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0187",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "fuels",
+      "components": [
+        "fuels"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.3",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0188",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0188",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "cost-effective",
+      "components": [
+        "cost-effective"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "money"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0189",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0189",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "nylon",
+      "components": [
+        "nylon"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.1",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0190",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0190",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "hazel",
+      "components": [
+        "hazel"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.2",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0191",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0191",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "weight",
+      "components": [
+        "weight"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.3",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0192",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0192",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "navigate",
+      "components": [
+        "navigate"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0193",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0193",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "package",
+      "components": [
+        "package"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.1",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0194",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0194",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "documentary",
+      "components": [
+        "documentary"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.2",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0195",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0195",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "respondents",
+      "components": [
+        "respondents"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.3",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0196",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0196",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "genetic",
+      "components": [
+        "genetic"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0197",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0197",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "receipt",
+      "components": [
+        "receipt"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.1",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0198",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0198",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "dustbin",
+      "components": [
+        "dustbin"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.2",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0199",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0199",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "relevant",
+      "components": [
+        "relevant"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.3",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0200",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0200",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "density",
+      "components": [
+        "density"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0201",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0201",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "waterfall",
+      "components": [
+        "waterfall"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.1",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "environment"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0202",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0202",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "garbage",
+      "components": [
+        "garbage"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.2",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0203",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0203",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "discipline",
+      "components": [
+        "discipline"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.3",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0204",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0204",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "triangle",
+      "components": [
+        "triangle"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0205",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0205",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "partner",
+      "components": [
+        "partner"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.1",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0206",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0206",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "dirt",
+      "components": [
+        "dirt"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.2",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0207",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0207",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "reliance",
+      "components": [
+        "reliance"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.3",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0208",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0208",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "cliffs",
+      "components": [
+        "cliffs"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0209",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0209",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "voucher",
+      "components": [
+        "voucher"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.1",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0210",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0210",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "fertilisers",
+      "components": [
+        "fertilisers"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.2",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0211",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0211",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "ink",
+      "components": [
+        "ink"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.3",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0212",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0212",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "comprehension",
+      "components": [
+        "comprehension"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0213",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0213",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "gym",
+      "components": [
+        "gym"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.1",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0214",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0214",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "fernery",
+      "components": [
+        "fernery"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.2",
+      "trainingRole": [
+        "listening_recognition"
+      ],
+      "productiveSuitability": "recognition_only",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0215",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0215",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "tourists",
+      "components": [
+        "tourists"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.3",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0216",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0216",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "format",
+      "components": [
+        "format"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0217",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0217",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "laptop",
+      "components": [
+        "laptop"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.1",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0218",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0218",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "corrections",
+      "components": [
+        "corrections"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.2",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0219",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0219",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "farming",
+      "components": [
+        "farming"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.3",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0220",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0220",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "irrigation",
+      "components": [
+        "irrigation"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0221",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0221",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "yoga",
+      "components": [
+        "yoga"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.1",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0222",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0222",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "theoretical",
+      "components": [
+        "theoretical"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.2",
+      "trainingRole": [
+        "listening_recognition"
+      ],
+      "productiveSuitability": "recognition_only",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0223",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0223",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "sample",
+      "components": [
+        "sample"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.3",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0224",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0224",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "contaminants",
+      "components": [
+        "contaminants"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0225",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0225",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "knife",
+      "components": [
+        "knife"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.1",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0226",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0226",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "region",
+      "components": [
+        "region"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.2",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0227",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0227",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "village",
+      "components": [
+        "village"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.3",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0228",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0228",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "soldiers",
+      "components": [
+        "soldiers"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0229",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0229",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "neck",
+      "components": [
+        "neck"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.1",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0230",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0230",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "assignment",
+      "components": [
+        "assignment"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.2",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "education"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0231",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0231",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "occupants",
+      "components": [
+        "occupants"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.3",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0232",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0232",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "concrete",
+      "components": [
+        "concrete"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0233",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0233",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "mat",
+      "components": [
+        "mat"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.1",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0234",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0234",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "miniature",
+      "components": [
+        "miniature"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.2",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0235",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0235",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "certificate",
+      "components": [
+        "certificate"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.3",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0236",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0236",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "lifespan",
+      "components": [
+        "lifespan"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0237",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0237",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "container",
+      "components": [
+        "container"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.1",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0238",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0238",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "biscuit",
+      "components": [
+        "biscuit"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.2",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0239",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0239",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "referee",
+      "components": [
+        "referee"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.3",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0240",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0240",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "therapy",
+      "components": [
+        "therapy"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0241",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0241",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "buffet",
+      "components": [
+        "buffet"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.1",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0242",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0242",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "meadow",
+      "components": [
+        "meadow"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.2",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0243",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0243",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "limitations",
+      "components": [
+        "limitations"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.3",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0244",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0244",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "temperature",
+      "components": [
+        "temperature"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0245",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0245",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "enlargement",
+      "components": [
+        "enlargement"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.1",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0246",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0246",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "digestive",
+      "components": [
+        "digestive"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.2",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0247",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0247",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "connectives",
+      "components": [
+        "connectives"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.3",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0248",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0248",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "fluids",
+      "components": [
+        "fluids"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0249",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0249",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "studio",
+      "components": [
+        "studio"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.1",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0250",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0250",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "fertilizer=fertiliser",
+      "components": [
+        "fertilizer",
+        "fertiliser"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.2",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0251",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0251",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "journalists",
+      "components": [
+        "journalists"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.3",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0252",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0252",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "kidney",
+      "components": [
+        "kidney"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0253",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0253",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "critic",
+      "components": [
+        "critic"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.1",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0254",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0254",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "rabbit",
+      "components": [
+        "rabbit"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.2",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0255",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0255",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "publication",
+      "components": [
+        "publication"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.3",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0256",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0256",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "sustainable",
+      "components": [
+        "sustainable"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0257",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0257",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "zoom",
+      "components": [
+        "zoom"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.1",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0258",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0258",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "trash",
+      "components": [
+        "trash"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.2",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0259",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0259",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "informality",
+      "components": [
+        "informality"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.3",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0260",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0260",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "portable",
+      "components": [
+        "portable"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0261",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0261",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "lens",
+      "components": [
+        "lens"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.1",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0262",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0262",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "nutrition",
+      "components": [
+        "nutrition"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.2",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0263",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0263",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "informative",
+      "components": [
+        "informative"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.3",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0264",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0264",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "excitement",
+      "components": [
+        "excitement"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0265",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0265",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "infrastructure",
+      "components": [
+        "infrastructure"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.1",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0266",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0266",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "aging",
+      "components": [
+        "aging"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.2",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0267",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0267",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "ideal",
+      "components": [
+        "ideal"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.3",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0268",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0268",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "mammal",
+      "components": [
+        "mammal"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0269",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0269",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "electricity",
+      "components": [
+        "electricity"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.2",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0270",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0270",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "hothouse",
+      "components": [
+        "hothouse"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.3",
+      "trainingRole": [
+        "listening_recognition"
+      ],
+      "productiveSuitability": "recognition_only",
+      "tags": [
+        "accommodation"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0271",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0271",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "ascent",
+      "components": [
+        "ascent"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0272",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0272",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "resort",
+      "components": [
+        "resort"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.1",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0273",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0273",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "habitat",
+      "components": [
+        "habitat"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.2",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0274",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0274",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "summit",
+      "components": [
+        "summit"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.3",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0275",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0275",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "pollutants",
+      "components": [
+        "pollutants"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0276",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0276",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "infection",
+      "components": [
+        "infection"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.1",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0277",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0277",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "procedure",
+      "components": [
+        "procedure"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.2",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0278",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0278",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "package",
+      "components": [
+        "package"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.3",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0279",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0279",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "guidelines",
+      "components": [
+        "guidelines"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0280",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0280",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "fountain",
+      "components": [
+        "fountain"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.1",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0281",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0281",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "budget",
+      "components": [
+        "budget"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.2",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "money"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0282",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0282",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "firewood",
+      "components": [
+        "firewood"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.3",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0283",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0283",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "mapping",
+      "components": [
+        "mapping"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0284",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0284",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "vest",
+      "components": [
+        "vest"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.1",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0285",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0285",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "proposal",
+      "components": [
+        "proposal"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.2",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0286",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0286",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "stormy",
+      "components": [
+        "stormy"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.3",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0287",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0287",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "calculator",
+      "components": [
+        "calculator"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0288",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0288",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "qualification",
+      "components": [
+        "qualification"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.1",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0289",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0289",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "pavement",
+      "components": [
+        "pavement"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.2",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0290",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0290",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "proportion",
+      "components": [
+        "proportion"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.3",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0291",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0291",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "perfumes",
+      "components": [
+        "perfumes"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0292",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0292",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "poverty",
+      "components": [
+        "poverty"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.1",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0293",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0293",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "restriction",
+      "components": [
+        "restriction"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.2",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0294",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0294",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "dimension",
+      "components": [
+        "dimension"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.3",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0295",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0295",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "exploration",
+      "components": [
+        "exploration"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0296",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0296",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "expectation",
+      "components": [
+        "expectation"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.1",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0297",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0297",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "cookery",
+      "components": [
+        "cookery"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.2",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0298",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0298",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "upheaval",
+      "components": [
+        "upheaval"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.3",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0299",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0299",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "toothache",
+      "components": [
+        "toothache"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0300",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0300",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "glue",
+      "components": [
+        "glue"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.1",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0301",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0301",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "calorie",
+      "components": [
+        "calorie"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.2",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0302",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0302",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "adaptable",
+      "components": [
+        "adaptable"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.3",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0303",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0303",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "pirates",
+      "components": [
+        "pirates"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0304",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0304",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "font",
+      "components": [
+        "font"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.1",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0305",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0305",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "noticeable",
+      "components": [
+        "noticeable"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.2",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0306",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0306",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "evolutionary",
+      "components": [
+        "evolutionary"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.3",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0307",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0307",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "powder",
+      "components": [
+        "powder"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0308",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0308",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "reliable",
+      "components": [
+        "reliable"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.1",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0309",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0309",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "visibility",
+      "components": [
+        "visibility"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.2",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0310",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0310",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "cognitive",
+      "components": [
+        "cognitive"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.3",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0311",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0311",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "cosmetics",
+      "components": [
+        "cosmetics"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0312",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0312",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "keyboard",
+      "components": [
+        "keyboard"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.1",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0313",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0313",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "congestion",
+      "components": [
+        "congestion"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.2",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0314",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0314",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "commitment",
+      "components": [
+        "commitment"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.3",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0315",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0315",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "carpets",
+      "components": [
+        "carpets"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "transport"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0316",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0316",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "violin",
+      "components": [
+        "violin"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.1",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0317",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0317",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "fume",
+      "components": [
+        "fume"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.2",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0318",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0318",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "anatomy",
+      "components": [
+        "anatomy"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.3",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0319",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0319",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "tunnel",
+      "components": [
+        "tunnel"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0320",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0320",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "manufacturing",
+      "components": [
+        "manufacturing"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.1",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0321",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0321",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "modify",
+      "components": [
+        "modify"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.2",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0322",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0322",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "counterpart",
+      "components": [
+        "counterpart"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.3",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0323",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0323",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "packaging",
+      "components": [
+        "packaging"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0324",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0324",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "outfit",
+      "components": [
+        "outfit"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.1",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0325",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0325",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "fortune",
+      "components": [
+        "fortune"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.2",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0326",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0326",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "sensitive",
+      "components": [
+        "sensitive"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.3",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0327",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0327",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "worms",
+      "components": [
+        "worms"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0328",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0328",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "shade",
+      "components": [
+        "shade"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.1",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0329",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0329",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "reptile",
+      "components": [
+        "reptile"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.2",
+      "trainingRole": [
+        "listening_recognition"
+      ],
+      "productiveSuitability": "recognition_only",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0330",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0330",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "adaptation",
+      "components": [
+        "adaptation"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.3",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0331",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0331",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "odor",
+      "components": [
+        "odor"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0332",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0332",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "myth",
+      "components": [
+        "myth"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.1",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0333",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0333",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "territory",
+      "components": [
+        "territory"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.2",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0334",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0334",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "implication",
+      "components": [
+        "implication"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.3",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0335",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0335",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "butterflies",
+      "components": [
+        "butterflies"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0336",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0336",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "harvested",
+      "components": [
+        "harvested"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.1",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0337",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0337",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "monogamous",
+      "components": [
+        "monogamous"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.2",
+      "trainingRole": [
+        "listening_recognition"
+      ],
+      "productiveSuitability": "recognition_only",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0338",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0338",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "novice",
+      "components": [
+        "novice"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.3",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0339",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0339",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "bacteria",
+      "components": [
+        "bacteria"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition"
+      ],
+      "productiveSuitability": "recognition_only",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0340",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0340",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "opened",
+      "components": [
+        "opened"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.1",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0341",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0341",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "avoidance",
+      "components": [
+        "avoidance"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.2",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0342",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0342",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "potential",
+      "components": [
+        "potential"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.3",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0343",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0343",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "protein",
+      "components": [
+        "protein"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0344",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0344",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "cleaned",
+      "components": [
+        "cleaned"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.1",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0345",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0345",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "aspiration",
+      "components": [
+        "aspiration"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.2",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0346",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0346",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "annual",
+      "components": [
+        "annual"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.3",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0347",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0347",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "migration",
+      "components": [
+        "migration"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0348",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0348",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "expanded",
+      "components": [
+        "expanded"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.1",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0349",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0349",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "aerobic",
+      "components": [
+        "aerobic"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.2",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0350",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0350",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "dismissive",
+      "components": [
+        "dismissive"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.3",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0351",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0351",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "morality",
+      "components": [
+        "morality"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0352",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0352",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "cooled",
+      "components": [
+        "cooled"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.1",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0353",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0353",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "expedition",
+      "components": [
+        "expedition"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.2",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0354",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0354",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "adaptability",
+      "components": [
+        "adaptability"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.3",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0355",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0355",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "situational",
+      "components": [
+        "situational"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0356",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0356",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "sealed",
+      "components": [
+        "sealed"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.1",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0357",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0357",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "maths=math",
+      "components": [
+        "maths",
+        "math"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.2",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0358",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0358",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "pigeon",
+      "components": [
+        "pigeon"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.3",
+      "trainingRole": [
+        "listening_recognition"
+      ],
+      "productiveSuitability": "recognition_only",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0359",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0359",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "aspirations",
+      "components": [
+        "aspirations"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0360",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0360",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "segment",
+      "components": [
+        "segment"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.1",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0361",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0361",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "phonebook",
+      "components": [
+        "phonebook"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.2",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0362",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0362",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "specimen",
+      "components": [
+        "specimen"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.3",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0363",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0363",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "amber",
+      "components": [
+        "amber"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition"
+      ],
+      "productiveSuitability": "recognition_only",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0364",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0364",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "disability",
+      "components": [
+        "disability"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.1",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0365",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0365",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "nitrogen",
+      "components": [
+        "nitrogen"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.2",
+      "trainingRole": [
+        "listening_recognition"
+      ],
+      "productiveSuitability": "recognition_only",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0366",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0366",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "inclusion",
+      "components": [
+        "inclusion"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.3",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0367",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0367",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "tolerance",
+      "components": [
+        "tolerance"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0368",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0368",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "spine",
+      "components": [
+        "spine"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.1",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0369",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0369",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "moderate",
+      "components": [
+        "moderate"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.2",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0370",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0370",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "hibernation",
+      "components": [
+        "hibernation"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.3",
+      "trainingRole": [
+        "listening_recognition"
+      ],
+      "productiveSuitability": "recognition_only",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0371",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0371",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "contribution",
+      "components": [
+        "contribution"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0372",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0372",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "pest",
+      "components": [
+        "pest"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.1",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0373",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0373",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "rack",
+      "components": [
+        "rack"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.2",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0374",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0374",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "hormone",
+      "components": [
+        "hormone"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.3",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0375",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0375",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "humidity",
+      "components": [
+        "humidity"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition"
+      ],
+      "productiveSuitability": "recognition_only",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0376",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0376",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "intermediate",
+      "components": [
+        "intermediate"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.1",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0377",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0377",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "occupancy",
+      "components": [
+        "occupancy"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.2",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0378",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0378",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "squirrel",
+      "components": [
+        "squirrel"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.3",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0379",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0379",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "barrier",
+      "components": [
+        "barrier"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0380",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0380",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "laundry",
+      "components": [
+        "laundry"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.1",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0381",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0381",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "eggplant",
+      "components": [
+        "eggplant"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.2",
+      "trainingRole": [
+        "listening_recognition"
+      ],
+      "productiveSuitability": "recognition_only",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0382",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0382",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "satisfaction",
+      "components": [
+        "satisfaction"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.3",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0383",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0383",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "tuna",
+      "components": [
+        "tuna"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0384",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0384",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "survey",
+      "components": [
+        "survey"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.1",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0385",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0385",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "shellfish",
+      "components": [
+        "shellfish"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.2",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0386",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0386",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "chronological",
+      "components": [
+        "chronological"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.3",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0387",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0387",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "gill",
+      "components": [
+        "gill"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition"
+      ],
+      "productiveSuitability": "recognition_only",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0388",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0388",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "rape",
+      "components": [
+        "rape"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.1",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0389",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0389",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "bakery",
+      "components": [
+        "bakery"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.2",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0390",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0390",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "distracting",
+      "components": [
+        "distracting"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.3",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0391",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0391",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "cables",
+      "components": [
+        "cables"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0392",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0392",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "pegs",
+      "components": [
+        "pegs"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.1",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0393",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0393",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "advisor=adviser",
+      "components": [
+        "advisor",
+        "adviser"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.2",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0394",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0394",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "semantic",
+      "components": [
+        "semantic"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.3",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0395",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0395",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "oyster",
+      "components": [
+        "oyster"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition"
+      ],
+      "productiveSuitability": "recognition_only",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0396",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0396",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "scaffold",
+      "components": [
+        "scaffold"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.1",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0397",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0397",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "vehicle",
+      "components": [
+        "vehicle"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.2",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0398",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0398",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "strategy",
+      "components": [
+        "strategy"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.3",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0399",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0399",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "guessing",
+      "components": [
+        "guessing"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0400",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0400",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "hazel",
+      "components": [
+        "hazel"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.1",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0401",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0401",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "lorry",
+      "components": [
+        "lorry"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.2",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0402",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0402",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "procedure",
+      "components": [
+        "procedure"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.3",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0403",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0403",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "relaxation",
+      "components": [
+        "relaxation"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0404",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0404",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "portrait",
+      "components": [
+        "portrait"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.1",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0405",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0405",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "inconvenience",
+      "components": [
+        "inconvenience"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.2",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0406",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0406",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "diploma",
+      "components": [
+        "diploma"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.3",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0407",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0407",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "concentration",
+      "components": [
+        "concentration"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0408",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0408",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "symbolism",
+      "components": [
+        "symbolism"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.1",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0409",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0409",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "module",
+      "components": [
+        "module"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.2",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0410",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0410",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "measurements",
+      "components": [
+        "measurements"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.3",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0411",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0411",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "literacy",
+      "components": [
+        "literacy"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0412",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0412",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "mud",
+      "components": [
+        "mud"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.1",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0413",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0413",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "newsagent's",
+      "components": [
+        "newsagent"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.2",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0414",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0414",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "group discussion marks",
+      "components": [
+        "group",
+        "discussion",
+        "marks"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.3",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0415",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0415",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "predators",
+      "components": [
+        "predators"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0416",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0416",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "variable",
+      "components": [
+        "variable"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.1",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0417",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0417",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "harvested",
+      "components": [
+        "harvested"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.2",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0418",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0418",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "middle term test",
+      "components": [
+        "middle",
+        "term",
+        "test"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.3",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0419",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0419",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "molt",
+      "components": [
+        "molt"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0420",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0420",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "certificate",
+      "components": [
+        "certificate"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.1",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0421",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0421",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "opened",
+      "components": [
+        "opened"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.2",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0422",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0422",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "data analysis",
+      "components": [
+        "data",
+        "analysis"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.3",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "high",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0423",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0423",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "diversity",
+      "components": [
+        "diversity"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0424",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0424",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "liquids",
+      "components": [
+        "liquids"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.1",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0425",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0425",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "expanded",
+      "components": [
+        "expanded"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.2",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0426",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0426",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "photo statistics",
+      "components": [
+        "photo",
+        "statistics"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.3",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0427",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0427",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "cement",
+      "components": [
+        "cement"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0428",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0428",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "plastic",
+      "components": [
+        "plastic"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.1",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0429",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0429",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "promotion",
+      "components": [
+        "promotion"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.2",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0430",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0430",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "extra time",
+      "components": [
+        "extra",
+        "time"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.3",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0431",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0431",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "cognitive",
+      "components": [
+        "cognitive"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0432",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0432",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "storage",
+      "components": [
+        "storage"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.1",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0433",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0433",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "waterproof",
+      "components": [
+        "waterproof"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.2",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "environment"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0434",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0434",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "communication system",
+      "components": [
+        "communication",
+        "system"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.3",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0435",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0435",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "peers",
+      "components": [
+        "peers"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0436",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0436",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "Sweden",
+      "components": [
+        "sweden"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.1",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0437",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0437",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "overfill",
+      "components": [
+        "overfill"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.2",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0438",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0438",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "personal interest",
+      "components": [
+        "personal",
+        "interest"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.3",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0439",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0439",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "rational",
+      "components": [
+        "rational"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0440",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0440",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "vest",
+      "components": [
+        "vest"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.1",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0441",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0441",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "solar pump",
+      "components": [
+        "solar",
+        "pump"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.2",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "environment"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0442",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0442",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "secretary of department",
+      "components": [
+        "secretary",
+        "department"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.3",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0443",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0443",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "willing",
+      "components": [
+        "willing"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0444",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0444",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "grocery",
+      "components": [
+        "grocery"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.1",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0445",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0445",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "urban garden",
+      "components": [
+        "urban",
+        "garden"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.2",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0446",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0446",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "computer office",
+      "components": [
+        "computer",
+        "office"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.3",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0447",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0447",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "instinct",
+      "components": [
+        "instinct"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0448",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0448",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "socialise",
+      "components": [
+        "socialise"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.1",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0449",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0449",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "visitor centre",
+      "components": [
+        "visitor",
+        "centre"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.2",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0450",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0450",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "past course materials",
+      "components": [
+        "past",
+        "course",
+        "materials"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.3",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "education"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0451",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0451",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "reward",
+      "components": [
+        "reward"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0452",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0452",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "lemon",
+      "components": [
+        "lemon"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.1",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0453",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0453",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "special feature",
+      "components": [
+        "special",
+        "feature"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.2",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0454",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0454",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "international reputation",
+      "components": [
+        "international",
+        "reputation"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.3",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0455",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0455",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "boiler",
+      "components": [
+        "boiler"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0456",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0456",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "congratulations",
+      "components": [
+        "congratulations"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.1",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0457",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0457",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "unaccompanied children",
+      "components": [
+        "unaccompanied",
+        "children"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.2",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0458",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0458",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "history research",
+      "components": [
+        "history",
+        "research"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.3",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0459",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0459",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "monument",
+      "components": [
+        "monument"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0460",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0460",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "pump",
+      "components": [
+        "pump"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.1",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0461",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0461",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "under-age children",
+      "components": [
+        "under-age",
+        "children"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.2",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0462",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0462",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "conference report",
+      "components": [
+        "conference",
+        "report"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.3",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0463",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0463",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "drawback",
+      "components": [
+        "drawback"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0464",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0464",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "mat",
+      "components": [
+        "mat"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.1",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0465",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0465",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "racing car",
+      "components": [
+        "racing",
+        "car"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.2",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "transport"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0466",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0466",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "ground plan",
+      "components": [
+        "ground",
+        "plan"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.3",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0467",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0467",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "obligation",
+      "components": [
+        "obligation"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0468",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0468",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "mirror",
+      "components": [
+        "mirror"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.1",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0469",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0469",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "comment card",
+      "components": [
+        "comment",
+        "card"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.2",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "transport"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0470",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0470",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "chat rooms",
+      "components": [
+        "chat",
+        "rooms"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.3",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "accommodation"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0471",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0471",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "responsibility",
+      "components": [
+        "responsibility"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0472",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0472",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "map",
+      "components": [
+        "map"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.1",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0473",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0473",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "booking form",
+      "components": [
+        "booking",
+        "form"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.2",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0474",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0474",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "computer skills",
+      "components": [
+        "computer",
+        "skills"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.3",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0475",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0475",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "rags",
+      "components": [
+        "rags"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0476",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0476",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "birdwatching",
+      "components": [
+        "birdwatching"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.1",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0477",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0477",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "cabin keys",
+      "components": [
+        "cabin",
+        "keys"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.2",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0478",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0478",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "teaching staff",
+      "components": [
+        "teaching",
+        "staff"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.3",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "work"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0479",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0479",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "rainbow",
+      "components": [
+        "rainbow"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0480",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0480",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "identification",
+      "components": [
+        "identification"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.1",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0481",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0481",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "room services",
+      "components": [
+        "room",
+        "services"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.2",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "accommodation"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0482",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0482",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "global listening",
+      "components": [
+        "global",
+        "listening"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.3",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0483",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0483",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "desert",
+      "components": [
+        "desert"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0484",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0484",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "moderate",
+      "components": [
+        "moderate"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.1",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0485",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0485",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "after formality",
+      "components": [
+        "after",
+        "formality"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.2",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0486",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0486",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "eye contacts",
+      "components": [
+        "eye",
+        "contacts"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.3",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0487",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0487",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "lizard",
+      "components": [
+        "lizard"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0488",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0488",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "date of birth",
+      "components": [
+        "date",
+        "birth"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.1",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0489",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0489",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "music video",
+      "components": [
+        "music",
+        "video"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.2",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0490",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0490",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "card catalog (catalogue)",
+      "components": [
+        "card",
+        "catalog",
+        "catalogue"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.3",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "transport"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0491",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0491",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "institution",
+      "components": [
+        "institution"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0492",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0492",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "internet cafe",
+      "components": [
+        "internet",
+        "cafe"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.1",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0493",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0493",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "camera man",
+      "components": [
+        "camera",
+        "man"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.2",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0494",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0494",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "lack of soil",
+      "components": [
+        "lack",
+        "soil"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.3",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0495",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0495",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "authority",
+      "components": [
+        "authority"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0496",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0496",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "type of insurance",
+      "components": [
+        "type",
+        "insurance"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.1",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0497",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0497",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "traffic noise",
+      "components": [
+        "traffic",
+        "noise"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.2",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "transport"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0498",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0498",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "food pest",
+      "components": [
+        "food",
+        "pest"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.3",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0499",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0499",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "shrimps",
+      "components": [
+        "shrimps"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0500",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0500",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "fish tank",
+      "components": [
+        "fish",
+        "tank"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.1",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0501",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0501",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "sculpture garden",
+      "components": [
+        "sculpture",
+        "garden"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.2",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0502",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0502",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "environmental damage",
+      "components": [
+        "environmental",
+        "damage"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.3",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "high",
+      "tags": [
+        "environment"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0503",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0503",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "moisture",
+      "components": [
+        "moisture"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0504",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0504",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "snow boarding",
+      "components": [
+        "snow",
+        "boarding"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.1",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0505",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0505",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "oil painting",
+      "components": [
+        "oil",
+        "painting"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.2",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0506",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0506",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "food chain",
+      "components": [
+        "food",
+        "chain"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.3",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0507",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0507",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "ultraviolet",
+      "components": [
+        "ultraviolet"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition"
+      ],
+      "productiveSuitability": "recognition_only",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0508",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0508",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "membership limitation",
+      "components": [
+        "membership",
+        "limitation"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.1",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0509",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0509",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "quarantine service",
+      "components": [
+        "quarantine",
+        "service"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.2",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0510",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0510",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "fill in worksheet",
+      "components": [
+        "fill",
+        "worksheet"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.3",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "work"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0511",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0511",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "bubble",
+      "components": [
+        "bubble"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0512",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0512",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "planning meeting",
+      "components": [
+        "planning",
+        "meeting"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.1",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0513",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0513",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "postal items",
+      "components": [
+        "postal",
+        "items"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.2",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0514",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0514",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "model guide",
+      "components": [
+        "model",
+        "guide"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.3",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0515",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0515",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "passion",
+      "components": [
+        "passion"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0516",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0516",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "drama workshop",
+      "components": [
+        "drama",
+        "workshop"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.1",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "work"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0517",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0517",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "plant seeds",
+      "components": [
+        "plant",
+        "seeds"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.2",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0518",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0518",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "video camera",
+      "components": [
+        "video",
+        "camera"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.3",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0519",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0519",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "responsible",
+      "components": [
+        "responsible"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0520",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0520",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "outdoor activities",
+      "components": [
+        "outdoor",
+        "activities"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.1",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0521",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0521",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "live music",
+      "components": [
+        "live",
+        "music"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.2",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0522",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0522",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "measuring equipment",
+      "components": [
+        "measuring",
+        "equipment"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.3",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0523",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0523",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "landmarks",
+      "components": [
+        "landmarks"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0524",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0524",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "group deposit",
+      "components": [
+        "group",
+        "deposit"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.1",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "money"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0525",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0525",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "meeting point",
+      "components": [
+        "meeting",
+        "point"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.2",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0526",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0526",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "natural ability",
+      "components": [
+        "natural",
+        "ability"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.3",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0527",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0527",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "robots",
+      "components": [
+        "robots"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0528",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0528",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "joining fee (s)",
+      "components": [
+        "joining",
+        "fee"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.1",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "money"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0529",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0529",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "craft fair",
+      "components": [
+        "craft",
+        "fair"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.2",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0530",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0530",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "good effort",
+      "components": [
+        "good",
+        "effort"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.3",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0531",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0531",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "psychology",
+      "components": [
+        "psychology"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0532",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0532",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "dance classes",
+      "components": [
+        "dance",
+        "classes"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.1",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0533",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0533",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "fringe stage",
+      "components": [
+        "fringe",
+        "stage"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.2",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0534",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0534",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "leadership skill",
+      "components": [
+        "leadership",
+        "skill"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.3",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0535",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0535",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "varied",
+      "components": [
+        "varied"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0536",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0536",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "leisure centre",
+      "components": [
+        "leisure",
+        "centre"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.1",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0537",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0537",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "exhibitor entrance",
+      "components": [
+        "exhibitor",
+        "entrance"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.2",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0538",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0538",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "accessible discussion",
+      "components": [
+        "accessible",
+        "discussion"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.3",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0539",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0539",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "planet",
+      "components": [
+        "planet"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0540",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0540",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "round tables",
+      "components": [
+        "round",
+        "tables"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.1",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0541",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0541",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "arm badge",
+      "components": [
+        "arm",
+        "badge"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.2",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0542",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0542",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "braking system",
+      "components": [
+        "braking",
+        "system"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.3",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0543",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0543",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "ethnics",
+      "components": [
+        "ethnics"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0544",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0544",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "bunch of flowers",
+      "components": [
+        "bunch",
+        "flowers"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.1",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0545",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0545",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "academic record",
+      "components": [
+        "academic",
+        "record"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.2",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "high",
+      "tags": [
+        "education"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0546",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0546",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "environmental issues",
+      "components": [
+        "environmental",
+        "issues"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.3",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "environment"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0547",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0547",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "nomad",
+      "components": [
+        "nomad"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0548",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0548",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "total deposit",
+      "components": [
+        "total",
+        "deposit"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.1",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "money"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0549",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0549",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "class representative",
+      "components": [
+        "class",
+        "representative"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.2",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0550",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0550",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "management of change",
+      "components": [
+        "management",
+        "change"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.3",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0551",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0551",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "eggplant",
+      "components": [
+        "eggplant"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition"
+      ],
+      "productiveSuitability": "recognition_only",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0552",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0552",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "delivery fee",
+      "components": [
+        "delivery",
+        "fee"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.1",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "money"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0553",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0553",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "local artists",
+      "components": [
+        "local",
+        "artists"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.2",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0554",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0554",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "financial aids",
+      "components": [
+        "financial",
+        "aids"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.3",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "money"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0555",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0555",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "camel",
+      "components": [
+        "camel"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0556",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0556",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "special items",
+      "components": [
+        "special",
+        "items"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.1",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0557",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0557",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "river taxi",
+      "components": [
+        "river",
+        "taxi"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.2",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0558",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0558",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "working style",
+      "components": [
+        "working",
+        "style"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.3",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "work"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0559",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0559",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "slaves",
+      "components": [
+        "slaves"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0560",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0560",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "high seasons",
+      "components": [
+        "high",
+        "seasons"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.1",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0561",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0561",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "traffic jam",
+      "components": [
+        "traffic",
+        "jam"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.2",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "transport"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0562",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0562",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "late submission",
+      "components": [
+        "late",
+        "submission"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.3",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0563",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0563",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "vegetation",
+      "components": [
+        "vegetation"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0564",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0564",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "country living",
+      "components": [
+        "country",
+        "living"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.1",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "accommodation"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0565",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0565",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "traffic lights",
+      "components": [
+        "traffic",
+        "lights"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.2",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "transport"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0566",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0566",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "lack of research",
+      "components": [
+        "lack",
+        "research"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.3",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0567",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0567",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "lighting",
+      "components": [
+        "lighting"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0568",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0568",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "peaceful environment",
+      "components": [
+        "peaceful",
+        "environment"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.1",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "environment"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0569",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0569",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "calling fee",
+      "components": [
+        "calling",
+        "fee"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.2",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "money"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0570",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0570",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "farming method",
+      "components": [
+        "farming",
+        "method"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.3",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0571",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0571",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "fossil",
+      "components": [
+        "fossil"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition"
+      ],
+      "productiveSuitability": "recognition_only",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0572",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0572",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "eating out",
+      "components": [
+        "eating",
+        "out"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.1",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0573",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0573",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "computer breakdown",
+      "components": [
+        "computer",
+        "breakdown"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.2",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0574",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0574",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "knowledge sharing",
+      "components": [
+        "knowledge",
+        "sharing"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.3",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0575",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0575",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "grocery",
+      "components": [
+        "grocery"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0576",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0576",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "existing skills",
+      "components": [
+        "existing",
+        "skills"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.1",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0577",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0577",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "express trains",
+      "components": [
+        "express",
+        "trains"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.2",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "transport"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0578",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0578",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "uniform level",
+      "components": [
+        "uniform",
+        "level"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.3",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0579",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0579",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "numerous",
+      "components": [
+        "numerous"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0580",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0580",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "house agent",
+      "components": [
+        "house",
+        "agent"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.1",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "accommodation"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0581",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0581",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "high winds",
+      "components": [
+        "high",
+        "winds"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.2",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0582",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0582",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "seating capacity",
+      "components": [
+        "seating",
+        "capacity"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.3",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0583",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0583",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "repellent",
+      "components": [
+        "repellent"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0584",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0584",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "investment schemes",
+      "components": [
+        "investment",
+        "schemes"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.1",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0585",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0585",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "self-cafeteria",
+      "components": [
+        "self-cafeteria"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.2",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0586",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0586",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "picture framing",
+      "components": [
+        "picture",
+        "framing"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.3",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0587",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0587",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "odd",
+      "components": [
+        "odd"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0588",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0588",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "branch manager",
+      "components": [
+        "branch",
+        "manager"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.1",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "work"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0589",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0589",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "local hero (es)",
+      "components": [
+        "local",
+        "hero",
+        "es"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.2",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0590",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0590",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "packing materials",
+      "components": [
+        "packing",
+        "materials"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.3",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0591",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0591",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "factual",
+      "components": [
+        "factual"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0592",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0592",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "house insurance",
+      "components": [
+        "house",
+        "insurance"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.1",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "accommodation"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0593",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0593",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "European painting",
+      "components": [
+        "european",
+        "painting"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.2",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0594",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0594",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "story conference",
+      "components": [
+        "story",
+        "conference"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.3",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0595",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0595",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "purple",
+      "components": [
+        "purple"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0596",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0596",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "side entrance/gate",
+      "components": [
+        "side",
+        "entrance",
+        "gate"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.1",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0597",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0597",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "learning zone",
+      "components": [
+        "learning",
+        "zone"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.2",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0598",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0598",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "stage production",
+      "components": [
+        "stage",
+        "production"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.3",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0599",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0599",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "consolidation",
+      "components": [
+        "consolidation"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0600",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0600",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "client engineer",
+      "components": [
+        "client",
+        "engineer"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.1",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0601",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0601",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "historical photograph",
+      "components": [
+        "historical",
+        "photograph"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.2",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0602",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0602",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "planning meeting",
+      "components": [
+        "planning",
+        "meeting"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.3",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0603",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0603",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "conscious",
+      "components": [
+        "conscious"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0604",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0604",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "post office",
+      "components": [
+        "post",
+        "office"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.1",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0605",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0605",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "cinema zone",
+      "components": [
+        "cinema",
+        "zone"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.2",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0606",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0606",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "videotape editor",
+      "components": [
+        "videotape",
+        "editor"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.3",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0607",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0607",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "auditory",
+      "components": [
+        "auditory"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0608",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0608",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "horse riding",
+      "components": [
+        "horse",
+        "riding"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.1",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0609",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0609",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "coffee shop",
+      "components": [
+        "coffee",
+        "shop"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.2",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "money"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0610",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0610",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "population movement",
+      "components": [
+        "population",
+        "movement"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.3",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0611",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0611",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "symptom",
+      "components": [
+        "symptom"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "health"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0612",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0612",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "office furniture",
+      "components": [
+        "office",
+        "furniture"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.1",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "accommodation"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0613",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0613",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "garden tools",
+      "components": [
+        "garden",
+        "tools"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.2",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0614",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0614",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "interview method",
+      "components": [
+        "interview",
+        "method"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.3",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "work"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0615",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0615",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "medication",
+      "components": [
+        "medication"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0616",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0616",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "hot chocolate",
+      "components": [
+        "hot",
+        "chocolate"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.1",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0617",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0617",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "garden pots",
+      "components": [
+        "garden",
+        "pots"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.2",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0618",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0618",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "exam preparation",
+      "components": [
+        "exam",
+        "preparation"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.3",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "education"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0619",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0619",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "intimate",
+      "components": [
+        "intimate"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0620",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0620",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "advanced lessons",
+      "components": [
+        "advanced",
+        "lessons"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.1",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0621",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0621",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "tap water",
+      "components": [
+        "tap",
+        "water"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.2",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "environment"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0622",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0622",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "weaker students",
+      "components": [
+        "weaker",
+        "students"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.3",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "education"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0623",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0623",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "nightmare",
+      "components": [
+        "nightmare"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0624",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0624",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "warm clothing",
+      "components": [
+        "warm",
+        "clothing"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.1",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0625",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0625",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "professional knowledge",
+      "components": [
+        "professional",
+        "knowledge"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.2",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0626",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0626",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "external organisation",
+      "components": [
+        "external",
+        "organisation"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.3",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0627",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0627",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "teaspoon",
+      "components": [
+        "teaspoon"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0628",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0628",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "free entry",
+      "components": [
+        "free",
+        "entry"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.1",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0629",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0629",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "special buses",
+      "components": [
+        "special",
+        "buses"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.2",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "transport"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0630",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0630",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "word limit",
+      "components": [
+        "word",
+        "limit"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.3",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0631",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0631",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "beetroot",
+      "components": [
+        "beetroot"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition"
+      ],
+      "productiveSuitability": "recognition_only",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0632",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0632",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "toy factory",
+      "components": [
+        "toy",
+        "factory"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.1",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0633",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0633",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "education facilities",
+      "components": [
+        "education",
+        "facilities"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.2",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "education"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0634",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0634",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "internet connections",
+      "components": [
+        "internet",
+        "connections"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.3",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0635",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0635",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "retrieval",
+      "components": [
+        "retrieval"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0636",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0636",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "large slide",
+      "components": [
+        "large",
+        "slide"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.1",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0637",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0637",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "order form",
+      "components": [
+        "order",
+        "form"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.2",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0638",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0638",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "professional learning",
+      "components": [
+        "professional",
+        "learning"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.3",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0639",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0639",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "prompt",
+      "components": [
+        "prompt"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0640",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0640",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "petrol station",
+      "components": [
+        "petrol",
+        "station"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.1",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "transport"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0641",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0641",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "check number",
+      "components": [
+        "check",
+        "number"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.2",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0642",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0642",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "in-class simulation",
+      "components": [
+        "in-class",
+        "simulation"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.3",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0643",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0643",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "impairment",
+      "components": [
+        "impairment"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0644",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0644",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "evening appointment",
+      "components": [
+        "evening",
+        "appointment"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.1",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0645",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0645",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "signed delivery note",
+      "components": [
+        "signed",
+        "delivery",
+        "note"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.2",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0646",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0646",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "video recording",
+      "components": [
+        "video",
+        "recording"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.3",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0647",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0647",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "autism",
+      "components": [
+        "autism"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0648",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0648",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "employment medical certificate",
+      "components": [
+        "employment",
+        "medical",
+        "certificate"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.1",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "health"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0649",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0649",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "unappealing appearance",
+      "components": [
+        "unappealing",
+        "appearance"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.2",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0650",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0650",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "plastic bottle",
+      "components": [
+        "plastic",
+        "bottle"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.3",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0651",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0651",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "autistic",
+      "components": [
+        "autistic"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0652",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0652",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "regular check",
+      "components": [
+        "regular",
+        "check"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.1",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0653",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0653",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "black swans",
+      "components": [
+        "black",
+        "swans"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.2",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0654",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0654",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "residence hall",
+      "components": [
+        "residence",
+        "hall"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.3",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0655",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0655",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "textile",
+      "components": [
+        "textile"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0656",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0656",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "sports injury",
+      "components": [
+        "sports",
+        "injury"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.1",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0657",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0657",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "historical exhibition",
+      "components": [
+        "historical",
+        "exhibition"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.2",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0658",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0658",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "life science",
+      "components": [
+        "life",
+        "science"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.3",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0659",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0659",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "long-lasting",
+      "components": [
+        "long-lasting"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0660",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0660",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "heart disease",
+      "components": [
+        "heart",
+        "disease"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.1",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "health"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0661",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0661",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "hot meal",
+      "components": [
+        "hot",
+        "meal"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.2",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0662",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0662",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "financial planning",
+      "components": [
+        "financial",
+        "planning"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.3",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "money"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0663",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0663",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "poisonous",
+      "components": [
+        "poisonous"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0664",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0664",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "space museum",
+      "components": [
+        "space",
+        "museum"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.1",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0665",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0665",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "head office",
+      "components": [
+        "head",
+        "office"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.2",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0666",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0666",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "medical skills",
+      "components": [
+        "medical",
+        "skills"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.3",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "health"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0667",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0667",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "medal",
+      "components": [
+        "medal"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0668",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0668",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "sun cream",
+      "components": [
+        "sun",
+        "cream"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.1",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0669",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0669",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "music room",
+      "components": [
+        "music",
+        "room"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.2",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "accommodation"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0670",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0670",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "customer relationship",
+      "components": [
+        "customer",
+        "relationship"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.3",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0671",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0671",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "additive",
+      "components": [
+        "additive"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0672",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0672",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "personal attention",
+      "components": [
+        "personal",
+        "attention"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.1",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0673",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0673",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "classroom tour",
+      "components": [
+        "classroom",
+        "tour"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.2",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "accommodation"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0674",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0674",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "department head",
+      "components": [
+        "department",
+        "head"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.3",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0675",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0675",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "ingredient",
+      "components": [
+        "ingredient"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0676",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0676",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "paddling pool",
+      "components": [
+        "paddling",
+        "pool"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.1",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0677",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0677",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "tea and coffee",
+      "components": [
+        "tea",
+        "coffee"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.2",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "money"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0678",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0678",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "interview questions",
+      "components": [
+        "interview",
+        "questions"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.3",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "work"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0679",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0679",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "consumer",
+      "components": [
+        "consumer"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0680",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0680",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "central heating",
+      "components": [
+        "central",
+        "heating"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.1",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0681",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0681",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "chess club",
+      "components": [
+        "chess",
+        "club"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.2",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0682",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0682",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "identity card",
+      "components": [
+        "identity",
+        "card"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.3",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "transport"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0683",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0683",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "colony",
+      "components": [
+        "colony"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0684",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0684",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "bank statement",
+      "components": [
+        "bank",
+        "statement"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.1",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "money"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0685",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0685",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "monthly magazines",
+      "components": [
+        "monthly",
+        "magazines"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.2",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0686",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0686",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "dress code",
+      "components": [
+        "dress",
+        "code"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.3",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0687",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0687",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "cultivation",
+      "components": [
+        "cultivation"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0688",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0688",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "book reservation",
+      "components": [
+        "book",
+        "reservation"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.1",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0689",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0689",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "animal life",
+      "components": [
+        "animal",
+        "life"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.2",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0690",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0690",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "preserve memories",
+      "components": [
+        "preserve",
+        "memories"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.3",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0691",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0691",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "consumption",
+      "components": [
+        "consumption"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0692",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0692",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "daytime temperature",
+      "components": [
+        "daytime",
+        "temperature"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.1",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0693",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0693",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "social event",
+      "components": [
+        "social",
+        "event"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.2",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0694",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0694",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "show off status",
+      "components": [
+        "show",
+        "off",
+        "status"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.3",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0695",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0695",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "accept",
+      "components": [
+        "accept"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0696",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0696",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "cable car",
+      "components": [
+        "cable",
+        "car"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.1",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "transport"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0697",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0697",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "annual report",
+      "components": [
+        "annual",
+        "report"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.2",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0698",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0698",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "reflect tastes",
+      "components": [
+        "reflect",
+        "tastes"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.3",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0699",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0699",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "emotions",
+      "components": [
+        "emotions"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0700",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0700",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "outdoor swimming pool",
+      "components": [
+        "outdoor",
+        "swimming",
+        "pool"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.1",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0701",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0701",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "spare socks",
+      "components": [
+        "spare",
+        "socks"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.2",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0702",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0702",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "personal identity",
+      "components": [
+        "personal",
+        "identity"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.3",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0703",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0703",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "purpose",
+      "components": [
+        "purpose"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0704",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0704",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "baseball coach",
+      "components": [
+        "baseball",
+        "coach"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.1",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0705",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0705",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "total block",
+      "components": [
+        "total",
+        "block"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.2",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0706",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0706",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "local community",
+      "components": [
+        "local",
+        "community"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.3",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0707",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0707",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "corn",
+      "components": [
+        "corn"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0708",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0708",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "coral reef",
+      "components": [
+        "coral",
+        "reef"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.1",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0709",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0709",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "local museum",
+      "components": [
+        "local",
+        "museum"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.2",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0710",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0710",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "storage warehouse",
+      "components": [
+        "storage",
+        "warehouse"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.3",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "accommodation"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0711",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0711",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "rivals",
+      "components": [
+        "rivals"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0712",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0712",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "rock pool",
+      "components": [
+        "rock",
+        "pool"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.1",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0713",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0713",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "secondary project",
+      "components": [
+        "secondary",
+        "project"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.2",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0714",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0714",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "social information",
+      "components": [
+        "social",
+        "information"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.3",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0715",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0715",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "complex",
+      "components": [
+        "complex"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0716",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0716",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "maintenance of gardens",
+      "components": [
+        "maintenance",
+        "gardens"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.1",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0717",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0717",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "late afternoon",
+      "components": [
+        "late",
+        "afternoon"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.2",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0718",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0718",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "creative ideas",
+      "components": [
+        "creative",
+        "ideas"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.3",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0719",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0719",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "segments",
+      "components": [
+        "segments"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0720",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0720",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "town hall",
+      "components": [
+        "town",
+        "hall"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.1",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0721",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0721",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "back entrance",
+      "components": [
+        "back",
+        "entrance"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.2",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0722",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0722",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "living expenses",
+      "components": [
+        "living",
+        "expenses"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.3",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "high",
+      "tags": [
+        "money",
+        "accommodation"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0723",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0723",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "timber",
+      "components": [
+        "timber"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0724",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0724",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "good value",
+      "components": [
+        "good",
+        "value"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.1",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0725",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0725",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "storage space",
+      "components": [
+        "storage",
+        "space"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.2",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0726",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0726",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "survey methods",
+      "components": [
+        "survey",
+        "methods"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.3",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0727",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0727",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "sustainable",
+      "components": [
+        "sustainable"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0728",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0728",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "ice pack",
+      "components": [
+        "ice",
+        "pack"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.1",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0729",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0729",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "emergency button",
+      "components": [
+        "emergency",
+        "button"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.2",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0730",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0730",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "flour outlet",
+      "components": [
+        "flour",
+        "outlet"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.3",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0731",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0731",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "fertiliser",
+      "components": [
+        "fertiliser"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0732",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0732",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "alarm system",
+      "components": [
+        "alarm",
+        "system"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.1",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0733",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0733",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "hot spring",
+      "components": [
+        "hot",
+        "spring"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.2",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0734",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0734",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "permanent records",
+      "components": [
+        "permanent",
+        "records"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.3",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0735",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0735",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "rabbit",
+      "components": [
+        "rabbit"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0736",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0736",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "order section",
+      "components": [
+        "order",
+        "section"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.1",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0737",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0737",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "disabled people",
+      "components": [
+        "disabled",
+        "people"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.2",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0738",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0738",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "optional course",
+      "components": [
+        "optional",
+        "course"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.3",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "education"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0739",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0739",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "microscope",
+      "components": [
+        "microscope"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition"
+      ],
+      "productiveSuitability": "recognition_only",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0740",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0740",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "walking boots",
+      "components": [
+        "walking",
+        "boots"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.1",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0741",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0741",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "specific period",
+      "components": [
+        "specific",
+        "period"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.2",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0742",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0742",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "drinking machines",
+      "components": [
+        "drinking",
+        "machines"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.3",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0743",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0743",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "nutrition",
+      "components": [
+        "nutrition"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0744",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0744",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "advanced level",
+      "components": [
+        "advanced",
+        "level"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.1",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0745",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0745",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "minimum period",
+      "components": [
+        "minimum",
+        "period"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.2",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0746",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0746",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "cash machine",
+      "components": [
+        "cash",
+        "machine"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.3",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "money"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0747",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0747",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "flavour",
+      "components": [
+        "flavour"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0748",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0748",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "book keeper",
+      "components": [
+        "book",
+        "keeper"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.1",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0749",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0749",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "health check",
+      "components": [
+        "health",
+        "check"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.2",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "health"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0750",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0750",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "laundry service",
+      "components": [
+        "laundry",
+        "service"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.3",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0751",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0751",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "drugs",
+      "components": [
+        "drugs"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0752",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0752",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "washing staff",
+      "components": [
+        "washing",
+        "staff"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.1",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "work"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0753",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0753",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "sports equipment",
+      "components": [
+        "sports",
+        "equipment"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.2",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0754",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0754",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "photocopy office",
+      "components": [
+        "photocopy",
+        "office"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.3",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0755",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0755",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "whistle",
+      "components": [
+        "whistle"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0756",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0756",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "home welcome",
+      "components": [
+        "home",
+        "welcome"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.1",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0757",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0757",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "town hall",
+      "components": [
+        "town",
+        "hall"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.2",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0758",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0758",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "self-access lab",
+      "components": [
+        "self-access",
+        "lab"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.3",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0759",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0759",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "instinctive",
+      "components": [
+        "instinctive"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0760",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0760",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "evening meals",
+      "components": [
+        "evening",
+        "meals"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.1",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0761",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0761",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "baby kangaroo",
+      "components": [
+        "baby",
+        "kangaroo"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.2",
+      "trainingRole": [
+        "listening_recognition"
+      ],
+      "productiveSuitability": "recognition_only",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0762",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0762",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "electronic directory",
+      "components": [
+        "electronic",
+        "directory"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.3",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0763",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0763",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "critical",
+      "components": [
+        "critical"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0764",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0764",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "health service",
+      "components": [
+        "health",
+        "service"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.1",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "health"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0765",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0765",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "part-time job",
+      "components": [
+        "part-time",
+        "job"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.2",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "high",
+      "tags": [
+        "work"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0766",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0766",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "text structure",
+      "components": [
+        "text",
+        "structure"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.3",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0767",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0767",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "preserved",
+      "components": [
+        "preserved"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0768",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0768",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "old-fashioned exterior",
+      "components": [
+        "old-fashioned",
+        "exterior"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.1",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0769",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0769",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "business courses",
+      "components": [
+        "business",
+        "courses"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.2",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "education",
+        "transport",
+        "work"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0770",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0770",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "digital history",
+      "components": [
+        "digital",
+        "history"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.3",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0771",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0771",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "poet",
+      "components": [
+        "poet"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0772",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0772",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "limited parking",
+      "components": [
+        "limited",
+        "parking"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.1",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0773",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0773",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "senior staff",
+      "components": [
+        "senior",
+        "staff"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.2",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "work"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0774",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0774",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "media studies",
+      "components": [
+        "media",
+        "studies"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.3",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0775",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0775",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "antibiotic",
+      "components": [
+        "antibiotic"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0776",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0776",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "name cards",
+      "components": [
+        "name",
+        "cards"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.1",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "transport"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0777",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0777",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "English channel",
+      "components": [
+        "english",
+        "channel"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.2",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0778",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0778",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "natural resources",
+      "components": [
+        "natural",
+        "resources"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.3",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0779",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0779",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "varied",
+      "components": [
+        "varied"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0780",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0780",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "service manager",
+      "components": [
+        "service",
+        "manager"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.1",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "work"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0781",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0781",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "tropical zone",
+      "components": [
+        "tropical",
+        "zone"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.2",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0782",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0782",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "environmental projects",
+      "components": [
+        "environmental",
+        "projects"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.3",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "environment"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0783",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0783",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "wildlife",
+      "components": [
+        "wildlife"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0784",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0784",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "private company",
+      "components": [
+        "private",
+        "company"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.1",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "work"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0785",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0785",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "tower view",
+      "components": [
+        "tower",
+        "view"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.2",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0786",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0786",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "global access",
+      "components": [
+        "global",
+        "access"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.3",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0787",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0787",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "landmark",
+      "components": [
+        "landmark"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0788",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0788",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "silver package",
+      "components": [
+        "silver",
+        "package"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.1",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0789",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0789",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "elephant zone",
+      "components": [
+        "elephant",
+        "zone"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.2",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0790",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0790",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "listening task",
+      "components": [
+        "listening",
+        "task"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.3",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0791",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0791",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "moisture",
+      "components": [
+        "moisture"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0792",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0792",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "family photo",
+      "components": [
+        "family",
+        "photo"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.1",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0793",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0793",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "travel centre",
+      "components": [
+        "travel",
+        "centre"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.2",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "transport"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0794",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0794",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "book loan",
+      "components": [
+        "book",
+        "loan"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.3",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "money"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0795",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0795",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "chemicals",
+      "components": [
+        "chemicals"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0796",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0796",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "energy saving",
+      "components": [
+        "energy",
+        "saving"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.1",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "environment"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0797",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0797",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "travel package",
+      "components": [
+        "travel",
+        "package"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.2",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "transport"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0798",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0798",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "compulsory course",
+      "components": [
+        "compulsory",
+        "course"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.3",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "education"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0799",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0799",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "concentrated",
+      "components": [
+        "concentrated"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0800",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0800",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "driving licence/license",
+      "components": [
+        "driving",
+        "licence",
+        "license"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.1",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "transport"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0801",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0801",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "budget trip",
+      "components": [
+        "budget",
+        "trip"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.2",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "money"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0802",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0802",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "full-time study",
+      "components": [
+        "full-time",
+        "study"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.3",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "high",
+      "tags": [
+        "education"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0803",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0803",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "restrained",
+      "components": [
+        "restrained"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "transport"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0804",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0804",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "job title",
+      "components": [
+        "job",
+        "title"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.1",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "work"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0805",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0805",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "long vacation",
+      "components": [
+        "long",
+        "vacation"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.2",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0806",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0806",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "flexible-time study",
+      "components": [
+        "flexible-time",
+        "study"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.3",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "education"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0807",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0807",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "documentation",
+      "components": [
+        "documentation"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0808",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0808",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "type of magazine",
+      "components": [
+        "type",
+        "magazine"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.1",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0809",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0809",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "supportive atmosphere",
+      "components": [
+        "supportive",
+        "atmosphere"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.2",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0810",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0810",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "active volcano",
+      "components": [
+        "active",
+        "volcano"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.3",
+      "trainingRole": [
+        "listening_recognition"
+      ],
+      "productiveSuitability": "recognition_only",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0811",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0811",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "tutorials",
+      "components": [
+        "tutorials"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "education"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0812",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0812",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "starting salary",
+      "components": [
+        "starting",
+        "salary"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.1",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "money"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0813",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0813",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "store room",
+      "components": [
+        "store",
+        "room"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.2",
+      "trainingRole": [
+        "listening_recognition"
+      ],
+      "productiveSuitability": "recognition_only",
+      "tags": [
+        "accommodation"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0814",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0814",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "extinct volcano",
+      "components": [
+        "extinct",
+        "volcano"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.3",
+      "trainingRole": [
+        "listening_recognition"
+      ],
+      "productiveSuitability": "recognition_only",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0815",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0815",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "reflective",
+      "components": [
+        "reflective"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0816",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0816",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "calling diversion",
+      "components": [
+        "calling",
+        "diversion"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.1",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0817",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0817",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "coffee machine",
+      "components": [
+        "coffee",
+        "machine"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.2",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "money"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0818",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0818",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "cleaning products",
+      "components": [
+        "cleaning",
+        "products"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.3",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0819",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0819",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "journalism",
+      "components": [
+        "journalism"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0820",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0820",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "renew passport",
+      "components": [
+        "renew",
+        "passport"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.1",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0821",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0821",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "front desk",
+      "components": [
+        "front",
+        "desk"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.2",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0822",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0822",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "placement test",
+      "components": [
+        "placement",
+        "test"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.3",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0823",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0823",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "depth",
+      "components": [
+        "depth"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0824",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0824",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "current address",
+      "components": [
+        "current",
+        "address"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.1",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0825",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0825",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "seating area",
+      "components": [
+        "seating",
+        "area"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.2",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0826",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0826",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "company premises",
+      "components": [
+        "company",
+        "premises"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.3",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "work"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0827",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0827",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "remember",
+      "components": [
+        "remember"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0828",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0828",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "flower shop",
+      "components": [
+        "flower",
+        "shop"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.1",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0829",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0829",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "local residents",
+      "components": [
+        "local",
+        "residents"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.2",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0830",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0830",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "leisure activities",
+      "components": [
+        "leisure",
+        "activities"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.3",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0831",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0831",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "navigational",
+      "components": [
+        "navigational"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0832",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0832",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "nursery supervisor",
+      "components": [
+        "nursery",
+        "supervisor"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.1",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0833",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0833",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "board games",
+      "components": [
+        "board",
+        "games"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.2",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0834",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0834",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "senior advisor",
+      "components": [
+        "senior",
+        "advisor"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.3",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0835",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0835",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "signature",
+      "components": [
+        "signature"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "environment"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0836",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0836",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "gold stars",
+      "components": [
+        "gold",
+        "stars"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.1",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0837",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0837",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "massage room",
+      "components": [
+        "massage",
+        "room"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.2",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "accommodation"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0838",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0838",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "visual aids",
+      "components": [
+        "visual",
+        "aids"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.3",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0839",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0839",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "evolution",
+      "components": [
+        "evolution"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0840",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0840",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "film festival",
+      "components": [
+        "film",
+        "festival"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.1",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0841",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0841",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "equal length",
+      "components": [
+        "equal",
+        "length"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.2",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0842",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0842",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "fossil remains",
+      "components": [
+        "fossil",
+        "remains"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.3",
+      "trainingRole": [
+        "listening_recognition"
+      ],
+      "productiveSuitability": "recognition_only",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0843",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0843",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "mapping",
+      "components": [
+        "mapping"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0844",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0844",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "special requirement",
+      "components": [
+        "special",
+        "requirement"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.1",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0845",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0845",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "training course",
+      "components": [
+        "training",
+        "course"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.2",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "education",
+        "transport"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0846",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0846",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "human interference",
+      "components": [
+        "human",
+        "interference"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.3",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0847",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0847",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "commerce",
+      "components": [
+        "commerce"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0848",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0848",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "back row",
+      "components": [
+        "back",
+        "row"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.1",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0849",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0849",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "tutorial fee",
+      "components": [
+        "tutorial",
+        "fee"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.2",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "money",
+        "education"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0850",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0850",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "natural routine work",
+      "components": [
+        "natural",
+        "routine",
+        "work"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.3",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "work"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0851",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0851",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "standard",
+      "components": [
+        "standard"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0852",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0852",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "dark trousers",
+      "components": [
+        "dark",
+        "trousers"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.1",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0853",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0853",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "administration officer",
+      "components": [
+        "administration",
+        "officer"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.2",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0854",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0854",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "coffee bar",
+      "components": [
+        "coffee",
+        "bar"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.3",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "money"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0855",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0855",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "Greek",
+      "components": [
+        "greek"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0856",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0856",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "furniture designers",
+      "components": [
+        "furniture",
+        "designers"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.1",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "accommodation"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0857",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0857",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "security officer",
+      "components": [
+        "security",
+        "officer"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.2",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0858",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0858",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "shop display",
+      "components": [
+        "shop",
+        "display"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.3",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0859",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0859",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "dominant",
+      "components": [
+        "dominant"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0860",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0860",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "monthly rent",
+      "components": [
+        "monthly",
+        "rent"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.1",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0861",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0861",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "fire drill",
+      "components": [
+        "fire",
+        "drill"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.2",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0862",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0862",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "personla service",
+      "components": [
+        "personla",
+        "service"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.3",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0863",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0863",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "mixture",
+      "components": [
+        "mixture"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0864",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0864",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "preferred occupation",
+      "components": [
+        "preferred",
+        "occupation"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.1",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0865",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0865",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "card making",
+      "components": [
+        "card",
+        "making"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.2",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "transport"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0866",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0866",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "current study",
+      "components": [
+        "current",
+        "study"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.3",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "education"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0867",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0867",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "cosmetics",
+      "components": [
+        "cosmetics"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0868",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0868",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "previous major",
+      "components": [
+        "previous",
+        "major"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.1",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0869",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0869",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "interior design",
+      "components": [
+        "interior",
+        "design"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.2",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0870",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0870",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "video approach",
+      "components": [
+        "video",
+        "approach"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.3",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0871",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0871",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "hospitality",
+      "components": [
+        "hospitality"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "health"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0872",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0872",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "previous working experience",
+      "components": [
+        "previous",
+        "working",
+        "experience"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.1",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "work"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0873",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0873",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "water colour painting",
+      "components": [
+        "water",
+        "colour",
+        "painting"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.2",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "environment"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0874",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0874",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "job opportunities",
+      "components": [
+        "job",
+        "opportunities"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.3",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "work"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0875",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0875",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "symbols",
+      "components": [
+        "symbols"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0876",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0876",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "decoration balloons",
+      "components": [
+        "decoration",
+        "balloons"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.1",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0877",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0877",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "venue change",
+      "components": [
+        "venue",
+        "change"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.2",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0878",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0878",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "higher fees",
+      "components": [
+        "higher",
+        "fees"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.3",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "money"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0879",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0879",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "flavours",
+      "components": [
+        "flavours"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0880",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0880",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "vegetable burger",
+      "components": [
+        "vegetable",
+        "burger"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.1",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0881",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0881",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "minimum age",
+      "components": [
+        "minimum",
+        "age"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.2",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0882",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0882",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "borrowed language",
+      "components": [
+        "borrowed",
+        "language"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.3",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0883",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0883",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "enlargement",
+      "components": [
+        "enlargement"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0884",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0884",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "safety regulations",
+      "components": [
+        "safety",
+        "regulations"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.1",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0885",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0885",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "regional competition",
+      "components": [
+        "regional",
+        "competition"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.2",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0886",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0886",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "confidence building",
+      "components": [
+        "confidence",
+        "building"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.3",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0887",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0887",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "critics",
+      "components": [
+        "critics"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0888",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0888",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "return tickets",
+      "components": [
+        "return",
+        "tickets"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.1",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "transport"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0889",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0889",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "special price",
+      "components": [
+        "special",
+        "price"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.2",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "money"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0890",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0890",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "numeracy skill",
+      "components": [
+        "numeracy",
+        "skill"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.3",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0891",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0891",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "protected",
+      "components": [
+        "protected"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0892",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0892",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "error message",
+      "components": [
+        "error",
+        "message"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.1",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0893",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0893",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "mixed age",
+      "components": [
+        "mixed",
+        "age"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.2",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0894",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0894",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "networking opportunities",
+      "components": [
+        "networking",
+        "opportunities"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.3",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "work"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0895",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0895",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "infection",
+      "components": [
+        "infection"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0896",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0896",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "customer service officer",
+      "components": [
+        "customer",
+        "service",
+        "officer"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.1",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "high",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0897",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0897",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "government fund",
+      "components": [
+        "government",
+        "fund"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.2",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0898",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0898",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "research method",
+      "components": [
+        "research",
+        "method"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.3",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "high",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0899",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0899",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "stimulate",
+      "components": [
+        "stimulate"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0900",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0900",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "garden room",
+      "components": [
+        "garden",
+        "room"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.1",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "accommodation"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0901",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0901",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "local community",
+      "components": [
+        "local",
+        "community"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.2",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0902",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0902",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "audio recording",
+      "components": [
+        "audio",
+        "recording"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.3",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0903",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0903",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "description",
+      "components": [
+        "description"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0904",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0904",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "sleeping bag",
+      "components": [
+        "sleeping",
+        "bag"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.1",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0905",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0905",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "control room",
+      "components": [
+        "control",
+        "room"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.2",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "accommodation"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0906",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0906",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "lack of participation",
+      "components": [
+        "lack",
+        "participation"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.3",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0907",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0907",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "lonely",
+      "components": [
+        "lonely"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0908",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0908",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "isolated spot",
+      "components": [
+        "isolated",
+        "spot"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.1",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0909",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0909",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "waiting room",
+      "components": [
+        "waiting",
+        "room"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.2",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "accommodation"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0910",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0910",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "community reference",
+      "components": [
+        "community",
+        "reference"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.3",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0911",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0911",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "industrial",
+      "components": [
+        "industrial"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0912",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0912",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "washing machine",
+      "components": [
+        "washing",
+        "machine"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.1",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0913",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0913",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "cup cleaning",
+      "components": [
+        "cup",
+        "cleaning"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.2",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0914",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0914",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "council meeting",
+      "components": [
+        "council",
+        "meeting"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.3",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0915",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0915",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "trumpet",
+      "components": [
+        "trumpet"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0916",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0916",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "car number",
+      "components": [
+        "car",
+        "number"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.1",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "transport"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0917",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0917",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "animal protection",
+      "components": [
+        "animal",
+        "protection"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.2",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0918",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0918",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "renewable energy",
+      "components": [
+        "renewable",
+        "energy"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.3",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "high",
+      "tags": [
+        "environment"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0919",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0919",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "receiver",
+      "components": [
+        "receiver"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0920",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0920",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "group trip",
+      "components": [
+        "group",
+        "trip"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.1",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0921",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0921",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "reset button",
+      "components": [
+        "reset",
+        "button"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.2",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0922",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0922",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "nuclear plants",
+      "components": [
+        "nuclear",
+        "plants"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.3",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0923",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0923",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "magnet",
+      "components": [
+        "magnet"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0924",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0924",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "self drive",
+      "components": [
+        "self",
+        "drive"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.1",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0925",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0925",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "experience skills",
+      "components": [
+        "experience",
+        "skills"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.2",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0926",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0926",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "traditional resource",
+      "components": [
+        "traditional",
+        "resource"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.3",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0927",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0927",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "pottery",
+      "components": [
+        "pottery"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0928",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0928",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "non-smoking room",
+      "components": [
+        "non-smoking",
+        "room"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.1",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "accommodation"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0929",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0929",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "contact number",
+      "components": [
+        "contact",
+        "number"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.2",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0930",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0930",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "small electric equipment",
+      "components": [
+        "small",
+        "electric",
+        "equipment"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.3",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0931",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0931",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "lions",
+      "components": [
+        "lions"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0932",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0932",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "culture centre",
+      "components": [
+        "culture",
+        "centre"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.1",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0933",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0933",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "art museum",
+      "components": [
+        "art",
+        "museum"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.2",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0934",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0934",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "solar panel",
+      "components": [
+        "solar",
+        "panel"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.3",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "environment"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0935",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0935",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "emperor",
+      "components": [
+        "emperor"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0936",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0936",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "dreamtime under stars",
+      "components": [
+        "dreamtime",
+        "under",
+        "stars"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.1",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0937",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0937",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "stunning view",
+      "components": [
+        "stunning",
+        "view"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.2",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0938",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0938",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "sports shoes",
+      "components": [
+        "sports",
+        "shoes"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.3",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0939",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0939",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "feathers",
+      "components": [
+        "feathers"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0940",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0940",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "modern authors",
+      "components": [
+        "modern",
+        "authors"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.1",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0941",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0941",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "street art",
+      "components": [
+        "street",
+        "art"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.2",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0942",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0942",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "poor paying",
+      "components": [
+        "poor",
+        "paying"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.3",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0943",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0943",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "perfumes",
+      "components": [
+        "perfumes"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0944",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0944",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "long stick",
+      "components": [
+        "long",
+        "stick"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.1",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0945",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0945",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "horseback riding",
+      "components": [
+        "horseback",
+        "riding"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.2",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0946",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0946",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "overseas training",
+      "components": [
+        "overseas",
+        "training"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.3",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "transport"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0947",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0947",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "wealth",
+      "components": [
+        "wealth"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0948",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0948",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "free parking",
+      "components": [
+        "free",
+        "parking"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.1",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0949",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0949",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "tent (ed) accommodation",
+      "components": [
+        "tent",
+        "ed",
+        "accommodation"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.2",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "accommodation"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0950",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0950",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "no chemical reaction",
+      "components": [
+        "no",
+        "chemical",
+        "reaction"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.3",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0951",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0951",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "taxes",
+      "components": [
+        "taxes"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0952",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0952",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "weekly return",
+      "components": [
+        "weekly",
+        "return"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.1",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0953",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0953",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "wild animals",
+      "components": [
+        "wild",
+        "animals"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.2",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0954",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0954",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "current material",
+      "components": [
+        "current",
+        "material"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.3",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0955",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0955",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "low impact",
+      "components": [
+        "low",
+        "impact"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0956",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0956",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "extra room",
+      "components": [
+        "extra",
+        "room"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.1",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "accommodation"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0957",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0957",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "stress level (s)",
+      "components": [
+        "stress",
+        "level"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.2",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0958",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0958",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "brief notes",
+      "components": [
+        "brief",
+        "notes"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.3",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0959",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0959",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "alternative energy",
+      "components": [
+        "alternative",
+        "energy"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "environment"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0960",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0960",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "bank transfer",
+      "components": [
+        "bank",
+        "transfer"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.1",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "money"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0961",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0961",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "fancy dress",
+      "components": [
+        "fancy",
+        "dress"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.2",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0962",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0962",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "supportive atmosphere",
+      "components": [
+        "supportive",
+        "atmosphere"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.3",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0963",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0963",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "roads and bridges",
+      "components": [
+        "roads",
+        "bridges"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "transport"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0964",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0964",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "short time",
+      "components": [
+        "short",
+        "time"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.1",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0965",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0965",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "family ticket",
+      "components": [
+        "family",
+        "ticket"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.2",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "transport"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0966",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0966",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "essential training",
+      "components": [
+        "essential",
+        "training"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.3",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "transport"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0967",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0967",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "high absence rate",
+      "components": [
+        "high",
+        "absence",
+        "rate"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0968",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0968",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "required date",
+      "components": [
+        "required",
+        "date"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.1",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0969",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0969",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "concert room",
+      "components": [
+        "concert",
+        "room"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.2",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "accommodation"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0970",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0970",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "university support staff",
+      "components": [
+        "university",
+        "support",
+        "staff"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.3",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "education",
+        "work"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0971",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0971",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "persuasive writing",
+      "components": [
+        "persuasive",
+        "writing"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0972",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0972",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "accommodation type",
+      "components": [
+        "accommodation",
+        "type"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.1",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "accommodation"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0973",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0973",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "weather observing",
+      "components": [
+        "weather",
+        "observing"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.2",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0974",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0974",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "background reading",
+      "components": [
+        "background",
+        "reading"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.3",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0975",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0975",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "academic essays",
+      "components": [
+        "academic",
+        "essays"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "education"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0976",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0976",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "bills and meals",
+      "components": [
+        "bills",
+        "meals"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.1",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "money"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0977",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0977",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "free transportation",
+      "components": [
+        "free",
+        "transportation"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.2",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "transport"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0978",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0978",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "online forum",
+      "components": [
+        "online",
+        "forum"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.3",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0979",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0979",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "ocean conditions",
+      "components": [
+        "ocean",
+        "conditions"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0980",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0980",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "sports centre",
+      "components": [
+        "sports",
+        "centre"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.1",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0981",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0981",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "fitness centre",
+      "components": [
+        "fitness",
+        "centre"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.2",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "health"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0982",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0982",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "soil sample",
+      "components": [
+        "soil",
+        "sample"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.3",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0983",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0983",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "study ability",
+      "components": [
+        "study",
+        "ability"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "education"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0984",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0984",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "road runners",
+      "components": [
+        "road",
+        "runners"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.1",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "transport"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0985",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0985",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "thick trousers",
+      "components": [
+        "thick",
+        "trousers"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.2",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0986",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0986",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "blood pressure",
+      "components": [
+        "blood",
+        "pressure"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.3",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "health"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0987",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0987",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "simple memories",
+      "components": [
+        "simple",
+        "memories"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0988",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0988",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "job requirement",
+      "components": [
+        "job",
+        "requirement"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.1",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "work"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0989",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0989",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "shuttle bus (es)",
+      "components": [
+        "shuttle",
+        "bus",
+        "es"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.2",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "transport"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0990",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0990",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "stress level",
+      "components": [
+        "stress",
+        "level"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.3",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0991",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0991",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "information sector",
+      "components": [
+        "information",
+        "sector"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0992",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0992",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "current occupation",
+      "components": [
+        "current",
+        "occupation"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.1",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0993",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0993",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "virtual volunteer",
+      "components": [
+        "virtual",
+        "volunteer"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.2",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0994",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0994",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "school stadiums",
+      "components": [
+        "school",
+        "stadiums"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.3",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "education"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0995",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0995",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "digital store",
+      "components": [
+        "digital",
+        "store"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition"
+      ],
+      "productiveSuitability": "recognition_only",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0996",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0996",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "length of stay",
+      "components": [
+        "length",
+        "stay"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.1",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0997",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0997",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "feed animals",
+      "components": [
+        "feed",
+        "animals"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.2",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "money"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0998",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0998",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "school gym",
+      "components": [
+        "school",
+        "gym"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.3",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "education"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-0999",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-0999",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "volcanic dust",
+      "components": [
+        "volcanic",
+        "dust"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1000",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1000",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "type of accommodation",
+      "components": [
+        "type",
+        "accommodation"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.1",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "accommodation"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1001",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1001",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "cake factory",
+      "components": [
+        "cake",
+        "factory"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.2",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1002",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1002",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "lessoxygen",
+      "components": [
+        "lessoxygen"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.3",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1003",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1003",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "bar code",
+      "components": [
+        "bar",
+        "code"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1004",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1004",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "spring park",
+      "components": [
+        "spring",
+        "park"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.1",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1005",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1005",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "smoke alarm",
+      "components": [
+        "smoke",
+        "alarm"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.2",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1006",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1006",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "accurate date",
+      "components": [
+        "accurate",
+        "date"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.3",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1007",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1007",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "climate change",
+      "components": [
+        "climate",
+        "change"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "environment"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1008",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1008",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "starting date",
+      "components": [
+        "starting",
+        "date"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.1",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1009",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1009",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "lookout point",
+      "components": [
+        "lookout",
+        "point"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.2",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1010",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1010",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "similar age",
+      "components": [
+        "similar",
+        "age"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.3",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1011",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1011",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "learning difficulty",
+      "components": [
+        "learning",
+        "difficulty"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1012",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1012",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "reference number",
+      "components": [
+        "reference",
+        "number"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.1",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1013",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1013",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "face painting",
+      "components": [
+        "face",
+        "painting"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.2",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1014",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1014",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "sports activities",
+      "components": [
+        "sports",
+        "activities"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.3",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1015",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1015",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "reading difficulty",
+      "components": [
+        "reading",
+        "difficulty"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1016",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1016",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "estimated value",
+      "components": [
+        "estimated",
+        "value"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.1",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1017",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1017",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "member restaurant",
+      "components": [
+        "member",
+        "restaurant"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.2",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1018",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1018",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "art institution",
+      "components": [
+        "art",
+        "institution"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.3",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1019",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1019",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "low nutrition",
+      "components": [
+        "low",
+        "nutrition"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1020",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1020",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "family use",
+      "components": [
+        "family",
+        "use"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.1",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1021",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1021",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "gallery shop",
+      "components": [
+        "gallery",
+        "shop"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.2",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1022",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1022",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "abstract design",
+      "components": [
+        "abstract",
+        "design"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.3",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1023",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1023",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "desert habitat",
+      "components": [
+        "desert",
+        "habitat"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1024",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1024",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "safety check",
+      "components": [
+        "safety",
+        "check"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.1",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1025",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1025",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "food containers",
+      "components": [
+        "food",
+        "containers"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.2",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1026",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1026",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "largest proportion",
+      "components": [
+        "largest",
+        "proportion"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.3",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1027",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1027",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "no change",
+      "components": [
+        "no",
+        "change"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1028",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1028",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "preferred equipment",
+      "components": [
+        "preferred",
+        "equipment"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.1",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1029",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1029",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "good shoes",
+      "components": [
+        "good",
+        "shoes"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.2",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1030",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1030",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "observation checklist",
+      "components": [
+        "observation",
+        "checklist"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.3",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1031",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1031",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "extra resources",
+      "components": [
+        "extra",
+        "resources"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1032",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1032",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "flight service",
+      "components": [
+        "flight",
+        "service"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.1",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "transport"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1033",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1033",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "formal clothes",
+      "components": [
+        "formal",
+        "clothes"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.2",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1034",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1034",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "non=observation method",
+      "components": [
+        "non",
+        "observation",
+        "method"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.3",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1035",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1035",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "private property",
+      "components": [
+        "private",
+        "property"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1036",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1036",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "off-peak time",
+      "components": [
+        "off-peak",
+        "time"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.1",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1037",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1037",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "dance show",
+      "components": [
+        "dance",
+        "show"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.2",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1038",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1038",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "test results",
+      "components": [
+        "test",
+        "results"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.3",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1039",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1039",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "fruit growing",
+      "components": [
+        "fruit",
+        "growing"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1040",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1040",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "maximum price",
+      "components": [
+        "maximum",
+        "price"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.1",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "money"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1041",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1041",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "delivery note",
+      "components": [
+        "delivery",
+        "note"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.2",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1042",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1042",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "original jewellery",
+      "components": [
+        "original",
+        "jewellery"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.3",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1043",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1043",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "specialised software",
+      "components": [
+        "specialised",
+        "software"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1044",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1044",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "helicopter trip",
+      "components": [
+        "helicopter",
+        "trip"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.1",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1045",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1045",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "mountain climbing",
+      "components": [
+        "mountain",
+        "climbing"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.2",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1046",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1046",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "wood curve",
+      "components": [
+        "wood",
+        "curve"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.3",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1047",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1047",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "chewing gum",
+      "components": [
+        "chewing",
+        "gum"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1048",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1048",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "membership number",
+      "components": [
+        "membership",
+        "number"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.1",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1049",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1049",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "coach trip",
+      "components": [
+        "coach",
+        "trip"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.2",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1050",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1050",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "crisis management",
+      "components": [
+        "crisis",
+        "management"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.3",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1051",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1051",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "water pipes",
+      "components": [
+        "water",
+        "pipes"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "environment"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1052",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1052",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "organic food",
+      "components": [
+        "organic",
+        "food"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.1",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "environment"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1053",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1053",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "bush fire",
+      "components": [
+        "bush",
+        "fire"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.2",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "transport"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1054",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1054",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "monitoring progress",
+      "components": [
+        "monitoring",
+        "progress"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.3",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1055",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1055",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "big company",
+      "components": [
+        "big",
+        "company"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "work"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1056",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1056",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "sports equipment",
+      "components": [
+        "sports",
+        "equipment"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.1",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1057",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1057",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "attraction zone",
+      "components": [
+        "attraction",
+        "zone"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.2",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1058",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1058",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "program assessment",
+      "components": [
+        "program",
+        "assessment"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.3",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1059",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1059",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "action plan",
+      "components": [
+        "action",
+        "plan"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "high",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1060",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1060",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "poor quality",
+      "components": [
+        "poor",
+        "quality"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.1",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1061",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1061",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "handle animals",
+      "components": [
+        "handle",
+        "animals"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.2",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1062",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1062",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "team building",
+      "components": [
+        "team",
+        "building"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.3",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1063",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1063",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "window glass",
+      "components": [
+        "window",
+        "glass"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1064",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1064",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "fresh products",
+      "components": [
+        "fresh",
+        "products"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.1",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1065",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1065",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "good washing facilities",
+      "components": [
+        "good",
+        "washing",
+        "facilities"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.2",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1066",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1066",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "budget management",
+      "components": [
+        "budget",
+        "management"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.3",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "high",
+      "tags": [
+        "money"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1067",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1067",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "road building",
+      "components": [
+        "road",
+        "building"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "transport"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1068",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1068",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "organic farming",
+      "components": [
+        "organic",
+        "farming"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.1",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "environment"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1069",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1069",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "trial test",
+      "components": [
+        "trial",
+        "test"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.2",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1070",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1070",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "finding investment",
+      "components": [
+        "finding",
+        "investment"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.3",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1071",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1071",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "knife handle",
+      "components": [
+        "knife",
+        "handle"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1072",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1072",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "cycling route",
+      "components": [
+        "cycling",
+        "route"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.1",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1073",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1073",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "provisional license",
+      "components": [
+        "provisional",
+        "license"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.2",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1074",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1074",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "insufficient revenue",
+      "components": [
+        "insufficient",
+        "revenue"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.3",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1075",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1075",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "olive oil",
+      "components": [
+        "olive",
+        "oil"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1076",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1076",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "language skill",
+      "components": [
+        "language",
+        "skill"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.1",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1077",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1077",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "practical theory",
+      "components": [
+        "practical",
+        "theory"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.2",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1078",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1078",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "food shortage",
+      "components": [
+        "food",
+        "shortage"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.3",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1079",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1079",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "goat skin",
+      "components": [
+        "goat",
+        "skin"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1080",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1080",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "group discount",
+      "components": [
+        "group",
+        "discount"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.1",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1081",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1081",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "pretzel factory",
+      "components": [
+        "pretzel",
+        "factory"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.2",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1082",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1082",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "power cut",
+      "components": [
+        "power",
+        "cut"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.3",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1083",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1083",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "high temperatures",
+      "components": [
+        "high",
+        "temperatures"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1084",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1084",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "night flight",
+      "components": [
+        "night",
+        "flight"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.1",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "transport"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1085",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1085",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "train ride",
+      "components": [
+        "train",
+        "ride"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.2",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "transport"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1086",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1086",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "visual guidance",
+      "components": [
+        "visual",
+        "guidance"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.3",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1087",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1087",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "land bridge",
+      "components": [
+        "land",
+        "bridge"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1088",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1088",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "White Mountain",
+      "components": [
+        "white",
+        "mountain"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.1",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1089",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1089",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "prepare refreshments",
+      "components": [
+        "prepare",
+        "refreshments"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.2",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1090",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1090",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "information resources",
+      "components": [
+        "information",
+        "resources"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.3",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1091",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1091",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "fresh meat",
+      "components": [
+        "fresh",
+        "meat"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1092",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1092",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "dust bag",
+      "components": [
+        "dust",
+        "bag"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.1",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1093",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1093",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "weather forecast",
+      "components": [
+        "weather",
+        "forecast"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.2",
+      "trainingRole": [
+        "listening_recognition"
+      ],
+      "productiveSuitability": "recognition_only",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1094",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1094",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "reference letter",
+      "components": [
+        "reference",
+        "letter"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.3",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1095",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1095",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "food intake",
+      "components": [
+        "food",
+        "intake"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1096",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1096",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "golf court",
+      "components": [
+        "golf",
+        "court"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.1",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1097",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1097",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "hot balloon",
+      "components": [
+        "hot",
+        "balloon"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.2",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1098",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1098",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "flexible study time",
+      "components": [
+        "flexible",
+        "study",
+        "time"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.3",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "education"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1099",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1099",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "eating pattern",
+      "components": [
+        "eating",
+        "pattern"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1100",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1100",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "rock climbing",
+      "components": [
+        "rock",
+        "climbing"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.1",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1101",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1101",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "family-fast-line track ticket",
+      "components": [
+        "family-fast-line",
+        "track",
+        "ticket"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.2",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "transport"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1102",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1102",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "lab facilities",
+      "components": [
+        "lab",
+        "facilities"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.3",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1103",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1103",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "transport museum",
+      "components": [
+        "transport",
+        "museum"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "transport"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1104",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1104",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "friendly faces",
+      "components": [
+        "friendly",
+        "faces"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.1",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1105",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1105",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "fast line ticket",
+      "components": [
+        "fast",
+        "line",
+        "ticket"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.2",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "transport"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1106",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1106",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "medicine science",
+      "components": [
+        "medicine",
+        "science"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.3",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "health"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1107",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1107",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "water tanks",
+      "components": [
+        "water",
+        "tanks"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "environment"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1108",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1108",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "no nuts",
+      "components": [
+        "no",
+        "nuts"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.1",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1109",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1109",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "cowboy show ride",
+      "components": [
+        "cowboy",
+        "show",
+        "ride"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.2",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1110",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1110",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "engine capacity",
+      "components": [
+        "engine",
+        "capacity"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.3",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1111",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1111",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "government election",
+      "components": [
+        "government",
+        "election"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1112",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1112",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "grocery stores",
+      "components": [
+        "grocery",
+        "stores"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.1",
+      "trainingRole": [
+        "listening_recognition"
+      ],
+      "productiveSuitability": "recognition_only",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1113",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1113",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "herbal treatment",
+      "components": [
+        "herbal",
+        "treatment"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.2",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1114",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1114",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "greater utility",
+      "components": [
+        "greater",
+        "utility"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.3",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1115",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1115",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "car tax",
+      "components": [
+        "car",
+        "tax"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "transport"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1116",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1116",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "egg cartons",
+      "components": [
+        "egg",
+        "cartons"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.1",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "transport"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1117",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1117",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "skating rink",
+      "components": [
+        "skating",
+        "rink"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.2",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1118",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1118",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "safe car",
+      "components": [
+        "safe",
+        "car"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.3",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "transport"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1119",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1119",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "food chain",
+      "components": [
+        "food",
+        "chain"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1120",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1120",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "juice bottles",
+      "components": [
+        "juice",
+        "bottles"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.1",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1121",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1121",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "one-to-one coach",
+      "components": [
+        "one-to-one",
+        "coach"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.2",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1122",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1122",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "extra height",
+      "components": [
+        "extra",
+        "height"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.3",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1123",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1123",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "textile factory",
+      "components": [
+        "textile",
+        "factory"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1124",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1124",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "electricity supply",
+      "components": [
+        "electricity",
+        "supply"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.1",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1125",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1125",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "introductory price",
+      "components": [
+        "introductory",
+        "price"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.2",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "money"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1126",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1126",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "field of vision",
+      "components": [
+        "field",
+        "vision"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.3",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1127",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1127",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "tea tree oil",
+      "components": [
+        "tea",
+        "tree",
+        "oil"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1128",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1128",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "protection policy",
+      "components": [
+        "protection",
+        "policy"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.1",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1129",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1129",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "gym room",
+      "components": [
+        "gym",
+        "room"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.2",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "accommodation"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1130",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1130",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "commercial applications",
+      "components": [
+        "commercial",
+        "applications"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.3",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1131",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1131",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "video cameras",
+      "components": [
+        "video",
+        "cameras"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1132",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1132",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "group booking discount",
+      "components": [
+        "group",
+        "booking",
+        "discount"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.1",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1133",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1133",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "heart monitor",
+      "components": [
+        "heart",
+        "monitor"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.2",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1134",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1134",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "economic purpose",
+      "components": [
+        "economic",
+        "purpose"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.3",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "money"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1135",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1135",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "carbon dioxide",
+      "components": [
+        "carbon",
+        "dioxide"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "high",
+      "tags": [
+        "environment",
+        "transport"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1136",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1136",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "sick pay",
+      "components": [
+        "sick",
+        "pay"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.1",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1137",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1137",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "free massage",
+      "components": [
+        "free",
+        "massage"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.2",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1138",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1138",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "high cost",
+      "components": [
+        "high",
+        "cost"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.3",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "money"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1139",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1139",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "global warming",
+      "components": [
+        "global",
+        "warming"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "high",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1140",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1140",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "van driver",
+      "components": [
+        "van",
+        "driver"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.1",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1141",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1141",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "water bottle",
+      "components": [
+        "water",
+        "bottle"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.2",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "environment"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1142",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1142",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "cost of insurance",
+      "components": [
+        "cost",
+        "insurance"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.3",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "money"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1143",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1143",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "online service",
+      "components": [
+        "online",
+        "service"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1144",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1144",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "leather shoes",
+      "components": [
+        "leather",
+        "shoes"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.1",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1145",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1145",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "beach front view",
+      "components": [
+        "beach",
+        "front",
+        "view"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.2",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1146",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1146",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "destination desert",
+      "components": [
+        "destination",
+        "desert"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.3",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1147",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1147",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "social activities",
+      "components": [
+        "social",
+        "activities"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "high",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1148",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1148",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "advertising company",
+      "components": [
+        "advertising",
+        "company"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.1",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "work"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1149",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1149",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "bright fabric",
+      "components": [
+        "bright",
+        "fabric"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.2",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1150",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1150",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "marine desert",
+      "components": [
+        "marine",
+        "desert"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.3",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1151",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1151",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "further training",
+      "components": [
+        "further",
+        "training"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "transport"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1152",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1152",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "teaching venue",
+      "components": [
+        "teaching",
+        "venue"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.1",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1153",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1153",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "well-known singer",
+      "components": [
+        "well-known",
+        "singer"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.2",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1154",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1154",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "social interactions",
+      "components": [
+        "social",
+        "interactions"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.3",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1155",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1155",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "internal flight",
+      "components": [
+        "internal",
+        "flight"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "transport"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1156",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1156",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "total payment",
+      "components": [
+        "total",
+        "payment"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.1",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "money"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1157",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1157",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "bottle collection",
+      "components": [
+        "bottle",
+        "collection"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.2",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1158",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1158",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "unexpected noise",
+      "components": [
+        "unexpected",
+        "noise"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.3",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1159",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1159",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "traffic flow",
+      "components": [
+        "traffic",
+        "flow"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "transport"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1160",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1160",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "vegetarian food",
+      "components": [
+        "vegetarian",
+        "food"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.1",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1161",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1161",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "ink cartridge",
+      "components": [
+        "ink",
+        "cartridge"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.2",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "transport"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1162",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1162",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "unbalanced skill improvements",
+      "components": [
+        "unbalanced",
+        "skill",
+        "improvements"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.3",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1163",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1163",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "short stroke",
+      "components": [
+        "short",
+        "stroke"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1164",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1164",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "different performers",
+      "components": [
+        "different",
+        "performers"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.1",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1165",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1165",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "picnic area",
+      "components": [
+        "picnic",
+        "area"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.2",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1166",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1166",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "gradual way",
+      "components": [
+        "gradual",
+        "way"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.3",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1167",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1167",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "large-scale housing",
+      "components": [
+        "large-scale",
+        "housing"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1168",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1168",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "new opera",
+      "components": [
+        "new",
+        "opera"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.1",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1169",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1169",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "meal ticket",
+      "components": [
+        "meal",
+        "ticket"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.2",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "transport"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1170",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1170",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "job responsibilities",
+      "components": [
+        "job",
+        "responsibilities"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.3",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "work"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1171",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1171",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "group meeting",
+      "components": [
+        "group",
+        "meeting"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1172",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1172",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "fridge model",
+      "components": [
+        "fridge",
+        "model"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.1",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1173",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1173",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "fuel consumption",
+      "components": [
+        "fuel",
+        "consumption"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.2",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1174",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1174",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "local faculty",
+      "components": [
+        "local",
+        "faculty"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.3",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "education"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1175",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1175",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "standard feedback",
+      "components": [
+        "standard",
+        "feedback"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "money"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1176",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1176",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "top mount",
+      "components": [
+        "top",
+        "mount"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.1",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1177",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1177",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "oil filter",
+      "components": [
+        "oil",
+        "filter"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.2",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1178",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1178",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "material background",
+      "components": [
+        "material",
+        "background"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.3",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1179",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1179",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "mission statement",
+      "components": [
+        "mission",
+        "statement"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1180",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1180",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "financial loss",
+      "components": [
+        "financial",
+        "loss"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.1",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "money"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1181",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1181",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "global travel",
+      "components": [
+        "global",
+        "travel"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.2",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "transport"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1182",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1182",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "unanswered questions",
+      "components": [
+        "unanswered",
+        "questions"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.3",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1183",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1183",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "training session",
+      "components": [
+        "training",
+        "session"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "transport"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1184",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1184",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "on the rack",
+      "components": [
+        "rack"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.1",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1185",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1185",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "loss of instruments",
+      "components": [
+        "loss",
+        "instruments"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.2",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1186",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1186",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "standard format",
+      "components": [
+        "standard",
+        "format"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.3",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1187",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1187",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "soil damage",
+      "components": [
+        "soil",
+        "damage"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1188",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1188",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "long strap",
+      "components": [
+        "long",
+        "strap"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.1",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1189",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1189",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "steer the boat",
+      "components": [
+        "steer",
+        "boat"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.2",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1190",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1190",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "practical knowledge",
+      "components": [
+        "practical",
+        "knowledge"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.3",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1191",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1191",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "broken axe",
+      "components": [
+        "broken",
+        "axe"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1192",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1192",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "leather jacket",
+      "components": [
+        "leather",
+        "jacket"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.1",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1193",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1193",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "marine animals",
+      "components": [
+        "marine",
+        "animals"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.2",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1194",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1194",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "business journalism",
+      "components": [
+        "business",
+        "journalism"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.3",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "transport",
+        "work"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1195",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1195",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "fish bones",
+      "components": [
+        "fish",
+        "bones"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1196",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1196",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "total value",
+      "components": [
+        "total",
+        "value"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.1",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1197",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1197",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "marine history",
+      "components": [
+        "marine",
+        "history"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.2",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1198",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1198",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "scientific term",
+      "components": [
+        "scientific",
+        "term"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.3",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1199",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1199",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "triangle-shaped",
+      "components": [
+        "triangle-shaped"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1200",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1200",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "public outskirts",
+      "components": [
+        "public",
+        "outskirts"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.1",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1201",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1201",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "meadow campsite",
+      "components": [
+        "meadow",
+        "campsite"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.2",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "accommodation"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1202",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1202",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "childish language",
+      "components": [
+        "childish",
+        "language"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.3",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1203",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1203",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "absence rate",
+      "components": [
+        "absence",
+        "rate"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1204",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1204",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "customer service",
+      "components": [
+        "customer",
+        "service"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.1",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "high",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1205",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1205",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "caravan park",
+      "components": [
+        "caravan",
+        "park"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.2",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "transport"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1206",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1206",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "seed germination",
+      "components": [
+        "seed",
+        "germination"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.3",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1207",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1207",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "green tax",
+      "components": [
+        "green",
+        "tax"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "environment"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1208",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1208",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "international express",
+      "components": [
+        "international",
+        "express"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.1",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1209",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1209",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "green lounge",
+      "components": [
+        "green",
+        "lounge"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.2",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "environment"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1210",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1210",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "objective matters",
+      "components": [
+        "objective",
+        "matters"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.3",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1211",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1211",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "transport service",
+      "components": [
+        "transport",
+        "service"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "transport"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1212",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1212",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "postal fee",
+      "components": [
+        "postal",
+        "fee"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.1",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "money"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1213",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1213",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "cash point",
+      "components": [
+        "cash",
+        "point"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.2",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "money"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1214",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1214",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "housing project",
+      "components": [
+        "housing",
+        "project"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.3",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1215",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1215",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "sleeping disturbance",
+      "components": [
+        "sleeping",
+        "disturbance"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1216",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1216",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "lost mails",
+      "components": [
+        "lost",
+        "mails"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.1",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1217",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1217",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "unregistered taxi",
+      "components": [
+        "unregistered",
+        "taxi"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.2",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1218",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1218",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "colors and fonts",
+      "components": [
+        "colors",
+        "fonts"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.3",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1219",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1219",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "public square",
+      "components": [
+        "public",
+        "square"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1220",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1220",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "ID code numbers",
+      "components": [
+        "id",
+        "code",
+        "numbers"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.1",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1221",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1221",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "plastic bag",
+      "components": [
+        "plastic",
+        "bag"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.2",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1222",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1222",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "book allowance",
+      "components": [
+        "book",
+        "allowance"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.3",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1223",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1223",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "feeding time",
+      "components": [
+        "feeding",
+        "time"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "money"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1224",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1224",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "student discount",
+      "components": [
+        "student",
+        "discount"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.1",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "education"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1225",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1225",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "compulsory modules",
+      "components": [
+        "compulsory",
+        "modules"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.2",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1226",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1226",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "greater utility",
+      "components": [
+        "greater",
+        "utility"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.3",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1227",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1227",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "vertical cabin",
+      "components": [
+        "vertical",
+        "cabin"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1228",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1228",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "leather shoes",
+      "components": [
+        "leather",
+        "shoes"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.1",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1229",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1229",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "objective matters",
+      "components": [
+        "objective",
+        "matters"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.2",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1230",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1230",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "unexpected noise",
+      "components": [
+        "unexpected",
+        "noise"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.3",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1231",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1231",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "ask for apology",
+      "components": [
+        "ask",
+        "apology"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1232",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1232",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "comfortable shoes",
+      "components": [
+        "comfortable",
+        "shoes"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.1",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1233",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1233",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "final score",
+      "components": [
+        "final",
+        "score"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.2",
+      "trainingRole": [
+        "listening_recognition"
+      ],
+      "productiveSuitability": "recognition_only",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1234",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1234",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "unexpected noise",
+      "components": [
+        "unexpected",
+        "noise"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.3",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1235",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1235",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "voices and faces",
+      "components": [
+        "voices",
+        "faces"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1236",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1236",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "daytime class",
+      "components": [
+        "daytime",
+        "class"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.1",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1237",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1237",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "ancient history",
+      "components": [
+        "ancient",
+        "history"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.2",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1238",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1238",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "heart rate",
+      "components": [
+        "heart",
+        "rate"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1239",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1239",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "value of money",
+      "components": [
+        "value",
+        "money"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.1",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "money"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1240",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1240",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "wooden peg",
+      "components": [
+        "wooden",
+        "peg"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.2",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1241",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1241",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "red blood cell",
+      "components": [
+        "red",
+        "blood",
+        "cell"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition"
+      ],
+      "productiveSuitability": "recognition_only",
+      "tags": [
+        "health"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1242",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1242",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "in transit",
+      "components": [
+        "transit"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.1",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1243",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1243",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "animal bones",
+      "components": [
+        "animal",
+        "bones"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.2",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1244",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1244",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "Indian tribes",
+      "components": [
+        "indian",
+        "tribes"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1245",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1245",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "length of waiting",
+      "components": [
+        "length",
+        "waiting"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.1",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1246",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1246",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "roof scaffold",
+      "components": [
+        "roof",
+        "scaffold"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.2",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1247",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1247",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "grain pattern",
+      "components": [
+        "grain",
+        "pattern"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1248",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1248",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "electronic game centre",
+      "components": [
+        "electronic",
+        "game",
+        "centre"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.1",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1249",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1249",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "changing room",
+      "components": [
+        "changing",
+        "room"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.2",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "accommodation"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1250",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1250",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "prime motivation",
+      "components": [
+        "prime",
+        "motivation"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1251",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1251",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "free recipe",
+      "components": [
+        "free",
+        "recipe"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.1",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1252",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1252",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "hospital comedy",
+      "components": [
+        "hospital",
+        "comedy"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.2",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "health"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1253",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1253",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "streets and roads",
+      "components": [
+        "streets",
+        "roads"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "transport"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1254",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1254",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "Asian cooking class",
+      "components": [
+        "asian",
+        "cooking",
+        "class"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.1",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1255",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1255",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "family life",
+      "components": [
+        "family",
+        "life"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.2",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1256",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1256",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "forest planet",
+      "components": [
+        "forest",
+        "planet"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition"
+      ],
+      "productiveSuitability": "recognition_only",
+      "tags": [
+        "environment"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1257",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1257",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "conference centre",
+      "components": [
+        "conference",
+        "centre"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.1",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1258",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1258",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "science fiction",
+      "components": [
+        "science",
+        "fiction"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.2",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1259",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1259",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "extra resources",
+      "components": [
+        "extra",
+        "resources"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1260",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1260",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "business companies",
+      "components": [
+        "business",
+        "companies"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.1",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "transport",
+        "work"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1261",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1261",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "heavy stuff",
+      "components": [
+        "heavy",
+        "stuff"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.2",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1262",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1262",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "ship building",
+      "components": [
+        "ship",
+        "building"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1263",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1263",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "inconvenient location",
+      "components": [
+        "inconvenient",
+        "location"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.1",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1264",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1264",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "business district",
+      "components": [
+        "business",
+        "district"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.2",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "transport",
+        "work"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1265",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1265",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "natural fibre",
+      "components": [
+        "natural",
+        "fibre"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1266",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1266",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "basic package",
+      "components": [
+        "basic",
+        "package"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.1",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1267",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1267",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "garden tools",
+      "components": [
+        "garden",
+        "tools"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.2",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1268",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1268",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "melting pot",
+      "components": [
+        "melting",
+        "pot"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1269",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1269",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "good performance",
+      "components": [
+        "good",
+        "performance"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.1",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1270",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1270",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "exotic plants",
+      "components": [
+        "exotic",
+        "plants"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.2",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1271",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1271",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "carbon mining",
+      "components": [
+        "carbon",
+        "mining"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "environment",
+        "transport"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1272",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1272",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "public show",
+      "components": [
+        "public",
+        "show"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.1",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1273",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1273",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "building materials",
+      "components": [
+        "building",
+        "materials"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.2",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1274",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1274",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "fishing lesson",
+      "components": [
+        "fishing",
+        "lesson"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1275",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1275",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "vocal class",
+      "components": [
+        "vocal",
+        "class"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.1",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1276",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1276",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "single session",
+      "components": [
+        "single",
+        "session"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.2",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1277",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1277",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "known world",
+      "components": [
+        "known",
+        "world"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1278",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1278",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "course fee",
+      "components": [
+        "course",
+        "fee"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.1",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "high",
+      "tags": [
+        "money",
+        "education"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1279",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1279",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "English proficiency",
+      "components": [
+        "english",
+        "proficiency"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.2",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1280",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1280",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "silver coins",
+      "components": [
+        "silver",
+        "coins"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1281",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1281",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "personal tutor",
+      "components": [
+        "personal",
+        "tutor"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.1",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "education"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1282",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1282",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "police offence",
+      "components": [
+        "police",
+        "offence"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.2",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1283",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1283",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "Roman emperor",
+      "components": [
+        "roman",
+        "emperor"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1284",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1284",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "ozone layer",
+      "components": [
+        "ozone",
+        "layer"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.1",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1285",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1285",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "traffic violation",
+      "components": [
+        "traffic",
+        "violation"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.2",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "transport"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1286",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1286",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "social conformity",
+      "components": [
+        "social",
+        "conformity"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1287",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1287",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "coastal roads",
+      "components": [
+        "coastal",
+        "roads"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.1",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "transport"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1288",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1288",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "practical elements",
+      "components": [
+        "practical",
+        "elements"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.2",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1289",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1289",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "law firm",
+      "components": [
+        "law",
+        "firm"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1290",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1290",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "changing room",
+      "components": [
+        "changing",
+        "room"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.1",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "accommodation"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1291",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1291",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "tuition fees",
+      "components": [
+        "tuition",
+        "fees"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.2",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "high",
+      "tags": [
+        "money"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1292",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1292",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "protective clothing",
+      "components": [
+        "protective",
+        "clothing"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1293",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1293",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "extra transportation cost",
+      "components": [
+        "extra",
+        "transportation",
+        "cost"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.1",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "money",
+        "transport"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1294",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1294",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "compulsory course",
+      "components": [
+        "compulsory",
+        "course"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.2",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "education"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1295",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1295",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "market share",
+      "components": [
+        "market",
+        "share"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1296",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1296",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "personal use",
+      "components": [
+        "personal",
+        "use"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.1",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1297",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1297",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "agriculture fair",
+      "components": [
+        "agriculture",
+        "fair"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.2",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1298",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1298",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "reflective practice",
+      "components": [
+        "reflective",
+        "practice"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1299",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1299",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "baseball coach",
+      "components": [
+        "baseball",
+        "coach"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.1",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1300",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1300",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "annual report",
+      "components": [
+        "annual",
+        "report"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.2",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1301",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1301",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "habitat loss",
+      "components": [
+        "habitat",
+        "loss"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1302",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1302",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "side gate",
+      "components": [
+        "side",
+        "gate"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.1",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1303",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1303",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "electric card",
+      "components": [
+        "electric",
+        "card"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.2",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "transport"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1304",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1304",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "rich experiences",
+      "components": [
+        "rich",
+        "experiences"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1305",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1305",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "central heating",
+      "components": [
+        "central",
+        "heating"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.1",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1306",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1306",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "solar panels",
+      "components": [
+        "solar",
+        "panels"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.2",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "environment"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1307",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1307",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "zero noisy",
+      "components": [
+        "zero",
+        "noisy"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1308",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1308",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "green ride",
+      "components": [
+        "green",
+        "ride"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.1",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "environment"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1309",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1309",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "electric cooker",
+      "components": [
+        "electric",
+        "cooker"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.2",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1310",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1310",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "durable contracture",
+      "components": [
+        "durable",
+        "contracture"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1311",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1311",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "child seat",
+      "components": [
+        "child",
+        "seat"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.1",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1312",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1312",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "gas cooker",
+      "components": [
+        "gas",
+        "cooker"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.2",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1313",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1313",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "land resources",
+      "components": [
+        "land",
+        "resources"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1314",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1314",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "enquiry desk=inquiry desk",
+      "components": [
+        "enquiry",
+        "desk",
+        "inquiry"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.2",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1315",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1315",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "fish farming",
+      "components": [
+        "fish",
+        "farming"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1316",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1316",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "campus clinic",
+      "components": [
+        "campus",
+        "clinic"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.2",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "education"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1317",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1317",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "hospitality industry",
+      "components": [
+        "hospitality",
+        "industry"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "health"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1318",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1318",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "local owners",
+      "components": [
+        "local",
+        "owners"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.2",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1319",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1319",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "time and sequence",
+      "components": [
+        "time",
+        "sequence"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1320",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1320",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "clothes manufacturing",
+      "components": [
+        "clothes",
+        "manufacturing"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.2",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1321",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1321",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "language barrier",
+      "components": [
+        "language",
+        "barrier"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1322",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1322",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "professional model",
+      "components": [
+        "professional",
+        "model"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.2",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1323",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1323",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "wealthy people",
+      "components": [
+        "wealthy",
+        "people"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1324",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1324",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "fashion exhibition",
+      "components": [
+        "fashion",
+        "exhibition"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.2",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1325",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1325",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "food prices",
+      "components": [
+        "food",
+        "prices"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "money"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1326",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1326",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "limited time",
+      "components": [
+        "limited",
+        "time"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.2",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1327",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1327",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "presence rate",
+      "components": [
+        "presence",
+        "rate"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1328",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1328",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "toy train",
+      "components": [
+        "toy",
+        "train"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.2",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "transport"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1329",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1329",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "direct route",
+      "components": [
+        "direct",
+        "route"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1330",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1330",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "gift shop",
+      "components": [
+        "gift",
+        "shop"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.2",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1331",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1331",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "tracking devices",
+      "components": [
+        "tracking",
+        "devices"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1332",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1332",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "free locker",
+      "components": [
+        "free",
+        "locker"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.2",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1333",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1333",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "operation manager",
+      "components": [
+        "operation",
+        "manager"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "work"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1334",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1334",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "personal belongings",
+      "components": [
+        "personal",
+        "belongings"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.2",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1335",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1335",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "fish hooks",
+      "components": [
+        "fish",
+        "hooks"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1336",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1336",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "curriculum vitae",
+      "components": [
+        "curriculum",
+        "vitae"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.2",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1337",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1337",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "rare glass",
+      "components": [
+        "rare",
+        "glass"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1338",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1338",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "volunteer list",
+      "components": [
+        "volunteer",
+        "list"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.2",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1339",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1339",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "cooperation process",
+      "components": [
+        "cooperation",
+        "process"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1340",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1340",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "luggage lockers",
+      "components": [
+        "luggage",
+        "lockers"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.2",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1341",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1341",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "social glue",
+      "components": [
+        "social",
+        "glue"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1342",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1342",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "bike racks",
+      "components": [
+        "bike",
+        "racks"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.2",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1343",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1343",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "carpet case",
+      "components": [
+        "carpet",
+        "case"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "transport"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1344",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1344",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "waiting room",
+      "components": [
+        "waiting",
+        "room"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.2",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "accommodation"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1345",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1345",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "transport system",
+      "components": [
+        "transport",
+        "system"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "transport"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1346",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1346",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "test room",
+      "components": [
+        "test",
+        "room"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.2",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "accommodation"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1347",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1347",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "hand torch",
+      "components": [
+        "hand",
+        "torch"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1348",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1348",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "meadow campsite",
+      "components": [
+        "meadow",
+        "campsite"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.2",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "accommodation"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1349",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1349",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "boring content",
+      "components": [
+        "boring",
+        "content"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1350",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1350",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "green lounge",
+      "components": [
+        "green",
+        "lounge"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.2",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "environment"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1351",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1351",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "traditional lecture",
+      "components": [
+        "traditional",
+        "lecture"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "education"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1352",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1352",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "dinosaur bones",
+      "components": [
+        "dinosaur",
+        "bones"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.2",
+      "trainingRole": [
+        "listening_recognition"
+      ],
+      "productiveSuitability": "recognition_only",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1353",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1353",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "regular basis",
+      "components": [
+        "regular",
+        "basis"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1354",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1354",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "night tour trip",
+      "components": [
+        "night",
+        "tour",
+        "trip"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.2",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1355",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1355",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "extreme sports",
+      "components": [
+        "extreme",
+        "sports"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1356",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1356",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "lifestyle sports",
+      "components": [
+        "lifestyle",
+        "sports"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.2",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1357",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1357",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "better equipment",
+      "components": [
+        "better",
+        "equipment"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.2",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1358",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1358",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "traditional sports",
+      "components": [
+        "traditional",
+        "sports"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.2",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1359",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1359",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "restricted regulations",
+      "components": [
+        "restricted",
+        "regulations"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.2",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1360",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1360",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "regular training",
+      "components": [
+        "regular",
+        "training"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.2",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "transport"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1361",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1361",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "individual competition",
+      "components": [
+        "individual",
+        "competition"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.2",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1362",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1362",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "sense of community",
+      "components": [
+        "sense",
+        "community"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.2",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1363",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1363",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "salt content",
+      "components": [
+        "salt",
+        "content"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.2",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1364",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1364",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "rice cultivation",
+      "components": [
+        "rice",
+        "cultivation"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.2",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1365",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1365",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "skin of frog",
+      "components": [
+        "skin",
+        "frog"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition"
+      ],
+      "productiveSuitability": "recognition_only",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1366",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1366",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "glass bottle",
+      "components": [
+        "glass",
+        "bottle"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1367",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1367",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "open roof",
+      "components": [
+        "open",
+        "roof"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1368",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1368",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "sand base",
+      "components": [
+        "sand",
+        "base"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1369",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1369",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "high protein",
+      "components": [
+        "high",
+        "protein"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1370",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1370",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "fibre diet",
+      "components": [
+        "fibre",
+        "diet"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "health"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1371",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1371",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "constant temperature",
+      "components": [
+        "constant",
+        "temperature"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1372",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1372",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "average size",
+      "components": [
+        "average",
+        "size"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1373",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1373",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "good eyesight",
+      "components": [
+        "good",
+        "eyesight"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1374",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1374",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "major illness",
+      "components": [
+        "major",
+        "illness"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "health"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1375",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1375",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "quality of life",
+      "components": [
+        "quality",
+        "life"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1376",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1376",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "physical changes",
+      "components": [
+        "physical",
+        "changes"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1377",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1377",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "particular disease",
+      "components": [
+        "particular",
+        "disease"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "health"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1378",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1378",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "dark blue veil",
+      "components": [
+        "dark",
+        "blue",
+        "veil"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1379",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1379",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "scientific backup",
+      "components": [
+        "scientific",
+        "backup"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1380",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1380",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "migration patterns",
+      "components": [
+        "migration",
+        "patterns"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1381",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1381",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "preserved remains",
+      "components": [
+        "preserved",
+        "remains"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1382",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1382",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "mineral soil",
+      "components": [
+        "mineral",
+        "soil"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1383",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1383",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "tape measure",
+      "components": [
+        "tape",
+        "measure"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1384",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1384",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "soft sediment",
+      "components": [
+        "soft",
+        "sediment"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition"
+      ],
+      "productiveSuitability": "recognition_only",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1385",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1385",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "plant pot",
+      "components": [
+        "plant",
+        "pot"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1386",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1386",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "estate agent",
+      "components": [
+        "estate",
+        "agent"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1387",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1387",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "botanic garden",
+      "components": [
+        "botanic",
+        "garden"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1388",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1388",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "emergency locator beacon",
+      "components": [
+        "emergency",
+        "locator",
+        "beacon"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition"
+      ],
+      "productiveSuitability": "recognition_only",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1389",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1389",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "digestive problem",
+      "components": [
+        "digestive",
+        "problem"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1390",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1390",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "red blood cells",
+      "components": [
+        "red",
+        "blood",
+        "cells"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition"
+      ],
+      "productiveSuitability": "recognition_only",
+      "tags": [
+        "health"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1391",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1391",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "weight loss",
+      "components": [
+        "weight",
+        "loss"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1392",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1392",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "fishing net",
+      "components": [
+        "fishing",
+        "net"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1393",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1393",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "pigeons and rats",
+      "components": [
+        "pigeons",
+        "rats"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition"
+      ],
+      "productiveSuitability": "recognition_only",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1394",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1394",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "mineral soil",
+      "components": [
+        "mineral",
+        "soil"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1395",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1395",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "still water",
+      "components": [
+        "still",
+        "water"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "environment"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1396",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1396",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "stored temperature",
+      "components": [
+        "stored",
+        "temperature"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition"
+      ],
+      "productiveSuitability": "recognition_only",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1397",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1397",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "frozen food",
+      "components": [
+        "frozen",
+        "food"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1398",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1398",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "migration patterns",
+      "components": [
+        "migration",
+        "patterns"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1399",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1399",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "olive oil",
+      "components": [
+        "olive",
+        "oil"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1400",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1400",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "goat skin",
+      "components": [
+        "goat",
+        "skin"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1401",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1401",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "particular disease",
+      "components": [
+        "particular",
+        "disease"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "health"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1402",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1402",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "mission statement",
+      "components": [
+        "mission",
+        "statement"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1403",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1403",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "administration officer",
+      "components": [
+        "administration",
+        "officer"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1404",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1404",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "machines or robots",
+      "components": [
+        "machines",
+        "robots"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1405",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1405",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "smooth ride",
+      "components": [
+        "smooth",
+        "ride"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1406",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1406",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "rubber tyre",
+      "components": [
+        "rubber",
+        "tyre"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1407",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1407",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "desert locations",
+      "components": [
+        "desert",
+        "locations"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1408",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1408",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "southern Scotland",
+      "components": [
+        "southern",
+        "scotland"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1409",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1409",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "head offices",
+      "components": [
+        "head",
+        "offices"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1410",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1410",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "global market",
+      "components": [
+        "global",
+        "market"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1411",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1411",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "safe environment",
+      "components": [
+        "safe",
+        "environment"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "environment"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1412",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1412",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "feeding time",
+      "components": [
+        "feeding",
+        "time"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "money"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1413",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1413",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "hearing loss",
+      "components": [
+        "hearing",
+        "loss"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1414",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1414",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "silver coins",
+      "components": [
+        "silver",
+        "coins"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1415",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1415",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "maintain the gene diversity",
+      "components": [
+        "maintain",
+        "gene",
+        "diversity"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1416",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1416",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "hinder domestic smells",
+      "components": [
+        "hinder",
+        "domestic",
+        "smells"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1417",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1417",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "transport costs",
+      "components": [
+        "transport",
+        "costs"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "money",
+        "transport"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    },
+    {
+      "id": "chunk-11-1418",
+      "contentKey": "wanglu-advanced-chunks-v1:chunk-11-1418",
+      "domain": "listening",
+      "contentType": "chunk",
+      "text": "ship building",
+      "components": [
+        "ship",
+        "building"
+      ],
+      "sourceType": "wanglu",
+      "sourceRef": "Chapter 11.4",
+      "trainingRole": [
+        "listening_recognition",
+        "productive_output"
+      ],
+      "productiveSuitability": "medium",
+      "tags": [
+        "general"
+      ],
+      "origin": "bundled",
+      "reviewStatus": "imported",
+      "status": "active"
+    }
+  ]
+};
+
+  if (typeof window !== "undefined") {
+    window.WANGLU_ADVANCED_CHUNKS_PACK_V1 = WANGLU_ADVANCED_CHUNKS_PACK_V1;
+    if (window.ContentRegistry) {
+      window.ContentRegistry.registerPack(WANGLU_ADVANCED_CHUNKS_PACK_V1);
+    } else {
+      window._PRELOADED_PACKS = window._PRELOADED_PACKS || [];
+      window._PRELOADED_PACKS.push(WANGLU_ADVANCED_CHUNKS_PACK_V1);
+    }
+  }
+  if (typeof module !== "undefined" && module.exports) {
+    module.exports = WANGLU_ADVANCED_CHUNKS_PACK_V1;
+  }
+})();

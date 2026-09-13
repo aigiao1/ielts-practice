@@ -88,6 +88,26 @@
         "status": "active"
     },
     {
+        "packId": "wanglu-advanced-chunks-v1",
+        "name": "王陆雅思听力语料库 · 第11章横向真题测试 (11.1–11.4)",
+        "path": "content/listening/chunks/wanglu-advanced-chunks-v1.js",
+        "domain": "listening",
+        "contentType": "chunk",
+        "expectedCount": 1418,
+        "canonical": false,
+        "status": "active"
+    },
+    {
+        "packId": "wanglu-chunks-v1",
+        "name": "王陆雅思听力语料库 · 第5章核心词块 (5.1–5.12)",
+        "path": "content/listening/chunks/wanglu-chunks-v1.js",
+        "domain": "listening",
+        "contentType": "chunk",
+        "expectedCount": 1569,
+        "canonical": true,
+        "status": "active"
+    },
+    {
         "packId": "wanglu-core-v1",
         "name": "王陆807雅思听力核心高频词",
         "path": "content/listening/words/wanglu-core-v1.js",

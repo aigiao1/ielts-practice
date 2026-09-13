@@ -8,7 +8,7 @@ const scriptDir = path.dirname(fileURLToPath(import.meta.url));
 const rootDir = path.resolve(scriptDir, "..");
 
 const ALLOWED_DOMAINS = new Set(["listening", "writing", "speaking", "reading"]);
-const ALLOWED_CONTENT_TYPES = new Set(["word", "paraphrase", "trap", "map", "option_scan", "task1", "task2", "note", "procedural_rules"]);
+const ALLOWED_CONTENT_TYPES = new Set(["word", "chunk", "paraphrase", "trap", "map", "option_scan", "task1", "task2", "note", "procedural_rules"]);
 const ALLOWED_SOURCE_TYPES = new Set([
   "wanglu", "cambridge_derived", "official_ielts", "user_note",
   "user_mistake", "human_curated", "template_generated", "procedural"
@@ -16,6 +16,8 @@ const ALLOWED_SOURCE_TYPES = new Set([
 const ALLOWED_ORIGINS = new Set(["bundled", "user_added", "imported"]);
 const ALLOWED_REVIEW_STATUSES = new Set(["imported", "draft", "reviewed", "verified"]);
 const ALLOWED_STATUSES = new Set(["active", "disabled", "deprecated"]);
+const ALLOWED_TRAINING_ROLES = new Set(["listening_recognition", "productive_output"]);
+const ALLOWED_PRODUCTIVE_SUITABILITY = new Set(["high", "medium", "recognition_only"]);
 
 let fatalErrors = 0;
 let warnings = 0;
@@ -193,6 +195,29 @@ for (const pRef of packsManifest) {
             error(`同义替换考点 '${c.id}' 模板缺少槽位定义: {${slotName}}`);
           }
         }
+      }
+    }
+  }
+
+  if (pack.contentType === "chunk") {
+    for (const chunk of items) {
+      if (!chunk.text || typeof chunk.text !== "string" || !chunk.text.trim()) {
+        error(`Pack ${pack.packId} 词块 '${chunk.id}' 缺少有效 'text' 字段`);
+      }
+      if (!Array.isArray(chunk.components) || chunk.components.length === 0) {
+        error(`Pack ${pack.packId} 词块 '${chunk.id}' components 必须是非空数组`);
+      }
+      if (!Array.isArray(chunk.trainingRole) || chunk.trainingRole.length === 0) {
+        error(`Pack ${pack.packId} 词块 '${chunk.id}' trainingRole 必须是非空数组`);
+      } else {
+        for (const role of chunk.trainingRole) {
+          if (!ALLOWED_TRAINING_ROLES.has(role)) {
+            error(`Pack ${pack.packId} 词块 '${chunk.id}' 包含非法的 trainingRole: '${role}'`);
+          }
+        }
+      }
+      if (!ALLOWED_PRODUCTIVE_SUITABILITY.has(chunk.productiveSuitability)) {
+        error(`Pack ${pack.packId} 词块 '${chunk.id}' productiveSuitability 非法: '${chunk.productiveSuitability}'`);
       }
     }
   }

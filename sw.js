@@ -1,5 +1,5 @@
 // 雅思特训 PWA 离线服务工作线程 (Service Worker)
-const CACHE_NAME = "ielts-practice-v8";
+const CACHE_NAME = "ielts-practice-v9";
 
 const STATIC_ASSETS = [
   "./",
@@ -15,6 +15,9 @@ const STATIC_ASSETS = [
   "./content/registry.js",
   "./content/user-materials/cambridge-mistake-schema.js",
   "./content/listening/words/wanglu-core-v1.js",
+  "./content/listening/chunks/wanglu-chunks-v1.js",
+  "./content/listening/chunks/wanglu-advanced-chunks-v1.js",
+  "./content/listening/chunks/word-chunk-indexer.js",
   "./content/listening/paraphrase/paraphrase-concepts-v1.js",
   "./content/listening/option-scan/option-scan-pool-v1.js",
   "./content/listening/traps/trap-scenarios-v1.js",

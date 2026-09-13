@@ -11,6 +11,7 @@
 
   const CONTENT_TYPES = Object.freeze({
     WORD: "word",
+    CHUNK: "chunk",
     PARAPHRASE: "paraphrase",
     TRAP: "trap",
     MAP: "map",
@@ -19,6 +20,24 @@
     TASK2: "task2",
     NOTE: "note",
     PROCEDURAL_RULES: "procedural_rules"
+  });
+
+  const TRAINING_ROLES = Object.freeze({
+    LISTENING_RECOGNITION: "listening_recognition",
+    PRODUCTIVE_OUTPUT: "productive_output"
+  });
+
+  const PRODUCTIVE_SUITABILITY = Object.freeze({
+    HIGH: "high",
+    MEDIUM: "medium",
+    RECOGNITION_ONLY: "recognition_only"
+  });
+
+  const REACTION_TIERS = Object.freeze({
+    FLUENT: "fluent",        // <= 2000ms 快速直觉调用
+    ACCESSIBLE: "accessible",// 2000ms - 4000ms 能调用但不熟
+    SLOW: "slow",            // 4000ms - 8000ms 迟钝
+    WEAK: "weak"             // > 8000ms 或不会/未激活
   });
 
   const SOURCE_TYPES = Object.freeze({
@@ -61,6 +80,9 @@
   const ContentSchemas = {
     DOMAINS,
     CONTENT_TYPES,
+    TRAINING_ROLES,
+    PRODUCTIVE_SUITABILITY,
+    REACTION_TIERS,
     SOURCE_TYPES,
     ORIGINS,
     REVIEW_STATUSES,
