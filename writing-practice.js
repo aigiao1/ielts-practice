@@ -167,50 +167,139 @@
     const qLast = group.questions.at(-1).number;
     ui.batchLabel.textContent = `${group.label}（第 ${qFirst}–${qLast} 题）`;
 
-    ui.groups.innerHTML = `
-      <section class="group-card card-panel">
-        <header class="group-header">
-          <div class="group-header-top">
-            <span class="group-module-tag">${escapeHtml(group.moduleName || "雅思 Task 1 核心表达")}</span>
-            <span class="badge">${group.label}</span>
-          </div>
-          <h3 style="margin:4px 0 0;font-size:16px;color:var(--ink);font-weight:800;">${escapeHtml(group.moduleName || "")} · ${group.label}</h3>
-        </header>
+    // 1. 获取本题组的视觉图表数据与思维链模型
+    const scaffoldConfig = (typeof window !== "undefined" && window.Task1VisualScaffolds)
+      ? window.Task1VisualScaffolds.getVisualScaffoldForGroup(group)
+      : null;
 
-        <div class="questions-list">
-          ${group.questions.map((q) => `
-            <article class="question-row" data-qid="${q.number}">
-              <div class="q-header">
-                <div class="q-title-wrap">
-                  <span class="q-num">#${q.number}</span>
-                  <p class="q-cn">${escapeHtml(q.chinese)}</p>
-                </div>
-                <div class="q-blur-box" data-blur-qid="${q.number}" title="点击显现 / 再次点击遮住">
-                  <span class="blur-status">点击显现</span>
-                  <span class="blur-text">${escapeHtml(q.answer)}</span>
-                </div>
+    // 2. 渲染动态原生 SVG 图表
+    const chartHtml = (typeof window !== "undefined" && window.Task1ChartRenderer && scaffoldConfig)
+      ? window.Task1ChartRenderer.renderChart(scaffoldConfig)
+      : "";
+
+    // 3. 渲染四步思维链卡片
+    const stepsGuide = scaffoldConfig?.stepsGuide || {
+      step1: "1. 识别关系：寻找极值、差距、倍数或变化趋势。",
+      step2: "2. 对应功能：判定是占比、排序、比较还是合计。",
+      step3: "3. 提取骨架：从表达库中提取语法骨架，严防错用介词或代词。",
+      step4: "4. 填入数据：准确写入主体、数字与单位。"
+    };
+
+    const stepsHtml = `
+      <div class="scaffold-step-card card-panel">
+        <div class="step-card-header">
+          <span class="step-card-badge">Task 1 四步思维链</span>
+          <span class="step-card-sub">看图关系 ➔ 对应功能 ➔ 英文骨架 ➔ 填入数据</span>
+        </div>
+        <div class="step-items-list">
+          <div class="step-item"><span class="step-num">①</span> <p>${escapeHtml(stepsGuide.step1)}</p></div>
+          <div class="step-item"><span class="step-num">②</span> <p>${escapeHtml(stepsGuide.step2)}</p></div>
+          <div class="step-item"><span class="step-num">③</span> <p>${escapeHtml(stepsGuide.step3)}</p></div>
+          <div class="step-item"><span class="step-num">④</span> <p>${escapeHtml(stepsGuide.step4)}</p></div>
+        </div>
+      </div>
+    `;
+
+    // 4. 渲染高频替换词库抽屉
+    const synonymGroups = scaffoldConfig?.synonymGroups || [];
+    const synonymsHtml = synonymGroups.length > 0 ? `
+      <div class="synonym-drawer card-panel">
+        <div class="synonym-drawer-header">
+          <span class="synonym-title">📚 高频学术替换词库 (点击直接填入输入框)</span>
+        </div>
+        <div class="synonym-groups-wrap">
+          ${synonymGroups.map((grp) => `
+            <div class="synonym-group-block">
+              <span class="synonym-cat-tag">${escapeHtml(grp.category)}</span>
+              <div class="synonym-chips-row">
+                ${grp.words.map((w) => `
+                  <button type="button" class="synonym-chip" data-word="${escapeHtml(w.en)}" title="${escapeHtml(w.note || '')}">
+                    <span>${escapeHtml(w.en)}</span>
+                    <span class="chip-note">${escapeHtml(w.note || '')}</span>
+                  </button>
+                `).join("")}
               </div>
-              <div class="q-input-wrap">
-                <input type="text"
-                       class="writing-input"
-                       placeholder="输入英文表达，敲 Enter 换下一题..."
-                       data-input-for="${q.number}"
-                       autocomplete="off"
-                       spellcheck="false">
-              </div>
-              <div class="q-feedback-row" style="margin-top:6px;min-height:20px;">
-                <span class="solution-match-tag"></span>
-              </div>
-            </article>
+            </div>
           `).join("")}
         </div>
+      </div>
+    ` : "";
 
-        ${group.note ? `
-          <footer class="group-note">
-            <strong>💡 高分提炼 / 易错分析：</strong>${escapeHtml(group.note)}
-          </footer>
-        ` : ""}
-      </section>
+    // 5. 组合双栏沉浸式工作台
+    ui.groups.innerHTML = `
+      <div class="task1-workbench-layout">
+        <!-- 左侧视读看板：真题图表 + 四步思维链 + 高频替换词抽屉 -->
+        <aside class="task1-workbench-sidebar">
+          ${chartHtml}
+          ${stepsHtml}
+          ${synonymsHtml}
+        </aside>
+
+        <!-- 右侧作答区：句子盲打、模糊核对与即时反馈 -->
+        <main class="task1-workbench-main">
+          <section class="group-card card-panel">
+            <header class="group-header">
+              <div class="group-header-top">
+                <span class="group-module-tag">${escapeHtml(group.moduleName || "雅思 Task 1 核心表达")}</span>
+                <span class="badge">${group.label}</span>
+              </div>
+              <h3 style="margin:4px 0 0;font-size:16px;color:var(--ink);font-weight:800;">${escapeHtml(group.moduleName || "")} · ${group.label}</h3>
+              ${group.context ? `
+                <div class="group-context-pill">
+                  <span class="context-icon">📊</span>
+                  <span class="context-text"><strong>图表考点背景：</strong>${escapeHtml(group.context)}</span>
+                </div>
+              ` : ""}
+            </header>
+
+            <div class="questions-list">
+              ${group.questions.map((q) => {
+                const rel = (scaffoldConfig?.relations || []).find((r) => r.qNumber === q.number);
+                const relTargets = rel ? JSON.stringify(rel.targets || []) : "[]";
+                return `
+                  <article class="question-row" data-qid="${q.number}" data-relation-targets="${escapeHtml(relTargets)}">
+                    <div class="q-header">
+                      <div class="q-title-wrap">
+                        <span class="q-num">#${q.number}</span>
+                        <div class="q-title-box">
+                          <p class="q-cn">${escapeHtml(q.chinese)}</p>
+                          ${rel ? `
+                            <div class="q-relation-pill" title="${escapeHtml(rel.desc || '')}">
+                              <span class="rel-badge">${escapeHtml(rel.badge)}</span>
+                              <span class="rel-trigger">${escapeHtml(rel.trigger)}</span>
+                            </div>
+                          ` : ""}
+                        </div>
+                      </div>
+                      <div class="q-blur-box" data-blur-qid="${q.number}" title="点击显现 / 再次点击遮住">
+                        <span class="blur-status">点击显现</span>
+                        <span class="blur-text">${escapeHtml(q.answer)}</span>
+                      </div>
+                    </div>
+                    <div class="q-input-wrap">
+                      <input type="text"
+                             class="writing-input"
+                             placeholder="输入英文表达，敲 Enter 换下一题..."
+                             data-input-for="${q.number}"
+                             autocomplete="off"
+                             spellcheck="false">
+                    </div>
+                    <div class="q-feedback-row" style="margin-top:6px;min-height:20px;">
+                      <span class="solution-match-tag"></span>
+                    </div>
+                  </article>
+                `;
+              }).join("")}
+            </div>
+
+            ${group.note ? `
+              <footer class="group-note">
+                <strong>💡 高分提炼 / 易错分析：</strong>${escapeHtml(group.note)}
+              </footer>
+            ` : ""}
+          </section>
+        </main>
+      </div>
     `;
 
     // 绑定模糊卡片点击展开/遮住事件
@@ -223,6 +312,77 @@
           statusEl.textContent = isRevealed ? "点击遮住" : "点击显现";
         }
         updateToggleAllButtonText();
+      });
+    });
+
+    // 绑定题目行与图表的双向联动交互 (Hover / Focus 联动扇区高亮)
+    const questionRows = ui.groups.querySelectorAll(".question-row");
+    questionRows.forEach((row) => {
+      let targets = [];
+      try {
+        targets = JSON.parse(row.dataset.relationTargets || "[]");
+      } catch {}
+
+      const triggerHighlight = () => {
+        questionRows.forEach((r) => r.classList.remove("active-row"));
+        row.classList.add("active-row");
+        if (window.Task1ChartRenderer && targets.length) {
+          window.Task1ChartRenderer.highlightElements(targets);
+        }
+      };
+
+      const clearHighlight = () => {
+        if (!row.querySelector(".writing-input:focus") && window.Task1ChartRenderer) {
+          window.Task1ChartRenderer.clearHighlights();
+        }
+      };
+
+      row.addEventListener("mouseenter", triggerHighlight);
+      row.addEventListener("mouseleave", clearHighlight);
+
+      const inputEl = row.querySelector(".writing-input");
+      inputEl?.addEventListener("focus", triggerHighlight);
+      inputEl?.addEventListener("blur", clearHighlight);
+    });
+
+    // 绑定图表切片点击定位到对应题目
+    const pieSvg = document.getElementById("task1PieSvg");
+    if (pieSvg) {
+      pieSvg.querySelectorAll(".pie-slice").forEach((slice) => {
+        slice.addEventListener("click", () => {
+          const sliceLabel = (slice.dataset.itemLabel || "").toLowerCase();
+          const targetRow = Array.from(questionRows).find((row) => {
+            let tgts = [];
+            try { tgts = JSON.parse(row.dataset.relationTargets || "[]"); } catch {}
+            return tgts.some((t) => sliceLabel.includes(t.toLowerCase()) || t.toLowerCase().includes(sliceLabel));
+          });
+          if (targetRow) {
+            targetRow.scrollIntoView({ behavior: "smooth", block: "center" });
+            targetRow.querySelector(".writing-input")?.focus();
+          }
+        });
+      });
+    }
+
+    // 绑定高频替换词药丸点击快速填入
+    ui.groups.querySelectorAll(".synonym-chip").forEach((chip) => {
+      chip.addEventListener("click", () => {
+        const word = chip.dataset.word;
+        if (!word) return;
+        const activeInput = ui.groups.querySelector(".writing-input:focus") ||
+                            ui.groups.querySelector(".question-row.active-row .writing-input") ||
+                            ui.groups.querySelector(".writing-input");
+        if (activeInput) {
+          const start = activeInput.selectionStart ?? activeInput.value.length;
+          const end = activeInput.selectionEnd ?? activeInput.value.length;
+          const val = activeInput.value;
+          const needsLeadingSpace = start > 0 && val[start - 1] !== " ";
+          const insertText = (needsLeadingSpace ? " " : "") + word + " ";
+          activeInput.value = val.slice(0, start) + insertText + val.slice(end);
+          activeInput.focus();
+          const newPos = start + insertText.length;
+          activeInput.setSelectionRange(newPos, newPos);
+        }
       });
     });
 
