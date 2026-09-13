@@ -183,8 +183,7 @@
       };
     }
 
-    const mistake = {
-      id: "mis-" + Date.now() + "-" + Math.random().toString(36).slice(2, 7),
+    const rawMistake = {
       book,
       test,
       part,
@@ -204,6 +203,13 @@
       audioClip: audioClipRef,
       createdAt: Date.now()
     };
+
+    const mistake = (typeof window !== "undefined" && window.CambridgeMistakeSchema)
+      ? window.CambridgeMistakeSchema.createCambridgeMistake(rawMistake)
+      : {
+          id: "mis-" + Date.now() + "-" + Math.random().toString(36).slice(2, 7),
+          ...rawMistake
+        };
 
     await window.IELTS_DB.saveMistake(mistake);
 

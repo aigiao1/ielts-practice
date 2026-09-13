@@ -13,6 +13,7 @@ const STATIC_ASSETS = [
   "./content/schemas.js",
   "./content/manifest.js",
   "./content/registry.js",
+  "./content/user-materials/cambridge-mistake-schema.js",
   "./content/listening/words/wanglu-core-v1.js",
   "./content/listening/paraphrase/paraphrase-concepts-v1.js",
   "./content/listening/option-scan/option-scan-pool-v1.js",
