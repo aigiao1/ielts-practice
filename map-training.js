@@ -493,7 +493,8 @@
   // 4. 路线跟随训练 (10 套真实雅思仿真地图 + 30+ 路线题库 + 候选点洗牌)
   function initRouteScenarios() {
     if (!ui.routeSelect) return;
-    const allMaps = window.MAP_ROUTE_MAPS_DATA || [];
+    const regMaps = window.ContentRegistry?.getPack("map-routes-v1")?.items;
+    const allMaps = (regMaps && regMaps.length > 0) ? regMaps : (window.MAP_ROUTE_MAPS_DATA || []);
     ui.routeSelect.innerHTML = `
       <option value="random">🎲 随机轮换雅思地图 (10 套)</option>
       ${allMaps.map((m, idx) => `<option value="${m.id}">${idx + 1}. ${m.title}</option>`).join("")}
@@ -776,7 +777,8 @@
   // 6. 重点地标词典渲染 (36+ 核心真题地标词)
   function renderLandmarkVocab() {
     if (!ui.landmarkGrid) return;
-    const vocabList = window.MAP_LANDMARKS_DATA || window.MAP_TRAINING_DATA?.landmarkVocabulary || [];
+    const regLandmarks = window.ContentRegistry?.getPack("map-landmarks-v1")?.items;
+    const vocabList = (regLandmarks && regLandmarks.length > 0) ? regLandmarks : (window.MAP_LANDMARKS_DATA || window.MAP_TRAINING_DATA?.landmarkVocabulary || []);
     ui.landmarkGrid.innerHTML = vocabList.map((item) => `
       <div class="landmark-card">
         <div class="landmark-info">

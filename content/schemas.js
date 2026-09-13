@@ -17,7 +17,8 @@
     OPTION_SCAN: "option_scan",
     TASK1: "task1",
     TASK2: "task2",
-    NOTE: "note"
+    NOTE: "note",
+    PROCEDURAL_RULES: "procedural_rules"
   });
 
   const SOURCE_TYPES = Object.freeze({

@@ -1,191 +1,297 @@
-// 雅思转折与陷阱题生成工厂 (Trap Factory)
+// 雅思听力高频转折陷阱考点包 (trap-scenarios-v1)
+// 包含 10 大核心转折场景模板（选址变更、时间改期、人员替换、价格阶梯等）
 (() => {
   "use strict";
 
-  function pickRandom(arr) {
-    if (!arr || !arr.length) return "";
-    return arr[Math.floor(Math.random() * arr.length)];
-  }
-
-  function shuffle(arr) {
-    const copy = [...arr];
-    for (let i = copy.length - 1; i > 0; i--) {
-      const j = Math.floor(Math.random() * (i + 1));
-      [copy[i], copy[j]] = [copy[j], copy[i]];
-    }
-    return copy;
-  }
-
-  const TRAP_SCENARIOS = [
-    // 1. 设施规划与选址 (Location)
+  const TRAP_SCENARIOS_PACK_V1 = {
+  "packId": "trap-scenarios-v1",
+  "version": "1.0.0",
+  "domain": "listening",
+  "contentType": "trap",
+  "canonical": true,
+  "expectedCount": 10,
+  "metadata": {
+    "sourceType": "human_curated",
+    "sourceRef": "雅思听力Section 2/3高频转折陷阱题型归纳",
+    "origin": "bundled",
+    "reviewStatus": "imported",
+    "status": "active",
+    "tags": [
+      "listening",
+      "trap",
+      "turnaround",
+      "attention"
+    ]
+  },
+  "items": [
     {
-      id: "TRAP_LOCATION",
-      category: "LOCATION",
-      subject: "the children's play area",
-      questionTpl: "Where will {subject} finally be located?",
-      priorStarters: [
+      "id": "TRAP_LOCATION",
+      "category": "LOCATION",
+      "subject": "the children's play area",
+      "questionTpl": "Where will {subject} finally be located?",
+      "priorStarters": [
         "We had originally intended to place {subject}",
         "At first, the design team considered constructing {subject}",
         "The committee initially proposed building {subject}",
         "We had first planned to set up {subject}"
       ],
-      priorObjects: [
-        { label: "near the main entrance", text: "right near the main entrance" },
-        { label: "behind the visitor centre", text: "behind the visitor centre" },
-        { label: "adjacent to the car park", text: "directly adjacent to the car park" }
+      "priorObjects": [
+        {
+          "label": "near the main entrance",
+          "text": "right near the main entrance"
+        },
+        {
+          "label": "behind the visitor centre",
+          "text": "behind the visitor centre"
+        },
+        {
+          "label": "adjacent to the car park",
+          "text": "directly adjacent to the car park"
+        }
       ],
-      transitions: [
+      "transitions": [
         "but after consulting with local parents,",
         "however, due to traffic safety considerations,",
         "yet following advice from the park rangers,",
         "but because of excessive noise near the gate,"
       ],
-      finalStarters: [
+      "finalStarters": [
         "we eventually decided to build it",
         "the council finally opted to relocate it",
         "we agreed that it should instead go",
         "it was ultimately decided to place it"
       ],
-      actualObjects: [
-        { label: "beside the river", text: "beside the river lawn" },
-        { label: "in the wooded grove", text: "deep within the shaded wooded grove" },
-        { label: "near the picnic meadow", text: "just across from the picnic meadow" }
+      "actualObjects": [
+        {
+          "label": "beside the river",
+          "text": "beside the river lawn"
+        },
+        {
+          "label": "in the wooded grove",
+          "text": "deep within the shaded wooded grove"
+        },
+        {
+          "label": "near the picnic meadow",
+          "text": "just across from the picnic meadow"
+        }
       ],
-      decoys: [
-        { label: "next to the gift shop", text: "next to the gift shop" },
-        { label: "on the eastern terrace", text: "on the eastern viewing terrace" },
-        { label: "opposite the cafe", text: "directly opposite the cafe" }
+      "decoys": [
+        {
+          "label": "next to the gift shop",
+          "text": "next to the gift shop"
+        },
+        {
+          "label": "on the eastern terrace",
+          "text": "on the eastern viewing terrace"
+        },
+        {
+          "label": "opposite the cafe",
+          "text": "directly opposite the cafe"
+        }
       ],
-      tip: "雅思最高频转折陷阱：前面长篇大论提的入口(entrance)只是原计划，真正答案被 but/eventually 带出并移到了河边(beside the river)。"
+      "tip": "雅思最高频转折陷阱：前面长篇大论提的入口(entrance)只是原计划，真正答案被 but/eventually 带出并移到了河边(beside the river)。"
     },
-
-    // 2. 会议与活动时间 (Time & Schedule)
     {
-      id: "TRAP_SCHEDULE",
-      category: "SCHEDULE",
-      subject: "the orientation seminar",
-      questionTpl: "When has {subject} been scheduled for?",
-      priorStarters: [
+      "id": "TRAP_SCHEDULE",
+      "category": "SCHEDULE",
+      "subject": "the orientation seminar",
+      "questionTpl": "When has {subject} been scheduled for?",
+      "priorStarters": [
         "The workshop was originally scheduled for",
         "We had initially earmarked",
         "At first we aimed to convene on",
         "The preliminary timetable listed"
       ],
-      priorObjects: [
-        { label: "Thursday afternoon", text: "Thursday afternoon at two o'clock" },
-        { label: "Wednesday morning", text: "Wednesday morning at nine" },
-        { label: "Tuesday evening", text: "Tuesday evening at six" }
+      "priorObjects": [
+        {
+          "label": "Thursday afternoon",
+          "text": "Thursday afternoon at two o'clock"
+        },
+        {
+          "label": "Wednesday morning",
+          "text": "Wednesday morning at nine"
+        },
+        {
+          "label": "Tuesday evening",
+          "text": "Tuesday evening at six"
+        }
       ],
-      transitions: [
+      "transitions": [
         "but room availability clashed in the main hall,",
         "however, several guest speakers were delayed,",
         "yet after polling registered participants,",
         "but because the lecture theatre was double-booked,"
       ],
-      finalStarters: [
+      "finalStarters": [
         "so we pushed it back to",
         "so it was officially rescheduled for",
         "we finally settled on",
         "it will now take place on"
       ],
-      actualObjects: [
-        { label: "Friday morning", text: "Friday morning at ten" },
-        { label: "Saturday afternoon", text: "Saturday afternoon at three" },
-        { label: "Monday morning", text: "Monday morning at nine thirty" }
+      "actualObjects": [
+        {
+          "label": "Friday morning",
+          "text": "Friday morning at ten"
+        },
+        {
+          "label": "Saturday afternoon",
+          "text": "Saturday afternoon at three"
+        },
+        {
+          "label": "Monday morning",
+          "text": "Monday morning at nine thirty"
+        }
       ],
-      decoys: [
-        { label: "Sunday midday", text: "Sunday midday" },
-        { label: "Thursday evening", text: "Thursday evening" },
-        { label: "Tuesday morning", text: "Tuesday morning" }
+      "decoys": [
+        {
+          "label": "Sunday midday",
+          "text": "Sunday midday"
+        },
+        {
+          "label": "Thursday evening",
+          "text": "Thursday evening"
+        },
+        {
+          "label": "Tuesday morning",
+          "text": "Tuesday morning"
+        }
       ],
-      tip: "时间修改陷阱：前面听到的周三或周四已被 clash / rescheduled 推翻，注意抓推迟后的最新时间 (Friday morning)。"
+      "tip": "时间修改陷阱：前面听到的周三或周四已被 clash / rescheduled 推翻，注意抓推迟后的最新时间 (Friday morning)。"
     },
-
-    // 3. 费用与价格 (Price & Budget)
     {
-      id: "TRAP_PRICE",
-      category: "PRICE",
-      subject: "the annual membership fee",
-      questionTpl: "How much will members pay for {subject}?",
-      priorStarters: [
+      "id": "TRAP_PRICE",
+      "category": "PRICE",
+      "subject": "the annual membership fee",
+      "questionTpl": "How much will members pay for {subject}?",
+      "priorStarters": [
         "The management board first suggested charging",
         "We had originally thought of asking for",
         "The preliminary fee was set at",
         "Our initial proposal was"
       ],
-      priorObjects: [
-        { label: "£45", text: "forty-five pounds per year" },
-        { label: "£50", text: "fifty pounds per member" },
-        { label: "£35", text: "thirty-five pounds" }
+      "priorObjects": [
+        {
+          "label": "£45",
+          "text": "forty-five pounds per year"
+        },
+        {
+          "label": "£50",
+          "text": "fifty pounds per member"
+        },
+        {
+          "label": "£35",
+          "text": "thirty-five pounds"
+        }
       ],
-      transitions: [
+      "transitions": [
         "but we realised that might deter student members,",
         "however, thanks to extra municipal funding,",
         "yet after comparing competitor rates across town,",
         "but in order to boost first-year enrollment,"
       ],
-      finalStarters: [
+      "finalStarters": [
         "we brought the price down to",
         "we agreed to discount it to",
         "it was fixed at a reduced rate of",
         "we finally capped it at"
       ],
-      actualObjects: [
-        { label: "£25", text: "twenty-five pounds" },
-        { label: "£30", text: "thirty pounds" },
-        { label: "£20", text: "twenty pounds" }
+      "actualObjects": [
+        {
+          "label": "£25",
+          "text": "twenty-five pounds"
+        },
+        {
+          "label": "£30",
+          "text": "thirty pounds"
+        },
+        {
+          "label": "£20",
+          "text": "twenty pounds"
+        }
       ],
-      decoys: [
-        { label: "£15", text: "fifteen pounds" },
-        { label: "£60", text: "sixty pounds" },
-        { label: "£40", text: "forty pounds" }
+      "decoys": [
+        {
+          "label": "£15",
+          "text": "fifteen pounds"
+        },
+        {
+          "label": "£60",
+          "text": "sixty pounds"
+        },
+        {
+          "label": "£40",
+          "text": "forty pounds"
+        }
       ],
-      tip: "价格陷阱：先抛出高昂的原定价格 £45/£50，转折后打折到实际数字 (如 £25)。"
+      "tip": "价格陷阱：先抛出高昂的原定价格 £45/£50，转折后打折到实际数字 (如 £25)。"
     },
-
-    // 4. 研究与演讲选题 (Topic Selection)
     {
-      id: "TRAP_TOPIC",
-      category: "TOPIC",
-      subject: "their joint research presentation",
-      questionTpl: "Which topic did the students eventually choose for {subject}?",
-      priorStarters: [
+      "id": "TRAP_TOPIC",
+      "category": "TOPIC",
+      "subject": "their joint research presentation",
+      "questionTpl": "Which topic did the students eventually choose for {subject}?",
+      "priorStarters": [
         "We spent weeks preparing a draft on",
         "My partner initially wanted to focus entirely on",
         "Our first choice of topic was definitely",
         "We had originally settled on"
       ],
-      priorObjects: [
-        { label: "renewable marine energy", text: "renewable marine tidal energy" },
-        { label: "medieval agricultural methods", text: "medieval crop rotation systems" },
-        { label: "urban rooftop gardens", text: "urban commercial rooftop farming" }
+      "priorObjects": [
+        {
+          "label": "renewable marine energy",
+          "text": "renewable marine tidal energy"
+        },
+        {
+          "label": "medieval agricultural methods",
+          "text": "medieval crop rotation systems"
+        },
+        {
+          "label": "urban rooftop gardens",
+          "text": "urban commercial rooftop farming"
+        }
       ],
-      transitions: [
+      "transitions": [
         "but the literature on that was too scarce,",
         "however, our tutor pointed out that scope was far too broad,",
         "yet we couldn't find sufficient empirical case studies,",
         "but another team had already registered that exact title,"
       ],
-      finalStarters: [
+      "finalStarters": [
         "so we switched our focus to",
         "so we ultimately decided to investigate",
         "we turned our attention instead to",
         "we unanimously agreed on"
       ],
-      actualObjects: [
-        { label: "suburban electric transport", text: "suburban electric commuter transport" },
-        { label: "coastal mangrove conservation", text: "coastal mangrove habitat preservation" },
-        { label: "plastic recycling innovations", text: "industrial plastic waste recycling" }
+      "actualObjects": [
+        {
+          "label": "suburban electric transport",
+          "text": "suburban electric commuter transport"
+        },
+        {
+          "label": "coastal mangrove conservation",
+          "text": "coastal mangrove habitat preservation"
+        },
+        {
+          "label": "plastic recycling innovations",
+          "text": "industrial plastic waste recycling"
+        }
       ],
-      decoys: [
-        { label: "traditional wind power", text: "traditional inland wind farms" },
-        { label: "deep-sea mineral mining", text: "deep-sea mineral mining regulations" },
-        { label: "smart city street lighting", text: "smart city LED street lighting" }
+      "decoys": [
+        {
+          "label": "traditional wind power",
+          "text": "traditional inland wind farms"
+        },
+        {
+          "label": "deep-sea mineral mining",
+          "text": "deep-sea mineral mining regulations"
+        },
+        {
+          "label": "smart city street lighting",
+          "text": "smart city LED street lighting"
+        }
       ],
-      tip: "Section 3 论文选题陷阱：前面讲得津津有味的原话题被导师或资料不足否决 (too broad / scarce)，后半句 switch to 才是最终论文题目。"
-    }
-  ,
-
+      "tip": "Section 3 论文选题陷阱：前面讲得津津有味的原话题被导师或资料不足否决 (too broad / scarce)，后半句 switch to 才是最终论文题目。"
+    },
     {
       "id": "TRAP_SPEAKER",
       "category": "PERSON",
@@ -253,7 +359,6 @@
       ],
       "tip": "人物/主讲人陷阱：第一位提到的学者(Evans/Miller)通常是原定主讲，中途突发变故(illness/cancellation)，后半句 stepping in at short notice 才是实际登台者。"
     },
-
     {
       "id": "TRAP_TRANSPORT",
       "category": "TRANSPORT",
@@ -321,7 +426,6 @@
       ],
       "tip": "出行方式陷阱：常见先提大巴或火车(coach/train)，因修路或罢工被否决(strikes/closed bridge)，改乘轮渡或轻轨(ferry/tram)。"
     },
-
     {
       "id": "TRAP_AUDIENCE",
       "category": "ELIGIBILITY",
@@ -389,7 +493,6 @@
       ],
       "tip": "报名资格陷阱：最初门槛极高(final-year only)，因人数不足或呼声放宽(broadened entry)，最终面向所有本科生或零基础。"
     },
-
     {
       "id": "TRAP_METHODOLOGY",
       "category": "METHODOLOGY",
@@ -457,7 +560,6 @@
       ],
       "tip": "论文方法陷阱：常见问卷调查(online questionnaires)因回收率极低或伦理未过(ethics rejected)，最终全面转入深度面访(in-depth interviews)。"
     },
-
     {
       "id": "TRAP_DESTINATION",
       "category": "DESTINATION",
@@ -525,7 +627,6 @@
       ],
       "tip": "首发参观点陷阱：导游词常提到以往第一站是钟楼/市政厅(tower/town hall)，但今天由于修缮(restoration)或拍摄，临时改为海事博物馆(maritime museum)。"
     },
-
     {
       "id": "TRAP_PRICE_TIER",
       "category": "PRICE",
@@ -593,100 +694,19 @@
       ],
       "tip": "价格阶梯陷阱：录音中会依次报出原价(£120)、普通早鸟/传单折扣(£80/£75)，最后用 student ID 亮出真正的底价(£45/£50)。"
     }
-  ];
-
-  function getDefaultTrapScenarios() {
-    if (typeof window !== "undefined" && window.ContentRegistry && typeof window.ContentRegistry.getItems === "function") {
-      const items = window.ContentRegistry.getItems("listening", "trap");
-      if (items && items.length > 0) {
-        return items;
-      }
-    }
-    return TRAP_SCENARIOS;
-  }
-
-  class TrapFactory {
-    constructor(scenarios = null, userModel = null) {
-      this._customScenarios = (scenarios && scenarios.length > 0) ? scenarios : null;
-      this.userModel = userModel;
-    }
-
-    get scenarios() {
-      if (this._customScenarios && this._customScenarios.length > 0) {
-        return this._customScenarios;
-      }
-      return getDefaultTrapScenarios();
-    }
-
-    set scenarios(val) {
-      this._customScenarios = val;
-    }
-
-    generateQuestion(options = {}) {
-      let pool = this.scenarios;
-      if (options.category) {
-        const filtered = pool.filter((s) => s.category === options.category);
-        if (filtered.length > 0) pool = filtered;
-      }
-
-      let chosenScenario = null;
-      if (this.userModel && typeof this.userModel.pickWeighted === "function") {
-        chosenScenario = this.userModel.pickWeighted(pool, (s) => s.id);
-      } else {
-        chosenScenario = pickRandom(pool);
-      }
-
-      // 动态拼装转折三段论
-      const starter = pickRandom(chosenScenario.priorStarters).replace("{subject}", chosenScenario.subject);
-      const prior = pickRandom(chosenScenario.priorObjects);
-      const transition = pickRandom(chosenScenario.transitions);
-      const finalStarter = pickRandom(chosenScenario.finalStarters);
-      const actual = pickRandom(chosenScenario.actualObjects);
-      const decoy = pickRandom(chosenScenario.decoys);
-
-      const spokenSentence = `${starter} ${prior.text}, ${transition} ${finalStarter} ${actual.text}.`;
-      const questionText = chosenScenario.questionTpl.replace("{subject}", chosenScenario.subject);
-
-      // 组装 3 个选项：1 陷阱项(prior)，1 正确项(actual)，1 干扰项(decoy)
-      const rawOptions = [
-        { text: actual.label, isCorrect: true, role: "actual" },
-        { text: prior.label, isCorrect: false, role: "trap_decoy" },
-        { text: decoy.label, isCorrect: false, role: "neutral_decoy" }
-      ];
-
-      const shuffled = shuffle(rawOptions);
-      const labels = ["A", "B", "C"];
-      const correctIdx = shuffled.findIndex((o) => o.isCorrect);
-
-      return {
-        scenarioId: chosenScenario.id,
-        category: chosenScenario.category,
-        difficulty: 5, // 陷阱题为 Level 5 综合难度
-        questionText,
-        spokenSentence,
-        options: shuffled.map((o, idx) => ({
-          label: labels[idx],
-          key: String(idx + 1),
-          text: o.text,
-          isCorrect: o.isCorrect,
-          role: o.role
-        })),
-        correctLabel: labels[correctIdx],
-        correctKey: String(correctIdx + 1),
-        correctText: actual.label,
-        priorTrapText: prior.label,
-        explanation: chosenScenario.tip
-      };
-    }
-  }
-
-  const defaultTrapFactory = new TrapFactory();
+  ]
+};
 
   if (typeof window !== "undefined") {
-    window.TrapFactory = TrapFactory;
-    window.defaultTrapFactory = defaultTrapFactory;
+    window.TRAP_SCENARIOS_PACK_V1 = TRAP_SCENARIOS_PACK_V1;
+    if (window.ContentRegistry) {
+      window.ContentRegistry.registerPack(TRAP_SCENARIOS_PACK_V1);
+    } else {
+      window._PRELOADED_PACKS = window._PRELOADED_PACKS || [];
+      window._PRELOADED_PACKS.push(TRAP_SCENARIOS_PACK_V1);
+    }
   }
   if (typeof module !== "undefined" && module.exports) {
-    module.exports = { TrapFactory, TRAP_SCENARIOS, defaultTrapFactory };
+    module.exports = TRAP_SCENARIOS_PACK_V1;
   }
 })();

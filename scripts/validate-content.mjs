@@ -8,7 +8,7 @@ const scriptDir = path.dirname(fileURLToPath(import.meta.url));
 const rootDir = path.resolve(scriptDir, "..");
 
 const ALLOWED_DOMAINS = new Set(["listening", "writing", "speaking", "reading"]);
-const ALLOWED_CONTENT_TYPES = new Set(["word", "paraphrase", "trap", "map", "option_scan", "task1", "task2", "note"]);
+const ALLOWED_CONTENT_TYPES = new Set(["word", "paraphrase", "trap", "map", "option_scan", "task1", "task2", "note", "procedural_rules"]);
 const ALLOWED_SOURCE_TYPES = new Set([
   "wanglu", "cambridge_derived", "official_ielts", "user_note",
   "user_mistake", "human_curated", "template_generated", "procedural"

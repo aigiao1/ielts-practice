@@ -11,6 +11,24 @@
       t = (t + Math.imul(t ^ (t >>> 7), 61 | t)) ^ t;
       return ((t ^ (t >>> 14)) >>> 0) / 4294967296;
     };
+  function getMapLandmarks() {
+    if (typeof window !== "undefined" && window.ContentRegistry && typeof window.ContentRegistry.getPack === "function") {
+      const pack = window.ContentRegistry.getPack("map-landmarks-v1");
+      if (pack && pack.items && pack.items.length > 0) {
+        return pack.items;
+      }
+    }
+    return (typeof window !== "undefined" && window.MAP_LANDMARKS_DATA) || [];
+  }
+
+  function getMapRouteScenarios() {
+    if (typeof window !== "undefined" && window.ContentRegistry && typeof window.ContentRegistry.getPack === "function") {
+      const pack = window.ContentRegistry.getPack("map-routes-v1");
+      if (pack && pack.items && pack.items.length > 0) {
+        return pack.items;
+      }
+    }
+    return (typeof window !== "undefined" && window.MAP_ROUTE_MAPS_DATA) || [];
   }
 
   class MapEngine {
@@ -114,7 +132,7 @@
     // 1. 模块二：方位表达训练题目生成器
     generateDirectionQuestion() {
       const exprData = window.MAP_DIRECTION_DATA || { expressions: [], slotCoordinates: {} };
-      const landmarks = window.MAP_LANDMARKS_DATA || [];
+      const landmarks = getMapLandmarks();
       const expressions = exprData.expressions;
       const coords = exprData.slotCoordinates;
 
@@ -178,7 +196,7 @@
     // 2. 模块三：空间过渡与参照物题目生成器
     generateSpatialQuestion() {
       const templates = window.MAP_SPATIAL_DATA || [];
-      const landmarks = window.MAP_LANDMARKS_DATA || [];
+      const landmarks = getMapLandmarks();
 
       // 排除最近出现过的模板
       let available = templates.filter((t) => !this.history.layouts.includes(t.id));
@@ -247,7 +265,7 @@
 
     // 3. 模块四：路线跟随题目生成器 (10 套地图 + 30+ 路线)
     generateRouteQuestion(preferredMapId = null) {
-      const allMaps = window.MAP_ROUTE_MAPS_DATA || [];
+      const allMaps = getMapRouteScenarios();
       if (!allMaps.length) return null;
 
       let map = null;

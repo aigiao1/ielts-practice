@@ -128,11 +128,22 @@
     listContainer: $("scanOptionsList")
   };
 
+  function getOptionPool() {
+    if (typeof window !== "undefined" && window.ContentRegistry && typeof window.ContentRegistry.getItems === "function") {
+      const items = window.ContentRegistry.getItems("listening", "option_scan");
+      if (items && items.length > 0) {
+        return items;
+      }
+    }
+    return OPTION_SEMANTIC_POOL;
+  }
+
   function startSprint() {
     if (timerId) clearInterval(timerId);
 
-    // 随机抽取 8 个选项
-    const shuffled = [...OPTION_SEMANTIC_POOL].sort(() => 0.5 - Math.random());
+    // 随机抽取 8 个选项（优先 ContentRegistry，安全兜底 OPTION_SEMANTIC_POOL）
+    const pool = getOptionPool();
+    const shuffled = [...pool].sort(() => 0.5 - Math.random());
     currentGroup = shuffled.slice(0, 8);
     const labels = ["A", "B", "C", "D", "E", "F", "G", "H"];
 

@@ -7,6 +7,46 @@
     version: "1.0.0",
     packs: [
     {
+        "packId": "map-landmarks-v1",
+        "name": "雅思听力地图题高频地标与设施词典",
+        "path": "content/listening/map/map-landmarks-v1.js",
+        "domain": "listening",
+        "contentType": "map",
+        "expectedCount": 60,
+        "canonical": true,
+        "status": "active"
+    },
+    {
+        "packId": "map-routes-v1",
+        "name": "雅思听力路线跟随矢量地图题库",
+        "path": "content/listening/map/map-routes-v1.js",
+        "domain": "listening",
+        "contentType": "map",
+        "expectedCount": 10,
+        "canonical": true,
+        "status": "active"
+    },
+    {
+        "packId": "number-rules-v1",
+        "name": "雅思听力Part 1数字/日期/时间/货币考点规则",
+        "path": "content/listening/procedural/number-rules-v1.js",
+        "domain": "listening",
+        "contentType": "procedural_rules",
+        "expectedCount": 6,
+        "canonical": true,
+        "status": "active"
+    },
+    {
+        "packId": "option-scan-pool-v1",
+        "name": "雅思听力长选项速读高频语义池",
+        "path": "content/listening/option-scan/option-scan-pool-v1.js",
+        "domain": "listening",
+        "contentType": "option_scan",
+        "expectedCount": 106,
+        "canonical": true,
+        "status": "active"
+    },
+    {
         "packId": "paraphrase-concepts-v1",
         "name": "雅思听力Section 2/3同义替换考点归纳",
         "path": "content/listening/paraphrase/paraphrase-concepts-v1.js",
@@ -34,6 +74,16 @@
         "domain": "writing",
         "contentType": "task1",
         "expectedCount": 140,
+        "canonical": true,
+        "status": "active"
+    },
+    {
+        "packId": "trap-scenarios-v1",
+        "name": "雅思听力Section 2/3高频转折陷阱题型归纳",
+        "path": "content/listening/traps/trap-scenarios-v1.js",
+        "domain": "listening",
+        "contentType": "trap",
+        "expectedCount": 10,
         "canonical": true,
         "status": "active"
     },
