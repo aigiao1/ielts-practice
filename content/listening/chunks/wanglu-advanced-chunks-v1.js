@@ -40,6 +40,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "transport"
       ],
@@ -63,6 +69,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -86,6 +98,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -109,6 +127,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -132,6 +156,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -155,6 +185,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -178,6 +214,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -201,6 +243,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -224,6 +272,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -247,6 +301,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -270,6 +330,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -293,6 +359,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -316,6 +388,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -339,6 +417,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -361,6 +445,12 @@
         "listening_recognition"
       ],
       "productiveSuitability": "recognition_only",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "accommodation"
       ],
@@ -383,6 +473,12 @@
         "listening_recognition"
       ],
       "productiveSuitability": "recognition_only",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -406,6 +502,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -428,6 +530,12 @@
         "listening_recognition"
       ],
       "productiveSuitability": "recognition_only",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -451,6 +559,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -474,6 +588,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -497,6 +617,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -520,6 +646,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "accommodation"
       ],
@@ -543,6 +675,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -566,6 +704,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -589,6 +733,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -612,6 +762,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -635,6 +791,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -658,6 +820,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -681,6 +849,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "accommodation"
       ],
@@ -704,6 +878,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -727,6 +907,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -750,6 +936,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -773,6 +965,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -796,6 +994,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -819,6 +1023,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -842,6 +1052,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -865,6 +1081,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -888,6 +1110,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -911,6 +1139,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -934,6 +1168,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -957,6 +1197,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -979,6 +1225,12 @@
         "listening_recognition"
       ],
       "productiveSuitability": "recognition_only",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -1001,6 +1253,12 @@
         "listening_recognition"
       ],
       "productiveSuitability": "recognition_only",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -1023,6 +1281,12 @@
         "listening_recognition"
       ],
       "productiveSuitability": "recognition_only",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -1046,6 +1310,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -1069,6 +1339,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -1092,6 +1368,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -1115,6 +1397,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -1138,6 +1426,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "accommodation"
       ],
@@ -1161,6 +1455,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -1184,6 +1484,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -1207,6 +1513,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -1230,6 +1542,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -1253,6 +1571,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -1276,6 +1600,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "work"
       ],
@@ -1299,6 +1629,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -1322,6 +1658,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -1345,6 +1687,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -1368,6 +1716,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -1391,6 +1745,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -1414,6 +1774,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -1437,6 +1803,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -1460,6 +1832,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -1483,6 +1861,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -1506,6 +1890,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -1529,6 +1919,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "transport"
       ],
@@ -1551,6 +1947,12 @@
         "listening_recognition"
       ],
       "productiveSuitability": "recognition_only",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "environment"
       ],
@@ -1574,6 +1976,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -1597,6 +2005,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -1620,6 +2034,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -1643,6 +2063,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -1666,6 +2092,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -1689,6 +2121,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "money"
       ],
@@ -1712,6 +2150,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -1735,6 +2179,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -1758,6 +2208,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -1781,6 +2237,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -1804,6 +2266,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -1827,6 +2295,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -1850,6 +2324,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -1873,6 +2353,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -1896,6 +2382,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -1918,6 +2410,12 @@
         "listening_recognition"
       ],
       "productiveSuitability": "recognition_only",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -1941,6 +2439,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -1964,6 +2468,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -1987,6 +2497,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "work"
       ],
@@ -2010,6 +2526,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "work"
       ],
@@ -2033,6 +2555,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -2056,6 +2584,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -2079,6 +2613,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -2102,6 +2642,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -2125,6 +2671,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -2148,6 +2700,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -2171,6 +2729,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -2194,6 +2758,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -2217,6 +2787,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -2240,6 +2816,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "environment"
       ],
@@ -2263,6 +2845,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -2286,6 +2874,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -2309,6 +2903,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -2332,6 +2932,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -2355,6 +2961,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -2378,6 +2990,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -2401,6 +3019,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -2424,6 +3048,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -2447,6 +3077,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -2470,6 +3106,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "work"
       ],
@@ -2493,6 +3135,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -2516,6 +3164,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -2539,6 +3193,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -2562,6 +3222,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -2585,6 +3251,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -2608,6 +3280,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -2631,6 +3309,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -2654,6 +3338,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "work"
       ],
@@ -2677,6 +3367,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -2700,6 +3396,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -2723,6 +3425,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -2746,6 +3454,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -2769,6 +3483,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -2792,6 +3512,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -2815,6 +3541,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -2838,6 +3570,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -2861,6 +3599,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -2884,6 +3628,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -2906,6 +3656,12 @@
         "listening_recognition"
       ],
       "productiveSuitability": "recognition_only",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "environment"
       ],
@@ -2929,6 +3685,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -2952,6 +3714,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -2975,6 +3743,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -2998,6 +3772,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "environment"
       ],
@@ -3021,6 +3801,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -3044,6 +3830,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -3067,6 +3859,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -3089,6 +3887,12 @@
         "listening_recognition"
       ],
       "productiveSuitability": "recognition_only",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -3112,6 +3916,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -3135,6 +3945,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -3158,6 +3974,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -3181,6 +4003,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -3204,6 +4032,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -3227,6 +4061,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -3250,6 +4090,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -3273,6 +4119,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -3296,6 +4148,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "transport"
       ],
@@ -3319,6 +4177,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -3342,6 +4206,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -3365,6 +4235,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -3388,6 +4264,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -3411,6 +4293,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -3434,6 +4322,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -3457,6 +4351,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -3480,6 +4380,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -3503,6 +4409,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -3526,6 +4438,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -3549,6 +4467,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -3572,6 +4496,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -3595,6 +4525,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -3618,6 +4554,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -3641,6 +4583,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -3664,6 +4612,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -3687,6 +4641,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -3710,6 +4670,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -3732,6 +4698,12 @@
         "listening_recognition"
       ],
       "productiveSuitability": "recognition_only",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -3756,6 +4728,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -3779,6 +4757,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "accommodation"
       ],
@@ -3802,6 +4786,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -3825,6 +4815,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "transport"
       ],
@@ -3848,6 +4844,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -3871,6 +4873,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -3894,6 +4902,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -3917,6 +4931,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -3940,6 +4960,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -3963,6 +4989,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -3986,6 +5018,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -4008,6 +5046,12 @@
         "listening_recognition"
       ],
       "productiveSuitability": "recognition_only",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -4031,6 +5075,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -4054,6 +5104,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -4077,6 +5133,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -4100,6 +5162,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -4123,6 +5191,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -4146,6 +5220,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -4169,6 +5249,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -4192,6 +5278,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "education",
         "work"
@@ -4215,6 +5307,12 @@
         "listening_recognition"
       ],
       "productiveSuitability": "recognition_only",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -4238,6 +5336,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -4261,6 +5365,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -4283,6 +5393,12 @@
         "listening_recognition"
       ],
       "productiveSuitability": "recognition_only",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -4306,6 +5422,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -4329,6 +5451,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "money"
       ],
@@ -4352,6 +5480,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -4375,6 +5509,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -4398,6 +5538,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -4421,6 +5567,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -4444,6 +5596,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -4467,6 +5625,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -4490,6 +5654,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -4513,6 +5683,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -4536,6 +5712,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -4559,6 +5741,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -4582,6 +5770,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -4605,6 +5799,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -4628,6 +5828,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "environment"
       ],
@@ -4651,6 +5857,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -4674,6 +5886,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -4697,6 +5915,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -4720,6 +5944,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -4743,6 +5973,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -4766,6 +6002,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -4789,6 +6031,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -4812,6 +6060,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -4835,6 +6089,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -4858,6 +6118,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -4881,6 +6147,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -4904,6 +6176,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -4926,6 +6204,12 @@
         "listening_recognition"
       ],
       "productiveSuitability": "recognition_only",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -4949,6 +6233,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -4972,6 +6262,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -4995,6 +6291,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -5018,6 +6320,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -5041,6 +6349,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -5064,6 +6378,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -5087,6 +6407,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -5109,6 +6435,12 @@
         "listening_recognition"
       ],
       "productiveSuitability": "recognition_only",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -5132,6 +6464,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -5155,6 +6493,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -5178,6 +6522,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -5201,6 +6551,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -5224,6 +6580,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -5247,6 +6609,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -5270,6 +6638,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -5293,6 +6667,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "education"
       ],
@@ -5316,6 +6696,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -5339,6 +6725,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -5362,6 +6754,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -5385,6 +6783,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -5408,6 +6812,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -5431,6 +6841,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -5454,6 +6870,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -5477,6 +6899,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -5500,6 +6928,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -5523,6 +6957,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -5546,6 +6986,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -5569,6 +7015,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -5592,6 +7044,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -5615,6 +7073,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -5638,6 +7102,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -5661,6 +7131,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -5684,6 +7160,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -5707,6 +7189,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -5730,6 +7218,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -5754,6 +7248,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -5777,6 +7277,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -5800,6 +7306,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -5823,6 +7335,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -5846,6 +7364,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -5869,6 +7393,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -5892,6 +7422,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -5915,6 +7451,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -5938,6 +7480,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -5961,6 +7509,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -5984,6 +7538,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -6007,6 +7567,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -6030,6 +7596,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -6053,6 +7625,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -6076,6 +7654,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -6099,6 +7683,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -6122,6 +7712,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -6145,6 +7741,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -6168,6 +7770,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -6191,6 +7799,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -6213,6 +7827,12 @@
         "listening_recognition"
       ],
       "productiveSuitability": "recognition_only",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "accommodation"
       ],
@@ -6236,6 +7856,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -6259,6 +7885,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -6282,6 +7914,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -6305,6 +7943,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -6328,6 +7972,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -6351,6 +8001,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -6374,6 +8030,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -6397,6 +8059,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -6420,6 +8088,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -6443,6 +8117,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -6466,6 +8146,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "money"
       ],
@@ -6489,6 +8175,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -6512,6 +8204,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -6535,6 +8233,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -6558,6 +8262,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -6581,6 +8291,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -6604,6 +8320,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -6627,6 +8349,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -6650,6 +8378,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -6673,6 +8407,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -6696,6 +8436,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -6719,6 +8465,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -6742,6 +8494,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -6765,6 +8523,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -6788,6 +8552,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -6811,6 +8581,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -6834,6 +8610,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -6857,6 +8639,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -6880,6 +8668,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -6903,6 +8697,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -6926,6 +8726,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -6949,6 +8755,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -6972,6 +8784,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -6995,6 +8813,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -7018,6 +8842,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -7041,6 +8871,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -7064,6 +8900,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -7087,6 +8929,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -7110,6 +8958,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -7133,6 +8987,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -7156,6 +9016,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -7179,6 +9045,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -7202,6 +9074,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -7225,6 +9103,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -7248,6 +9132,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "transport"
       ],
@@ -7271,6 +9161,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -7294,6 +9190,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -7317,6 +9219,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -7340,6 +9248,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -7363,6 +9277,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -7386,6 +9306,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -7409,6 +9335,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -7432,6 +9364,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -7455,6 +9393,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -7478,6 +9422,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -7501,6 +9451,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -7524,6 +9480,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -7547,6 +9509,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -7569,6 +9537,12 @@
         "listening_recognition"
       ],
       "productiveSuitability": "recognition_only",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -7592,6 +9566,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -7615,6 +9595,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -7638,6 +9624,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -7661,6 +9653,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -7684,6 +9682,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -7707,6 +9711,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -7730,6 +9740,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -7752,6 +9768,12 @@
         "listening_recognition"
       ],
       "productiveSuitability": "recognition_only",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -7775,6 +9797,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -7797,6 +9825,12 @@
         "listening_recognition"
       ],
       "productiveSuitability": "recognition_only",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -7820,6 +9854,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -7843,6 +9883,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -7866,6 +9912,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -7889,6 +9941,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -7912,6 +9970,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -7935,6 +9999,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -7958,6 +10028,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -7981,6 +10057,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -8004,6 +10086,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -8027,6 +10115,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -8050,6 +10144,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -8073,6 +10173,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -8096,6 +10202,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -8119,6 +10231,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -8142,6 +10260,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -8165,6 +10289,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -8188,6 +10318,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -8212,6 +10348,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -8234,6 +10376,12 @@
         "listening_recognition"
       ],
       "productiveSuitability": "recognition_only",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -8257,6 +10405,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -8280,6 +10434,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -8303,6 +10463,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -8326,6 +10492,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -8348,6 +10520,12 @@
         "listening_recognition"
       ],
       "productiveSuitability": "recognition_only",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -8371,6 +10549,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -8393,6 +10577,12 @@
         "listening_recognition"
       ],
       "productiveSuitability": "recognition_only",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -8416,6 +10606,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -8439,6 +10635,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -8462,6 +10664,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -8485,6 +10693,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -8507,6 +10721,12 @@
         "listening_recognition"
       ],
       "productiveSuitability": "recognition_only",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -8530,6 +10750,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -8553,6 +10779,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -8576,6 +10808,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -8599,6 +10837,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -8621,6 +10865,12 @@
         "listening_recognition"
       ],
       "productiveSuitability": "recognition_only",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -8644,6 +10894,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -8667,6 +10923,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -8690,6 +10952,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -8713,6 +10981,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -8736,6 +11010,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -8758,6 +11038,12 @@
         "listening_recognition"
       ],
       "productiveSuitability": "recognition_only",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -8781,6 +11067,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -8804,6 +11096,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -8827,6 +11125,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -8850,6 +11154,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -8873,6 +11183,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -8895,6 +11211,12 @@
         "listening_recognition"
       ],
       "productiveSuitability": "recognition_only",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -8918,6 +11240,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -8941,6 +11269,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -8964,6 +11298,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -8987,6 +11327,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -9010,6 +11356,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -9034,6 +11386,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -9057,6 +11415,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -9079,6 +11443,12 @@
         "listening_recognition"
       ],
       "productiveSuitability": "recognition_only",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -9102,6 +11472,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -9125,6 +11501,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -9148,6 +11530,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -9171,6 +11559,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -9194,6 +11588,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -9217,6 +11617,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -9240,6 +11646,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -9263,6 +11675,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -9286,6 +11704,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -9309,6 +11733,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -9332,6 +11762,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -9355,6 +11791,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -9378,6 +11820,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -9401,6 +11849,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -9424,6 +11878,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -9447,6 +11907,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -9470,6 +11936,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -9493,6 +11965,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -9518,6 +11996,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -9541,6 +12025,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -9564,6 +12054,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -9587,6 +12083,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -9612,6 +12114,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -9635,6 +12143,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -9658,6 +12172,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -9681,6 +12201,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -9705,6 +12231,12 @@
         "productive_output"
       ],
       "productiveSuitability": "high",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -9728,6 +12260,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -9751,6 +12289,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -9774,6 +12318,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -9798,6 +12348,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -9821,6 +12377,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -9844,6 +12406,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -9867,6 +12435,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -9891,6 +12465,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -9914,6 +12494,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -9937,6 +12523,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -9960,6 +12552,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "environment"
       ],
@@ -9984,6 +12582,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -10007,6 +12611,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -10030,6 +12640,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -10053,6 +12669,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -10077,6 +12699,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -10100,6 +12728,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -10123,6 +12757,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -10147,6 +12787,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "environment"
       ],
@@ -10171,6 +12817,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -10194,6 +12846,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -10217,6 +12875,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -10241,6 +12905,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -10265,6 +12935,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -10288,6 +12964,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -10311,6 +12993,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -10335,6 +13023,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -10360,6 +13054,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "education"
       ],
@@ -10383,6 +13083,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -10406,6 +13112,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -10430,6 +13142,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -10454,6 +13172,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -10477,6 +13201,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -10500,6 +13230,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -10524,6 +13260,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -10548,6 +13290,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -10571,6 +13319,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -10594,6 +13348,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -10618,6 +13378,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -10642,6 +13408,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -10665,6 +13437,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -10688,6 +13466,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -10712,6 +13496,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "transport"
       ],
@@ -10736,6 +13526,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -10759,6 +13555,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -10782,6 +13584,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -10806,6 +13614,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "transport"
       ],
@@ -10830,6 +13644,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "accommodation"
       ],
@@ -10853,6 +13673,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -10876,6 +13702,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -10900,6 +13732,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -10924,6 +13762,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -10947,6 +13791,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -10970,6 +13820,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -10994,6 +13850,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -11018,6 +13880,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "work"
       ],
@@ -11041,6 +13909,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -11064,6 +13938,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -11088,6 +13968,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "accommodation"
       ],
@@ -11112,6 +13998,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -11135,6 +14027,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -11158,6 +14056,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -11182,6 +14086,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -11206,6 +14116,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -11229,6 +14145,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -11253,6 +14175,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -11277,6 +14205,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -11302,6 +14236,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "transport"
       ],
@@ -11325,6 +14265,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -11349,6 +14295,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -11373,6 +14325,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -11397,6 +14355,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -11420,6 +14384,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -11444,6 +14414,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -11468,6 +14444,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "transport"
       ],
@@ -11492,6 +14474,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -11515,6 +14503,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -11539,6 +14533,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -11563,6 +14563,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -11587,6 +14593,12 @@
         "productive_output"
       ],
       "productiveSuitability": "high",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "environment"
       ],
@@ -11610,6 +14622,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -11634,6 +14652,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -11658,6 +14682,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -11682,6 +14712,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -11704,6 +14740,12 @@
         "listening_recognition"
       ],
       "productiveSuitability": "recognition_only",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -11728,6 +14770,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -11752,6 +14800,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -11776,6 +14830,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "work"
       ],
@@ -11799,6 +14859,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -11823,6 +14889,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -11847,6 +14919,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -11871,6 +14949,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -11894,6 +14978,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -11918,6 +15008,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "work"
       ],
@@ -11942,6 +15038,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -11966,6 +15068,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -11989,6 +15097,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -12013,6 +15127,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -12037,6 +15157,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -12061,6 +15187,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -12084,6 +15216,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -12108,6 +15246,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "money"
       ],
@@ -12132,6 +15276,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -12156,6 +15306,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -12179,6 +15335,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -12203,6 +15365,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "money"
       ],
@@ -12227,6 +15395,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -12251,6 +15425,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -12274,6 +15454,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -12298,6 +15484,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -12322,6 +15514,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -12346,6 +15544,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -12369,6 +15573,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -12393,6 +15603,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -12417,6 +15633,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -12441,6 +15663,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -12464,6 +15692,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -12488,6 +15722,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -12512,6 +15752,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -12536,6 +15782,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -12559,6 +15811,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -12583,6 +15841,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -12607,6 +15871,12 @@
         "productive_output"
       ],
       "productiveSuitability": "high",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "education"
       ],
@@ -12631,6 +15901,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "environment"
       ],
@@ -12654,6 +15930,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -12678,6 +15960,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "money"
       ],
@@ -12702,6 +15990,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -12726,6 +16020,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -12748,6 +16048,12 @@
         "listening_recognition"
       ],
       "productiveSuitability": "recognition_only",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -12772,6 +16078,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "money"
       ],
@@ -12796,6 +16108,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -12820,6 +16138,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "money"
       ],
@@ -12843,6 +16167,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -12867,6 +16197,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -12891,6 +16227,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -12915,6 +16257,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "work"
       ],
@@ -12938,6 +16286,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -12962,6 +16316,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -12986,6 +16346,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "transport"
       ],
@@ -13010,6 +16376,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -13033,6 +16405,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -13057,6 +16435,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "accommodation"
       ],
@@ -13081,6 +16465,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "transport"
       ],
@@ -13105,6 +16495,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -13128,6 +16524,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -13152,6 +16554,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "environment"
       ],
@@ -13176,6 +16584,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "money"
       ],
@@ -13200,6 +16614,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -13222,6 +16642,12 @@
         "listening_recognition"
       ],
       "productiveSuitability": "recognition_only",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -13246,6 +16672,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -13270,6 +16702,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -13294,6 +16732,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -13317,6 +16761,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -13341,6 +16791,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -13365,6 +16821,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "transport"
       ],
@@ -13389,6 +16851,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -13412,6 +16880,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -13436,6 +16910,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "accommodation"
       ],
@@ -13460,6 +16940,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -13484,6 +16970,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -13507,6 +16999,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -13531,6 +17029,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -13554,6 +17058,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -13578,6 +17088,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -13601,6 +17117,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -13625,6 +17147,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "work"
       ],
@@ -13650,6 +17178,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -13674,6 +17208,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -13697,6 +17237,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -13721,6 +17267,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "accommodation"
       ],
@@ -13745,6 +17297,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -13769,6 +17327,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -13792,6 +17356,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -13817,6 +17387,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -13841,6 +17417,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -13865,6 +17447,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -13888,6 +17476,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -13912,6 +17506,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -13936,6 +17536,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -13960,6 +17566,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -13983,6 +17595,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -14007,6 +17625,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -14031,6 +17655,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -14055,6 +17685,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -14078,6 +17714,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -14102,6 +17744,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -14126,6 +17774,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "money"
       ],
@@ -14150,6 +17804,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -14173,6 +17833,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "health"
       ],
@@ -14197,6 +17863,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "accommodation"
       ],
@@ -14221,6 +17893,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -14245,6 +17923,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "work"
       ],
@@ -14268,6 +17952,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -14292,6 +17982,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -14316,6 +18012,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -14340,6 +18042,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "education"
       ],
@@ -14363,6 +18071,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -14387,6 +18101,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -14411,6 +18131,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "environment"
       ],
@@ -14435,6 +18161,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "education"
       ],
@@ -14458,6 +18190,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -14482,6 +18220,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -14506,6 +18250,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -14530,6 +18280,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -14553,6 +18309,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -14577,6 +18339,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -14601,6 +18369,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "transport"
       ],
@@ -14625,6 +18399,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -14647,6 +18427,12 @@
         "listening_recognition"
       ],
       "productiveSuitability": "recognition_only",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -14671,6 +18457,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -14695,6 +18487,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "education"
       ],
@@ -14719,6 +18517,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -14742,6 +18546,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -14766,6 +18576,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -14790,6 +18606,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -14814,6 +18636,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -14837,6 +18665,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -14861,6 +18695,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "transport"
       ],
@@ -14885,6 +18725,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -14909,6 +18755,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -14932,6 +18784,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -14956,6 +18814,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -14981,6 +18845,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -15005,6 +18875,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -15028,6 +18904,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -15053,6 +18935,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "health"
       ],
@@ -15077,6 +18965,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -15101,6 +18995,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -15124,6 +19024,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -15148,6 +19054,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -15172,6 +19084,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -15196,6 +19114,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -15219,6 +19143,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -15243,6 +19173,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -15267,6 +19203,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -15291,6 +19233,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -15314,6 +19262,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -15338,6 +19292,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "health"
       ],
@@ -15362,6 +19322,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -15386,6 +19352,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "money"
       ],
@@ -15409,6 +19381,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -15433,6 +19411,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -15457,6 +19441,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -15481,6 +19471,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "health"
       ],
@@ -15504,6 +19500,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -15528,6 +19530,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -15552,6 +19560,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "accommodation"
       ],
@@ -15576,6 +19590,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -15599,6 +19619,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -15623,6 +19649,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -15647,6 +19679,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "accommodation"
       ],
@@ -15671,6 +19709,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -15694,6 +19738,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -15718,6 +19768,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -15742,6 +19798,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "money"
       ],
@@ -15766,6 +19828,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "work"
       ],
@@ -15789,6 +19857,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -15813,6 +19887,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -15837,6 +19917,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -15861,6 +19947,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "transport"
       ],
@@ -15884,6 +19976,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -15908,6 +20006,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "money"
       ],
@@ -15932,6 +20036,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -15956,6 +20066,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -15979,6 +20095,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -16003,6 +20125,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -16027,6 +20155,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -16051,6 +20185,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -16074,6 +20214,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -16098,6 +20244,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -16122,6 +20274,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -16147,6 +20305,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -16170,6 +20334,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -16194,6 +20364,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "transport"
       ],
@@ -16218,6 +20394,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -16242,6 +20424,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -16265,6 +20453,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -16290,6 +20484,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -16314,6 +20514,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -16338,6 +20544,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -16361,6 +20573,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -16385,6 +20603,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -16409,6 +20633,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -16433,6 +20663,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -16456,6 +20692,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -16480,6 +20722,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -16504,6 +20752,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -16528,6 +20782,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "accommodation"
       ],
@@ -16551,6 +20811,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -16575,6 +20841,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -16599,6 +20871,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -16623,6 +20901,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -16646,6 +20930,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -16670,6 +20960,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -16694,6 +20990,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -16718,6 +21020,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -16741,6 +21049,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -16765,6 +21079,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -16789,6 +21109,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -16813,6 +21139,12 @@
         "productive_output"
       ],
       "productiveSuitability": "high",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "money",
         "accommodation"
@@ -16837,6 +21169,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -16861,6 +21199,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -16885,6 +21229,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -16909,6 +21259,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -16932,6 +21288,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -16956,6 +21318,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -16980,6 +21348,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -17004,6 +21378,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -17027,6 +21407,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -17051,6 +21437,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -17075,6 +21467,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -17099,6 +21497,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -17122,6 +21526,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -17146,6 +21556,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -17170,6 +21586,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -17194,6 +21616,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "education"
       ],
@@ -17216,6 +21644,12 @@
         "listening_recognition"
       ],
       "productiveSuitability": "recognition_only",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -17240,6 +21674,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -17264,6 +21704,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -17288,6 +21734,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -17311,6 +21763,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -17335,6 +21793,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -17359,6 +21823,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -17383,6 +21853,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "money"
       ],
@@ -17406,6 +21882,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -17430,6 +21912,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -17454,6 +21942,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "health"
       ],
@@ -17478,6 +21972,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -17501,6 +22001,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -17525,6 +22031,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "work"
       ],
@@ -17549,6 +22061,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -17573,6 +22091,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -17596,6 +22120,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -17620,6 +22150,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -17644,6 +22180,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -17668,6 +22210,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -17691,6 +22239,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -17715,6 +22269,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -17738,6 +22298,12 @@
         "listening_recognition"
       ],
       "productiveSuitability": "recognition_only",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -17762,6 +22328,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -17785,6 +22357,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -17809,6 +22387,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "health"
       ],
@@ -17833,6 +22417,12 @@
         "productive_output"
       ],
       "productiveSuitability": "high",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "work"
       ],
@@ -17857,6 +22447,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -17880,6 +22476,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -17904,6 +22506,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -17928,6 +22536,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "education",
         "transport",
@@ -17954,6 +22568,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -17977,6 +22597,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -18001,6 +22627,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -18025,6 +22657,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "work"
       ],
@@ -18049,6 +22687,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -18072,6 +22716,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -18096,6 +22746,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "transport"
       ],
@@ -18120,6 +22776,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -18144,6 +22806,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -18167,6 +22835,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -18191,6 +22865,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "work"
       ],
@@ -18215,6 +22895,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -18239,6 +22925,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "environment"
       ],
@@ -18262,6 +22954,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -18286,6 +22984,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "work"
       ],
@@ -18310,6 +23014,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -18334,6 +23044,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -18357,6 +23073,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -18381,6 +23103,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -18405,6 +23133,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -18429,6 +23163,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -18452,6 +23192,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -18476,6 +23222,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -18500,6 +23252,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "transport"
       ],
@@ -18524,6 +23282,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "money"
       ],
@@ -18547,6 +23311,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -18571,6 +23341,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "environment"
       ],
@@ -18595,6 +23371,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "transport"
       ],
@@ -18619,6 +23401,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "education"
       ],
@@ -18642,6 +23430,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -18667,6 +23461,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "transport"
       ],
@@ -18691,6 +23491,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "money"
       ],
@@ -18715,6 +23521,12 @@
         "productive_output"
       ],
       "productiveSuitability": "high",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "education"
       ],
@@ -18738,6 +23550,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "transport"
       ],
@@ -18762,6 +23580,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "work"
       ],
@@ -18786,6 +23610,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -18810,6 +23640,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "education"
       ],
@@ -18833,6 +23669,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -18857,6 +23699,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -18881,6 +23729,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -18904,6 +23758,12 @@
         "listening_recognition"
       ],
       "productiveSuitability": "recognition_only",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -18927,6 +23787,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "education"
       ],
@@ -18951,6 +23817,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "money"
       ],
@@ -18974,6 +23846,12 @@
         "listening_recognition"
       ],
       "productiveSuitability": "recognition_only",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "accommodation"
       ],
@@ -18997,6 +23875,12 @@
         "listening_recognition"
       ],
       "productiveSuitability": "recognition_only",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -19020,6 +23904,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -19044,6 +23934,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -19068,6 +23964,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "money"
       ],
@@ -19092,6 +23994,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -19115,6 +24023,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -19139,6 +24053,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -19163,6 +24083,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -19187,6 +24113,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -19210,6 +24142,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -19234,6 +24172,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -19258,6 +24202,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -19282,6 +24232,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "work"
       ],
@@ -19305,6 +24261,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -19329,6 +24291,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -19353,6 +24321,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -19377,6 +24351,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -19400,6 +24380,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -19424,6 +24410,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -19448,6 +24440,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -19472,6 +24470,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -19495,6 +24499,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "environment"
       ],
@@ -19519,6 +24529,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -19543,6 +24559,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "accommodation"
       ],
@@ -19567,6 +24589,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -19590,6 +24618,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -19614,6 +24648,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -19638,6 +24678,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -19661,6 +24707,12 @@
         "listening_recognition"
       ],
       "productiveSuitability": "recognition_only",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -19684,6 +24736,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -19708,6 +24766,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -19732,6 +24796,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "education",
         "transport"
@@ -19757,6 +24827,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -19780,6 +24856,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -19804,6 +24886,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -19828,6 +24916,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "money",
         "education"
@@ -19854,6 +24948,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "work"
       ],
@@ -19877,6 +24977,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -19901,6 +25007,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -19925,6 +25037,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -19949,6 +25067,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "money"
       ],
@@ -19972,6 +25096,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -19996,6 +25126,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "accommodation"
       ],
@@ -20020,6 +25156,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -20044,6 +25186,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -20067,6 +25215,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -20091,6 +25245,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -20115,6 +25275,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -20139,6 +25305,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -20162,6 +25334,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -20186,6 +25364,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -20210,6 +25394,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "transport"
       ],
@@ -20234,6 +25424,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "education"
       ],
@@ -20257,6 +25453,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -20281,6 +25483,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -20305,6 +25513,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -20329,6 +25543,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -20352,6 +25572,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "health"
       ],
@@ -20377,6 +25603,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "work"
       ],
@@ -20402,6 +25634,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "environment"
       ],
@@ -20426,6 +25664,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "work"
       ],
@@ -20449,6 +25693,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -20473,6 +25723,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -20497,6 +25753,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -20521,6 +25783,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "money"
       ],
@@ -20544,6 +25812,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -20568,6 +25842,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -20592,6 +25872,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -20616,6 +25902,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -20639,6 +25931,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -20663,6 +25961,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -20687,6 +25991,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -20711,6 +26021,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -20734,6 +26050,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -20758,6 +26080,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "transport"
       ],
@@ -20782,6 +26110,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "money"
       ],
@@ -20806,6 +26140,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -20829,6 +26169,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -20853,6 +26199,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -20877,6 +26229,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -20901,6 +26259,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "work"
       ],
@@ -20924,6 +26288,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -20949,6 +26319,12 @@
         "productive_output"
       ],
       "productiveSuitability": "high",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -20973,6 +26349,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -20997,6 +26379,12 @@
         "productive_output"
       ],
       "productiveSuitability": "high",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -21020,6 +26408,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -21044,6 +26438,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "accommodation"
       ],
@@ -21068,6 +26468,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -21092,6 +26498,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -21115,6 +26527,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -21139,6 +26557,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -21163,6 +26587,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "accommodation"
       ],
@@ -21187,6 +26617,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -21210,6 +26646,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -21234,6 +26676,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -21258,6 +26706,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "accommodation"
       ],
@@ -21282,6 +26736,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -21305,6 +26765,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -21329,6 +26795,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -21353,6 +26825,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -21377,6 +26855,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -21400,6 +26884,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -21424,6 +26914,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "transport"
       ],
@@ -21448,6 +26944,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -21472,6 +26974,12 @@
         "productive_output"
       ],
       "productiveSuitability": "high",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "environment"
       ],
@@ -21495,6 +27003,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -21519,6 +27033,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -21543,6 +27063,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -21567,6 +27093,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -21590,6 +27122,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -21614,6 +27152,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -21638,6 +27182,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -21662,6 +27212,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -21685,6 +27241,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -21709,6 +27271,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "accommodation"
       ],
@@ -21733,6 +27301,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -21758,6 +27332,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -21781,6 +27361,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -21805,6 +27391,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -21829,6 +27421,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -21853,6 +27451,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "environment"
       ],
@@ -21876,6 +27480,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -21901,6 +27511,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -21925,6 +27541,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -21949,6 +27571,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -21972,6 +27600,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -21996,6 +27630,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -22020,6 +27660,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -22044,6 +27690,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -22067,6 +27719,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -22091,6 +27749,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -22115,6 +27779,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -22139,6 +27809,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "transport"
       ],
@@ -22162,6 +27838,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -22186,6 +27868,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -22211,6 +27899,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "accommodation"
       ],
@@ -22236,6 +27930,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -22259,6 +27959,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -22283,6 +27989,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -22307,6 +28019,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -22331,6 +28049,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -22355,6 +28079,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -22379,6 +28109,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "accommodation"
       ],
@@ -22403,6 +28139,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -22427,6 +28169,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -22451,6 +28199,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "environment"
       ],
@@ -22475,6 +28229,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "money"
       ],
@@ -22499,6 +28259,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -22523,6 +28289,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -22547,6 +28319,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "transport"
       ],
@@ -22571,6 +28349,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -22595,6 +28379,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "transport"
       ],
@@ -22619,6 +28409,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "transport"
       ],
@@ -22644,6 +28440,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -22668,6 +28470,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -22692,6 +28500,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "accommodation"
       ],
@@ -22717,6 +28531,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "education",
         "work"
@@ -22742,6 +28562,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -22766,6 +28592,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "accommodation"
       ],
@@ -22790,6 +28622,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -22814,6 +28652,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -22838,6 +28682,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "education"
       ],
@@ -22862,6 +28712,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "money"
       ],
@@ -22886,6 +28742,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "transport"
       ],
@@ -22910,6 +28772,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -22934,6 +28802,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -22958,6 +28832,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -22982,6 +28862,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "health"
       ],
@@ -23006,6 +28892,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -23030,6 +28922,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "education"
       ],
@@ -23054,6 +28952,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "transport"
       ],
@@ -23078,6 +28982,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -23102,6 +29012,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "health"
       ],
@@ -23126,6 +29042,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -23150,6 +29072,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "work"
       ],
@@ -23175,6 +29103,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "transport"
       ],
@@ -23199,6 +29133,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -23223,6 +29163,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -23247,6 +29193,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -23271,6 +29223,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -23295,6 +29253,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "education"
       ],
@@ -23318,6 +29282,12 @@
         "listening_recognition"
       ],
       "productiveSuitability": "recognition_only",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -23342,6 +29312,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -23366,6 +29342,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "money"
       ],
@@ -23390,6 +29372,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "education"
       ],
@@ -23414,6 +29402,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -23438,6 +29432,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "accommodation"
       ],
@@ -23462,6 +29462,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -23485,6 +29491,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -23509,6 +29521,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -23533,6 +29551,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -23557,6 +29581,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -23581,6 +29611,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -23605,6 +29641,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "environment"
       ],
@@ -23629,6 +29671,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -23653,6 +29701,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -23677,6 +29731,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -23701,6 +29761,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -23725,6 +29791,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -23749,6 +29821,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -23773,6 +29851,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -23797,6 +29881,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -23821,6 +29911,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -23845,6 +29941,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -23869,6 +29971,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -23893,6 +30001,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -23917,6 +30031,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -23941,6 +30061,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -23965,6 +30091,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -23989,6 +30121,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -24013,6 +30151,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -24037,6 +30181,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -24061,6 +30211,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -24085,6 +30241,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -24109,6 +30271,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -24133,6 +30301,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -24157,6 +30331,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -24181,6 +30361,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -24205,6 +30391,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "transport"
       ],
@@ -24229,6 +30421,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -24254,6 +30452,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -24278,6 +30482,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -24302,6 +30512,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -24326,6 +30542,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -24350,6 +30572,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -24374,6 +30602,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -24398,6 +30632,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "money"
       ],
@@ -24422,6 +30662,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -24446,6 +30692,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -24470,6 +30722,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -24494,6 +30752,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -24518,6 +30782,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -24542,6 +30812,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -24566,6 +30842,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -24590,6 +30872,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -24614,6 +30902,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -24638,6 +30932,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -24662,6 +30962,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "environment"
       ],
@@ -24686,6 +30992,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "environment"
       ],
@@ -24710,6 +31022,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "transport"
       ],
@@ -24734,6 +31052,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -24758,6 +31082,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "work"
       ],
@@ -24782,6 +31112,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -24806,6 +31142,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -24830,6 +31172,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -24854,6 +31202,12 @@
         "productive_output"
       ],
       "productiveSuitability": "high",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -24878,6 +31232,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -24902,6 +31262,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -24926,6 +31292,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -24950,6 +31322,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -24974,6 +31352,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -24999,6 +31383,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -25023,6 +31413,12 @@
         "productive_output"
       ],
       "productiveSuitability": "high",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "money"
       ],
@@ -25047,6 +31443,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "transport"
       ],
@@ -25071,6 +31473,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "environment"
       ],
@@ -25095,6 +31503,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -25119,6 +31533,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -25143,6 +31563,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -25167,6 +31593,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -25191,6 +31623,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -25215,6 +31653,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -25239,6 +31683,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -25263,6 +31713,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -25287,6 +31743,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -25311,6 +31773,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -25335,6 +31803,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -25359,6 +31833,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -25383,6 +31863,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -25407,6 +31893,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -25431,6 +31923,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -25455,6 +31953,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "transport"
       ],
@@ -25479,6 +31983,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "transport"
       ],
@@ -25503,6 +32013,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -25527,6 +32043,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -25551,6 +32073,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -25575,6 +32103,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -25599,6 +32133,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -25623,6 +32163,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -25647,6 +32193,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -25670,6 +32222,12 @@
         "listening_recognition"
       ],
       "productiveSuitability": "recognition_only",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -25694,6 +32252,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -25718,6 +32282,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -25742,6 +32312,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -25766,6 +32342,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -25791,6 +32373,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "education"
       ],
@@ -25815,6 +32403,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -25839,6 +32433,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -25864,6 +32464,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "transport"
       ],
@@ -25888,6 +32494,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -25912,6 +32524,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "transport"
       ],
@@ -25936,6 +32554,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -25961,6 +32585,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "transport"
       ],
@@ -25985,6 +32615,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "health"
       ],
@@ -26009,6 +32645,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "environment"
       ],
@@ -26033,6 +32675,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -26058,6 +32706,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -26082,6 +32736,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -26106,6 +32766,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -26129,6 +32795,12 @@
         "listening_recognition"
       ],
       "productiveSuitability": "recognition_only",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -26153,6 +32825,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -26177,6 +32855,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -26201,6 +32885,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "transport"
       ],
@@ -26225,6 +32915,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "transport"
       ],
@@ -26249,6 +32945,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -26273,6 +32975,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "transport"
       ],
@@ -26297,6 +33005,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -26321,6 +33035,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -26345,6 +33065,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -26369,6 +33095,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -26393,6 +33125,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -26417,6 +33155,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -26441,6 +33185,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "money"
       ],
@@ -26465,6 +33215,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -26490,6 +33246,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -26514,6 +33276,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -26538,6 +33306,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "accommodation"
       ],
@@ -26562,6 +33336,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -26586,6 +33366,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -26611,6 +33397,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -26635,6 +33427,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -26659,6 +33457,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "money"
       ],
@@ -26683,6 +33487,12 @@
         "productive_output"
       ],
       "productiveSuitability": "high",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "environment",
         "transport"
@@ -26708,6 +33518,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -26732,6 +33548,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -26756,6 +33578,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "money"
       ],
@@ -26780,6 +33608,12 @@
         "productive_output"
       ],
       "productiveSuitability": "high",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -26804,6 +33638,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -26828,6 +33668,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "environment"
       ],
@@ -26852,6 +33698,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "money"
       ],
@@ -26876,6 +33728,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -26900,6 +33758,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -26925,6 +33789,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -26949,6 +33819,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -26973,6 +33849,12 @@
         "productive_output"
       ],
       "productiveSuitability": "high",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -26997,6 +33879,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "work"
       ],
@@ -27021,6 +33909,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -27045,6 +33939,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -27069,6 +33969,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "transport"
       ],
@@ -27093,6 +33999,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -27117,6 +34029,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -27141,6 +34059,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -27165,6 +34089,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "transport"
       ],
@@ -27189,6 +34119,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "money"
       ],
@@ -27213,6 +34149,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -27237,6 +34179,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -27261,6 +34209,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "transport"
       ],
@@ -27285,6 +34239,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -27309,6 +34269,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "transport"
       ],
@@ -27334,6 +34300,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -27358,6 +34330,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -27382,6 +34360,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -27406,6 +34390,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -27430,6 +34420,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -27454,6 +34450,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -27478,6 +34480,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -27502,6 +34510,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "transport"
       ],
@@ -27526,6 +34540,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "work"
       ],
@@ -27550,6 +34570,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -27574,6 +34600,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -27598,6 +34630,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -27622,6 +34660,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "education"
       ],
@@ -27646,6 +34690,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "money"
       ],
@@ -27670,6 +34720,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -27694,6 +34750,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -27718,6 +34780,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -27742,6 +34810,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -27766,6 +34840,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "money"
       ],
@@ -27790,6 +34870,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "transport"
       ],
@@ -27814,6 +34900,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -27838,6 +34930,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "transport"
       ],
@@ -27861,6 +34959,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -27885,6 +34989,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -27909,6 +35019,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -27933,6 +35049,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -27957,6 +35079,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -27981,6 +35109,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -28005,6 +35139,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -28029,6 +35169,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -28053,6 +35199,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -28077,6 +35229,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -28101,6 +35259,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "transport",
         "work"
@@ -28126,6 +35290,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -28150,6 +35320,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -28174,6 +35350,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -28198,6 +35380,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -28221,6 +35409,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -28245,6 +35439,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -28269,6 +35469,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "accommodation"
       ],
@@ -28293,6 +35499,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -28317,6 +35529,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -28341,6 +35559,12 @@
         "productive_output"
       ],
       "productiveSuitability": "high",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -28365,6 +35589,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "transport"
       ],
@@ -28389,6 +35619,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -28413,6 +35649,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "environment"
       ],
@@ -28437,6 +35679,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -28461,6 +35709,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "environment"
       ],
@@ -28485,6 +35739,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -28509,6 +35769,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "transport"
       ],
@@ -28533,6 +35799,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "money"
       ],
@@ -28557,6 +35829,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "money"
       ],
@@ -28581,6 +35859,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -28605,6 +35889,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -28629,6 +35919,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -28653,6 +35949,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -28677,6 +35979,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -28701,6 +36009,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -28726,6 +36040,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -28750,6 +36070,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -28774,6 +36100,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -28798,6 +36130,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "money"
       ],
@@ -28822,6 +36160,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "education"
       ],
@@ -28846,6 +36190,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -28870,6 +36220,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -28894,6 +36250,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -28918,6 +36280,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -28942,6 +36310,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -28966,6 +36340,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -28990,6 +36370,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -29014,6 +36400,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -29037,6 +36429,12 @@
         "listening_recognition"
       ],
       "productiveSuitability": "recognition_only",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -29061,6 +36459,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -29085,6 +36489,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -29109,6 +36519,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -29133,6 +36549,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -29157,6 +36579,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -29181,6 +36609,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "money"
       ],
@@ -29205,6 +36639,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -29229,6 +36669,12 @@
         "listening_recognition"
       ],
       "productiveSuitability": "recognition_only",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "health"
       ],
@@ -29252,6 +36698,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -29276,6 +36728,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -29300,6 +36758,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -29324,6 +36788,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -29348,6 +36818,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -29372,6 +36848,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -29397,6 +36879,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -29421,6 +36909,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "accommodation"
       ],
@@ -29445,6 +36939,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -29469,6 +36969,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -29493,6 +36999,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "health"
       ],
@@ -29517,6 +37029,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "transport"
       ],
@@ -29542,6 +37060,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -29566,6 +37090,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -29589,6 +37119,12 @@
         "listening_recognition"
       ],
       "productiveSuitability": "recognition_only",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "environment"
       ],
@@ -29613,6 +37149,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -29637,6 +37179,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -29661,6 +37209,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -29685,6 +37239,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "transport",
         "work"
@@ -29710,6 +37270,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -29734,6 +37300,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -29758,6 +37330,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -29782,6 +37360,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "transport",
         "work"
@@ -29807,6 +37391,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -29831,6 +37421,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -29855,6 +37451,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -29879,6 +37481,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -29903,6 +37511,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -29927,6 +37541,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -29951,6 +37571,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "environment",
         "transport"
@@ -29976,6 +37602,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -30000,6 +37632,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -30024,6 +37662,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -30048,6 +37692,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -30072,6 +37722,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -30096,6 +37752,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -30120,6 +37782,12 @@
         "productive_output"
       ],
       "productiveSuitability": "high",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "money",
         "education"
@@ -30145,6 +37813,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -30169,6 +37843,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -30193,6 +37873,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "education"
       ],
@@ -30217,6 +37903,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -30241,6 +37933,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -30265,6 +37963,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -30289,6 +37993,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "transport"
       ],
@@ -30313,6 +38023,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -30337,6 +38053,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "transport"
       ],
@@ -30361,6 +38083,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -30385,6 +38113,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -30409,6 +38143,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "accommodation"
       ],
@@ -30433,6 +38173,12 @@
         "productive_output"
       ],
       "productiveSuitability": "high",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "money"
       ],
@@ -30457,6 +38203,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -30482,6 +38234,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "money",
         "transport"
@@ -30507,6 +38265,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "education"
       ],
@@ -30531,6 +38295,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -30555,6 +38325,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -30579,6 +38355,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -30603,6 +38385,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -30627,6 +38415,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -30651,6 +38445,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -30675,6 +38475,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -30699,6 +38505,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -30723,6 +38535,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "transport"
       ],
@@ -30747,6 +38565,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -30771,6 +38595,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -30795,6 +38625,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "environment"
       ],
@@ -30819,6 +38655,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -30843,6 +38685,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "environment"
       ],
@@ -30867,6 +38715,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -30891,6 +38745,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -30915,6 +38775,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -30939,6 +38805,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -30963,6 +38835,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -30988,6 +38866,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -31012,6 +38896,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -31036,6 +38926,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "education"
       ],
@@ -31060,6 +38956,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "health"
       ],
@@ -31084,6 +38986,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -31108,6 +39016,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -31132,6 +39046,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -31156,6 +39076,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -31180,6 +39106,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -31204,6 +39136,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -31228,6 +39166,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -31252,6 +39196,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "money"
       ],
@@ -31276,6 +39226,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -31300,6 +39256,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -31324,6 +39286,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "transport"
       ],
@@ -31348,6 +39316,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -31372,6 +39346,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -31396,6 +39376,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -31420,6 +39406,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -31444,6 +39436,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "work"
       ],
@@ -31468,6 +39466,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -31492,6 +39496,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -31516,6 +39526,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -31540,6 +39556,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -31564,6 +39586,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -31588,6 +39616,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -31612,6 +39646,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -31636,6 +39676,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -31660,6 +39706,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -31684,6 +39736,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "transport"
       ],
@@ -31708,6 +39766,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "accommodation"
       ],
@@ -31732,6 +39796,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "transport"
       ],
@@ -31756,6 +39826,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "accommodation"
       ],
@@ -31780,6 +39856,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -31804,6 +39886,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "accommodation"
       ],
@@ -31828,6 +39916,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -31852,6 +39946,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "environment"
       ],
@@ -31876,6 +39976,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "education"
       ],
@@ -31899,6 +40005,12 @@
         "listening_recognition"
       ],
       "productiveSuitability": "recognition_only",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -31923,6 +40035,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -31948,6 +40066,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -31972,6 +40096,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -31996,6 +40126,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -32020,6 +40156,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -32044,6 +40186,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -32068,6 +40216,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -32092,6 +40246,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "transport"
       ],
@@ -32116,6 +40276,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -32140,6 +40306,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -32164,6 +40336,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -32188,6 +40366,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -32211,6 +40395,12 @@
         "listening_recognition"
       ],
       "productiveSuitability": "recognition_only",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -32235,6 +40425,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -32259,6 +40455,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -32283,6 +40485,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -32307,6 +40515,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -32331,6 +40545,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "health"
       ],
@@ -32355,6 +40575,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -32379,6 +40605,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -32403,6 +40635,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -32427,6 +40665,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "health"
       ],
@@ -32451,6 +40695,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -32475,6 +40725,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -32499,6 +40755,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "health"
       ],
@@ -32524,6 +40786,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -32548,6 +40816,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -32572,6 +40846,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -32596,6 +40876,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -32620,6 +40906,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -32644,6 +40936,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -32667,6 +40965,12 @@
         "listening_recognition"
       ],
       "productiveSuitability": "recognition_only",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -32691,6 +40995,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -32715,6 +41025,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -32739,6 +41055,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -32763,6 +41085,12 @@
         "listening_recognition"
       ],
       "productiveSuitability": "recognition_only",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -32787,6 +41115,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -32811,6 +41145,12 @@
         "listening_recognition"
       ],
       "productiveSuitability": "recognition_only",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "health"
       ],
@@ -32835,6 +41175,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -32859,6 +41205,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -32882,6 +41234,12 @@
         "listening_recognition"
       ],
       "productiveSuitability": "recognition_only",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -32906,6 +41264,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -32930,6 +41294,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "environment"
       ],
@@ -32953,6 +41323,12 @@
         "listening_recognition"
       ],
       "productiveSuitability": "recognition_only",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -32977,6 +41353,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -33001,6 +41383,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -33025,6 +41413,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -33049,6 +41443,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -33073,6 +41473,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "health"
       ],
@@ -33097,6 +41503,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -33121,6 +41533,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -33145,6 +41563,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -33169,6 +41593,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -33193,6 +41623,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -33217,6 +41653,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -33241,6 +41683,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -33265,6 +41713,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -33289,6 +41743,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -33313,6 +41773,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "environment"
       ],
@@ -33337,6 +41803,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "money"
       ],
@@ -33361,6 +41833,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -33385,6 +41863,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -33410,6 +41894,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -33435,6 +41925,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],
@@ -33459,6 +41955,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "money",
         "transport"
@@ -33484,6 +41986,12 @@
         "productive_output"
       ],
       "productiveSuitability": "medium",
+      "suitabilitySource": "auto_inferred",
+      "audioMode": "standalone",
+      "contextSentence": null,
+      "audioAssetId": null,
+      "meaningZh": null,
+      "promptZh": null,
       "tags": [
         "general"
       ],

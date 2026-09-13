@@ -10,6 +10,7 @@
 
   const moduleCopy = {
     listening: { title: "雅思核心单词听写", eyebrow: "IELTS LISTENING · WORD DICTATION" },
+    chunk: { title: "雅思真题词块听辨", eyebrow: "IELTS LISTENING · CHUNK AURAL RECOGNITION" },
     numberdate: { title: "数字/日期无限生成器", eyebrow: "IELTS LISTENING · NUMBERS & DATES" },
     paraphrase: { title: "同义替换随机速练", eyebrow: "IELTS LISTENING · PARAPHRASE DRILL" },
     optionscan: { title: "30秒长选项速读扫描", eyebrow: "IELTS LISTENING · SPEED SCANNING" },
@@ -29,12 +30,13 @@
     title.textContent = moduleCopy[name].title;
     eyebrow.textContent = moduleCopy[name].eyebrow;
     settingsButton.hidden = name !== "listening";
-    if (name !== "listening" && "speechSynthesis" in window) speechSynthesis.cancel();
+    if (name !== "listening" && name !== "chunk" && "speechSynthesis" in window) speechSynthesis.cancel();
     document.title = `${moduleCopy[name].title} · IELTS 练习中心`;
     localStorage.setItem(STORAGE_KEY, JSON.stringify({ module: name }));
     if (updateHash && window.location.hash.replace(/^#/, "") !== name) {
       history.replaceState(null, "", `#${name}`);
     }
+    if (name === "chunk") window.dispatchEvent(new CustomEvent("chunk-module-visible"));
     if (name === "numberdate") window.dispatchEvent(new CustomEvent("numberdate-module-visible"));
     if (name === "paraphrase") window.dispatchEvent(new CustomEvent("paraphrase-module-visible"));
     if (name === "optionscan") window.dispatchEvent(new CustomEvent("optionscan-module-visible"));
@@ -49,6 +51,7 @@
     const coachTitle = document.getElementById("coachTitle");
     const coachDesc = document.getElementById("coachDesc");
     const coachWordBadge = document.getElementById("coachWordBadge");
+    const coachChunkBadge = document.getElementById("coachChunkBadge");
     const coachNumBadge = document.getElementById("coachNumBadge");
     const coachReviewBadge = document.getElementById("coachReviewBadge");
     const coachActionBtn = document.getElementById("coachActionBtn");
@@ -63,12 +66,14 @@
     } catch {}
 
     let numbersToday = 0;
+    let chunksToday = 0;
     let mistakesTotal = 0;
     if (window.IELTS_DB) {
       try {
         const startOfDay = new Date();
         startOfDay.setHours(0, 0, 0, 0);
         const attempts = await window.IELTS_DB.getAttemptsByTimeRange(startOfDay.getTime(), Date.now());
+        chunksToday = (attempts || []).filter((a) => a.moduleType === "chunk_aural").length;
         numbersToday = (attempts || []).filter((a) => a.moduleType === "number_date").length;
         const allMistakes = await window.IELTS_DB.getAllMistakes();
         mistakesTotal = (allMistakes || []).length;
@@ -80,6 +85,10 @@
     if (coachWordBadge) {
       coachWordBadge.textContent = `单词听写: ${wordsToday} / 30`;
       coachWordBadge.classList.toggle("done", wordsToday >= 30);
+    }
+    if (coachChunkBadge) {
+      coachChunkBadge.textContent = `词块听辨: ${chunksToday} / 20`;
+      coachChunkBadge.classList.toggle("done", chunksToday >= 20);
     }
     if (coachNumBadge) {
       coachNumBadge.textContent = `数字日期: ${numbersToday} / 10`;
@@ -97,10 +106,18 @@
         coachActionBtn.textContent = `👉 去听写单词 (还差 ${30 - wordsToday} 词)`;
         coachActionBtn.onclick = () => activate("listening");
       }
+    } else if (chunksToday < 20) {
+      if (coachIcon) coachIcon.textContent = "⚡";
+      coachTitle.textContent = "核心断层突破：真题词块辨音速练";
+      coachDesc.textContent = `单词听辨已达标！现在做 20 条王陆真题词块听辨，攻坚「眼睛认识但耳朵反应不过来」断层（已完成 ${chunksToday} 词块）。`;
+      if (coachActionBtn) {
+        coachActionBtn.textContent = `👉 听辨真题词块 (还差 ${20 - chunksToday} 条)`;
+        coachActionBtn.onclick = () => activate("chunk");
+      }
     } else if (numbersToday < 10) {
       if (coachIcon) coachIcon.textContent = "🔢";
       coachTitle.textContent = "考场必拿分项：数字与日期速练";
-      coachDesc.textContent = `单词听写已达标！现在做 10 题 -teen/-ty、日期与价格速听，巩固听力 Section 1。`;
+      coachDesc.textContent = `词汇基础已扎实！现在做 10 题 -teen/-ty、日期与价格速听，巩固听力 Section 1。`;
       if (coachActionBtn) {
         coachActionBtn.textContent = `👉 练数字日期 (还差 ${10 - numbersToday} 题)`;
         coachActionBtn.onclick = () => activate("numberdate");
@@ -108,13 +125,15 @@
     } else {
       if (coachIcon) coachIcon.textContent = "🏆";
       coachTitle.textContent = "今日基础训练已达成！进入专项突破";
-      coachDesc.textContent = `单词和数字已全部完成！接下来建议进入【地图题专项】或【同义替换速练】。`;
+      coachDesc.textContent = `单词、词块和数字已全部完成！接下来建议进入【地图题专项】或【同义替换速练】。`;
       if (coachActionBtn) {
         coachActionBtn.textContent = "👉 攻坚地图题专项";
         coachActionBtn.onclick = () => activate("map");
       }
     }
   }
+
+  window.addEventListener("chunk-attempt-recorded", () => updateDailyCoach());
 
   tabs.forEach((tab) => tab.addEventListener("click", () => activate(tab.dataset.hubModule)));
 

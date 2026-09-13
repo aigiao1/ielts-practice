@@ -18,6 +18,8 @@ const ALLOWED_REVIEW_STATUSES = new Set(["imported", "draft", "reviewed", "verif
 const ALLOWED_STATUSES = new Set(["active", "disabled", "deprecated"]);
 const ALLOWED_TRAINING_ROLES = new Set(["listening_recognition", "productive_output"]);
 const ALLOWED_PRODUCTIVE_SUITABILITY = new Set(["high", "medium", "recognition_only"]);
+const ALLOWED_SUITABILITY_SOURCES = new Set(["auto_inferred", "human_reviewed"]);
+const ALLOWED_AUDIO_MODES = new Set(["standalone", "sentence", "exam_context"]);
 
 let fatalErrors = 0;
 let warnings = 0;
@@ -218,6 +220,12 @@ for (const pRef of packsManifest) {
       }
       if (!ALLOWED_PRODUCTIVE_SUITABILITY.has(chunk.productiveSuitability)) {
         error(`Pack ${pack.packId} 词块 '${chunk.id}' productiveSuitability 非法: '${chunk.productiveSuitability}'`);
+      }
+      if (!ALLOWED_SUITABILITY_SOURCES.has(chunk.suitabilitySource)) {
+        error(`Pack ${pack.packId} 词块 '${chunk.id}' suitabilitySource 非法: '${chunk.suitabilitySource}'`);
+      }
+      if (!ALLOWED_AUDIO_MODES.has(chunk.audioMode)) {
+        error(`Pack ${pack.packId} 词块 '${chunk.id}' audioMode 非法: '${chunk.audioMode}'`);
       }
     }
   }

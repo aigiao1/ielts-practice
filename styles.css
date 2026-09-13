@@ -1326,4 +1326,246 @@ dialog::backdrop { background: rgba(25,20,15,.45); backdrop-filter: blur(3px); }
 .zone-type-industrial { border-left: 3.5px solid #457b9d; }
 .zone-type-infrastructure { border-left: 3.5px solid #8d99ae; }
 
+/* 词块听辨专属样式 (Chunk Aural Styles) */
+.chunk-comp-pill {
+  display: inline-flex;
+  align-items: center;
+  border: 1px solid var(--line);
+  background: #f7f4ee;
+  color: #5a5247;
+  border-radius: 8px;
+  padding: 3px 8px;
+  font-size: 12px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 0.15s ease;
+  margin: 0 2px;
+}
+.chunk-comp-pill:hover {
+  background: #eadecc;
+  border-color: #d1beaa;
+  color: var(--ink);
+  transform: translateY(-1px);
+}
+.chunk-unreviewed-note {
+  font-size: 13px;
+  color: #8c8275;
+  font-style: italic;
+}
+.toggle-label {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 13px;
+  font-weight: 700;
+  color: #514b44;
+  cursor: pointer;
+  user-select: none;
+}
+.toggle-label input[type="checkbox"] {
+  width: auto;
+  cursor: pointer;
+}
+
+/* B+ 认知激活架构：错因分流与修复工作台样式 (Phase 5) */
+.diagnostic-reasons-panel {
+  margin-top: 12px;
+  padding: 12px 14px;
+  background: #fbf9f5;
+  border: 1.5px solid #ece4d8;
+  border-radius: 10px;
+}
+.diagnostic-reasons-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 12px;
+  font-weight: 700;
+  color: #6c6356;
+  margin-bottom: 8px;
+}
+.reason-chips-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(135px, 1fr));
+  gap: 8px;
+}
+.reason-chip {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 7px 10px;
+  background: #ffffff;
+  border: 1.5px solid #e2dad0;
+  border-radius: 8px;
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--ink);
+  cursor: pointer;
+  transition: all 0.15s ease;
+  user-select: none;
+}
+.reason-chip:hover {
+  border-color: #baa996;
+  background: #fdfbf7;
+}
+.reason-chip.active {
+  font-weight: 800;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+}
+.reason-chip.reason-sound_not_recognised.active {
+  border-color: #2b6cb0;
+  background: #ebf8ff;
+  color: #2b6cb0;
+}
+.reason-chip.reason-recognised_but_misspelled.active {
+  border-color: #dd6b20;
+  background: #fffaf0;
+  color: #c05621;
+}
+.reason-chip.reason-slow_recognition.active {
+  border-color: #d69e2e;
+  background: #fffff0;
+  color: #975a16;
+}
+.reason-chip.reason-meaning_unknown.active {
+  border-color: #805ad5;
+  background: #faf5ff;
+  color: #6b46c1;
+}
+.reason-chip kbd {
+  display: inline-block;
+  font-size: 10px;
+  font-family: inherit;
+  background: #eee7dc;
+  color: #6e6558;
+  padding: 1px 5px;
+  border-radius: 4px;
+}
+.reason-chip.active kbd {
+  background: currentColor;
+  color: #ffffff;
+}
+.reason-rec-badge {
+  font-size: 9.5px;
+  font-weight: 800;
+  padding: 1px 4px;
+  border-radius: 4px;
+  background: #e2e8f0;
+  color: #4a5568;
+}
+.reason-chip.active .reason-rec-badge {
+  background: rgba(0, 0, 0, 0.12);
+}
+
+/* 弱项诊断战报列表项 */
+.weak-chunk-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  padding: 12px 14px;
+  background: #ffffff;
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  transition: transform 0.15s ease;
+}
+.weak-chunk-card:hover {
+  transform: translateX(2px);
+  border-color: #d6c6b4;
+}
+.weak-chunk-title {
+  font-size: 15px;
+  font-weight: 800;
+  color: var(--ink);
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.pathway-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  font-size: 11px;
+  font-weight: 700;
+  background: #edf2f7;
+  color: #4a5568;
+  padding: 3px 8px;
+  border-radius: 6px;
+}
+
+/* 修复工作台与步进条 */
+.repair-stepper {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  flex-wrap: wrap;
+  margin: 14px 0;
+  padding: 10px 14px;
+  background: #fbf9f5;
+  border: 1px solid var(--line);
+  border-radius: 10px;
+}
+.repair-step-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 12px;
+  font-weight: 700;
+  padding: 4px 10px;
+  border-radius: 6px;
+  background: #ece5dc;
+  color: #6e6457;
+}
+.repair-step-badge.active {
+  background: var(--ink);
+  color: #ffffff;
+}
+.repair-step-badge.completed {
+  background: #def7ec;
+  color: #03543f;
+}
+.repair-workbench-card {
+  background: #ffffff;
+  border: 1.5px solid var(--line);
+  border-radius: 14px;
+  padding: clamp(16px, 3vw, 24px);
+  margin-top: 14px;
+}
+.cloze-sentence-box {
+  background: #fdfaf6;
+  border: 1.5px dashed #dbc9b5;
+  border-radius: 10px;
+  padding: 16px;
+  font-size: 16px;
+  line-height: 1.7;
+  color: var(--ink);
+  margin: 14px 0;
+}
+.cloze-blank-highlight {
+  display: inline-block;
+  padding: 2px 10px;
+  background: #fff3e0;
+  border-bottom: 2px solid #e76f51;
+  font-weight: 800;
+  color: #a04000;
+  border-radius: 4px;
+}
+.speed-progress-bar {
+  height: 6px;
+  width: 100%;
+  background: #e2e8f0;
+  border-radius: 3px;
+  overflow: hidden;
+  margin: 10px 0;
+}
+.speed-progress-fill {
+  height: 100%;
+  width: 100%;
+  background: #f59e0b;
+  transition: width 0.05s linear;
+}
+
+
+
 

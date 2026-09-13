@@ -27,6 +27,11 @@ assert.equal(ContentSchemas.TRAINING_ROLES.PRODUCTIVE_OUTPUT, "productive_output
 assert.equal(ContentSchemas.PRODUCTIVE_SUITABILITY.HIGH, "high");
 assert.equal(ContentSchemas.PRODUCTIVE_SUITABILITY.MEDIUM, "medium");
 assert.equal(ContentSchemas.PRODUCTIVE_SUITABILITY.RECOGNITION_ONLY, "recognition_only");
+assert.equal(ContentSchemas.SUITABILITY_SOURCES.AUTO_INFERRED, "auto_inferred");
+assert.equal(ContentSchemas.SUITABILITY_SOURCES.HUMAN_REVIEWED, "human_reviewed");
+assert.equal(ContentSchemas.AUDIO_MODES.STANDALONE, "standalone");
+assert.equal(ContentSchemas.AUDIO_MODES.SENTENCE, "sentence");
+assert.equal(ContentSchemas.AUDIO_MODES.EXAM_CONTEXT, "exam_context");
 assert.equal(ContentSchemas.REACTION_TIERS.FLUENT, "fluent");
 assert.equal(ContentSchemas.REACTION_TIERS.ACCESSIBLE, "accessible");
 assert.equal(ContentSchemas.REACTION_TIERS.SLOW, "slow");
@@ -61,6 +66,9 @@ assert.ok(tuitionChunk.trainingRole.includes("productive_output"));
 const livingExpensesChunk = wangluChunksPack.items.find((c) => c.text.toLowerCase() === "living expenses");
 assert.ok(livingExpensesChunk, "必须找到 living expenses 词块");
 assert.equal(livingExpensesChunk.productiveSuitability, "high");
+assert.equal(livingExpensesChunk.suitabilitySource, "auto_inferred");
+assert.equal(livingExpensesChunk.audioMode, "standalone");
+assert.equal(livingExpensesChunk.meaningZh, null); // 验证未审核中文不直接污染数据
 
 // 偏门学术/生物/生僻专用词块应标记为 recognition_only，防止滥进入 2秒中文产出召回
 const redBloodChunk = wangluAdvancedChunksPack.items.find((c) => c.text.toLowerCase() === "red blood cells");

@@ -176,6 +176,12 @@ const normalizedCh5Items = ch5Items.map((item, idx) => {
     sourceRef: `Chapter ${item.chapter}`,
     trainingRole,
     productiveSuitability: suitability,
+    suitabilitySource: "auto_inferred", // 算法规则自动推导 (待人工复核)
+    audioMode: "standalone",           // Level 1: 独立词块发音 (预留 sentence/exam_context)
+    contextSentence: null,             // 预留 Level 2 短句
+    audioAssetId: null,                // 预留真实真题录音音频资产 ID
+    meaningZh: null,                   // 暂无人工审核中文释义 (防止污染主动调用)
+    promptZh: null,                    // 暂无人工审核中文提示
     tags: inferTags(text, components),
     origin: "bundled",
     reviewStatus: "imported", // 机器辅助生成统一为 imported
@@ -211,6 +217,12 @@ const normalizedCh11Items = ch11Items.map((item, idx) => {
     sourceRef: `Chapter ${item.chapter}`,
     trainingRole,
     productiveSuitability: suitability,
+    suitabilitySource: "auto_inferred", // 算法规则自动推导 (待人工复核)
+    audioMode: "standalone",           // Level 1: 独立词块发音 (预留 sentence/exam_context)
+    contextSentence: null,             // 预留 Level 2 短句
+    audioAssetId: null,                // 预留真实真题录音音频资产 ID
+    meaningZh: null,                   // 暂无人工审核中文释义 (防止污染主动调用)
+    promptZh: null,                    // 暂无人工审核中文提示
     tags: inferTags(text, components),
     origin: "bundled",
     reviewStatus: "imported",

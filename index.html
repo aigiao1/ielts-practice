@@ -32,6 +32,7 @@
           <div class="daily-coach-desc" id="coachDesc">正在统计今日练习进度...</div>
           <div class="daily-coach-pills">
             <span id="coachWordBadge" class="daily-badge">单词听写: 0 / 30</span>
+            <span id="coachChunkBadge" class="daily-badge">词块听辨: 0 / 20</span>
             <span id="coachNumBadge" class="daily-badge">数字日期: 0 / 10</span>
             <span id="coachReviewBadge" class="daily-badge">难点收藏: 0 条</span>
           </div>
@@ -49,6 +50,7 @@
 
     <nav class="hub-nav card-panel" aria-label="练习大类">
       <button type="button" class="hub-tab active" data-hub-module="listening" aria-selected="true">核心单词听写</button>
+      <button type="button" class="hub-tab" data-hub-module="chunk" aria-selected="false">🎧 语料库词块听辨</button>
       <button type="button" class="hub-tab" data-hub-module="numberdate" aria-selected="false">数字/日期无限练</button>
       <button type="button" class="hub-tab" data-hub-module="paraphrase" aria-selected="false">同义替换速练</button>
       <button type="button" class="hub-tab" data-hub-module="optionscan" aria-selected="false">30秒选项速读</button>
@@ -137,6 +139,149 @@
       <section class="keyboard-help card-panel">
         <strong>键盘快捷键：</strong>未提交时 <kbd>1</kbd> 交白卷看答案、<kbd>2</kbd> 标为已掌握跳过；答案出来后 <kbd>1</kbd> 生词、<kbd>2</kbd> 掌握；<kbd>Enter</kbd> 提交/推进，<kbd>F2</kbd> 重听发音。
       </section>
+    </section>
+
+    <!-- 语料库真题词块听辨模块 (Chunk Aural Recognition MVP) -->
+    <section id="chunkModule" data-hub-panel="chunk" hidden>
+      <section class="summary" aria-label="词块听辨概况">
+        <div><strong id="chunkTodayCount">0</strong><span>今日听辨</span></div>
+        <div><strong id="chunkAccuracy">—</strong><span>今日正确率</span></div>
+        <div><strong id="chunkFluentCount">0</strong><span>极速直觉 (≤2s)</span></div>
+        <div><strong id="chunkTestedCount">2987 词块</strong><span>当前题库容量</span></div>
+      </section>
+
+      <!-- 容器 1：雷达连续筛查视图 (Stage 1) -->
+      <div id="chunkScreeningContainer">
+        <section class="controls card-panel" style="grid-template-columns: repeat(auto-fit, minmax(160px, 1fr)) auto; gap: 10px; padding: 14px 18px;">
+          <label>词块题库范围
+            <select id="chunkScopeSelect">
+              <option value="all">全部真题词块 (2,987 条)</option>
+              <option value="wanglu_ch5" selected>王陆第5章 · 核心词块 (1,569 条)</option>
+              <option value="wanglu_ch11">王陆第11章 · 横向真题测试 (1,418 条)</option>
+            </select>
+          </label>
+          <label>小节专项细分
+            <select id="chunkSectionSelect">
+              <option value="all">全部小节</option>
+              <option value="5.1">5.1 基础表达与名词搭配</option>
+              <option value="5.2">5.2 学术教育场景</option>
+              <option value="5.3">5.3 工作商务场景</option>
+              <option value="5.4">5.4 日常生活场景</option>
+              <option value="5.5">5.5 环境生态与地理</option>
+              <option value="5.6">5.6 医疗健康场景</option>
+              <option value="5.7">5.7 旅游与交通住宿</option>
+              <option value="5.8">5.8 科技媒体场景</option>
+              <option value="5.9">5.9 动植物专有名词</option>
+              <option value="5.10">5.10 艺术文化活动</option>
+              <option value="5.11">5.11 法律与社会问题</option>
+              <option value="5.12">5.12 综合高频词组</option>
+            </select>
+          </label>
+          <label>筛查批次
+            <select id="chunkBatchSizeSelect">
+              <option value="20" selected>标准雷达轮 (20 题连续)</option>
+              <option value="10">轻量速测 (10 题)</option>
+              <option value="30">深度排查 (30 题)</option>
+            </select>
+          </label>
+          <label>发音语速
+            <select id="chunkRateSelect">
+              <option value="0.8">0.80× (慢速辨音)</option>
+              <option value="0.9" selected>0.90× (标准考场速)</option>
+              <option value="1.0">1.00× (原速挑战)</option>
+            </select>
+          </label>
+          <div style="display: flex; flex-direction: column; justify-content: flex-end; gap: 8px;">
+            <label class="toggle-label">
+              <input id="chunkAutoPlayInput" type="checkbox" checked>
+              <span>切题自动发音</span>
+            </label>
+            <button id="chunkStartBtn" type="button" class="secondary compact">重新筛查</button>
+          </div>
+        </section>
+
+        <section class="practice-card" aria-label="词块听辨卡片" style="margin-top: 14px;">
+          <div class="card-meta">
+            <div>
+              <span id="chunkMetaScope" class="badge">Chapter 5.1</span>
+              <span id="chunkMetaProgress" style="margin-left: 8px; font-weight: 700;">第 1 / 20 题 (雷达扫描)</span>
+            </div>
+            <span id="chunkMetaReplay" class="badge">🔊 播放: 0 次</span>
+          </div>
+
+          <button type="button" id="chunkListenBtn" class="listen-button">
+            <span class="listen-icon">🔊</span>
+            <div>
+              <strong>点击或按 [F2] 播放词块发音</strong>
+              <small id="chunkListenTip">TTS 标准发音 · 音频播放完毕后立即计时反应时</small>
+            </div>
+          </button>
+
+          <div class="answer-label">听音输入词块完整拼写：</div>
+          <div class="answer-row">
+            <input type="text" id="chunkInput" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" placeholder="听音输入词块 (按 Enter 提交)...">
+            <button type="button" id="chunkSubmitBtn" class="primary">提交 (Enter)</button>
+          </div>
+          <div style="display: flex; justify-content: space-between; align-items: center; margin-top: 8px; font-size: 12px; color: var(--muted);">
+            <span>💡 提示：零中断扫描，真实记录耳朵直觉反应，测试完再集中修复</span>
+            <span>快捷键：<code>F2</code> 重播音频 · <code>Enter</code> 提交 / 下一题</span>
+          </div>
+
+          <div id="chunkFeedback" class="feedback" hidden>
+            <div id="chunkResultBox" class="result-box"></div>
+          </div>
+        </section>
+
+        <section class="keyboard-help card-panel" style="margin-top: 14px;">
+          <strong>B+ 认知激活铁律：</strong>
+          筛查阶段严格<strong>不中断教学</strong>（保全听辨原始基线）；
+          音频结束至首键敲击 ≤2s 判定为 <code>fluent</code>（直觉反射）；做错或偏慢时快速点选错因（<code>1</code>/<code>2</code>/<code>3</code>/<code>4</code>），测试完毕后自动提取弱项进入定向修复。
+        </section>
+      </div>
+
+      <!-- 容器 2：弱项诊断战报视图 (Stage 2) -->
+      <div id="chunkReportContainer" class="card-panel" style="margin-top: 14px; padding: clamp(20px, 4vw, 36px);" hidden>
+        <div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 10px; margin-bottom: 20px;">
+          <div>
+            <h2 style="margin: 0 0 6px; font-size: 22px;">📊 本轮 20 题听辨雷达诊断完成</h2>
+            <p style="margin: 0; color: var(--muted); font-size: 13px;">原始听辨基线已锁定 · 靶向提取以下弱项，绝不在测试中盲目教</p>
+          </div>
+          <span id="reportAccuracyBadge" class="badge ok-badge" style="font-size: 14px; padding: 6px 14px;">75% 准确率</span>
+        </div>
+
+        <div class="summary" style="margin: 0 0 20px;">
+          <div><strong id="repStableCount" style="color: var(--green);">0</strong><span>⚡ 稳定听辨 (≤2s)</span></div>
+          <div><strong id="repSlowCount" style="color: var(--yellow);">0</strong><span>⏱️ 反应偏慢 (&gt;4s)</span></div>
+          <div><strong id="repBlindCount" style="color: var(--blue);">0</strong><span>🎧 听辨盲区 (未识别)</span></div>
+          <div><strong id="repMisspellCount" style="color: var(--orange);">0</strong><span>✍️ 听懂但拼错</span></div>
+        </div>
+
+        <div style="margin-bottom: 24px;">
+          <div style="font-size: 14px; font-weight: 800; margin-bottom: 10px; color: #514b44;">
+            🎯 本轮待修复弱项清单 (<span id="repNeedsCount">0</span> 个词块)：
+          </div>
+          <div id="repWeakList" style="display: flex; flex-direction: column; gap: 8px;"></div>
+        </div>
+
+        <div style="display: flex; gap: 12px; align-items: center; flex-wrap: wrap;">
+          <button type="button" id="startRepairQueueBtn" class="primary" style="font-size: 15px; padding: 12px 24px;">
+            👉 开始本轮弱项分流修复 (进入定向修复梯)
+          </button>
+          <button type="button" id="rescreenBtn" class="secondary">
+            重新筛查新一批 (20题)
+          </button>
+        </div>
+      </div>
+
+      <!-- 容器 3：分流修复工作台 (Stage 3) -->
+      <div id="chunkRepairContainer" class="card-panel" style="margin-top: 14px; padding: clamp(20px, 4vw, 36px);" hidden>
+        <div id="repairWorkbenchContent"></div>
+      </div>
+
+      <!-- 容器 4：延迟混排回测视图 (Stage 4) -->
+      <div id="chunkRetestContainer" class="card-panel" style="margin-top: 14px; padding: clamp(20px, 4vw, 36px);" hidden>
+        <div id="retestWorkbenchContent"></div>
+      </div>
     </section>
 
     <!-- 数字/日期/时间/货币无限生成器模块 -->
@@ -711,6 +856,8 @@
   <script src="paraphrase-engine.js"></script>
   <script src="paraphrase-ui.js"></script>
   <script src="option-scan.js"></script>
+  <script src="chunk-aural-engine.js"></script>
+  <script src="chunk-aural-ui.js"></script>
   <script src="app.js"></script>
   <script src="writing-practice.js"></script>
   <script src="map-training.js"></script>

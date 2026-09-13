@@ -300,6 +300,53 @@
       return this.runTx("user_content", "readwrite", (store) => store.delete(id));
     }
 
+    // 6. review_items 复习调度队列
+    async saveReviewItem(item) {
+      if (!item.id) {
+        item.id = "rev-" + Date.now() + "-" + Math.random().toString(36).slice(2, 7);
+      }
+      if (!item.createdAt) {
+        item.createdAt = Date.now();
+      }
+      return this.runTx("review_items", "readwrite", (store) => store.put(item));
+    }
+
+    async scheduleChunkReview(chunkKey, intervalMs = 86400000) {
+      const item = {
+        id: "rev-chunk-" + Date.now() + "-" + Math.random().toString(36).slice(2, 7),
+        chunkKey,
+        moduleType: "chunk_aural",
+        scheduledAt: Date.now(),
+        nextReviewAt: Date.now() + intervalMs,
+        status: "pending"
+      };
+      return this.saveReviewItem(item);
+    }
+
+    async getPendingReviews(targetTimestamp = Date.now()) {
+      const db = await this.getDb();
+      if (!db) return [];
+      return new Promise((resolve, reject) => {
+        const tx = db.transaction("review_items", "readonly");
+        const store = tx.objectStore("review_items");
+        const index = store.index("nextReviewAt");
+        const range = IDBKeyRange.upperBound(targetTimestamp);
+        const req = index.openCursor(range);
+        const results = [];
+
+        req.onsuccess = (e) => {
+          const cursor = e.target.result;
+          if (cursor) {
+            results.push(cursor.value);
+            cursor.continue();
+          } else {
+            resolve(results);
+          }
+        };
+        req.onerror = () => reject(tx.error);
+      });
+    }
+
     // 5. JSON 导出与恢复 (升级支持 user_content，兼容 v1/v2)
     async exportAllData() {
       const db = await this.getDb();
