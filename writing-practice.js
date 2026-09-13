@@ -345,16 +345,19 @@
       inputEl?.addEventListener("blur", clearHighlight);
     });
 
-    // 绑定图表切片点击定位到对应题目
-    const pieSvg = document.getElementById("task1PieSvg");
-    if (pieSvg) {
-      pieSvg.querySelectorAll(".pie-slice").forEach((slice) => {
-        slice.addEventListener("click", () => {
-          const sliceLabel = (slice.dataset.itemLabel || "").toLowerCase();
+    // 绑定图表元素点击定位到对应题目 (全形态图表通用)
+    const chartCard = document.getElementById("task1ChartCard");
+    if (chartCard) {
+      chartCard.querySelectorAll(".pie-slice, .line-dot, .bar-item, .single-bar-col, .flow-step-card, .map-zone-card, .pie-legend-item, .line-legend-item").forEach((el) => {
+        el.addEventListener("click", () => {
+          const itemLabel = (el.dataset.itemLabel || el.dataset.legendLabel || el.textContent || "").toLowerCase();
           const targetRow = Array.from(questionRows).find((row) => {
             let tgts = [];
             try { tgts = JSON.parse(row.dataset.relationTargets || "[]"); } catch {}
-            return tgts.some((t) => sliceLabel.includes(t.toLowerCase()) || t.toLowerCase().includes(sliceLabel));
+            return tgts.some((t) => {
+              const cleanT = String(t).toLowerCase();
+              return itemLabel.includes(cleanT) || cleanT.includes(itemLabel.split(" ")[0]);
+            });
           });
           if (targetRow) {
             targetRow.scrollIntoView({ behavior: "smooth", block: "center" });

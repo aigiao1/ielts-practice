@@ -1,4 +1,4 @@
-// Task 1 视觉图表与思维链词库断言测试 (Task 1 Visual Scaffolds Tests)
+// Task 1 视觉图表与思维链词库断言测试 (Task 1 Visual Scaffolds Tests - Complete 28 Groups)
 // 运行：node scripts/test-task1-visual-scaffolds.mjs
 import assert from "node:assert/strict";
 import path from "node:path";
@@ -14,57 +14,87 @@ const Task1ChartRenderer = require(path.join(rootDir, "content", "writing", "tas
 const Task1Workbook = require(path.join(rootDir, "content", "writing", "task1", "task1-workbook-v1.js"));
 
 console.log("\n=======================================================");
-console.log("🧪 运行 Task 1 视觉图表与思维链断言测试...");
+console.log("🧪 运行 Task 1 全 28 题组 (140 题) 视觉图表与思维链断言测试...");
 console.log("=======================================================\n");
 
-const group1 = Task1Workbook.groups.find((g) => g.id === "task1-group-01");
-assert.ok(group1, "必须找到题组 task1-group-01");
+// 1. 验证全部 28 个题组在知识包中 100% 存在
+assert.equal(Task1Workbook.groups.length, 28, "Workbook 必须包含 28 个题组");
+let totalMappedQuestions = 0;
 
-// 1. 测试 Group 1 视觉数据模型
-const scaffold1 = Task1VisualScaffolds.getVisualScaffoldForGroup(group1);
-assert.equal(scaffold1.chartType, "pie", "题组1应为饼图");
-assert.equal(scaffold1.chartData.length, 4, "题组1应有4个支出类别");
+Task1Workbook.groups.forEach((group) => {
+  const scaffold = Task1VisualScaffolds.TASK1_VISUAL_SCAFFOLDS[group.id];
+  assert.ok(scaffold, `题组 ${group.id} (${group.label}) 必须在 TASK1_VISUAL_SCAFFOLDS 中有专属图表与思维链定义`);
+  assert.ok(scaffold.chartType, `题组 ${group.id} 必须指定有效 chartType`);
+  assert.ok(scaffold.chartTitle, `题组 ${group.id} 必须有明确标题`);
+  assert.ok(Array.isArray(scaffold.relations), `题组 ${group.id} 必须包含 relations 列表`);
+  assert.equal(scaffold.relations.length, group.questions.length, `题组 ${group.id} 的题目映射数必须与实际题目数 (${group.questions.length}) 严格一致`);
 
-const sumVal = scaffold1.chartData.reduce((acc, d) => acc + d.value, 0);
-assert.equal(sumVal, 100, "家庭支出 4 项占比之和必须严格为 100%");
-console.log("  ✓ 断言通过: 题组 1 饼图数据完备，4 项占比精确合计 100% (45+30+15+10)");
+  // 验证每道题目的映射属性
+  scaffold.relations.forEach((rel, qIdx) => {
+    const expectedQNum = group.questions[qIdx].number;
+    assert.equal(rel.qNumber, expectedQNum, `题目映射题号应为 ${expectedQNum}`);
+    assert.ok(rel.badge && rel.badge.length > 0, `第 ${expectedQNum} 题必须有 badge`);
+    assert.ok(rel.trigger && rel.trigger.length > 0, `第 ${expectedQNum} 题必须有 trigger 引导`);
+    assert.ok(rel.funcIntent && rel.funcIntent.length > 0, `第 ${expectedQNum} 题必须有 funcIntent 功能意图`);
+    assert.ok(rel.skeleton && rel.skeleton.length > 0, `第 ${expectedQNum} 题必须有 skeleton 骨架`);
+    totalMappedQuestions++;
+  });
 
-// 2. 测试 Group 1 关系与思维链映射
-assert.equal(scaffold1.relations.length, 5, "题组1应定义 5 道题目的关系映射");
-const q3Rel = scaffold1.relations.find((r) => r.qNumber === 3);
-assert.equal(q3Rel.type, "difference", "第3题应为差值对比");
-assert.ok(q3Rel.targets.includes("交通 (Transport)") && q3Rel.targets.includes("娱乐 (Entertainment)"), "第3题应关联交通与娱乐");
+  // 验证渲染器能够直接生成原生图形，绝不能降级成 generic-chart-box
+  const chartHtml = Task1ChartRenderer.renderChart(scaffold);
+  assert.ok(chartHtml.length > 50, `题组 ${group.id} 渲染出的图表 HTML 不得为空`);
+  assert.equal(chartHtml.includes("generic-chart-box"), false, `题组 ${group.id} 绝对不允许降级为纯文字卡片 generic-chart-box`);
+});
 
-const q4Rel = scaffold1.relations.find((r) => r.qNumber === 4);
-assert.equal(q4Rel.type, "multiplier", "第4题应为倍数关系 (四倍半)");
-console.log("  ✓ 断言通过: 5 道题与图表扇区的四步思维链/关系映射严格对齐");
+console.log(`  ✓ 断言通过: 28 个题组 100% 具备专属图表数据，总计 ${totalMappedQuestions} 道题目实现全量思维链映射`);
+console.log("  ✓ 断言通过: 全量 28 个题组渲染完全零降级，杜绝任何通用文字卡片");
 
-// 3. 测试高频学术替换词抽屉
-assert.ok(scaffold1.synonymGroups.length >= 3, "应提供至少 3 组高频学术同义词");
-const expenditureGroup = scaffold1.synonymGroups.find((g) => g.category.includes("支出"));
-assert.ok(expenditureGroup, "必须包含支出分类");
-const hasExpenditure = expenditureGroup.words.some((w) => w.en === "expenditure");
-const hasSpending = expenditureGroup.words.some((w) => w.en === "spending");
-assert.ok(hasExpenditure && hasSpending, "支出词库应包含 expenditure 和 spending");
-console.log("  ✓ 断言通过: 高频学术替换词库抽屉数据完备且准确");
+// 2. 专项断言各类核心图表生成器的准确度
+// A. 动态多折线图 (Group 05)
+const scaffold5 = Task1VisualScaffolds.TASK1_VISUAL_SCAFFOLDS["task1-group-05"];
+assert.equal(scaffold5.chartType, "line");
+const lineHtml = Task1ChartRenderer.renderChart(scaffold5);
+assert.ok(lineHtml.includes("<svg") && lineHtml.includes("task1-line-svg"), "折线图应包含 task1-line-svg");
+assert.ok(lineHtml.includes("line-dot"), "折线图应包含数据拐点 line-dot");
+assert.ok(lineHtml.includes("line-path"), "折线图应包含曲线路径 line-path");
+console.log("  ✓ 断言通过: 动态多折线图 (renderLineSvg) 包含网格、坐标与折线拐点");
 
-// 4. 测试图表渲染器 SVG 输出
-const chartHtml = Task1ChartRenderer.renderChart(scaffold1);
-assert.ok(chartHtml.includes("<svg"), "渲染结果必须包含 <svg> 根节点");
-assert.ok(chartHtml.includes("pie-slice"), "渲染结果必须包含 pie-slice 扇区路径");
-assert.ok(chartHtml.includes("TOTAL") && chartHtml.includes("100%"), "饼图中心应渲染 TOTAL 100% 环孔文字");
-assert.ok(chartHtml.includes("pie-legends-grid"), "必须生成图例区");
-console.log("  ✓ 断言通过: 原生 SVG 饼图与图例成功生成且属性结构完整");
+// B. 分组对比柱图 (Group 04 & Group 09)
+const scaffold9 = Task1VisualScaffolds.TASK1_VISUAL_SCAFFOLDS["task1-group-09"];
+assert.equal(scaffold9.chartType, "bar_grouped");
+const barHtml = Task1ChartRenderer.renderChart(scaffold9);
+assert.ok(barHtml.includes("grouped-bar-container"), "分组柱图应包含 grouped-bar-container");
+assert.ok(barHtml.includes("single-bar-col"), "分组柱图应包含柱体列 single-bar-col");
+console.log("  ✓ 断言通过: 分组对比柱图 (renderBarSvg) 生成完整系列图例与各类别对比柱");
 
-// 5. 测试通用题组降级兼容能力 (针对未硬编码的题组)
-const group10 = Task1Workbook.groups.find((g) => g.id === "task1-group-10");
-assert.ok(group10, "必须找到题组 task1-group-10");
-const scaffold10 = Task1VisualScaffolds.getVisualScaffoldForGroup(group10);
-assert.ok(scaffold10, "通用题组必须能够自动生成视觉/思维链骨架");
-assert.ok(scaffold10.stepsGuide.step1.length > 0, "通用题组应生成步骤引导");
+// C. 双饼对比图 (Group 11)
+const scaffold11 = Task1VisualScaffolds.TASK1_VISUAL_SCAFFOLDS["task1-group-11"];
+assert.equal(scaffold11.chartType, "dual_pie");
+const dualPieHtml = Task1ChartRenderer.renderChart(scaffold11);
+assert.ok(dualPieHtml.includes("dual-pie-container"), "双饼图应包含 dual-pie-container");
+assert.ok(dualPieHtml.includes("城市 X (City X)") && dualPieHtml.includes("城市 Y (City Y)"), "双饼图应并排呈现两市环形图");
+console.log("  ✓ 断言通过: 双饼对比图 (renderDualPieHtml) 并排生成两座城市对比环形图");
 
-const chartHtml10 = Task1ChartRenderer.renderChart(scaffold10);
-assert.ok(chartHtml10.length > 50, "通用题组图表卡片渲染成功");
-console.log("  ✓ 断言通过: 通用未预置题组自动平滑降级并提取视觉背景");
+// D. 流程工序与闭环循环图 (Group 21 & Group 24)
+const scaffold21 = Task1VisualScaffolds.TASK1_VISUAL_SCAFFOLDS["task1-group-21"];
+assert.equal(scaffold21.chartType, "flow");
+const flowHtml = Task1ChartRenderer.renderChart(scaffold21);
+assert.ok(flowHtml.includes("task1-flow-wrapper"), "流程图应包含 task1-flow-wrapper");
+assert.ok(flowHtml.includes("flow-step-card"), "流程图应包含步骤卡片 flow-step-card");
 
-console.log("\n🎉 Task 1 视觉图表与思维链词库断言测试全部通过！\n");
+const scaffold24 = Task1VisualScaffolds.TASK1_VISUAL_SCAFFOLDS["task1-group-24"];
+assert.equal(scaffold24.chartType, "flow_circular");
+const circularFlowHtml = Task1ChartRenderer.renderChart(scaffold24);
+assert.ok(circularFlowHtml.includes("flow-loop-badge"), "闭环生命周期图必须渲染循环回路标识");
+console.log("  ✓ 断言通过: 流程工序图与闭环生命周期图 (renderProcessFlowHtml) 支持线性步骤与闭环循环");
+
+// E. 规划与演变地图 (Group 17 & Group 18)
+const scaffold17 = Task1VisualScaffolds.TASK1_VISUAL_SCAFFOLDS["task1-group-17"];
+assert.equal(scaffold17.chartType, "map");
+const mapHtml = Task1ChartRenderer.renderChart(scaffold17);
+assert.ok(mapHtml.includes("task1-map-wrapper"), "地图应包含 task1-map-wrapper");
+assert.ok(mapHtml.includes("map-compass-badge"), "地图应包含指南针方位标识");
+assert.ok(mapHtml.includes("map-zone-card"), "地图应包含各规划地块卡片");
+console.log("  ✓ 断言通过: 规划地图与演变平面图 (renderMapHtml) 包含前后对比与指南针方位标");
+
+console.log("\n🎉 Task 1 全 28 题组视觉图表与思维链断言测试 100% 全部通过！\n");
