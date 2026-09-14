@@ -268,6 +268,65 @@
       long: "偏长 (注意考场控时)"
     };
 
+    // 0. 雅思官方考题与 6.5 考官红线卡片
+    const archetypeExamBadges = {
+      trend: "📈 动态趋势多折线/跨期走势图",
+      static: "🥧 静态占比与份额分布图",
+      comparison: "📊 多主体横向对比与数据矩阵",
+      map: "🗺️ 地理演变与规划改造变迁地图",
+      process: "⚙️ 工业生产工序与生命周期流程图",
+      mixed: "🧩 综合双图联动与微型报告"
+    };
+
+    const archetypeRubricTips = {
+      trend: "【6.5分考官红线】必须提炼全局宏观走势（如两增一减）与关键反超交叉点！Overview 严禁堆砌琐碎年份数字；正文熟练使用 overtook, experienced a steady rise 等动态动词。",
+      static: "【6.5分考官红线】必须提炼首位主导项与边缘微小项形成极值反差！Overview 坚决不报具体百分比；正文重点运用 percentage points, lion's share, three times as high as 精准比对。",
+      comparison: "【6.5分考官红线】必须建立清晰的梯次断层划分（领跑组 vs 追赶组）！正文运用 twice those of, outnumbered, fell short of 强化倍数与落差，避免平铺直叙。",
+      map: "【6.5分考官红线】抓功能性质变（休闲/商业取代农田工业）与空间方位！正文必须熟练使用 was demolished to make way for, was converted into 等地道被动语态。",
+      process: "【6.5分考官红线】Overview 必须概括总阶段数与起止闭环！正文全程使用一般现在时被动语态，并用 Subsequently, Once this phase has concluded 自然衔接各工序。",
+      mixed: "【6.5分考官红线】坚决杜绝把双图拆成两篇孤立流水账！必须打通图一宏观趋势与图二微观细分的内在联系，运用 Taking both charts into consideration 综合分析。"
+    };
+
+    const examBadge = archetypeExamBadges[activeArchetype] || "📊 雅思学术类图表小作文";
+    const rubricTip = archetypeRubricTips[activeArchetype] || "抓住图表最核心特征与极值对比，严禁流水账堆砌数据！";
+
+    // 智能推导官方考试题干
+    let officialPromptText = "";
+    if (steps[0]?.canonicalAnswer) {
+      officialPromptText = steps[0].canonicalAnswer
+        .replace(/^The (pie chart|line graph|bar chart|table|diagram|maps?|flow chart|grouped bar chart)/i, "The $1 below")
+        .replace(/ illustrates | provides a breakdown of | compares /i, " shows ");
+    } else {
+      const chartTypeName = activeArchetype === 'map' ? 'maps below show' : activeArchetype === 'process' ? 'diagram below shows' : 'chart below shows';
+      officialPromptText = `The ${chartTypeName} the main features and trends regarding ${(scaffoldConfig?.chartTitle || group.label).replace(/^【.*?】\s*/, '')}.`;
+    }
+
+    const officialExamCardHtml = `
+      <div class="ielts-official-prompt-card">
+        <div class="prompt-header-top">
+          <div class="prompt-badge-cluster">
+            <span class="exam-task-tag">WRITING TASK 1</span>
+            <span class="archetype-badge">${escapeHtml(examBadge)}</span>
+          </div>
+          <div class="exam-meta-info">
+            <span title="考试建议控时">⏱️ 建议 20 分钟</span>
+            <span title="雅思考试最低字数要求">🎯 最低 150 词 (建议 130–165 词)</span>
+          </div>
+        </div>
+
+        <div class="prompt-instructions-box">
+          <div class="instruction-main">You should spend about 20 minutes on this task.</div>
+          <div class="instruction-question">${escapeHtml(officialPromptText)}</div>
+          <div class="instruction-requirement">Summarise the information by selecting and reporting the main features, and make comparisons where relevant.</div>
+        </div>
+
+        <div class="rubric-advice-bar">
+          <span class="rubric-icon">🎯 6.5分考官点拨：</span>
+          <span class="rubric-text">${escapeHtml(rubricTip)}</span>
+        </div>
+      </div>
+    `;
+
     // 1. 左侧思维选择与语块抽屉
     const thinkingCardHtml = `
       <div class="thinking-angles-card">
@@ -475,8 +534,9 @@ ${escapeHtml(steps.map(s => s.canonicalAnswer).join("\n\n"))}
       </div>
 
       <div class="task1-workbench-layout">
-        <!-- 左侧视读看板：真题图表 + 双思维切入 + 实战语块抽屉 -->
+        <!-- 左侧视读看板：官方真题考题卡片 + 真题原生SVG图表 + 双思维切入 + 实战语块抽屉 -->
         <aside class="task1-workbench-sidebar">
+          ${officialExamCardHtml}
           ${chartHtml}
           ${thinkingCardHtml}
           ${functionalChunksHtml}

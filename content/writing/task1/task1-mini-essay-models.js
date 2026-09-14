@@ -541,6 +541,172 @@
     },
 
     // -----------------------------------------------------------------------
+    // Group 03: 静态四类能源结构消耗 (Pie Chart · 煤/气/核/再生 4 类)
+    // -----------------------------------------------------------------------
+    "task1-group-03": {
+      topic: "全国四类主要能源消耗结构 (National Energy Consumption Breakdown)",
+      chartType: "pie",
+      archetype: "static",
+      thinkingAngles: {
+        angleA: {
+          id: "angleA",
+          label: "思路 A：按能源属性分类（化石传统能源 vs 清洁非化石能源 · 考官高分思路）",
+          concept: "传统化石燃料组合 (Coal 51% + Gas 24% = 75%) 占据绝对主力 ➔ 清洁非化石能源 (Nuclear 14% + Renewables 11% = 25%) 构成四分之一从属份额。",
+          overviewLogic: "总述传统化石燃料在全国能源格局中占据绝对主导地位，而核能与可再生能源合计仅占四分之一从属份额。",
+          body1Logic: "化石能源主力：详述煤炭提供略过半数能源 (51%) 领跑，天然气 (24%) 占近四分之一，两者合占全国四分之三。",
+          body2Logic: "清洁与核能：核能占比略低于 15% (14%)，可再生能源 (11%) 约为煤炭的五分之一，两项清洁能源合计占四分之一。",
+          highlightElements: ["煤炭 (Coal)", "天然气 (Gas)"]
+        },
+        angleB: {
+          id: "angleB",
+          label: "思路 B：按数值占比梯级划分（绝对主导项 ➔ 次席主力 ➔ 双末尾项）",
+          concept: "绝对独大项煤炭 (51%) 独占半壁江山 ➔ 次席天然气 (24%) ➔ 中低位梯队核能 (14%) 与可再生能源 (11%)。",
+          overviewLogic: "煤炭以单项过半的压倒性优势高居榜首，其余三类能源均处于从属位次且分布呈现梯度递减。",
+          body1Logic: "领跑大项：煤炭突破半数大关 (51%)，是次席天然气 (24%) 的两倍以上。",
+          body2Logic: "从属小项：核能录得 14%，可再生能源以 11% 垫底，两者合计份额恰好与天然气相当。",
+          highlightElements: ["核能 (Nuclear)", "可再生能源 (Renewables)"]
+        }
+      },
+      paragraphSteps: [
+        {
+          stepId: "intro",
+          stepNumber: 1,
+          title: "Step 1: Introduction (题目与饼图改写)",
+          role: "引言段 · 能源结构与饼图改写",
+          chinesePrompt: "该饼图展示了某国在2022年四种主要能源形式（煤炭、天然气、核能与可再生能源）的消耗构成比例分布。",
+          canonicalAnswer: "The pie chart illustrates the breakdown of national energy consumption across four primary fuel sources—coal, gas, nuclear, and renewables—in 2022.",
+          acceptableVariants: [
+            "The pie chart provides a percentage breakdown of energy usage derived from four distinct sources in a nation in 2022."
+          ],
+          strategyTip: "改写核心：illustrates the breakdown of national energy consumption across four primary fuel sources。",
+          keyChunks: ["The pie chart illustrates the breakdown of ... across [N] categories", "represented roughly [N]% of the total"]
+        },
+        {
+          stepId: "overview",
+          stepNumber: 2,
+          title: "Step 2: Overview (宏观总述 · 冲6.5分关键)",
+          role: "总述段 · 宏观大格局与主导梯次 (严禁细碎数字)",
+          chinesePrompt: "总体而言，显而易见的是，传统化石能源在能源消耗中占据绝对主导份额，而核能与可再生能源合计仅构成了较小的次要组成部分。",
+          canonicalAnswer: "Overall, it is readily apparent that conventional fossil fuels accounted for the lion's share of total energy consumption, whereas nuclear power and renewable sources together represented a comparatively modest proportion.",
+          acceptableVariants: [
+            "Overall, energy dependence was overwhelmingly concentrated in fossil fuels, with alternative green sources making up the remaining minor share."
+          ],
+          strategyTip: "冲 6.5 分死律：Overview 严禁写 51%、24% 具体数字！用 accounted for the lion's share 概括化石燃料优势。",
+          keyChunks: ["accounted for the lion's share of ...", "trailed far behind at merely [N]%"]
+        },
+        {
+          stepId: "body1",
+          stepNumber: 3,
+          title: "Step 3: Body Paragraph 1 (主体一：化石燃料主力数据)",
+          role: "主体一段 · 煤炭与天然气占比及合并",
+          chinesePrompt: "具体而言，煤炭提供了略高于一半的能源消耗，以51%高居首位；天然气紧随其后位列第二，约占总量的四分之一（24%），两者合计占据了全部能源消耗的四分之三。",
+          canonicalAnswer: "Looking first at the primary fossil fuels, coal supplied just over half of the energy produced, standing at 51%. Natural gas ranked as the second-largest category, accounting for approximately a quarter of the total, at 24%, meaning both combustible sources collectively represented three-quarters of national energy consumption.",
+          acceptableVariants: [
+            "In detail, coal was the dominant energy source at 51%, while natural gas followed at 24%, together comprising three quarters of the entire supply."
+          ],
+          strategyTip: "用 supplied just over half (51%) 和 approximately a quarter (24%) 熟练运用近似量化高分语块。",
+          keyChunks: ["stood out as the primary contributor at [N]%", "ranked as the second-largest category"]
+        },
+        {
+          stepId: "body2",
+          stepNumber: 4,
+          title: "Step 4: Body Paragraph 2 (主体二：清洁与核能数据及倍数对比)",
+          role: "主体二段 · 核能与可再生能源对比",
+          chinesePrompt: "相比之下，核能的占比略低于15%，具体为14%；可再生能源仅占11%，大约是煤炭份额的五分之一，这两项替代能源合计占全部能源供应的四分之一。",
+          canonicalAnswer: "In stark contrast, the share of nuclear power was just under 15%, recorded at 14%. Renewable energy generated roughly one fifth of that of coal, at 11%, with both non-fossil alternatives collectively representing one quarter of energy production.",
+          acceptableVariants: [
+            "By comparison, nuclear energy made up 14%, while renewables accounted for 11%, which was roughly one fifth of coal's total share."
+          ],
+          strategyTip: "用 just under 15% 与 roughly one fifth of that of coal 展现深层次倍数对比关系。",
+          keyChunks: ["was nearly [N] times as high as ...", "trailed far behind at merely [N]%"]
+        }
+      ]
+    },
+
+    // -----------------------------------------------------------------------
+    // Group 04: 对比演变 2010与2020通勤方式演变 (Grouped Bar · 百分比与百分点)
+    // -----------------------------------------------------------------------
+    "task1-group-04": {
+      topic: "2010与2020年三种通勤方式演变 (Commuting Trends 2010 vs 2020)",
+      chartType: "bar_grouped",
+      archetype: "comparison",
+      thinkingAngles: {
+        angleA: {
+          id: "angleA",
+          label: "思路 A：按出行载具演变划分（机动车 vs 自行车与步行 · 结构清晰）",
+          concept: "汽车通勤主导但份额滑落 ➔ 绿色低碳出行崛起（自行车大涨 10 个百分点，步行保持稳定 10%）。",
+          overviewLogic: "总述驾车出行虽保持首位但占比缩水，而骑车通勤增长最为显著，步行人数保持完全恒定。",
+          body1Logic: "私家车走势：详述驾车比例从 50% 下降至 40%，减少了 10 个百分点，但仍是第一大出行选择。",
+          body2Logic: "骑行与步行：自行车从 20% 增至 30%（相对大涨 50%），步行十年稳定在 10% 垫底。",
+          highlightElements: ["驾车 (Driving)", "自行车 (Cycling)"]
+        },
+        angleB: {
+          id: "angleB",
+          label: "思路 B：按变化形态划分（变动态类别 vs 恒定态类别 · 思辨深入）",
+          concept: "变化幅度相同但方向相反的对比组（骑车增 10 点 vs 驾车跌 10 点）➔ 零变化的绝对恒定组（步行）。",
+          overviewLogic: "驾车与骑车通勤呈现出镜像反向变动态势，而步行通勤在整个十年间完全没有变化。",
+          body1Logic: "对称变化组：汽车与自行车各自发生了 10 个百分点的增减，呈现对称替代效应。",
+          body2Logic: "静止恒定组：步行通勤率稳定在 10%，始终处于次要地位。",
+          highlightElements: ["步行 (Walking)"]
+        }
+      },
+      paragraphSteps: [
+        {
+          stepId: "intro",
+          stepNumber: 1,
+          title: "Step 1: Introduction (题目与柱图改写)",
+          role: "引言段 · 分组柱图与年份改写",
+          chinesePrompt: "该分组柱状图比较了2010年和2020年某城市居民采用三种通勤方式（驾车、骑车与步行）的比例变化。",
+          canonicalAnswer: "The bar chart compares the proportions of commuters using three modes of transport—driving, cycling, and walking—in a specific city between 2010 and 2020.",
+          acceptableVariants: [
+            "The grouped bar chart illustrates how the modal share of commuting shifted across three transport categories from 2010 to 2020."
+          ],
+          strategyTip: "柱状图对比开篇：compares the proportions of commuters using three modes of transport between [Year] and [Year]。",
+          keyChunks: ["The table compares ... across [N] major institutions in [Year]", "consistently outperformed ... across all metrics"]
+        },
+        {
+          stepId: "overview",
+          stepNumber: 2,
+          title: "Step 2: Overview (宏观总述 · 冲6.5分关键)",
+          role: "总述段 · 宏观演变与消长 (严禁细碎数字)",
+          chinesePrompt: "总体而言，显而易见的是，驾车出行在两个年份均是最主要的通勤方式；然而，骑行比例显著上升，而驾车比例有所收缩，步行人数保持完全稳定。",
+          canonicalAnswer: "Overall, it is readily apparent that car travel remained the predominant commuting method across both years; however, cycling experienced substantial growth, whereas driving declined and walking figures remained unchanged.",
+          acceptableVariants: [
+            "Overall, driving was consistently the most favored mode, but bicycle use expanded markedly while pedestrian numbers stayed constant."
+          ],
+          strategyTip: "冲 6.5 分死律：Overview 严禁罗列 50%、40% 碎数字！用 remained the predominant 与 experienced substantial growth 定性提炼。",
+          keyChunks: ["Overall, [Entity A] exhibited the highest figures across the majority of metrics", "the disparity was most pronounced in terms of ..."]
+        },
+        {
+          stepId: "body1",
+          stepNumber: 3,
+          title: "Step 3: Body Paragraph 1 (主体一：驾车与骑行群体的消长与百分点)",
+          role: "主体一段 · 驾车与骑行涨跌及百分点对比",
+          chinesePrompt: "具体而言，驾车通勤的比例从50%下降到40%，减少了整整10个百分点；相反，骑自行车通勤的比例上升了10个百分点，从20%升至30%，相对而言其份额增加了50%。",
+          canonicalAnswer: "Looking first at the shifting transport modes, the percentage commuting by car fell from 50% to 40%, dropping by 10 percentage points. Conversely, the proportion of bicycle commuters rose by 10 percentage points from 20% to 30%, which represented a 50% increase in relative terms.",
+          acceptableVariants: [
+            "In detail, motorists decreased by 10 percentage points from 50% to 40%, while cyclists grew from 20% to 30%, marking an identical 10-point rise."
+          ],
+          strategyTip: "考官极度看重百分点辨析：区分 rose by 10 percentage points (点数差) 与 increased by 50% in relative terms (相对增幅)！",
+          keyChunks: ["Looking first at the leading facilities, ...", "registered double the volume of ..."]
+        },
+        {
+          stepId: "body2",
+          stepNumber: 4,
+          title: "Step 4: Body Paragraph 2 (主体二：镜像幅度对比与步行恒定数据)",
+          role: "主体二段 · 幅度特征与步行持平",
+          chinesePrompt: "值得注意的是，驾车与骑车的变化幅度完全相同，但方向正好相反；与此同时，步行通勤的比例在整个十年期间始终保持不变，稳定在10%。",
+          canonicalAnswer: "Notably, car driving and cycling changed by the same number of percentage points, but in completely opposite directions. In contrast, the proportion of residents commuting on foot remained unchanged at 10% throughout the entire decade, occupying the lowest share.",
+          acceptableVariants: [
+            "Meanwhile, walking remained constant at 10% across the 10-year span, lagging behind both vehicular and cycling options."
+          ],
+          strategyTip: "用 changed by the same number of percentage points, but in opposite directions 高分归纳对称特征，步行用 remained unchanged at 10%。",
+          keyChunks: ["In sharp contrast, regional facilities handled considerably fewer ...", "Further down the ranking, ..."]
+        }
+      ]
+    },
+
+    // -----------------------------------------------------------------------
     // Group 05: 动态折线 三种交通方式走势 (Line Graph · 3 条曲线跨 20 年)
     // -----------------------------------------------------------------------
     "task1-group-05": {
@@ -765,8 +931,8 @@
           stepNumber: 3,
           title: "Step 3: Body Paragraph 1 (主体一：采摘、去肉、发酵与晾晒)",
           role: "主体一段 · 前道原料初加工",
-          chinesePrompt: "该工艺首先从种植园中手工采摘成熟的咖啡豆开始；随后，果皮与果肉被机械剥离，之后剩下的豆子被浸泡在大型水槽中进行发酵，最后被平铺在阳光下彻底晾干。",
-          canonicalAnswer: "The process commences when ripe coffee beans are hand-picked from plantations. Subsequently, the outer fruit skin and pulp are mechanically stripped away, after which the remaining beans are submerged in water tanks for fermentation before being spread out in the sun to dry.",
+          chinesePrompt: "该工艺首先从种植园中手工采摘成熟的咖啡浆果开始；随后，果皮与外层果肉被机械剥离，之后剩下的豆子被浸泡在大型水槽中进行发酵，最后被平铺在阳光下彻底晾干。",
+          canonicalAnswer: "Looking first at the initial agricultural preparation, the process commences when ripe coffee cherries are hand-picked from plantations by experienced workers. Subsequently, the outer fruit skin and pulp are mechanically stripped away, after which the remaining beans are submerged in water tanks for fermentation before being spread out in the sun to dry completely.",
           acceptableVariants: [
             "Initially, cherries are picked by hand. Following this, the flesh is removed, and the beans undergo fermentation in water before sun-drying."
           ],
@@ -778,8 +944,8 @@
           stepNumber: 4,
           title: "Step 4: Body Paragraph 2 (主体二：脱壳、高温烘焙、研磨与包装)",
           role: "主体二段 · 后道熟化深加工与封装",
-          chinesePrompt: "一旦水分彻底脱干，咖啡豆被送入专门的烘烤炉中经受高温翻炒；在完成烘焙后，它们被机械研磨成均匀的粉末，最后被抽真空密封进气密包装中，准备发往各大超市零售。",
-          canonicalAnswer: "Once completely dried, the beans are fed into specialized roasting drums and subjected to intense heat. Following the roasting phase, they are finely ground into powder, and finally vacuum-sealed into airtight packages ready for domestic delivery and retail sales.",
+          chinesePrompt: "一旦水分彻底脱干，咖啡豆被送入专门的烘烤炉中经受高温翻炒；在完成烘焙后，它们被机械研磨成均匀的粉末，最后被抽真空密封进气密包装中，准备发往各大超市进行商业零售。",
+          canonicalAnswer: "Once completely dried, the beans are fed into specialized roasting drums and subjected to intense heat. Following the roasting phase, they are finely ground into powder, and finally vacuum-sealed into airtight packages ready for commercial retail distribution.",
           acceptableVariants: [
             "After drying, the beans are roasted at high temperatures. Next, they are ground and eventually vacuum-packed into sealed bags for sale."
           ],
@@ -804,6 +970,14 @@
     const q3 = questions[2]?.answer || "Noticeable differences exist among the categories.";
     const q4 = questions[3]?.answer || "The trend illustrates substantial shifts over time.";
     const q5 = questions[4]?.answer || "Overall, the pattern remains distinct across all measures.";
+
+    function formatClause(str) {
+      if (!str) return "";
+      let trimmed = str.trim();
+      trimmed = trimmed.charAt(0).toLowerCase() + trimmed.slice(1);
+      if (trimmed.endsWith(".")) trimmed = trimmed.slice(0, -1);
+      return trimmed;
+    }
 
     const title = group?.label || "雅思学术类图表小作文";
     const chartType = scaffoldConfig?.chartType || group?.chartType || "bar";
@@ -859,7 +1033,7 @@
           title: "Step 1: Introduction (题目与走势图改写)",
           role: "引言段 · 动态走势规范改写",
           chinesePrompt: `该图表展示了关于“${title}”在给定历史时期内的动态走势变化。`,
-          canonicalAnswer: `The diagram illustrates key changes and trends regarding ${title.toLowerCase()} over the specified timeframe.`,
+          canonicalAnswer: `The diagram illustrates key changes and trends regarding ${title.toLowerCase()} over the specified timeframe, providing a detailed comparative perspective across the recorded categories.`,
           acceptableVariants: [`The chart provides an overview of the trajectory of ${title.toLowerCase()} across the recorded years.`],
           strategyTip: "使用 illustrates changes in / delineates the trajectory of 改写主题，标明时间跨度。",
           keyChunks: ["The line graph illustrates changes in ... over a [N]-year span", "experienced a sustained upward trajectory"]
@@ -870,7 +1044,7 @@
           title: "Step 2: Overview (宏观总述 · 冲6.5分关键)",
           role: "总述段 · 宏观走势升降大势 (绝无具体数字)",
           chinesePrompt: "总体而言，显而易见的是，主要类别在整个周期内经历了显著增长，而其余项目则呈现相反的停滞或下降态势。",
-          canonicalAnswer: "Overall, it is readily apparent that the leading category experienced a sustained upward trajectory, whereas the remaining sectors showed stagnant or declining patterns.",
+          canonicalAnswer: "Overall, it is readily apparent that the leading category experienced a sustained upward trajectory, whereas the remaining sectors showed stagnant or declining patterns, highlighting clear macro-level divergence without minor fluctuations.",
           acceptableVariants: ["Overall, clear upward and downward trends characterized the period, with the principal sector recording substantial growth."],
           strategyTip: "冲 6.5 分死律：Overview 严禁出现具体数字！只提炼宏观升降与反超大势。",
           keyChunks: ["Overall, it is readily apparent that ... experienced substantial growth, while ...", "exhibited a clear upward trajectory throughout"]
@@ -880,9 +1054,9 @@
           stepNumber: 3,
           title: "Step 3: Body Paragraph 1 (主体一：主要增长与反超特征)",
           role: "主体一段 · 上升趋势与交汇细节",
-          chinesePrompt: `在增长与主导项中：${questions[0]?.chinese || "第一项显著爬升，构成了最主要的变化特征。"}`,
-          canonicalAnswer: q1,
-          acceptableVariants: [q2],
+          chinesePrompt: `在主要上升与主导特征中：${questions[0]?.chinese || "第一项显著攀升"}；与此同时，${questions[1]?.chinese || "第二项也表现出明显的增长势头"}。`,
+          canonicalAnswer: `Looking first at the upward trends, the primary category ${formatClause(q1)}. Furthermore, ${formatClause(q2)}, illustrating steady momentum and confirming the robust expansion observed in key sectors throughout the timeframe.`,
+          acceptableVariants: [q1],
           strategyTip: "使用 Looking first at the growing categories 启承，精准代入动词与介词搭配 (rose to / surged by)。",
           keyChunks: ["surged dramatically to reach [N]", "overtook [A] to become the predominant ..."]
         },
@@ -891,9 +1065,9 @@
           stepNumber: 4,
           title: "Step 4: Body Paragraph 2 (主体二：次要类别与反向变动)",
           role: "主体二段 · 下降走势与终点收尾",
-          chinesePrompt: `相比之下，其余处于下滑或平稳状态的项目：${questions[2]?.chinese || "次要类别数据明显落后，呈现持续走低格局。"}`,
-          canonicalAnswer: q3 || q4 || q5,
-          acceptableVariants: [q4 || q5],
+          chinesePrompt: `相较之下，其余处于回落或波动的类别：${questions[2]?.chinese || "次要类别出现显著回落"}；与此同时，${questions[3]?.chinese || "另一项呈现不同走势"}，并且${questions[4]?.chinese || "期末整体格局进一步定型"}。`,
+          canonicalAnswer: `In stark contrast, other sectors demonstrated divergent trajectories: ${formatClause(q3)}. Meanwhile, ${formatClause(q4)}, whereas ${formatClause(q5)}, underscoring the notable contrast with the leading categories.`,
+          acceptableVariants: [q3],
           strategyTip: "使用 In stark contrast 或 By comparison 转折，凸显与主体一段的走势分歧。",
           keyChunks: ["underwent a continual downward slide", "plummeted to an all-time low of [N]"]
         }
@@ -927,7 +1101,7 @@
           title: "Step 1: Introduction (题目与地图改写)",
           role: "引言段 · 地图改写与空间范围",
           chinesePrompt: `这两幅规划地图展示了关于“${title}”在改造前后的空间演变与布局变化。`,
-          canonicalAnswer: `The maps illustrate the key spatial transformations that have taken place in ${title.toLowerCase()} over the given timeframe.`,
+          canonicalAnswer: `The maps illustrate the key spatial transformations that have taken place in ${title.toLowerCase()} over the given timeframe, providing a detailed comparative perspective across the specified layout.`,
           acceptableVariants: [`The diagrams show the development and layout changes of ${title.toLowerCase()} between the two periods.`],
           strategyTip: "地图开篇：illustrate the key spatial transformations that have taken place in ...",
           keyChunks: ["The maps illustrate the key spatial modifications made to ... between [Year] and [Year]", "underwent comprehensive redevelopment"]
@@ -938,7 +1112,7 @@
           title: "Step 2: Overview (宏观总述 · 冲6.5分关键)",
           role: "总述段 · 宏观功能重组 (绝无具体数字)",
           chinesePrompt: "总体而言，显而易见的是，该区域经历了全面的现代化重塑，商业与居住设施显著增多，而原有的传统空间则相应缩减。",
-          canonicalAnswer: "Overall, it is readily apparent that the area underwent extensive modernization, with modern commercial and residential amenities replacing traditional infrastructure.",
+          canonicalAnswer: "Overall, it is readily apparent that the area underwent extensive modernization, with modern commercial and residential amenities replacing traditional infrastructure, highlighting clear structural expansion and functional reorganization.",
           acceptableVariants: ["Overall, the settlement experienced significant development, becoming far more urbanized and accessible."],
           strategyTip: "地图 Overview 核心：指出从传统到现代的转型 (modernization, urbanized, amenities replacing traditional infrastructure)。",
           keyChunks: ["underwent comprehensive redevelopment", "residential amenities replaced industrial infrastructure"]
@@ -948,9 +1122,9 @@
           stepNumber: 3,
           title: "Step 3: Body Paragraph 1 (主体一：主要拆除与核心改建)",
           role: "主体一段 · 核心拆迁与建筑更新",
-          chinesePrompt: `在核心区域的变迁中：${questions[0]?.chinese || "主要旧有设施被拆除，并为新配套腾出了空间。"}`,
-          canonicalAnswer: q1,
-          acceptableVariants: [q2],
+          chinesePrompt: `在核心与内部区域的改造中：${questions[0]?.chinese || "主要旧有建筑被拆除置换"}；紧邻其旁的是，${questions[1]?.chinese || "配套设施进行了显著扩建"}。`,
+          canonicalAnswer: `Looking first at internal modifications, ${formatClause(q1)}. Immediately adjacent to this, ${formatClause(q2)}, illustrating significant site reconfiguration and confirming the primary pattern of urban renewal.`,
+          acceptableVariants: [q1],
           strategyTip: "熟练运用被动语态短语：was pulled down to make way for / was completely replaced by。",
           keyChunks: ["was pulled down to make way for ...", "adjacent to the central waterfront"]
         },
@@ -959,9 +1133,9 @@
           stepNumber: 4,
           title: "Step 4: Body Paragraph 2 (主体二：外围扩展与交通保留)",
           role: "主体二段 · 方位延伸与设施保留",
-          chinesePrompt: `转向其余外围区域：${questions[2]?.chinese || "道路向外延展，新建配套落成，部分设施得以保留。"}`,
-          canonicalAnswer: q3 || q4 || q5,
-          acceptableVariants: [q4 || q5],
+          chinesePrompt: `转向外围方位与交通基础设施：${questions[2]?.chinese || "周边新设了公共配套"}；与此同时，${questions[3]?.chinese || "路网进一步延伸拓宽"}，而${questions[4]?.chinese || "原有部分核心设施完好保留"}。`,
+          canonicalAnswer: `Turning to the surrounding sectors, ${formatClause(q3)}. Concurrently, ${formatClause(q4)}, whereas ${formatClause(q5)}, underscoring the notable contrast between newly developed zones and retained traditional grounds.`,
+          acceptableVariants: [q3],
           strategyTip: "方位表达与方向动词：situated to the north of / extended southwards / was retained intact。",
           keyChunks: ["was converted into a pedestrian zone", "occupying the south-eastern quadrant"]
         }
@@ -995,7 +1169,7 @@
           title: "Step 1: Introduction (题目与流程图改写)",
           role: "引言段 · 流程图改写",
           chinesePrompt: `该流程图详细展示了关于“${title}”从原材料到成品的完整生产加工步骤。`,
-          canonicalAnswer: `The diagram illustrates the sequential stages involved in the process of ${title.toLowerCase()}.`,
+          canonicalAnswer: `The diagram illustrates the sequential stages involved in the process of ${title.toLowerCase()}, providing a comprehensive step-by-step perspective from origin to end product.`,
           acceptableVariants: [`The flow chart details the step-by-step procedure required for ${title.toLowerCase()}.`],
           strategyTip: "流程图经典改写句型：details the sequential stages involved in the production of ...",
           keyChunks: ["The flow diagram details the sequential stages involved in the production of ...", "The process commences with the manual collection of ..."]
@@ -1006,7 +1180,7 @@
           title: "Step 2: Overview (宏观总述 · 冲6.5分关键)",
           role: "总述段 · 阶段数与起止闭环 (绝无具体数字)",
           chinesePrompt: "总体而言，显而易见的是，该生产过程包含多个主要工序，始于初期原料收集，最终以成品包装分发作为结束。",
-          canonicalAnswer: "Overall, it is readily apparent that the operation comprises several distinct stages, commencing with initial material collection and concluding with final product packaging and distribution.",
+          canonicalAnswer: "Overall, it is readily apparent that the operation comprises several distinct stages, commencing with initial material collection and concluding with final product packaging and distribution, highlighting a continuous transformation cycle.",
           acceptableVariants: ["Overall, the linear process consists of multiple consecutive steps from raw material intake to commercial dispatch."],
           strategyTip: "流程图 Overview 核心：comprises several distinct stages, commencing with ... and concluding with ...",
           keyChunks: ["Overall, the process comprises [N] distinct stages, beginning with ... and culminating in ...", "culminates in the automated packaging of ..."]
@@ -1016,9 +1190,9 @@
           stepNumber: 3,
           title: "Step 3: Body Paragraph 1 (主体一：前道工序原料处理)",
           role: "主体一段 · 早期收集与初级准备",
-          chinesePrompt: `在初级处理阶段中：${questions[0]?.chinese || "原料被收集进车间，并经历清洗与初步分类。"}`,
-          canonicalAnswer: q1,
-          acceptableVariants: [q2],
+          chinesePrompt: `在工序的前半段原料准备阶段：${questions[0]?.chinese || "原料被手工采摘并初步收集"}；随后，${questions[1]?.chinese || "物料经历了初步清洗和物理分离"}。`,
+          canonicalAnswer: `Looking first at the introductory stages of the operation, ${formatClause(q1)}. Following this initial step, ${formatClause(q2)}, illustrating steady procedural flow and effectively preparing the material for advanced industrial processing.`,
+          acceptableVariants: [q1],
           strategyTip: "全程使用一般现在时被动语态：The process commences with ... / is subsequently transferred to ...",
           keyChunks: ["The process commences with the manual collection of ...", "Once this phase has concluded, the material is routed to ..."]
         },
@@ -1027,9 +1201,9 @@
           stepNumber: 4,
           title: "Step 4: Body Paragraph 2 (主体二：后道加工与成品包装)",
           role: "主体二段 · 深度精制与封装运输",
-          chinesePrompt: `随后进入后续深加工：${questions[2]?.chinese || "物料经受深度精炼，并最终完成密封包装上市。"}`,
-          canonicalAnswer: q3 || q4 || q5,
-          acceptableVariants: [q4 || q5],
+          chinesePrompt: `进入后道深加工与成品包装阶段：${questions[2]?.chinese || "物料经受物理或化学改性"}；紧接着，${questions[3]?.chinese || "加工物料被进一步成型"}，最后${questions[4]?.chinese || "成品完成包装并分发零售"}。`,
+          canonicalAnswer: `Subsequently, the process transitions to downstream refinement as ${formatClause(q3)}. Next, ${formatClause(q4)}, and finally ${formatClause(q5)}, underscoring the systematic conversion into the finished commercial output.`,
+          acceptableVariants: [q3],
           strategyTip: "工序承接副词：Following this step / is subjected to / culminating in the automated packaging of ...",
           keyChunks: ["is subjected to intense heat and high pressure", "is vacuum-sealed into airtight containers"]
         }
@@ -1063,7 +1237,7 @@
           title: "Step 1: Introduction (题目与表格改写)",
           role: "引言段 · 横向对比改写",
           chinesePrompt: `该表格/图表比较了关于“${title}”在不同考察对象与维度之间的关键数据分布。`,
-          canonicalAnswer: `The diagram compares key metrics regarding ${title.toLowerCase()} across different categories.`,
+          canonicalAnswer: `The diagram compares key metrics regarding ${title.toLowerCase()} across different categories, providing a detailed comparative perspective across the specified institutions.`,
           acceptableVariants: [`The table presents a comparative analysis of ${title.toLowerCase()} among the specified entities.`],
           strategyTip: "使用 compares key metrics regarding ... across different categories 规范引出。",
           keyChunks: ["The table compares ... across [N] major institutions in [Year]", "consistently outperformed ... across all metrics"]
@@ -1074,7 +1248,7 @@
           title: "Step 2: Overview (宏观总述 · 冲6.5分关键)",
           role: "总述段 · 宏观优劣与对比特征 (绝无具体数字)",
           chinesePrompt: "总体而言，显而易见的是，领先主体在多数指标上均占据显著优势，而其余对象则录得明显偏低的数据。",
-          canonicalAnswer: "Overall, it is readily apparent that the primary subject registered the highest figures across the majority of metrics, whereas its counterparts recorded considerably lower figures.",
+          canonicalAnswer: "Overall, it is readily apparent that the primary subject registered the highest figures across the majority of metrics, whereas its counterparts recorded considerably lower figures, highlighting clear macro-level divergence without minor fluctuations.",
           acceptableVariants: ["Overall, clear disparities exist among the entities, with one leader outperforming the rest across most measures."],
           strategyTip: "冲 6.5 分死律：Overview 不报具体数字，只抓主要领先主体与整体悬殊落差。",
           keyChunks: ["Overall, [Entity A] exhibited the highest figures across the majority of metrics", "the disparity was most pronounced in terms of ..."]
@@ -1084,9 +1258,9 @@
           stepNumber: 3,
           title: "Step 3: Body Paragraph 1 (主体一：领跑实体数据)",
           role: "主体一段 · 核心领跑者数据",
-          chinesePrompt: `在表现最突出的方面：${questions[0]?.chinese || "第一项高居首位，展现出显著的主导优势。"}`,
-          canonicalAnswer: q1,
-          acceptableVariants: [q2],
+          chinesePrompt: `在领先主体的核心表现中：${questions[0]?.chinese || "第一主体优势显著"}；紧随其后的是，${questions[1]?.chinese || "次席主体录得相应数据"}。`,
+          canonicalAnswer: `Looking first at the top-ranked entities, the foremost subject ${formatClause(q1)}. In addition, ${formatClause(q2)}, illustrating substantial comparative strength and establishing a distinct competitive lead over other examined counterparts.`,
+          acceptableVariants: [q1],
           strategyTip: "使用 Looking first at the leading facility / outperforming by a large margin 代入精准数据。",
           keyChunks: ["Looking first at the leading facilities, ...", "registered double the volume of ..."]
         },
@@ -1095,11 +1269,79 @@
           stepNumber: 4,
           title: "Step 4: Body Paragraph 2 (主体二：对比实体与悬殊落差)",
           role: "主体二段 · 次席与末尾差距",
-          chinesePrompt: `相比之下，其余考察对象的表现：${questions[2]?.chinese || "次要类别数据明显偏低，并形成了鲜明倍数反差。"}`,
-          canonicalAnswer: q3 || q4 || q5,
-          acceptableVariants: [q4 || q5],
+          chinesePrompt: `相比之下，其余处于落后或次要地位的对象：${questions[2]?.chinese || "后续对象数据明显较低"}；此外，${questions[3]?.chinese || "两极差距进一步拉大"}，且${questions[4]?.chinese || "末尾主体占据极小份额"}。`,
+          canonicalAnswer: `In sharp contrast, regional counterparts exhibited much lower volumes: ${formatClause(q3)}. Moreover, ${formatClause(q4)}, while ${formatClause(q5)}, underscoring the notable contrast with the leading categories.`,
+          acceptableVariants: [q3],
           strategyTip: "使用 In stark contrast 或 By comparison 转折，凸显与第一主体的倍数或差值落差。",
           keyChunks: ["In sharp contrast, regional facilities handled considerably fewer ...", "Further down the ranking, ..."]
+        }
+      ];
+    } else if (archetype === "mixed") {
+      thinkingAngles = {
+        angleA: {
+          id: "angleA",
+          label: "思路 A：按图表宏微观联动划分（宏观大势图 1 ➔ 微观结构图 2 · 考官标杆）",
+          concept: "第一幅图展示总量或长周期演变 ➔ 第二幅图深入剖析期末的具体构成或因果细分。",
+          overviewLogic: "总述两幅图共同揭示的宏观现象，总量显著攀升且特定微观类别占据主导地位。",
+          body1Logic: "图一大势：汇报宏观图表中的总体增长、峰值与走势历程。",
+          body2Logic: "图二微观：深入剖析第二幅图的细分类别分布与主次差异。",
+          highlightElements: []
+        },
+        angleB: {
+          id: "angleB",
+          label: "思路 B：按核心变量要素划分（主要类别表现 ➔ 次要类别表现）",
+          concept: "打通两幅图，先写核心主导要素在双图中的呼应表现 ➔ 再写次要要素的补充特征。",
+          overviewLogic: "宏观增长主要由特定细分要素所驱动，呈现出强烈的正向关联。",
+          body1Logic: "主导要素联动：结合两图详述排头兵的优异数据与贡献份额。",
+          body2Logic: "次要要素联动：转折交代其余要素的边缘分布与温和变动。",
+          highlightElements: []
+        }
+      };
+
+      paragraphSteps = [
+        {
+          stepId: "intro",
+          stepNumber: 1,
+          title: "Step 1: Introduction (双图综合题目改写)",
+          role: "引言段 · 综合双图规范改写",
+          chinesePrompt: `这两幅图表综合展示了关于“${title}”的宏观变化趋势与具体内部构成分布。`,
+          canonicalAnswer: `The diagrams present a comprehensive overview of ${title.toLowerCase()}, illustrating both broad trends and detailed breakdowns across the specified timeframe and sectors.`,
+          acceptableVariants: [`The charts together illustrate key developments and proportional distributions regarding ${title.toLowerCase()}.`],
+          strategyTip: "双图改写：illustrating both broad trends and detailed breakdowns。",
+          keyChunks: ["The charts provide a comprehensive breakdown of ... through both [Chart A] and [Chart B]", "Taking both charts into consideration, ..."]
+        },
+        {
+          stepId: "overview",
+          stepNumber: 2,
+          title: "Step 2: Overview (宏观总述 · 冲6.5分关键)",
+          role: "总述段 · 双图宏观关联提炼 (绝无具体数字)",
+          chinesePrompt: "总体而言，显而易见的是，整体总量在考察期内呈现显著上升，而微观细分中特定项目构成了最主要的主导力量。",
+          canonicalAnswer: "Overall, it is readily apparent that overall numbers expanded substantially over the period, while a single primary category dominated the proportional breakdown, highlighting clear macro-level divergence without minor fluctuations.",
+          acceptableVariants: ["Overall, the charts demonstrate marked overall growth, largely driven by the primary constituent sector."],
+          strategyTip: "双图 Overview 核心：打通总量与结构，一句话总述（无具体数字）！",
+          keyChunks: ["Overall, while [Macro Trend in Chart 1], [Detailed Phenomenon in Chart 2]", "Taking both charts into consideration, ..."]
+        },
+        {
+          stepId: "body1",
+          stepNumber: 3,
+          title: "Step 3: Body Paragraph 1 (主体一：宏观图表走势)",
+          role: "主体一段 · 第一图核心数据",
+          chinesePrompt: `在第一幅图所反映的宏观趋势中：${questions[0]?.chinese || "总量呈现出持续爬升"}；与此同时，${questions[1]?.chinese || "主要组成部分构成了主要推力"}。`,
+          canonicalAnswer: `Looking first at the primary pattern illustrated in the initial diagram, ${formatClause(q1)}. At the same time, ${formatClause(q2)}, illustrating steady momentum and highlighting key upward development over the period.`,
+          acceptableVariants: [q1],
+          strategyTip: "使用 Looking first at the primary pattern illustrated in the initial diagram 启承。",
+          keyChunks: ["Taking both charts into consideration, ...", "presents a striking correlation between [A] and [B]"]
+        },
+        {
+          stepId: "body2",
+          stepNumber: 4,
+          title: "Step 4: Body Paragraph 2 (主体二：微观构成与互证)",
+          role: "主体二段 · 第二图微观构成与对比",
+          chinesePrompt: `结合第二幅图的细分构成考察：${questions[2]?.chinese || "特定类别呈现不同特征"}；此外，${questions[3]?.chinese || "微观数据印证了宏观走势"}，并且${questions[4]?.chinese || "最终形成了鲜明对比"}。`,
+          canonicalAnswer: `A closer inspection of the accompanying breakdown indicates that ${formatClause(q3)}. Furthermore, ${formatClause(q4)}, whereas ${formatClause(q5)}, underscoring the notable contrast between macro trends and specific constituent groups.`,
+          acceptableVariants: [q3],
+          strategyTip: "使用 A closer inspection of the accompanying breakdown indicates that 跨图推进。",
+          keyChunks: ["A closer inspection of the accompanying bar chart reveals ...", "corresponded directly to the pattern observed in ..."]
         }
       ];
     } else {
@@ -1132,7 +1374,7 @@
           title: "Step 1: Introduction (题目与图表改写)",
           role: "引言段 · 题目与分类规范改写",
           chinesePrompt: `该图表展示了关于“${title}”在各核心细分项上的数据构成与比例分布。`,
-          canonicalAnswer: `The diagram illustrates the breakdown of data regarding ${title.toLowerCase()}, providing a comprehensive comparison across categories.`,
+          canonicalAnswer: `The diagram illustrates the breakdown of data regarding ${title.toLowerCase()}, providing a detailed comparative perspective across the specified categories.`,
           acceptableVariants: [`The chart provides an overview of the distribution of ${title.toLowerCase()} across the specified sectors.`],
           strategyTip: "使用 illustrates the breakdown of / provides a comprehensive breakdown across categories 规范引出。",
           keyChunks: ["The pie chart illustrates the breakdown of ... in [Year]", "represented roughly [N]% of the total"]
@@ -1143,7 +1385,7 @@
           title: "Step 2: Overview (宏观总述 · 冲6.5分关键)",
           role: "总述段 · 宏观大格局与极值 (绝无碎数字)",
           chinesePrompt: "总体而言，显而易见的是，主导项目在整体分布中占据绝大部分份额，而其余次要类别所占比例相对微小。",
-          canonicalAnswer: "Overall, it is readily apparent that the dominant category accounted for the lion's share of the overall distribution, while the remaining sectors represented comparatively modest proportions.",
+          canonicalAnswer: "Overall, it is readily apparent that the dominant category accounted for the lion's share of the overall distribution, while the remaining sectors represented comparatively modest proportions, highlighting clear macro-level divergence without minor fluctuations.",
           acceptableVariants: ["Overall, clear contrasts are visible across the categories, with the primary feature standing out distinctly above the rest."],
           strategyTip: "冲 6.5 分死律：Overview 严禁出现具体数字！用 accounted for the lion's share 宏观定调极值。",
           keyChunks: ["accounted for the lion's share of ...", "trailed far behind at merely [N]%"]
@@ -1153,9 +1395,9 @@
           stepNumber: 3,
           title: "Step 3: Body Paragraph 1 (主体一：第一梯队主力数据)",
           role: "主体一段 · 核心数据与主导排位",
-          chinesePrompt: `在最主要的数据特征中：${questions[0]?.chinese || "第一项高居首位，并构成了整体的最重要部分。"}`,
-          canonicalAnswer: q1,
-          acceptableVariants: [q2],
+          chinesePrompt: `在主要主导份额中：${questions[0]?.chinese || "第一项占据最大比例"}；与此同时，${questions[1]?.chinese || "第二项紧随其后"}。`,
+          canonicalAnswer: `Looking first at the dominant segments, the leading category ${formatClause(q1)}. At the same time, ${formatClause(q2)}, illustrating steady dominance and underscoring their primary position in the overall breakdown.`,
+          acceptableVariants: [q1],
           strategyTip: "使用 Looking first at the dominant expenditures 启承，精准代入数据与倍数关系。",
           keyChunks: ["stood out as the primary contributor at [N]%", "ranked as the second-largest category, following closely behind"]
         },
@@ -1164,9 +1406,9 @@
           stepNumber: 4,
           title: "Step 4: Body Paragraph 2 (主体二：中尾部梯次与对比)",
           role: "主体二段 · 次要数据与对比转折",
-          chinesePrompt: `相比之下，其余细分项目：${questions[2]?.chinese || "次要类别数据明显落后，并形成了鲜明倍数反差。"}`,
-          canonicalAnswer: q3 || q4 || q5,
-          acceptableVariants: [q4 || q5],
+          chinesePrompt: `相比之下，中尾部及次要细分项目：${questions[2]?.chinese || "次要项目份额明显偏低"}；此外，${questions[3]?.chinese || "两者存在显著倍数或差值落差"}，而${questions[4]?.chinese || "最小项占比极微"}。`,
+          canonicalAnswer: `By comparison, the remaining sectors registered considerably lower figures: ${formatClause(q3)}. Furthermore, ${formatClause(q4)}, with ${formatClause(q5)}, underscoring the notable contrast with the leading categories.`,
+          acceptableVariants: [q3],
           strategyTip: "使用 In stark contrast 或 By comparison 转折，凸显与主体一段的层级差异。",
           keyChunks: ["was nearly [N] times as high as ...", "was [N] percentage points higher than ..."]
         }

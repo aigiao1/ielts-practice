@@ -4,13 +4,13 @@ window.TASK1_RAPID_DATA = {
     {
       "id": "module-1",
       "number": 1,
-      "name": "模块一：数字、单位与比较不出错",
+      "name": "🥧 题型一：静态占比与份额分布",
       "range": "1–20",
       "groups": [
         {
           "id": "m1-g1",
           "number": 1,
-          "label": "题组 1 · 支出与占比核心表达",
+          "label": "【静态单饼】题组 1 · 六大家庭日常开销构成",
           "questions": [
             {"number": 1, "chinese": "占家庭总支出的35%", "answer": "account for 35% of total household expenditure"},
             {"number": 2, "chinese": "第二大支出项目，占25%", "answer": "the second-largest category, representing 25% of the total"},
@@ -22,7 +22,7 @@ window.TASK1_RAPID_DATA = {
         {
           "id": "m1-g2",
           "number": 2,
-          "label": "题组 2 · 客流与倍数比较表达",
+          "label": "【对比表格】题组 2 · 英国五大机场年客流吞吐",
           "questions": [
             {"number": 6, "chinese": "接待约450万名乘客", "answer": "handle approximately 4.5 million passengers per year"},
             {"number": 7, "chinese": "比希思罗机场少150万人", "answer": "1.5 million fewer than Heathrow Airport"},
@@ -34,7 +34,7 @@ window.TASK1_RAPID_DATA = {
         {
           "id": "m1-g3",
           "number": 3,
-          "label": "题组 3 · 近似与分额表达",
+          "label": "【静态单饼】题组 3 · 全国四类主要能源消耗结构",
           "questions": [
             {"number": 11, "chinese": "提供了略高于一半的能源", "answer": "supplied just over half of the energy produced"},
             {"number": 12, "chinese": "约占总量的四分之一", "answer": "accounted for approximately a quarter of the total"},
@@ -46,7 +46,7 @@ window.TASK1_RAPID_DATA = {
         {
           "id": "m1-g4",
           "number": 4,
-          "label": "题组 4 · 百分比与变化幅度表达",
+          "label": "【对比双柱】题组 4 · 2010与2020通勤方式演变",
           "questions": [
             {"number": 16, "chinese": "骑自行车通勤的比例上升了10个百分点", "answer": "the proportion of bicycle commuters rose by 10 percentage points"},
             {"number": 17, "chinese": "相对而言，骑车通勤人数占比增加了50%", "answer": "in relative terms, the share of bicycle commuters increased by 50%"},
@@ -60,13 +60,13 @@ window.TASK1_RAPID_DATA = {
     {
       "id": "module-2",
       "number": 2,
-      "name": "模块二：动态图与时态控制",
+      "name": "📈 题型二：动态时间趋势走势",
       "range": "21–40",
       "groups": [
         {
           "id": "m2-g1",
           "number": 5,
-          "label": "题组 5 · 趋势上升与超越表达",
+          "label": "【动态折线】题组 5 · 三种出行方式20年走势",
           "questions": [
             {"number": 21, "chinese": "从2000万稳步增至5500万次出行", "answer": "rose steadily from 20 million to 55 million journeys"},
             {"number": 22, "chinese": "相比之下，从4500万缓慢下降到3500万", "answer": "by contrast, declined gradually from 45 million to 35 million"},
@@ -78,7 +78,7 @@ window.TASK1_RAPID_DATA = {
         {
           "id": "m2-g2",
           "number": 6,
-          "label": "题组 6 · 波动、峰值与回升表达",
+          "label": "【动态折线】题组 6 · 月度用电量波动与夏季峰值",
           "questions": [
             {"number": 26, "chinese": "在一年中出现明显波动", "answer": "fluctuated considerably over the year"},
             {"number": 27, "chinese": "从1月的320千瓦时降至4月的240千瓦时", "answer": "fell from 320 kWh in January to 240 kWh in April"},
@@ -90,7 +90,7 @@ window.TASK1_RAPID_DATA = {
         {
           "id": "m2-g3",
           "number": 7,
-          "label": "题组 7 · 差距缩小与反超表达",
+          "label": "【动态折线】题组 7 · 两国互联网普及率缩小与反超",
           "questions": [
             {"number": 31, "chinese": "互联网使用率远高于乙国", "answer": "internet use in Country A was far higher than that in Country B"},
             {"number": 32, "chinese": "两国之间的差距逐渐缩小", "answer": "the gap between the two countries narrowed gradually thereafter"},
@@ -102,7 +102,7 @@ window.TASK1_RAPID_DATA = {
         {
           "id": "m2-g4",
           "number": 8,
-          "label": "题组 8 · 触底与恢复表达",
+          "label": "【动态折线】题组 8 · 汽车销量触底反弹与恢复走势",
           "questions": [
             {"number": 36, "chinese": "达到9.5万件的早期高点", "answer": "reached an initial high of 95,000 units"},
             {"number": 37, "chinese": "大幅下降，并在2015年触底至4万件", "answer": "fell markedly, bottoming out at 40,000 in 2015"},
@@ -116,13 +116,13 @@ window.TASK1_RAPID_DATA = {
     {
       "id": "module-3",
       "number": 3,
-      "name": "模块三：静态图的分组与比较",
+      "name": "📊 题型三：多类别排序与分组对比",
       "range": "41–74",
       "groups": [
         {
           "id": "m3-g1",
           "number": 9,
-          "label": "题组 9 · 通勤与出行主体表达",
+          "label": "【分组柱图】题组 9 · 城市居民主要交通方式对比",
           "questions": [
             {"number": 41, "chinese": "大多数通勤者", "answer": "the majority of commuters"},
             {"number": 42, "chinese": "选择开车出行 / 乘汽车通勤", "answer": "choose to travel by car / travel by car"},
@@ -134,7 +134,7 @@ window.TASK1_RAPID_DATA = {
         {
           "id": "m3-g2",
           "number": 10,
-          "label": "题组 10 · 分组与比例倍数表达",
+          "label": "【分组柱图】题组 10 · 欧洲主要交通分流与占比倍数",
           "questions": [
             {"number": 46, "chinese": "为70%", "answer": "at 70%"},
             {"number": 47, "chinese": "是……的三倍", "answer": "three times that of... / three times that in..."},
@@ -146,7 +146,7 @@ window.TASK1_RAPID_DATA = {
         {
           "id": "m3-g3",
           "number": 11,
-          "label": "题组 11 · 年龄层与普遍程度表达",
+          "label": "【多维柱图】题组 11 · 不同年龄层网络购物参与度差异",
           "questions": [
             {"number": 51, "chinese": "年龄在25–44岁的人", "answer": "people aged 25 to 44"},
             {"number": 52, "chinese": "65岁及以上的人", "answer": "people aged 65 and over"},
@@ -158,7 +158,7 @@ window.TASK1_RAPID_DATA = {
         {
           "id": "m3-g4",
           "number": 12,
-          "label": "题组 12 · 预算份额与差距表达",
+          "label": "【分组柱图】题组 12 · 两座城市各项公共医疗预算对比",
           "questions": [
             {"number": 56, "chinese": "在年轻群体中更普遍", "answer": "more common / substantially more prevalent among younger age groups"},
             {"number": 57, "chinese": "占预算的最大份额", "answer": "account for the largest share of the budget"},
@@ -170,7 +170,7 @@ window.TASK1_RAPID_DATA = {
         {
           "id": "m3-g5",
           "number": 13,
-          "label": "题组 13 · 类别分配与排序表达",
+          "label": "【对比表格】题组 13 · 两个城市公共设施经费分配排序",
           "questions": [
             {"number": 61, "chinese": "两个城市分别为20%和30%", "answer": "the respective proportions were 20% and 30%"},
             {"number": 62, "chinese": "两个城市中 / 两个城市都是", "answer": "in the two cities / in both cities"},
@@ -182,7 +182,7 @@ window.TASK1_RAPID_DATA = {
         {
           "id": "m3-g6",
           "number": 14,
-          "label": "题组 14 · 性别比例与人数比较表达",
+          "label": "【对比柱图】题组 14 · 四所高校各学科男女生就读比例",
           "questions": [
             {"number": 66, "chinese": "男性人数是女性的四倍", "answer": "the number of men was four times the number of women"},
             {"number": 67, "chinese": "占大多数 / 构成大多数", "answer": "make up the majority of... / account for the majority of..."},
@@ -194,7 +194,7 @@ window.TASK1_RAPID_DATA = {
         {
           "id": "m3-g7",
           "number": 15,
-          "label": "题组 15 · 学科与差异例外表达",
+          "label": "【对比表格】题组 15 · 跨学科生源性别分布与例外分析",
           "questions": [
             {"number": 71, "chinese": "工程专业 / 科学专业", "answer": "engineering / science"},
             {"number": 72, "chinese": "护理专业 / 艺术专业", "answer": "nursing / art"},
@@ -207,13 +207,13 @@ window.TASK1_RAPID_DATA = {
     {
       "id": "module-4",
       "number": 4,
-      "name": "模块四：Overview 选择主要特征",
+      "name": "📋 题型四：Overview宏观提炼与极值分析",
       "range": "75–94",
       "groups": [
         {
           "id": "m4-g1",
           "number": 16,
-          "label": "题组 16 · 动态图 Overview 核心句式",
+          "label": "【折线Overview】题组 16 · 动态大势提炼与位次彻底反转",
           "questions": [
             {"number": 75, "chinese": "呈持续上升趋势，而……不断下降", "answer": "followed a sustained upward trend, whereas... declined throughout the period"},
             {"number": 76, "chinese": "最初增长，但在后半段失去了全部增幅", "answer": "rose initially but lost all of its gains during the second half of the period"},
@@ -225,7 +225,7 @@ window.TASK1_RAPID_DATA = {
         {
           "id": "m4-g2",
           "number": 17,
-          "label": "题组 17 · 静态图 Overview 核心句式",
+          "label": "【表格Overview】题组 17 · 四国图书音像消费模式大势",
           "questions": [
             {"number": 80, "chinese": "在四个国家中都是最畅销的类别", "answer": "were the best-selling category in all four countries"},
             {"number": 81, "chinese": "书籍的销量普遍最低", "answer": "books consistently recorded the lowest sales figures"},
@@ -237,7 +237,7 @@ window.TASK1_RAPID_DATA = {
         {
           "id": "m4-g3",
           "number": 18,
-          "label": "题组 18 · 混合图 Overview 核心句式",
+          "label": "【双图Overview】题组 18 · 访客总量增长与休闲目的主导",
           "questions": [
             {"number": 85, "chinese": "游客总数在所示时期内显著增长", "answer": "the total number of visitors increased substantially over the period shown"},
             {"number": 86, "chinese": "休闲旅行是到访的主要目的", "answer": "leisure travel was the principal purpose of visits"},
@@ -249,7 +249,7 @@ window.TASK1_RAPID_DATA = {
         {
           "id": "m4-g4",
           "number": 19,
-          "label": "题组 19 · 筛选主要特征与细节排除",
+          "label": "【柱图Overview】题组 19 · 高校招生宏观特征筛选与细节排除",
           "questions": [
             {"number": 90, "chinese": "学生总数在整个时期有所增加", "answer": "the total student population grew over the period as a whole"},
             {"number": 91, "chinese": "女生人数后来超过了男生人数", "answer": "female enrolment eventually overtook male enrolment"},
@@ -263,13 +263,13 @@ window.TASK1_RAPID_DATA = {
     {
       "id": "module-5",
       "number": 5,
-      "name": "模块五：地图与平面图",
+      "name": "🗺️ 题型五：地理演变与规划改造",
       "range": "95–114",
       "groups": [
         {
           "id": "m5-g1",
           "number": 20,
-          "label": "题组 20 · 城镇演变与改造被动句式",
+          "label": "【城镇地图】题组 20 · 工业小镇向宜居住宅区三十年转型",
           "questions": [
             {"number": 95, "chinese": "变得更加住宅化，工业用地和农田减少", "answer": "became more residential, with reductions in both industrial and agricultural land"},
             {"number": 96, "chinese": "镇北部的农田被大型住宅区取代", "answer": "the farmland in the north of the town was replaced by a large residential area"},
@@ -281,7 +281,7 @@ window.TASK1_RAPID_DATA = {
         {
           "id": "m5-g2",
           "number": 21,
-          "label": "题组 21 · 设施改建与方位拓展表达",
+          "label": "【公园地图】题组 21 · 公共公园休闲与商业化改造规划",
           "questions": [
             {"number": 100, "chinese": "入口仍位于南侧", "answer": "the entrance remained on the southern side"},
             {"number": 101, "chinese": "中央喷泉被改建成一座咖啡馆", "answer": "the central fountain was converted into a café"},
@@ -293,7 +293,7 @@ window.TASK1_RAPID_DATA = {
         {
           "id": "m5-g3",
           "number": 22,
-          "label": "题组 22 · 岛屿度假区开发表达",
+          "label": "【海岛地图】题组 22 · 荒岛向现代化度假区开发对比",
           "questions": [
             {"number": 105, "chinese": "除了树木和海滩外没有任何设施", "answer": "contained no facilities apart from trees and a beach"},
             {"number": 106, "chinese": "接待中心建在岛屿中央", "answer": "a reception building was constructed in the centre of the island"},
@@ -305,7 +305,7 @@ window.TASK1_RAPID_DATA = {
         {
           "id": "m5-g4",
           "number": 23,
-          "label": "题组 23 · 未来规划与交通改道表达",
+          "label": "【校园地图】题组 23 · 大学主校区人车分流与实验室扩建",
           "questions": [
             {"number": 110, "chinese": "规划中的实验楼将建在图书馆北侧", "answer": "the proposed laboratory building will be constructed to the north of the library"},
             {"number": 111, "chinese": "现有停车场将迁至校园西侧", "answer": "the existing car park is to be relocated to the western side of the campus"},
@@ -319,13 +319,13 @@ window.TASK1_RAPID_DATA = {
     {
       "id": "module-6",
       "number": 6,
-      "name": "模块六：流程图与被动语态",
+      "name": "⚙️ 题型六：工业工序与生命周期",
       "range": "115–134",
       "groups": [
         {
           "id": "m6-g1",
           "number": 24,
-          "label": "题组 24 · 线性生产步骤表达",
+          "label": "【工业流程】题组 24 · 商业咖啡豆六道加工封装工序",
           "questions": [
             {"number": 115, "chinese": "由六个主要阶段组成的线性过程", "answer": "a linear process consisting of six main stages"},
             {"number": 116, "chinese": "成熟的果实由人工采摘", "answer": "ripe cherries are picked by hand"},
@@ -337,7 +337,7 @@ window.TASK1_RAPID_DATA = {
         {
           "id": "m6-g2",
           "number": 25,
-          "label": "题组 25 · 废品回收与加工步骤表达",
+          "label": "【回收工艺】题组 25 · 废旧纸张脱墨再造纸完整工艺",
           "questions": [
             {"number": 120, "chinese": "从收集旧纸开始，以生产新纸结束", "answer": "begins with the collection of used paper and ends with the production of new sheets"},
             {"number": 121, "chinese": "按照类型和质量进行分类", "answer": "is sorted according to type and quality"},
@@ -349,7 +349,7 @@ window.TASK1_RAPID_DATA = {
         {
           "id": "m6-g3",
           "number": 26,
-          "label": "题组 26 · 机械系统与设备动作表达",
+          "label": "【机械运作】题组 26 · 太阳能热水系统热力循环机制",
           "questions": [
             {"number": 125, "chinese": "利用太阳能把冷水转化为热水", "answer": "uses solar energy to convert cold water into hot water"},
             {"number": 126, "chinese": "冷水首先流入储水箱", "answer": "cold water first flows into a storage tank"},
@@ -361,7 +361,7 @@ window.TASK1_RAPID_DATA = {
         {
           "id": "m6-g4",
           "number": 27,
-          "label": "题组 27 · 自然生命循环步骤表达",
+          "label": "【生命周期】题组 27 · 两栖青蛙自然产卵孵化变态循环",
           "questions": [
             {"number": 130, "chinese": "是一个循环过程，从卵开始，最后再次产卵", "answer": "a cyclical process that begins with eggs and ends when adult frogs lay eggs again"},
             {"number": 131, "chinese": "卵孵化后，幼小的蝌蚪进入水中", "answer": "after the eggs hatch, young tadpoles emerge into the water"},
@@ -375,13 +375,13 @@ window.TASK1_RAPID_DATA = {
     {
       "id": "module-7",
       "number": 7,
-      "name": "模块七：把单句连成微型报告",
+      "name": "🧩 题型七：双图组合与全题型综合微型报告",
       "range": "135–154",
       "groups": [
         {
           "id": "m7-g1",
           "number": 28,
-          "label": "题组 28 · 微型报告：图表对比连接句",
+          "label": "【微型报告·折线】题组 28 · 四种废料回收率长期走势报告",
           "questions": [
             {"number": 135, "chinese": "比较了四种材料的回收比例", "answer": "compares the percentages of four materials recycled"},
             {"number": 136, "chinese": "纸张回收率始终最高，而塑料一直排在最后", "answer": "paper consistently had the highest recycling rate, while plastic remained the least recycled material"},
@@ -393,19 +393,19 @@ window.TASK1_RAPID_DATA = {
         {
           "id": "m7-g2",
           "number": 29,
-          "label": "题组 29 · 微型报告：柱状去向描述句",
+          "label": "【微型报告·柱图】题组 29 · 大学毕业生四大就职去向分布",
           "questions": [
             {"number": 140, "chinese": "显示了大学毕业生毕业后的四种去向", "answer": "shows the four destinations of graduates from a particular university"},
             {"number": 141, "chinese": "全职就业是最常见的去向，而失业最少", "answer": "full-time employment was by far the most common outcome, whereas unemployment was the least common"},
             {"number": 142, "chinese": "超过一半的毕业生进入全职工作，具体为55%", "answer": "just over half of the graduates entered full-time employment, at 55%"},
             {"number": 143, "chinese": "继续深造的人占四分之一，不到全职者的一半", "answer": "a quarter continued their studies, less than half the proportion taking full-time jobs"},
-            {"number": 144, "chinese": "分别占12%和8%，两者合计仅为五分之一", "answer": "accounted for 12% and 8% respectively, a combined share of only one fifth"}
+            {"number": 144, "chinese": "分别占12%和8%", "answer": "accounted for 12% and 8% respectively, a combined share of only one fifth"}
           ]
         },
         {
           "id": "m7-g3",
           "number": 30,
-          "label": "题组 30 · 微型报告：建筑改建描述句",
+          "label": "【微型报告·地图】题组 30 · 火车站扩建增容改造规划报告",
           "questions": [
             {"number": 145, "chinese": "展示了目前的布局和计划改造后的样子", "answer": "show the current layout of a railway station and its proposed redevelopment"},
             {"number": 146, "chinese": "增加设施和容量，而原有售票处会被保留", "answer": "will gain more passenger facilities and greater capacity, while the existing ticket office will be retained"},
@@ -417,7 +417,7 @@ window.TASK1_RAPID_DATA = {
         {
           "id": "m7-g4",
           "number": 31,
-          "label": "题组 31 · 微型报告：循环加工流程描述句",
+          "label": "【微型报告·流程】题组 31 · 废旧玻璃瓶回收再利用闭环",
           "questions": [
             {"number": 150, "chinese": "说明了废旧玻璃瓶如何被回收并重新投入使用", "answer": "illustrates how used glass bottles are recycled and returned to use"},
             {"number": 151, "chinese": "这是一个循环过程，包括收集、加工、重新灌装和销售", "answer": "a cyclical process involving collection, processing, refilling, and resale"},

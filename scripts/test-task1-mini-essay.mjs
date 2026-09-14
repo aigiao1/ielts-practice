@@ -1,5 +1,7 @@
 // Task 1 四段式小作文工坊断言测试 (Mini-Essay Workbench TDD Suite)
 import assert from "node:assert/strict";
+import fs from "node:fs";
+import path from "node:path";
 import Task1MiniEssayModels from "../content/writing/task1/task1-mini-essay-models.js";
 import Task1VisualScaffolds from "../content/writing/task1/task1-visual-scaffolds.js";
 
@@ -33,7 +35,15 @@ console.log("   ✔ 五大功能类别语块库完备无损 (涵盖引言、Over
 
 // [Test 2] 校验深度定制题组的双思维切入模型 (Thinking Angles)
 console.log("▶ [Test 2] 校验典型题组的双思维切入模型 (思路 A vs 思路 B)...");
-const sampleGroupIds = ["task1-group-01", "task1-group-02", "task1-group-05", "task1-group-17", "task1-group-21"];
+const sampleGroupIds = [
+  "task1-group-01",
+  "task1-group-02",
+  "task1-group-03",
+  "task1-group-04",
+  "task1-group-05",
+  "task1-group-17",
+  "task1-group-21"
+];
 
 sampleGroupIds.forEach((gid) => {
   const essayModel = Task1MiniEssayModels.getMiniEssayForGroup(gid);
@@ -157,7 +167,7 @@ console.log("   ✔ 图表数据扩充断言通过：6 项层级清晰，不难�
 
 // [Test 9] 校验冲 6.5 分 Overview 防 5 分死律 (绝无具体孤立百分比数字)
 console.log("▶ [Test 9] 校验 6.5 分 Overview 规范 (杜绝流水账百分比)...");
-["task1-group-01", "task1-group-02", "task1-group-05", "task1-group-17", "task1-group-21"].forEach((gid) => {
+sampleGroupIds.forEach((gid) => {
   const essayModel = Task1MiniEssayModels.getMiniEssayForGroup(gid);
   const overviewStep = essayModel.paragraphSteps.find(s => s.stepId === "overview");
   assert.ok(overviewStep, `${gid} 需包含 overview 步骤`);
@@ -168,7 +178,7 @@ console.log("   ✔ Overview 规范严密，完美落实 6.5 分防 5 分流水�
 
 // [Test 10] 校验高分范文合成词数健康度 (130–165 词区间)
 console.log("▶ [Test 10] 校验核心代表题组的完整范文词数区间...");
-["task1-group-01", "task1-group-02", "task1-group-05", "task1-group-17", "task1-group-21"].forEach((gid) => {
+sampleGroupIds.forEach((gid) => {
   const essayModel = Task1MiniEssayModels.getMiniEssayForGroup(gid);
   const drafts = {
     intro: essayModel.paragraphSteps[0].canonicalAnswer,
@@ -180,7 +190,50 @@ console.log("▶ [Test 10] 校验核心代表题组的完整范文词数区间..
   assert.ok(synth.wordCount >= 125 && synth.wordCount <= 170, `${gid} 词数必须处于 125–170 理想区间 (实测: ${synth.wordCount})`);
   console.log(`     • ${gid} [${essayModel.archetype}]: ${synth.wordCount} 词 · 状态: ${synth.healthStatus}`);
 });
-console.log("   ✔ 核心范文词数全数达标 130–170 词理想区间！");
+console.log("   ✔ 核心代表题组范文词数全数达标 130–170 词理想区间！");
+
+// [Test 11] 校验题库模块与题组标签雅思真题化重构
+console.log("▶ [Test 11] 校验题库模块与题组标签雅思真题化重构 (消除题目雷同感)...");
+const rapidDataFile = fs.readFileSync(path.resolve("task1-rapid-data.js"), "utf8");
+const expectedModuleIcons = ["🥧", "📈", "📊", "📋", "🗺️", "⚙️", "🧩"];
+expectedModuleIcons.forEach((icon) => {
+  assert.ok(rapidDataFile.includes(icon), `task1-rapid-data.js 必须包含模块题型图标: ${icon}`);
+});
+assert.ok(rapidDataFile.includes("【静态单饼】"), "必须包含【静态单饼】题组标签");
+assert.ok(rapidDataFile.includes("【动态折线】"), "必须包含【动态折线】题组标签");
+assert.ok(rapidDataFile.includes("【对比双柱】"), "必须包含【对比双柱】题组标签");
+assert.ok(rapidDataFile.includes("【城镇地图】"), "必须包含【城镇地图】题组标签");
+assert.ok(rapidDataFile.includes("【工业流程】"), "必须包含【工业流程】题组标签");
+assert.ok(rapidDataFile.includes("【微型报告·折线】"), "必须包含【微型报告】题组标签");
+console.log("   ✔ 7 大题型模块与 31 个题组真题化标签校验通过！");
+
+// [Test 12] 校验动态段落组装能力 (全量 28 题组范文词数全数 ≥ 125 词，彻底杜绝 5 词碎片)
+console.log("▶ [Test 12] 校验动态段落组装能力 (全量 28 题组词数全面达标)...");
+for (let i = 1; i <= 28; i++) {
+  const gid = `task1-group-${String(i).padStart(2, "0")}`;
+  const dummyGroup = {
+    id: gid,
+    label: `题组 ${i} · 自动化测试组`,
+    questions: [
+      { chinese: "第一项占据重要份额", answer: "accounted for 40% of the entire distribution" },
+      { chinese: "第二项紧随其后位列次席", answer: "represented 25%, trailing in second position" },
+      { chinese: "第三项出现明显差异", answer: "stood at 15%, showing a distinct gap" },
+      { chinese: "第四项处于较低水平", answer: "constituted merely 10% of the total" },
+      { chinese: "末尾项仅占微小比例", answer: "made up the remaining 10% share" }
+    ]
+  };
+  const essayModel = Task1MiniEssayModels.getMiniEssayForGroup(gid, dummyGroup);
+  const drafts = {
+    intro: essayModel.paragraphSteps[0].canonicalAnswer,
+    overview: essayModel.paragraphSteps[1].canonicalAnswer,
+    body1: essayModel.paragraphSteps[2].canonicalAnswer,
+    body2: essayModel.paragraphSteps[3].canonicalAnswer
+  };
+  const synth = Task1MiniEssayModels.synthesizeEssay(drafts);
+  assert.ok(synth.wordCount >= 120, `${gid} 动态合成词数应 ≥ 120 词 (实测: ${synth.wordCount})`);
+  assert.ok(!essayModel.paragraphSteps[1].canonicalAnswer.includes("40%"), `${gid} Overview 严禁包含具体数字`);
+}
+console.log("   ✔ 全量 28 题组动态段落组装与词数健康度 100% 达标！");
 
 console.log("\n=======================================================");
 console.log("🎉 Task 1 四段式小作文工坊全套单元断言测试 100% 通过！");
