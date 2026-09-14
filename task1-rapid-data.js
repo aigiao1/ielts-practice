@@ -12,11 +12,11 @@ window.TASK1_RAPID_DATA = {
           "number": 1,
           "label": "题组 1 · 支出与占比核心表达",
           "questions": [
-            {"number": 1, "chinese": "占家庭总支出的45%", "answer": "account for 45% of total household expenditure"},
-            {"number": 2, "chinese": "第二大支出项目，占30%", "answer": "the second-largest category, representing 30% of the total"},
-            {"number": 3, "chinese": "交通支出的比例比娱乐高5个百分点", "answer": "the proportion spent on transport was 5 percentage points higher than that for entertainment"},
-            {"number": 4, "chinese": "住房支出是娱乐支出的四倍半", "answer": "spending on housing was four and a half times as high as spending on entertainment"},
-            {"number": 5, "chinese": "住房和食品合计占全部支出的四分之三", "answer": "housing and food together made up three quarters of all expenditure"}
+            {"number": 1, "chinese": "占家庭总支出的35%", "answer": "account for 35% of total household expenditure"},
+            {"number": 2, "chinese": "第二大支出项目，占25%", "answer": "the second-largest category, representing 25% of the total"},
+            {"number": 3, "chinese": "交通支出的比例比医疗高3个百分点", "answer": "the proportion spent on transport was 3 percentage points higher than that for healthcare"},
+            {"number": 4, "chinese": "住房支出是服饰支出的整整七倍", "answer": "spending on housing was seven times as high as spending on clothing"},
+            {"number": 5, "chinese": "住房和食品合计占全部支出的六成", "answer": "housing and food together made up six-tenths of all expenditure"}
           ]
         },
         {
@@ -24,11 +24,11 @@ window.TASK1_RAPID_DATA = {
           "number": 2,
           "label": "题组 2 · 客流与倍数比较表达",
           "questions": [
-            {"number": 6, "chinese": "接待约120万名乘客", "answer": "handle approximately 1.2 million passengers per year"},
-            {"number": 7, "chinese": "比A机场少40万人", "answer": "400,000 fewer than Airport A"},
-            {"number": 8, "chinese": "客流量正好是C机场的两倍", "answer": "passenger numbers at Airport A were exactly twice those at Airport C"},
-            {"number": 9, "chinese": "三座机场年客流量合计为260万人", "answer": "handled a combined total of 2.6 million passengers each year"},
-            {"number": 10, "chinese": "占三座机场总客流量的近一半", "answer": "accounted for just under half of the combined passenger total"}
+            {"number": 6, "chinese": "接待约450万名乘客", "answer": "handle approximately 4.5 million passengers per year"},
+            {"number": 7, "chinese": "比希思罗机场少150万人", "answer": "1.5 million fewer than Heathrow Airport"},
+            {"number": 8, "chinese": "客流量正好是曼彻斯特机场的三倍", "answer": "passenger numbers at Heathrow were exactly three times those at Manchester"},
+            {"number": 9, "chinese": "五座机场年客流量合计超过1000万人", "answer": "handled a combined total of over 10 million passengers each year"},
+            {"number": 10, "chinese": "占五座机场总客流量的近一半", "answer": "accounted for just under half of the combined passenger total"}
           ]
         },
         {

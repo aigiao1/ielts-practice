@@ -240,9 +240,22 @@
     const steps = miniEssay.paragraphSteps || [];
     const currentStep = steps[currentStepIndex] || steps[0];
 
-    // 实战高频语块库 (融合全局通用与题组专属)
-    const globalChunks = scaffoldConfig?.functionalChunks || (window.Task1MiniEssayModels?.GLOBAL_FUNCTIONAL_CHUNKS || []);
+    // 题型专属高频语块库 (自适应题型：趋势/静态/对比/地图/流程/综合)
+    const activeArchetype = scaffoldConfig?.archetype || miniEssay?.archetype || "static";
+    const archetypeChunks = (window.Task1MiniEssayModels?.getChunksForArchetype
+      ? window.Task1MiniEssayModels.getChunksForArchetype(activeArchetype)
+      : null) || scaffoldConfig?.functionalChunks || window.Task1MiniEssayModels?.GLOBAL_FUNCTIONAL_CHUNKS || [];
     const groupSynonyms = scaffoldConfig?.synonymGroups || [];
+
+    const archetypeTitles = {
+      trend: "📈 动态趋势与反超高分语块",
+      static: "🥧 静态占比与倍数高分语块",
+      comparison: "🥊 多主体横向对比高分语块",
+      map: "🗺️ 地图变迁与空间高分语块",
+      process: "⚙️ 流程工序与被动式高分语块",
+      mixed: "🧩 综合双图联动高分语块"
+    };
+    const drawerTitle = archetypeTitles[activeArchetype] || "📚 题型专属实战语块库 (点击直接插入)";
 
     // 合成小作文状态与字数
     const synthesized = window.Task1MiniEssayModels
@@ -284,10 +297,10 @@
     const functionalChunksHtml = `
       <div class="synonym-drawer card-panel" style="margin-top:12px;">
         <div class="synonym-drawer-header" style="margin-bottom:8px;">
-          <span class="synonym-title">📚 高频实战语块库 (点击直接插入输入框)</span>
+          <span class="synonym-title">${escapeHtml(drawerTitle)}</span>
         </div>
         <div class="synonym-groups-wrap">
-          ${globalChunks.map((grp) => `
+          ${archetypeChunks.map((grp) => `
             <div class="synonym-group-block" style="margin-bottom:10px;">
               <span class="synonym-cat-tag">${grp.icon || '📌'} ${escapeHtml(grp.category)}</span>
               <div class="synonym-chips-row">

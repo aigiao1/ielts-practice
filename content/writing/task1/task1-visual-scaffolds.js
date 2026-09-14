@@ -5,98 +5,111 @@
 
   const TASK1_VISUAL_SCAFFOLDS = {
   "task1-group-01": {
+    "archetype": "static",
     "chartType": "pie",
-    "chartTitle": "家庭支出构成 (Household Expenditure Breakdown)",
+    "chartTitle": "家庭年度支出构成 (Annual Household Expenditure Breakdown)",
     "unit": "%",
     "chartData": [
       {
         "label": "住房 (Housing)",
-        "value": 45,
+        "value": 35,
         "unit": "%",
         "color": "#e76f51"
       },
       {
-        "label": "食品 (Food)",
-        "value": 30,
+        "label": "食品餐饮 (Food & Groceries)",
+        "value": 25,
         "unit": "%",
         "color": "#f4a261"
       },
       {
-        "label": "交通 (Transport)",
+        "label": "交通出行 (Transport)",
         "value": 15,
         "unit": "%",
         "color": "#2a9d8f"
       },
       {
-        "label": "娱乐 (Entertainment)",
-        "value": 10,
+        "label": "医疗保健 (Healthcare)",
+        "value": 12,
         "unit": "%",
         "color": "#457b9d"
+      },
+      {
+        "label": "休闲娱乐 (Recreation)",
+        "value": 8,
+        "unit": "%",
+        "color": "#8338ec"
+      },
+      {
+        "label": "服饰穿着 (Clothing)",
+        "value": 5,
+        "unit": "%",
+        "color": "#3a86ff"
       }
     ],
     "relations": [
       {
         "qNumber": 1,
         "type": "proportion",
-        "badge": "单项占比 · 最大值",
-        "trigger": "看到 45% (最大)",
-        "funcIntent": "主项占比陈述",
+        "badge": "单项占比 · 首位大项",
+        "trigger": "看到 35% (最大)",
+        "funcIntent": "首位大项占比陈述",
         "targets": [
           "住房 (Housing)"
         ],
         "skeleton": "[Category] accounted for [N]% of total household expenditure.",
-        "demo": "Housing accounted for 45% of total household expenditure."
+        "demo": "Housing accounted for 35% of total household expenditure."
       },
       {
         "qNumber": 2,
         "type": "ranking",
         "badge": "顺位排序 · 第二大",
-        "trigger": "看到 30% 紧随其后",
+        "trigger": "看到 25% 紧随其后",
         "funcIntent": "第二梯队顺位描述",
         "targets": [
-          "食品 (Food)"
+          "食品餐饮 (Food & Groceries)"
         ],
         "skeleton": "[Category] was the second-largest category, representing [N]% of the total.",
-        "demo": "Food was the second-largest category, representing 30% of the total."
+        "demo": "Food and groceries was the second-largest category, representing 25% of the total."
       },
       {
         "qNumber": 3,
         "type": "difference",
         "badge": "差值对比 · 百分点",
-        "trigger": "看到 15% vs 10% (差5)",
+        "trigger": "看到 15% vs 12% (差3)",
         "funcIntent": "两项差值对比 (谨防误用 percent)",
         "targets": [
-          "交通 (Transport)",
-          "娱乐 (Entertainment)"
+          "交通出行 (Transport)",
+          "医疗保健 (Healthcare)"
         ],
         "skeleton": "The proportion spent on [A] was [N] percentage points higher than that for [B].",
-        "demo": "The proportion spent on transport was 5 percentage points higher than that for entertainment."
+        "demo": "The proportion spent on transport was 3 percentage points higher than that for healthcare."
       },
       {
         "qNumber": 4,
         "type": "multiplier",
-        "badge": "倍数关系 · 四倍半",
-        "trigger": "看到 45% vs 10% (4.5倍)",
+        "badge": "倍数关系 · 整整七倍",
+        "trigger": "看到 35% vs 5% (7倍)",
         "funcIntent": "极值与极小项倍数对比",
         "targets": [
           "住房 (Housing)",
-          "娱乐 (Entertainment)"
+          "服饰穿着 (Clothing)"
         ],
         "skeleton": "Spending on [A] was [N] times as high as spending on [B].",
-        "demo": "Spending on housing was four and a half times as high as spending on entertainment."
+        "demo": "Spending on housing was seven times as high as spending on clothing."
       },
       {
         "qNumber": 5,
         "type": "total",
         "badge": "合计数 · 分数归纳",
-        "trigger": "看到 45% + 30% = 75%",
-        "funcIntent": "前两大部分合并归纳 (四分之三)",
+        "trigger": "看到 35% + 25% = 60%",
+        "funcIntent": "前两大部分合并归纳 (六成)",
         "targets": [
           "住房 (Housing)",
-          "食品 (Food)"
+          "食品餐饮 (Food & Groceries)"
         ],
         "skeleton": "[A] and [B] together made up [fraction] of all expenditure.",
-        "demo": "Housing and food together made up three quarters of all expenditure."
+        "demo": "Housing and food together made up six-tenths of all expenditure."
       }
     ],
     "synonymGroups": [
@@ -180,90 +193,99 @@
     }
   },
   "task1-group-02": {
+    "archetype": "comparison",
     "chartType": "table",
-    "chartTitle": "三座机场年客流量对比 (Annual Passenger Numbers)",
+    "chartTitle": "英国五座主要机场年客流量对比 (Annual Passenger Volumes)",
     "unit": "passengers per year",
     "chartData": [
       {
-        "label": "Airport A",
-        "value": "1.2 million (120万)",
-        "note": "最高客流量"
+        "label": "Heathrow (希思罗)",
+        "value": "4.5 million (450万)",
+        "note": "最高客流量，绝对第一"
       },
       {
-        "label": "Airport B",
+        "label": "Gatwick (盖特威克)",
+        "value": "3.0 million (300万)",
+        "note": "第二大枢纽，比希思罗少150万"
+      },
+      {
+        "label": "Manchester (曼彻斯特)",
+        "value": "1.5 million (150万)",
+        "note": "正好是希思罗的三分之一"
+      },
+      {
+        "label": "Edinburgh (爱丁堡)",
         "value": "800,000 (80万)",
-        "note": "中等规模，比A少40万"
+        "note": "区域核心机场"
       },
       {
-        "label": "Airport C",
-        "value": "600,000 (60万)",
-        "note": "刚好是A的一半"
+        "label": "Luton (卢顿)",
+        "value": "400,000 (40万)",
+        "note": "不足希思罗的十分之一"
       }
     ],
     "relations": [
       {
         "qNumber": 6,
         "type": "volume",
-        "badge": "绝对量 · 主体陈述",
-        "trigger": "看到 Airport A: 120万",
+        "badge": "绝对量 · 首位吞吐量",
+        "trigger": "看到 Heathrow: 450万",
         "funcIntent": "首位主体吞吐量陈述",
         "targets": [
-          "Airport A"
+          "Heathrow (希思罗)"
         ],
         "skeleton": "[Airport] handled approximately [N] passengers per year.",
-        "demo": "Airport A handled approximately 1.2 million passengers per year."
+        "demo": "Heathrow handled approximately 4.5 million passengers per year."
       },
       {
         "qNumber": 7,
         "type": "difference",
         "badge": "差值比较 · 绝对数值",
-        "trigger": "看到 B 80万 vs A 120万 (少40万)",
+        "trigger": "看到 Gatwick 300万 vs Heathrow 450万 (少150万)",
         "funcIntent": "并列数值后追加差额非限定短语",
         "targets": [
-          "Airport B",
-          "Airport A"
+          "Gatwick (盖特威克)",
+          "Heathrow (希思罗)"
         ],
         "skeleton": "[Airport B] served [X] passengers, [Y] fewer than [Airport A].",
-        "demo": "Airport B served 800,000 passengers annually, 400,000 fewer than Airport A."
+        "demo": "Gatwick served 3.0 million passengers annually, 1.5 million fewer than Heathrow."
       },
       {
         "qNumber": 8,
         "type": "multiplier",
-        "badge": "倍数关系 · 两倍",
-        "trigger": "看到 A 120万 是 C 60万的两倍",
-        "funcIntent": "倍数与代词替代 (those at...)",
+        "badge": "倍数关系 · 三倍整",
+        "trigger": "看到 450万 vs 150万 (3倍)",
+        "funcIntent": "主要主体与第三名倍数对比",
         "targets": [
-          "Airport A",
-          "Airport C"
+          "Heathrow (希思罗)",
+          "Manchester (曼彻斯特)"
         ],
-        "skeleton": "Passenger numbers at [A] were exactly twice those at [C].",
-        "demo": "Passenger numbers at Airport A were exactly twice those at Airport C."
+        "skeleton": "Passenger numbers at [A] were exactly three times those at [B].",
+        "demo": "Passenger numbers at Heathrow were exactly three times those at Manchester."
       },
       {
         "qNumber": 9,
-        "type": "ranking",
-        "badge": "极值排序 · 最少",
-        "trigger": "看到 Airport C 最低",
-        "funcIntent": "底端规模与从句修饰",
+        "type": "combined",
+        "badge": "总计吞吐量 · 突破千万",
+        "trigger": "看到五座机场合计超过 1000 万",
+        "funcIntent": "总体量统计",
         "targets": [
-          "Airport C"
+          "五座机场整体"
         ],
-        "skeleton": "[Airport C] had the lowest traffic, with [X] passengers traveling through it.",
-        "demo": "Airport C had the lowest traffic, with 600,000 passengers traveling through it."
+        "skeleton": "The five airports handled a combined total of over [N] passengers each year.",
+        "demo": "The five airports handled a combined total of over 10 million passengers each year."
       },
       {
         "qNumber": 10,
-        "type": "total",
-        "badge": "总计与平均",
-        "trigger": "看到 1.2M + 0.8M + 0.6M = 2.6M",
-        "funcIntent": "全项求和归纳",
+        "type": "fraction",
+        "badge": "近一半 · just under half",
+        "trigger": "看到希思罗 450万 / 1020万 接近一半",
+        "funcIntent": "极值主体对总量贡献比例",
         "targets": [
-          "Airport A",
-          "Airport B",
-          "Airport C"
+          "Heathrow (希思罗)"
         ],
-        "skeleton": "In total, the three airports accommodated [N] passengers over the period.",
-        "demo": "In total, the three airports accommodated 2.6 million passengers over the period."
+        "skeleton": "[Airport] accounted for just under half of the combined passenger total.",
+        "demo": "Heathrow accounted for just under half of the combined passenger total."
       }
     ],
     "synonymGroups": [
@@ -4495,14 +4517,36 @@
       };
     }
 
-    // 挂接四段式小作文模型与双思维切入角度
+    // 自动推导或明确设置 scaffold.archetype (题型原型矩阵)
+    if (!scaffold.archetype) {
+      if (scaffold.chartType === "line" || scaffold.chartType === "bar_grouped" || group.moduleId === "module-2") {
+        scaffold.archetype = "trend";
+      } else if (scaffold.chartType === "map" || group.moduleId === "module-5") {
+        scaffold.archetype = "map";
+      } else if (scaffold.chartType === "flow" || scaffold.chartType === "flow_circular" || group.moduleId === "module-6") {
+        scaffold.archetype = "process";
+      } else if (scaffold.chartType === "table" || group.moduleId === "module-4") {
+        scaffold.archetype = "comparison";
+      } else if (scaffold.chartType === "mixed" || group.moduleId === "module-7") {
+        scaffold.archetype = "mixed";
+      } else {
+        scaffold.archetype = "static";
+      }
+    }
+
+    // 挂接四段式小作文模型与题型自适应高分语块库
     const modelsHelper = (typeof window !== "undefined" && window.Task1MiniEssayModels)
       ? window.Task1MiniEssayModels
       : (typeof require !== "undefined" ? (() => { try { return require("./task1-mini-essay-models.js"); } catch { return null; } })() : null);
 
-    if (modelsHelper && typeof modelsHelper.getMiniEssayForGroup === "function") {
-      scaffold.miniEssay = modelsHelper.getMiniEssayForGroup(group.id, group);
-      scaffold.functionalChunks = modelsHelper.GLOBAL_FUNCTIONAL_CHUNKS;
+    if (modelsHelper) {
+      if (typeof modelsHelper.getMiniEssayForGroup === "function") {
+        scaffold.miniEssay = modelsHelper.getMiniEssayForGroup(group.id, group, scaffold);
+      }
+      const arch = scaffold.archetype || scaffold.miniEssay?.archetype || "static";
+      scaffold.functionalChunks = typeof modelsHelper.getChunksForArchetype === "function"
+        ? modelsHelper.getChunksForArchetype(arch)
+        : (modelsHelper.GLOBAL_FUNCTIONAL_CHUNKS || []);
     }
 
     return scaffold;
