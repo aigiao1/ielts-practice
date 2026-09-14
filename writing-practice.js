@@ -2,6 +2,7 @@
   "use strict";
 
   const STORAGE_KEY = "ielts-task1-rapid-v1";
+  const DRAFTS_STORAGE_PREFIX = "ielts-task1-drafts-";
 
   // 映射表：将旧 154 版中的题组 ID 平滑映射到新标准 140 版题组 ID (依约束#6)
   const LEGACY_TO_CANONICAL_GROUP_MAP = {
@@ -50,18 +51,26 @@
   const defaultState = {
     activeModuleId: "module-1",
     completedGroups: [],
+    practiceMode: "mini_essay" // "mini_essay" (4段式小作文工坊 · 默认) | "sentence_drill" (单句盲打)
   };
 
   let state = loadState();
   let currentGroup = null;
   let isSubmitted = false;
 
+  // 小作文工坊运行态变量
+  let currentPracticeMode = state.practiceMode || "mini_essay";
+  let currentAngleId = "angleA"; // "angleA" | "angleB"
+  let currentStepIndex = 0; // 0: intro, 1: overview, 2: body1, 3: body2
+  let currentEssayDrafts = { intro: "", overview: "", body1: "", body2: "" };
+  let isStepReferenceVisible = false;
+  let isFullModelEssayVisible = false;
+
   function loadState() {
     try {
       const saved = JSON.parse(localStorage.getItem(STORAGE_KEY));
       if (!saved) return structuredClone(defaultState);
 
-      // 依约束#6：自动将历史 completedGroups 中的旧 ID 平滑映射到新版题组 ID，无法映射的保留在 _legacyCompletedGroups
       const rawGroups = saved.completedGroups || [];
       const canonicalGroupIds = new Set((data.groups || []).map((g) => g.id));
       const migrated = new Set();
@@ -78,7 +87,7 @@
         ...defaultState,
         ...saved,
         completedGroups: Array.from(migrated),
-        _legacyCompletedGroups: rawGroups // 保留旧数据，不破坏
+        _legacyCompletedGroups: rawGroups
       };
     } catch {
       return structuredClone(defaultState);
@@ -86,8 +95,25 @@
   }
 
   function saveState() {
+    state.practiceMode = currentPracticeMode;
     localStorage.setItem(STORAGE_KEY, JSON.stringify(state));
     updateSummary();
+  }
+
+  function loadGroupDrafts(groupId) {
+    try {
+      const saved = localStorage.getItem(DRAFTS_STORAGE_PREFIX + groupId);
+      if (saved) {
+        return JSON.parse(saved);
+      }
+    } catch {}
+    return { intro: "", overview: "", body1: "", body2: "" };
+  }
+
+  function saveGroupDrafts(groupId, drafts) {
+    try {
+      localStorage.setItem(DRAFTS_STORAGE_PREFIX + groupId, JSON.stringify(drafts));
+    } catch {}
   }
 
   function renderModuleNav() {
@@ -136,7 +162,6 @@
       ui.groupSelect.add(opt);
     });
 
-    // 默认选择当前模块下第一个未完成的题组
     const uncompleted = moduleGroups.find((g) => !state.completedGroups.includes(g.id));
     if (uncompleted) {
       ui.groupSelect.value = uncompleted.id;
@@ -150,6 +175,12 @@
     currentGroup = data.groups.find((g) => g.id === groupId) || data.groups[0];
     if (!currentGroup) return;
 
+    currentStepIndex = 0;
+    currentAngleId = "angleA";
+    isStepReferenceVisible = false;
+    isFullModelEssayVisible = false;
+    currentEssayDrafts = loadGroupDrafts(currentGroup.id);
+
     renderGroupQuestions(currentGroup);
   }
 
@@ -159,48 +190,497 @@
     ui.formMessage.textContent = "";
     ui.submitButton.disabled = false;
     ui.nextButton.hidden = true;
-    if (ui.toggleAllBtn) {
-      ui.toggleAllBtn.textContent = "全部展开英文";
-    }
 
     const qFirst = group.questions[0].number;
     const qLast = group.questions.at(-1).number;
     ui.batchLabel.textContent = `${group.label}（第 ${qFirst}–${qLast} 题）`;
 
-    // 1. 获取本题组的视觉图表数据与思维链模型
+    // 获取本题组的视觉图表与小作文模型
     const scaffoldConfig = (typeof window !== "undefined" && window.Task1VisualScaffolds)
       ? window.Task1VisualScaffolds.getVisualScaffoldForGroup(group)
       : null;
 
-    // 2. 渲染动态原生 SVG 图表
+    const miniEssay = scaffoldConfig?.miniEssay ||
+      (typeof window !== "undefined" && window.Task1MiniEssayModels
+        ? window.Task1MiniEssayModels.getMiniEssayForGroup(group.id, group)
+        : null);
+
+    // 渲染动态原生 SVG 图表
     const chartHtml = (typeof window !== "undefined" && window.Task1ChartRenderer && scaffoldConfig)
       ? window.Task1ChartRenderer.renderChart(scaffoldConfig)
       : "";
 
-    // 3. 渲染四步思维链卡片
-    const stepsGuide = scaffoldConfig?.stepsGuide || {
-      step1: "1. 识别关系：寻找极值、差距、倍数或变化趋势。",
-      step2: "2. 对应功能：判定是占比、排序、比较还是合计。",
-      step3: "3. 提取骨架：从表达库中提取语法骨架，严防错用介词或代词。",
-      step4: "4. 填入数据：准确写入主体、数字与单位。"
+    if (currentPracticeMode === "mini_essay" && miniEssay) {
+      // 模式 A：四段式小作文沉浸工坊 (Mini-Essay Workbench)
+      renderMiniEssayWorkbench(group, scaffoldConfig, miniEssay, chartHtml);
+      // 隐藏旧版底部的全局提交按钮（由小作文工坊内置的操作栏接管）
+      ui.submitButton.hidden = true;
+      if (ui.toggleAllBtn) ui.toggleAllBtn.hidden = true;
+    } else {
+      // 模式 B：传统 5 句单句练习 (Sentence Drill)
+      renderLegacySentenceDrill(group, scaffoldConfig, chartHtml);
+      ui.submitButton.hidden = false;
+      if (ui.toggleAllBtn) {
+        ui.toggleAllBtn.hidden = false;
+        ui.toggleAllBtn.textContent = "全部展开英文";
+      }
+    }
+  }
+
+  // =========================================================================
+  // 核心模式：Task 1 四段式小作文沉浸工坊
+  // =========================================================================
+
+  function renderMiniEssayWorkbench(group, scaffoldConfig, miniEssay, chartHtml) {
+    const thinkingAngles = miniEssay.thinkingAngles || {};
+    const angleA = thinkingAngles.angleA || { label: "思路 A", concept: "常规宏观划分", overviewLogic: "", body1Logic: "", body2Logic: "", highlightElements: [] };
+    const angleB = thinkingAngles.angleB || { label: "思路 B", concept: "功能属性划分", overviewLogic: "", body1Logic: "", body2Logic: "", highlightElements: [] };
+    const activeAngle = currentAngleId === "angleB" ? angleB : angleA;
+
+    const steps = miniEssay.paragraphSteps || [];
+    const currentStep = steps[currentStepIndex] || steps[0];
+
+    // 实战高频语块库 (融合全局通用与题组专属)
+    const globalChunks = scaffoldConfig?.functionalChunks || (window.Task1MiniEssayModels?.GLOBAL_FUNCTIONAL_CHUNKS || []);
+    const groupSynonyms = scaffoldConfig?.synonymGroups || [];
+
+    // 合成小作文状态与字数
+    const synthesized = window.Task1MiniEssayModels
+      ? window.Task1MiniEssayModels.synthesizeEssay(currentEssayDrafts)
+      : { fullText: Object.values(currentEssayDrafts).filter(Boolean).join("\n\n"), wordCount: 0, healthStatus: "short" };
+
+    const wordCountLabels = {
+      short: "篇幅偏短 (建议 ≥130 词)",
+      ideal: "✓ 字数理想 (130–170 词)",
+      long: "偏长 (注意考场控时)"
     };
 
-    const stepsHtml = `
-      <div class="scaffold-step-card card-panel">
-        <div class="step-card-header">
-          <span class="step-card-badge">Task 1 四步思维链</span>
-          <span class="step-card-sub">看图关系 ➔ 对应功能 ➔ 英文骨架 ➔ 填入数据</span>
+    // 1. 左侧思维选择与语块抽屉
+    const thinkingCardHtml = `
+      <div class="thinking-angles-card">
+        <div class="thinking-header">
+          <span class="thinking-title">💡 写作思路选择与看图分段</span>
+          <span class="thinking-tip">点击切换构思视角，图表联动高亮</span>
         </div>
-        <div class="step-items-list">
-          <div class="step-item"><span class="step-num">①</span> <p>${escapeHtml(stepsGuide.step1)}</p></div>
-          <div class="step-item"><span class="step-num">②</span> <p>${escapeHtml(stepsGuide.step2)}</p></div>
-          <div class="step-item"><span class="step-num">③</span> <p>${escapeHtml(stepsGuide.step3)}</p></div>
-          <div class="step-item"><span class="step-num">④</span> <p>${escapeHtml(stepsGuide.step4)}</p></div>
+        <div class="thinking-tabs-row">
+          <button type="button" class="thinking-tab-btn ${currentAngleId === 'angleA' ? 'active' : ''}" data-angle-btn="angleA">
+            <span>${escapeHtml(angleA.label)}</span>
+          </button>
+          <button type="button" class="thinking-tab-btn ${currentAngleId === 'angleB' ? 'active' : ''}" data-angle-btn="angleB">
+            <span>${escapeHtml(angleB.label)}</span>
+          </button>
+        </div>
+        <div class="thinking-concept-desc">
+          <p style="margin:0 0 6px;"><strong>🎯 本思路要点：</strong>${escapeHtml(activeAngle.concept)}</p>
+          <div class="thinking-flow-mini">
+            <div><b>• Overview 抓取：</b>${escapeHtml(activeAngle.overviewLogic)}</div>
+            <div><b>• 主体一段归类：</b>${escapeHtml(activeAngle.body1Logic)}</div>
+            <div><b>• 主体二段归类：</b>${escapeHtml(activeAngle.body2Logic)}</div>
+          </div>
         </div>
       </div>
     `;
 
-    // 4. 渲染高频替换词库抽屉
+    const functionalChunksHtml = `
+      <div class="synonym-drawer card-panel" style="margin-top:12px;">
+        <div class="synonym-drawer-header" style="margin-bottom:8px;">
+          <span class="synonym-title">📚 高频实战语块库 (点击直接插入输入框)</span>
+        </div>
+        <div class="synonym-groups-wrap">
+          ${globalChunks.map((grp) => `
+            <div class="synonym-group-block" style="margin-bottom:10px;">
+              <span class="synonym-cat-tag">${grp.icon || '📌'} ${escapeHtml(grp.category)}</span>
+              <div class="synonym-chips-row">
+                ${grp.words.map((w) => `
+                  <button type="button" class="synonym-chip" data-insert-text="${escapeHtml(w.en)}" title="${escapeHtml(w.note || '')}">
+                    <span>${escapeHtml(w.en)}</span>
+                    <span class="chip-note">${escapeHtml(w.note || '')}</span>
+                  </button>
+                `).join("")}
+              </div>
+            </div>
+          `).join("")}
+
+          ${groupSynonyms.length > 0 ? `
+            <div class="synonym-group-block">
+              <span class="synonym-cat-tag">🔍 本题核心词汇与替换</span>
+              <div class="synonym-chips-row">
+                ${groupSynonyms.flatMap(g => g.words).map((w) => `
+                  <button type="button" class="synonym-chip" data-insert-text="${escapeHtml(w.en)}" title="${escapeHtml(w.note || '')}">
+                    <span>${escapeHtml(w.en)}</span>
+                    <span class="chip-note">${escapeHtml(w.note || '')}</span>
+                  </button>
+                `).join("")}
+              </div>
+            </div>
+          ` : ""}
+        </div>
+      </div>
+    `;
+
+    // 2. 右侧四步步进卡片与当前段落
+    const stepperPillsHtml = steps.map((s, idx) => {
+      const isDone = (currentEssayDrafts[s.stepId] || "").trim().length > 8;
+      let cls = "";
+      if (idx === currentStepIndex) cls = "active";
+      else if (isDone) cls = "completed";
+      return `
+        <button type="button" class="mini-essay-step-btn ${cls}" data-goto-step="${idx}">
+          <span class="step-btn-num">${isDone ? '✓ ' : ''}Step ${idx + 1}</span>
+          <span class="step-btn-title">${s.stepId === 'intro' ? '1.引言改写' : s.stepId === 'overview' ? '2.宏观Overview' : s.stepId === 'body1' ? '3.主体一段' : '4.主体二段'}</span>
+        </button>
+      `;
+    }).join("");
+
+    const currentDraftText = currentEssayDrafts[currentStep.stepId] || "";
+
+    const activeStepCardHtml = `
+      <div class="paragraph-workshop-card">
+        <div class="paragraph-header-row">
+          <div style="display:flex;align-items:center;gap:8px;">
+            <span class="badge" style="font-size:13px;font-weight:800;background:#ede8e1;">${escapeHtml(currentStep.title)}</span>
+            <span class="writing-role-tag">${escapeHtml(currentStep.role)}</span>
+          </div>
+          <span style="font-size:12px;color:var(--muted);">段落 ${currentStepIndex + 1} / 4</span>
+        </div>
+
+        <div class="writing-strategy-box">
+          <strong>💡 考官思维点拨：</strong>${escapeHtml(currentStep.strategyTip)}
+        </div>
+
+        <div class="paragraph-prompt-label">📝 构思写作意图与目标：</div>
+        <div class="paragraph-prompt-text">
+          ${escapeHtml(currentStep.chinesePrompt)}
+        </div>
+
+        <label class="answer-label" for="miniEssayTextarea" style="font-size:12px;color:var(--muted);margin-bottom:6px;">
+          英文键盘盲打输入（可点击左侧高频语块一键填入，按 <code>Ctrl+Enter</code> 推进）：
+        </label>
+        <textarea id="miniEssayTextarea"
+                  class="mini-essay-textarea"
+                  placeholder="根据中文意图输入地道英文表达 (例如引用左侧搭配词)..."
+                  spellcheck="false">${escapeHtml(currentDraftText)}</textarea>
+
+        <div style="display:flex;justify-content:space-between;align-items:center;margin-top:12px;flex-wrap:wrap;gap:8px;">
+          <div>
+            <button type="button" id="toggleStepRefBtn" class="text-button" style="font-size:12.5px;">
+              ${isStepReferenceVisible ? '🙈 隐藏参考示范' : '💡 查看考官级参考示范'}
+            </button>
+          </div>
+          <div style="display:flex;gap:8px;">
+            <button type="button" id="prevStepBtn" class="secondary compact" ${currentStepIndex === 0 ? 'disabled' : ''}>
+              ◀ 上一段
+            </button>
+            <button type="button" id="nextStepBtn" class="primary compact">
+              ${currentStepIndex === 3 ? '🎉 完成四段合成' : '确认并推进下一段 ➔'}
+            </button>
+          </div>
+        </div>
+
+        <!-- 考官级示范参考抽屉 -->
+        <div id="stepReferenceBox" style="margin-top:14px;padding:12px 14px;background:#fdfaf6;border:1.5px dashed #d8cbbe;border-radius:8px;${isStepReferenceVisible ? '' : 'display:none;'}">
+          <div style="font-size:12px;font-weight:700;color:#8a4b08;margin-bottom:4px;">🌟 考官级标准范式参考：</div>
+          <div style="font-size:14.5px;color:var(--ink);font-weight:600;font-family:Georgia, serif;line-height:1.5;">
+            ${escapeHtml(currentStep.canonicalAnswer)}
+          </div>
+          ${currentStep.acceptableVariants && currentStep.acceptableVariants.length ? `
+            <div style="font-size:12px;color:var(--muted);margin-top:6px;">
+              <b>可选替代句式：</b>${escapeHtml(currentStep.acceptableVariants.join(" / "))}
+            </div>
+          ` : ""}
+          <div style="margin-top:8px;">
+            <button type="button" id="copyStepRefBtn" class="secondary compact" style="font-size:11.5px;padding:3px 8px;">
+              📋 将此示范填入输入框
+            </button>
+          </div>
+        </div>
+      </div>
+    `;
+
+    // 3. 实时小作文合成板
+    const stepLabels = ["引言", "Overview", "主体一", "主体二"];
+    const formattedParagraphsHtml = steps.map((s, idx) => {
+      const text = (currentEssayDrafts[s.stepId] || "").trim();
+      if (text) {
+        return `<p style="margin:0 0 12px;">${escapeHtml(text)}</p>`;
+      }
+      return `<p class="live-essay-placeholder" style="margin:0 0 12px;">[ 第 ${idx + 1} 段待撰写：${stepLabels[idx]} · ${escapeHtml(s.role)} ]</p>`;
+    }).join("");
+
+    const liveCanvasHtml = `
+      <div class="live-essay-canvas">
+        <div class="live-essay-header">
+          <div class="live-essay-title-wrap">
+            <span style="font-size:16px;">📋</span>
+            <strong style="font-size:14px;color:var(--ink);">实时小作文合成板 (Live Mini-Essay Canvas)</strong>
+            <span class="word-count-badge ${synthesized.healthStatus}">
+              ${synthesized.wordCount} 词 · ${wordCountLabels[synthesized.healthStatus]}
+            </span>
+          </div>
+          <div style="display:flex;gap:8px;">
+            <button type="button" id="copyFullEssayBtn" class="secondary compact" style="font-size:12px;">
+              📋 复制完整小作文
+            </button>
+            <button type="button" id="toggleModelEssayBtn" class="secondary compact" style="font-size:12px;">
+              ${isFullModelEssayVisible ? '收起完整范文' : '👁️ 对照完整范文'}
+            </button>
+          </div>
+        </div>
+
+        <div class="live-essay-body">
+          ${formattedParagraphsHtml}
+        </div>
+
+        <!-- 全文范文对照区 -->
+        <div id="fullModelEssayDrawer" style="margin-top:14px;padding:16px;background:#f0fdf4;border:1.5px solid #86efac;border-radius:10px;${isFullModelEssayVisible ? '' : 'display:none;'}">
+          <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:8px;">
+            <strong style="color:#166534;font-size:14px;">🏆 考官级 4 段标准微型小作文对照</strong>
+            <span style="font-size:12px;color:#15803d;">结构完备 · Overview 抓取到位 · 语流连贯</span>
+          </div>
+          <div style="font-family:Georgia, serif;font-size:14px;line-height:1.7;color:#14532d;white-space:pre-wrap;">
+${escapeHtml(steps.map(s => s.canonicalAnswer).join("\n\n"))}
+          </div>
+        </div>
+      </div>
+    `;
+
+    // 组合双栏工作台布局
+    ui.groups.innerHTML = `
+      <!-- 顶部模式切换开关 -->
+      <div style="display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:8px;margin-bottom:12px;padding:4px 2px;">
+        <div class="mode-toggle-group">
+          <button type="button" class="mode-toggle-btn active" data-switch-mode="mini_essay">
+            📝 四段式小作文工坊 (推荐)
+          </button>
+          <button type="button" class="mode-toggle-btn" data-switch-mode="sentence_drill">
+            ⚡ 5句快速翻译打卡
+          </button>
+        </div>
+        <span style="font-size:12px;color:var(--muted);">
+          模式：<b>双思维解析 + 4段沉浸撰写 + 实时合成</b>
+        </span>
+      </div>
+
+      <div class="task1-workbench-layout">
+        <!-- 左侧视读看板：真题图表 + 双思维切入 + 实战语块抽屉 -->
+        <aside class="task1-workbench-sidebar">
+          ${chartHtml}
+          ${thinkingCardHtml}
+          ${functionalChunksHtml}
+        </aside>
+
+        <!-- 右侧作答区：4步沉浸步进 + 实时小作文合成板 -->
+        <main class="task1-workbench-main">
+          <div class="mini-essay-stepper">
+            ${stepperPillsHtml}
+          </div>
+          ${activeStepCardHtml}
+          ${liveCanvasHtml}
+        </main>
+      </div>
+    `;
+
+    bindMiniEssayEvents(group, scaffoldConfig, miniEssay);
+  }
+
+  function bindMiniEssayEvents(group, scaffoldConfig, miniEssay) {
+    const steps = miniEssay.paragraphSteps || [];
+    const currentStep = steps[currentStepIndex] || steps[0];
+
+    // 模式切换
+    ui.groups.querySelectorAll("[data-switch-mode]").forEach((btn) => {
+      btn.addEventListener("click", (e) => {
+        const targetMode = e.currentTarget.dataset.switchMode;
+        if (targetMode && targetMode !== currentPracticeMode) {
+          currentPracticeMode = targetMode;
+          saveState();
+          renderGroupQuestions(group);
+        }
+      });
+    });
+
+    // 思维视角切换 (思路 A vs 思路 B)
+    ui.groups.querySelectorAll("[data-angle-btn]").forEach((btn) => {
+      btn.addEventListener("click", (e) => {
+        const aid = e.currentTarget.dataset.angleBtn;
+        if (aid && aid !== currentAngleId) {
+          currentAngleId = aid;
+          renderGroupQuestions(group);
+
+          // 联动高亮图表元素
+          const activeAngle = miniEssay.thinkingAngles?.[currentAngleId];
+          if (activeAngle && window.Task1ChartRenderer && activeAngle.highlightElements?.length) {
+            window.Task1ChartRenderer.highlightElements(activeAngle.highlightElements);
+          }
+        }
+      });
+    });
+
+    // 步进导航点击
+    ui.groups.querySelectorAll("[data-goto-step]").forEach((btn) => {
+      btn.addEventListener("click", (e) => {
+        const stepIdx = parseInt(e.currentTarget.dataset.gotoStep, 10);
+        if (!isNaN(stepIdx) && stepIdx >= 0 && stepIdx < steps.length) {
+          currentStepIndex = stepIdx;
+          isStepReferenceVisible = false;
+          renderGroupQuestions(group);
+        }
+      });
+    });
+
+    // 文本框输入即时响应与自动保存
+    const textarea = document.getElementById("miniEssayTextarea");
+    if (textarea) {
+      textarea.focus();
+      textarea.setSelectionRange(textarea.value.length, textarea.value.length);
+
+      textarea.addEventListener("input", (e) => {
+        currentEssayDrafts[currentStep.stepId] = e.target.value;
+        saveGroupDrafts(group.id, currentEssayDrafts);
+        updateLiveEssayCanvas(miniEssay);
+      });
+
+      textarea.addEventListener("keydown", (e) => {
+        if (e.key === "Enter" && (e.ctrlKey || e.metaKey)) {
+          e.preventDefault();
+          advanceToNextStep(group, miniEssay);
+        }
+      });
+    }
+
+    // 上一段 / 下一段按钮
+    const prevBtn = document.getElementById("prevStepBtn");
+    const nextBtn = document.getElementById("nextStepBtn");
+
+    prevBtn?.addEventListener("click", () => {
+      if (currentStepIndex > 0) {
+        currentStepIndex--;
+        isStepReferenceVisible = false;
+        renderGroupQuestions(group);
+      }
+    });
+
+    nextBtn?.addEventListener("click", () => {
+      advanceToNextStep(group, miniEssay);
+    });
+
+    // 显现参考范例
+    const toggleStepRefBtn = document.getElementById("toggleStepRefBtn");
+    const stepRefBox = document.getElementById("stepReferenceBox");
+    toggleStepRefBtn?.addEventListener("click", () => {
+      isStepReferenceVisible = !isStepReferenceVisible;
+      if (stepRefBox) stepRefBox.style.display = isStepReferenceVisible ? "block" : "none";
+      if (toggleStepRefBtn) toggleStepRefBtn.textContent = isStepReferenceVisible ? "🙈 隐藏参考示范" : "💡 查看考官级参考示范";
+    });
+
+    // 复制单步示范入框
+    const copyStepRefBtn = document.getElementById("copyStepRefBtn");
+    copyStepRefBtn?.addEventListener("click", () => {
+      if (textarea) {
+        textarea.value = currentStep.canonicalAnswer;
+        currentEssayDrafts[currentStep.stepId] = currentStep.canonicalAnswer;
+        saveGroupDrafts(group.id, currentEssayDrafts);
+        updateLiveEssayCanvas(miniEssay);
+        textarea.focus();
+      }
+    });
+
+    // 语块抽屉点击插入输入框
+    ui.groups.querySelectorAll("[data-insert-text]").forEach((chip) => {
+      chip.addEventListener("click", (e) => {
+        const textToInsert = e.currentTarget.dataset.insertText;
+        if (!textToInsert) return;
+
+        if (textarea) {
+          const start = textarea.selectionStart ?? textarea.value.length;
+          const end = textarea.selectionEnd ?? textarea.value.length;
+          const val = textarea.value;
+          const needsSpace = start > 0 && val[start - 1] !== " " && val[start - 1] !== "\n";
+          const insertContent = (needsSpace ? " " : "") + textToInsert + " ";
+
+          textarea.value = val.slice(0, start) + insertContent + val.slice(end);
+          currentEssayDrafts[currentStep.stepId] = textarea.value;
+          saveGroupDrafts(group.id, currentEssayDrafts);
+          updateLiveEssayCanvas(miniEssay);
+
+          textarea.focus();
+          const newPos = start + insertContent.length;
+          textarea.setSelectionRange(newPos, newPos);
+        }
+      });
+    });
+
+    // 复制完整小作文
+    const copyFullBtn = document.getElementById("copyFullEssayBtn");
+    copyFullBtn?.addEventListener("click", () => {
+      const syn = window.Task1MiniEssayModels.synthesizeEssay(currentEssayDrafts);
+      if (navigator.clipboard) {
+        navigator.clipboard.writeText(syn.fullText).then(() => {
+          alert(`📋 完整 4 段小作文（共 ${syn.wordCount} 词）已成功复制到剪贴板！可以直接粘贴提交。`);
+        });
+      } else {
+        alert(syn.fullText);
+      }
+    });
+
+    // 切换完整范文展开
+    const toggleModelBtn = document.getElementById("toggleModelEssayBtn");
+    const fullModelDrawer = document.getElementById("fullModelEssayDrawer");
+    toggleModelBtn?.addEventListener("click", () => {
+      isFullModelEssayVisible = !isFullModelEssayVisible;
+      if (fullModelDrawer) fullModelDrawer.style.display = isFullModelEssayVisible ? "block" : "none";
+      if (toggleModelBtn) toggleModelBtn.textContent = isFullModelEssayVisible ? "收起完整范文" : "👁️ 对照完整范文";
+    });
+  }
+
+  function advanceToNextStep(group, miniEssay) {
+    const steps = miniEssay.paragraphSteps || [];
+    if (currentStepIndex < steps.length - 1) {
+      currentStepIndex++;
+      isStepReferenceVisible = false;
+      renderGroupQuestions(group);
+    } else {
+      // 4 段全部完成 ➔ 标记题组完成并展示祝贺
+      if (!state.completedGroups.includes(group.id)) {
+        state.completedGroups.push(group.id);
+        saveState();
+        populateGroupSelect();
+        ui.groupSelect.value = group.id;
+      }
+      const syn = window.Task1MiniEssayModels.synthesizeEssay(currentEssayDrafts);
+      alert(`🎉 恭喜！本题组四段式小作文已全部完成！\n\n总词数：${syn.wordCount} 词（${syn.wordCount >= 130 ? '达标' : '建议适当丰富细节'}）。\n可点击「复制完整小作文」进行留存，或选择下一题组继续挑战！`);
+    }
+  }
+
+  function updateLiveEssayCanvas(miniEssay) {
+    const syn = window.Task1MiniEssayModels
+      ? window.Task1MiniEssayModels.synthesizeEssay(currentEssayDrafts)
+      : { wordCount: 0, healthStatus: "short" };
+
+    const badge = ui.groups.querySelector(".word-count-badge");
+    if (badge) {
+      badge.className = `word-count-badge ${syn.healthStatus}`;
+      const labels = { short: "篇幅偏短 (建议 ≥130 词)", ideal: "✓ 字数理想 (130–170 词)", long: "偏长 (注意控时)" };
+      badge.textContent = `${syn.wordCount} 词 · ${labels[syn.healthStatus]}`;
+    }
+
+    const liveBody = ui.groups.querySelector(".live-essay-body");
+    if (liveBody && miniEssay) {
+      const steps = miniEssay.paragraphSteps || [];
+      const stepLabels = ["引言", "Overview", "主体一", "主体二"];
+      liveBody.innerHTML = steps.map((s, idx) => {
+        const text = (currentEssayDrafts[s.stepId] || "").trim();
+        if (text) return `<p style="margin:0 0 12px;">${escapeHtml(text)}</p>`;
+        return `<p class="live-essay-placeholder" style="margin:0 0 12px;">[ 第 ${idx + 1} 段待撰写：${stepLabels[idx]} · ${escapeHtml(s.role)} ]</p>`;
+      }).join("");
+    }
+  }
+
+  // =========================================================================
+  // 兼容模式：传统 5 句快速翻译盲打 (Legacy Sentence Drill)
+  // =========================================================================
+
+  function renderLegacySentenceDrill(group, scaffoldConfig, chartHtml) {
     const synonymGroups = scaffoldConfig?.synonymGroups || [];
     const synonymsHtml = synonymGroups.length > 0 ? `
       <div class="synonym-drawer card-panel">
@@ -225,17 +705,28 @@
       </div>
     ` : "";
 
-    // 5. 组合双栏沉浸式工作台
     ui.groups.innerHTML = `
+      <!-- 顶部模式切换开关 -->
+      <div style="display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:8px;margin-bottom:12px;padding:4px 2px;">
+        <div class="mode-toggle-group">
+          <button type="button" class="mode-toggle-btn" data-switch-mode="mini_essay">
+            📝 四段式小作文工坊 (推荐)
+          </button>
+          <button type="button" class="mode-toggle-btn active" data-switch-mode="sentence_drill">
+            ⚡ 5句快速翻译打卡
+          </button>
+        </div>
+        <span style="font-size:12px;color:var(--muted);">
+          模式：<b>5句基础单句输入盲打与模糊匹配</b>
+        </span>
+      </div>
+
       <div class="task1-workbench-layout">
-        <!-- 左侧视读看板：真题图表 + 四步思维链 + 高频替换词抽屉 -->
         <aside class="task1-workbench-sidebar">
           ${chartHtml}
-          ${stepsHtml}
           ${synonymsHtml}
         </aside>
 
-        <!-- 右侧作答区：句子盲打、模糊核对与即时反馈 -->
         <main class="task1-workbench-main">
           <section class="group-card card-panel">
             <header class="group-header">
@@ -302,26 +793,34 @@
       </div>
     `;
 
-    // 绑定模糊卡片点击展开/遮住事件
+    // 模式切换事件
+    ui.groups.querySelectorAll("[data-switch-mode]").forEach((btn) => {
+      btn.addEventListener("click", (e) => {
+        const targetMode = e.currentTarget.dataset.switchMode;
+        if (targetMode && targetMode !== currentPracticeMode) {
+          currentPracticeMode = targetMode;
+          saveState();
+          renderGroupQuestions(group);
+        }
+      });
+    });
+
+    // 绑定模糊卡片点击
     const blurBoxes = ui.groups.querySelectorAll(".q-blur-box");
     blurBoxes.forEach((box) => {
       box.addEventListener("click", () => {
         const isRevealed = box.classList.toggle("revealed");
         const statusEl = box.querySelector(".blur-status");
-        if (statusEl) {
-          statusEl.textContent = isRevealed ? "点击遮住" : "点击显现";
-        }
+        if (statusEl) statusEl.textContent = isRevealed ? "点击遮住" : "点击显现";
         updateToggleAllButtonText();
       });
     });
 
-    // 绑定题目行与图表的双向联动交互 (Hover / Focus 联动扇区高亮)
+    // 绑定题目行与图表联动高亮
     const questionRows = ui.groups.querySelectorAll(".question-row");
     questionRows.forEach((row) => {
       let targets = [];
-      try {
-        targets = JSON.parse(row.dataset.relationTargets || "[]");
-      } catch {}
+      try { targets = JSON.parse(row.dataset.relationTargets || "[]"); } catch {}
 
       const triggerHighlight = () => {
         questionRows.forEach((r) => r.classList.remove("active-row"));
@@ -345,29 +844,19 @@
       inputEl?.addEventListener("blur", clearHighlight);
     });
 
-    // 绑定图表元素点击定位到对应题目 (全形态图表通用)
-    const chartCard = document.getElementById("task1ChartCard");
-    if (chartCard) {
-      chartCard.querySelectorAll(".pie-slice, .line-dot, .bar-item, .single-bar-col, .flow-step-card, .map-zone-card, .pie-legend-item, .line-legend-item").forEach((el) => {
-        el.addEventListener("click", () => {
-          const itemLabel = (el.dataset.itemLabel || el.dataset.legendLabel || el.textContent || "").toLowerCase();
-          const targetRow = Array.from(questionRows).find((row) => {
-            let tgts = [];
-            try { tgts = JSON.parse(row.dataset.relationTargets || "[]"); } catch {}
-            return tgts.some((t) => {
-              const cleanT = String(t).toLowerCase();
-              return itemLabel.includes(cleanT) || cleanT.includes(itemLabel.split(" ")[0]);
-            });
-          });
-          if (targetRow) {
-            targetRow.scrollIntoView({ behavior: "smooth", block: "center" });
-            targetRow.querySelector(".writing-input")?.focus();
-          }
-        });
+    // 绑定回车切题
+    const inputs = ui.groups.querySelectorAll(".writing-input");
+    inputs.forEach((input, idx) => {
+      input.addEventListener("keydown", (e) => {
+        if (e.key === "Enter") {
+          e.preventDefault();
+          if (idx < inputs.length - 1) inputs[idx + 1].focus();
+          else submitBatch();
+        }
       });
-    }
+    });
 
-    // 绑定高频替换词药丸点击快速填入
+    // 绑定词块填入
     ui.groups.querySelectorAll(".synonym-chip").forEach((chip) => {
       chip.addEventListener("click", () => {
         const word = chip.dataset.word;
@@ -389,22 +878,6 @@
       });
     });
 
-    // 绑定 input 回车切题事件
-    const inputs = ui.groups.querySelectorAll(".writing-input");
-    inputs.forEach((input, idx) => {
-      input.addEventListener("keydown", (e) => {
-        if (e.key === "Enter") {
-          e.preventDefault();
-          if (idx < inputs.length - 1) {
-            inputs[idx + 1].focus();
-          } else {
-            submitBatch();
-          }
-        }
-      });
-    });
-
-    // 默认聚焦第一题
     inputs[0]?.focus();
   }
 
@@ -465,7 +938,7 @@
       const matchTag = row.querySelector(".solution-match-tag");
 
       if (input) {
-        input.readOnly = true; // 保持焦点且可复制，不设为 disabled
+        input.readOnly = true;
         const userVal = input.value.trim();
         const isMatched = checkMatch(userVal, q.answer);
 
@@ -488,7 +961,6 @@
       }
     });
 
-    // 标记题组完成
     if (!state.completedGroups.includes(currentGroup.id)) {
       state.completedGroups.push(currentGroup.id);
       saveState();
@@ -500,8 +972,6 @@
     ui.nextButton.hidden = false;
     ui.formMessage.className = "writing-form-message success";
     ui.formMessage.textContent = "✔ 已显现本组必记核心表达！按 Enter 键或点击按钮即可进入下一题组。";
-
-    // 聚焦下一题组按钮，使用户可以直接敲 Enter 前进
     ui.nextButton.focus();
   }
 
@@ -511,7 +981,6 @@
 
     if (nextIdx < data.groups.length) {
       const nextGroup = data.groups[nextIdx];
-      // 如果跨模块，自动切换模块导航
       if (nextGroup.moduleId !== state.activeModuleId) {
         state.activeModuleId = nextGroup.moduleId;
         saveState();
@@ -521,7 +990,7 @@
       ui.groupSelect.value = nextGroup.id;
       loadGroupFromSelect();
     } else {
-      alert("🎉 恭喜！全部 7 大模块、154 条雅思 Task 1 必记核心表达已全部完成！");
+      alert("🎉 恭喜！全部 7 大模块雅思 Task 1 练习已全部通关！");
       ui.groupSelect.value = data.groups[0].id;
       loadGroupFromSelect();
     }
@@ -569,13 +1038,13 @@
       .replace(/'/g, "&#039;");
   }
 
-  // 全局 keydown 捕获：如果在已提交状态下敲 Enter，直接进下一题组
+  // 全局键盘回车跳题
   document.addEventListener("keydown", (e) => {
     const writingSection = document.getElementById("writingModule");
     if (!writingSection || writingSection.hidden) return;
 
     if (isSubmitted && e.key === "Enter") {
-      if (document.activeElement === ui.nextButton) return; // 让原生 click 触发
+      if (document.activeElement === ui.nextButton) return;
       e.preventDefault();
       moveToNextGroup();
     }

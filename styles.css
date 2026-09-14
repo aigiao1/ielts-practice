@@ -1566,6 +1566,289 @@ dialog::backdrop { background: rgba(25,20,15,.45); backdrop-filter: blur(3px); }
   transition: width 0.05s linear;
 }
 
+/* Task 1 四段式小作文工坊专属样式 (Mini-Essay Workbench) */
+.mode-toggle-group {
+  display: inline-flex;
+  background: #ede6dc;
+  border-radius: 8px;
+  padding: 3px;
+  gap: 4px;
+}
+.mode-toggle-btn {
+  border: none;
+  background: transparent;
+  padding: 5px 12px;
+  border-radius: 6px;
+  font-size: 12px;
+  font-weight: 700;
+  color: #63584c;
+  cursor: pointer;
+  transition: all 0.15s ease;
+}
+.mode-toggle-btn.active {
+  background: #ffffff;
+  color: var(--ink);
+  box-shadow: 0 1px 4px rgba(0,0,0,0.1);
+}
+
+/* 双思维切入角度选择卡片 */
+.thinking-angles-card {
+  background: #ffffff;
+  border: 1.5px solid #e2dad0;
+  border-radius: 12px;
+  padding: 14px 16px;
+  margin-top: 12px;
+}
+.thinking-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.thinking-title {
+  font-size: 13px;
+  font-weight: 800;
+  color: var(--ink);
+}
+.thinking-tip {
+  font-size: 11px;
+  color: var(--muted);
+}
+.thinking-tabs-row {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 12px;
+}
+.thinking-tab-btn {
+  flex: 1;
+  padding: 8px 10px;
+  border-radius: 8px;
+  border: 1.5px solid #e0d7cb;
+  background: #fdfbf7;
+  font-size: 12px;
+  font-weight: 700;
+  color: #514b44;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  text-align: left;
+  line-height: 1.3;
+}
+.thinking-tab-btn:hover {
+  border-color: #baa996;
+  background: #ffffff;
+}
+.thinking-tab-btn.active {
+  border-color: #d97706;
+  background: #fffbeb;
+  color: #92400e;
+  box-shadow: 0 2px 6px rgba(217, 119, 6, 0.15);
+}
+.thinking-concept-desc {
+  background: #fbf9f5;
+  border-radius: 8px;
+  padding: 10px 12px;
+  font-size: 12px;
+  color: #4b443c;
+  line-height: 1.5;
+  border-left: 3px solid #d97706;
+}
+.thinking-flow-mini {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  margin-top: 8px;
+  padding-top: 8px;
+  border-top: 1px dashed #e2dad0;
+  font-size: 11.5px;
+}
+
+/* 四段步进导航条 */
+.mini-essay-stepper {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 14px;
+  overflow-x: auto;
+  padding-bottom: 4px;
+}
+.mini-essay-step-btn {
+  flex: 1;
+  min-width: 110px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 8px 12px;
+  background: #ffffff;
+  border: 1.5px solid #e2dad0;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.15s ease;
+  text-align: left;
+}
+.mini-essay-step-btn:hover {
+  border-color: #baa996;
+}
+.mini-essay-step-btn.active {
+  border-color: var(--ink);
+  background: #fffdfa;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+}
+.mini-essay-step-btn.completed {
+  border-color: #86efac;
+  background: #f0fdf4;
+}
+.step-btn-num {
+  font-size: 10px;
+  font-weight: 800;
+  color: var(--muted);
+  text-transform: uppercase;
+}
+.mini-essay-step-btn.active .step-btn-num {
+  color: #d97706;
+}
+.mini-essay-step-btn.completed .step-btn-num {
+  color: #16a34a;
+}
+.step-btn-title {
+  font-size: 12px;
+  font-weight: 700;
+  color: var(--ink);
+  margin-top: 2px;
+  white-space: nowrap;
+}
+
+/* 当前段落工坊主卡片 */
+.paragraph-workshop-card {
+  background: #ffffff;
+  border: 1.5px solid var(--line);
+  border-radius: 12px;
+  padding: clamp(16px, 3vw, 24px);
+  margin-bottom: 16px;
+}
+.paragraph-header-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 12px;
+}
+.writing-role-tag {
+  font-size: 11px;
+  font-weight: 800;
+  padding: 3px 8px;
+  border-radius: 6px;
+  background: #fee2e2;
+  color: #991b1b;
+}
+.writing-strategy-box {
+  background: #fffbeb;
+  border: 1px solid #fde68a;
+  border-radius: 8px;
+  padding: 10px 14px;
+  font-size: 12.5px;
+  color: #92400e;
+  line-height: 1.5;
+  margin-bottom: 14px;
+}
+.paragraph-prompt-label {
+  font-size: 13px;
+  font-weight: 800;
+  color: #44403c;
+  margin-bottom: 6px;
+}
+.paragraph-prompt-text {
+  font-size: 15px;
+  font-weight: 600;
+  color: var(--ink);
+  background: #faf7f2;
+  padding: 10px 14px;
+  border-radius: 8px;
+  border-left: 3.5px solid #d97706;
+  margin-bottom: 14px;
+  line-height: 1.5;
+}
+.mini-essay-textarea {
+  width: 100%;
+  min-height: 80px;
+  padding: 12px 14px;
+  font-size: 14px;
+  line-height: 1.6;
+  font-family: inherit;
+  border: 1.5px solid var(--line);
+  border-radius: 8px;
+  resize: vertical;
+  outline: none;
+  transition: border-color 0.15s ease;
+  box-sizing: border-box;
+}
+.mini-essay-textarea:focus {
+  border-color: #d97706;
+  box-shadow: 0 0 0 3px rgba(217, 119, 6, 0.12);
+}
+
+/* 实时小作文合成板 */
+.live-essay-canvas {
+  background: #ffffff;
+  border: 1.5px solid #e2dad0;
+  border-radius: 12px;
+  padding: 18px 20px;
+  margin-top: 16px;
+}
+.live-essay-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 12px;
+  padding-bottom: 10px;
+  border-bottom: 1.5px solid #f0ebe1;
+}
+.live-essay-title-wrap {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.word-count-badge {
+  font-size: 12px;
+  font-weight: 800;
+  padding: 3px 8px;
+  border-radius: 6px;
+  background: #f3f4f6;
+  color: #374151;
+}
+.word-count-badge.ideal {
+  background: #dcfce7;
+  color: #166534;
+}
+.word-count-badge.short {
+  background: #ffedd5;
+  color: #9a3412;
+}
+.word-count-badge.long {
+  background: #fef9c3;
+  color: #854d0e;
+}
+.live-essay-body {
+  font-size: 14.5px;
+  line-height: 1.75;
+  color: var(--ink);
+  background: #fcfbf9;
+  border: 1px solid #ede7dc;
+  border-radius: 8px;
+  padding: 16px 18px;
+  min-height: 120px;
+  white-space: pre-wrap;
+  font-family: Georgia, Cambria, serif;
+}
+.live-essay-placeholder {
+  color: #a8a29e;
+  font-style: italic;
+  font-family: inherit;
+}
+
+
 
 
 

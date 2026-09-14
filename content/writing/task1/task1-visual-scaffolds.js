@@ -4460,42 +4460,52 @@
    */
   function getVisualScaffoldForGroup(group) {
     if (!group) return null;
-    if (TASK1_VISUAL_SCAFFOLDS[group.id]) {
-      return TASK1_VISUAL_SCAFFOLDS[group.id];
+    let scaffold = TASK1_VISUAL_SCAFFOLDS[group.id] || null;
+    if (!scaffold) {
+      scaffold = {
+        groupId: group.id,
+        chartType: "pie",
+        chartTitle: group.label || "雅思学术类图表",
+        chartData: [],
+        genericContext: group.context || "",
+        relations: (group.questions || []).map((q, idx) => ({
+          qNumber: q.number,
+          badge: `表达 #${idx + 1}`,
+          trigger: q.chinese,
+          funcIntent: "表达骨架练习",
+          targets: [],
+          skeleton: q.answer,
+          demo: q.answer
+        })),
+        synonymGroups: [
+          {
+            category: "高频学术替换",
+            words: [
+              { en: "account for / make up", note: "占比与构成" },
+              { en: "proportion / percentage", note: "比例与份额" }
+            ]
+          }
+        ],
+        stepsGuide: {
+          step1: `1. 观察数据：${group.context || ""}`,
+          step2: "2. 识别主次特征与极值差距。",
+          step3: "3. 调用经典语言骨架。",
+          step4: "4. 代入数据并注意时态与单复数。"
+        }
+      };
     }
 
-    // 兜底降级策略
-    return {
-      groupId: group.id,
-      chartType: "pie",
-      chartTitle: group.label || "雅思学术类图表",
-      chartData: [],
-      genericContext: group.context || "",
-      relations: (group.questions || []).map((q, idx) => ({
-        qNumber: q.number,
-        badge: `表达 #${idx + 1}`,
-        trigger: q.chinese,
-        funcIntent: "表达骨架练习",
-        targets: [],
-        skeleton: q.answer,
-        demo: q.answer
-      })),
-      synonymGroups: [
-        {
-          category: "高频学术替换",
-          words: [
-            { en: "account for / make up", note: "占比与构成" },
-            { en: "proportion / percentage", note: "比例与份额" }
-          ]
-        }
-      ],
-      stepsGuide: {
-        step1: `1. 观察数据：${group.context || ""}`,
-        step2: "2. 识别主次特征与极值差距。",
-        step3: "3. 调用经典语言骨架。",
-        step4: "4. 代入数据并注意时态与单复数。"
-      }
-    };
+    // 挂接四段式小作文模型与双思维切入角度
+    const modelsHelper = (typeof window !== "undefined" && window.Task1MiniEssayModels)
+      ? window.Task1MiniEssayModels
+      : (typeof require !== "undefined" ? (() => { try { return require("./task1-mini-essay-models.js"); } catch { return null; } })() : null);
+
+    if (modelsHelper && typeof modelsHelper.getMiniEssayForGroup === "function") {
+      scaffold.miniEssay = modelsHelper.getMiniEssayForGroup(group.id, group);
+      scaffold.functionalChunks = modelsHelper.GLOBAL_FUNCTIONAL_CHUNKS;
+    }
+
+    return scaffold;
   }
 
   const Task1VisualScaffolds = {
